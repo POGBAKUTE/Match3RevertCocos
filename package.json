@@ -1,0 +1,13 @@
+{
+  "name": "Match3Revert",
+  "uuid": "74f39e71-43f2-4ffc-be18-23b1a225f2b0",
+  "creator": {
+    "version": "3.8.2",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "plugin-import-2x": "1.1.10"
+    }
+  }
+}
