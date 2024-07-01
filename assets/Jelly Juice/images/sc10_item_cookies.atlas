@@ -1,0 +1,27 @@
+
+sc10_item_cookies.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: true
+  xy: 2, 25
+  size: 202, 174
+  orig: 202, 174
+  offset: 0, 0
+  index: -1
+cookies
+  rotate: false
+  xy: 2, 2
+  size: 60, 21
+  orig: 60, 21
+  offset: 0, 0
+  index: -1
+top
+  rotate: true
+  xy: 178, 89
+  size: 138, 99
+  orig: 138, 99
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+bundle_10Bonbon.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-80%_arancio
+  rotate: false
+  xy: 131, 17
+  size: 109, 108
+  orig: 109, 108
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 2, 241
+  size: 453, 278
+  orig: 453, 278
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 498, 818
+  size: 418, 199
+  orig: 418, 199
+  offset: 0, 0
+  index: -1
+Ellipse 30
+  rotate: false
+  xy: 498, 646
+  size: 363, 170
+  orig: 363, 170
+  offset: 0, 0
+  index: -1
+Ellipse 30 copy
+  rotate: false
+  xy: 2, 521
+  size: 494, 496
+  orig: 494, 496
+  offset: 0, 0
+  index: -1
+bonbon
+  rotate: false
+  xy: 2, 2
+  size: 127, 123
+  orig: 127, 123
+  offset: 0, 0
+  index: -1
+bonbon copy
+  rotate: false
+  xy: 242, 35
+  size: 92, 90
+  orig: 92, 90
+  offset: 0, 0
+  index: -1
+bonbon copy 2
+  rotate: true
+  xy: 863, 709
+  size: 107, 49
+  orig: 107, 49
+  offset: 0, 0
+  index: -1
+bonbon copy 3
+  rotate: false
+  xy: 336, 45
+  size: 98, 80
+  orig: 98, 80
+  offset: 0, 0
+  index: -1
+bonbon copy 4
+  rotate: false
+  xy: 918, 829
+  size: 90, 91
+  orig: 90, 91
+  offset: 0, 0
+  index: -1
+bonbon copy 6
+  rotate: true
+  xy: 723, 85
+  size: 96, 82
+  orig: 96, 82
+  offset: 0, 0
+  index: -1
+bonbon copy 7
+  rotate: true
+  xy: 772, 371
+  size: 109, 54
+  orig: 109, 54
+  offset: 0, 0
+  index: -1
+bonbon copy 8
+  rotate: false
+  xy: 918, 922
+  size: 99, 95
+  orig: 99, 95
+  offset: 0, 0
+  index: -1
+cartello
+  rotate: false
+  xy: 489, 34
+  size: 232, 147
+  orig: 232, 147
+  offset: 0, 0
+  index: -1
+coperchio
+  rotate: false
+  xy: 457, 320
+  size: 313, 160
+  orig: 313, 160
+  offset: 0, 0
+  index: -1
+scia_luminosa
+  rotate: true
+  xy: 489, 183
+  size: 135, 259
+  orig: 135, 259
+  offset: 0, 0
+  index: -1
+sotto
+  rotate: false
+  xy: 498, 482
+  size: 332, 162
+  orig: 332, 162
+  offset: 0, 0
+  index: -1
+special_offer copy
+  rotate: false
+  xy: 2, 127
+  size: 485, 112
+  orig: 485, 112
+  offset: 0, 0
+  index: -1
+x10
+  rotate: true
+  xy: 832, 543
+  size: 101, 56
+  orig: 101, 56
+  offset: 0, 0
+  index: -1

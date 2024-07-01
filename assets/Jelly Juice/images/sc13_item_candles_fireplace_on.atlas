@@ -1,0 +1,20 @@
+
+sc13_item_candles_fireplace_on.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candele
+  rotate: false
+  xy: 2, 2
+  size: 75, 34
+  orig: 75, 34
+  offset: 0, 0
+  index: -1
+flames
+  rotate: false
+  xy: 79, 19
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1

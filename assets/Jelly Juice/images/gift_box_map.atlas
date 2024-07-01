@@ -1,0 +1,146 @@
+
+gift_box_map.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coperchio
+  rotate: true
+  xy: 2, 101
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_blu
+  rotate: true
+  xy: 126, 101
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_rosa
+  rotate: true
+  xy: 166, 325
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_rosso
+  rotate: true
+  xy: 250, 151
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+fiocco_01
+  rotate: false
+  xy: 2, 2
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_02
+  rotate: false
+  xy: 129, 2
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_03
+  rotate: true
+  xy: 286, 739
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_04
+  rotate: true
+  xy: 385, 740
+  size: 124, 94
+  orig: 124, 94
+  offset: 0, 0
+  index: -1
+luce
+  rotate: true
+  xy: 2, 275
+  size: 222, 162
+  orig: 222, 162
+  offset: 0, 0
+  index: -1
+nastro
+  rotate: false
+  xy: 256, 2
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_blu
+  rotate: false
+  xy: 286, 866
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_giallo
+  rotate: false
+  xy: 375, 590
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_verde
+  rotate: false
+  xy: 411, 866
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+prize_shadow
+  rotate: false
+  xy: 166, 283
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1
+raggi
+  rotate: false
+  xy: 2, 731
+  size: 282, 282
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+scatola
+  rotate: false
+  xy: 214, 563
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_blu
+  rotate: false
+  xy: 290, 395
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_rosa
+  rotate: false
+  xy: 374, 227
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_rosso
+  rotate: false
+  xy: 381, 59
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+stelline
+  rotate: true
+  xy: 2, 499
+  size: 230, 210
+  orig: 230, 210
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+sc1_item_toys.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ponyblue
+  rotate: true
+  xy: 221, 115
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1
+ponypink
+  rotate: true
+  xy: 221, 85
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1
+toys
+  rotate: false
+  xy: 2, 2
+  size: 217, 142
+  orig: 217, 142
+  offset: 0, 0
+  index: -1

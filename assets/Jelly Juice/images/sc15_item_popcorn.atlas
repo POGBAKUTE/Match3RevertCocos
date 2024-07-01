@@ -1,0 +1,41 @@
+
+sc15_item_popcorn.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mask
+  rotate: true
+  xy: 294, 117
+  size: 37, 21
+  orig: 37, 21
+  offset: 0, 0
+  index: -1
+pop1
+  rotate: false
+  xy: 302, 110
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+pop2
+  rotate: false
+  xy: 302, 103
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+pop3
+  rotate: false
+  xy: 294, 109
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+total
+  rotate: true
+  xy: 2, 2
+  size: 152, 290
+  orig: 152, 290
+  offset: 0, 0
+  index: -1

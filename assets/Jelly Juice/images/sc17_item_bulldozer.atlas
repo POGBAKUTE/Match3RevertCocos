@@ -1,0 +1,41 @@
+
+sc17_item_bulldozer.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+digger
+  rotate: false
+  xy: 600, 56
+  size: 197, 154
+  orig: 197, 154
+  offset: 0, 0
+  index: -1
+left_arm
+  rotate: true
+  xy: 799, 88
+  size: 122, 111
+  orig: 122, 111
+  offset: 0, 0
+  index: -1
+machine
+  rotate: false
+  xy: 2, 2
+  size: 238, 208
+  orig: 238, 208
+  offset: 0, 0
+  index: -1
+right_arm
+  rotate: false
+  xy: 799, 7
+  size: 90, 79
+  orig: 90, 79
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 242, 5
+  size: 356, 205
+  orig: 358, 205
+  offset: 2, 0
+  index: -1

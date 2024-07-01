@@ -1,0 +1,20 @@
+
+animap_bg05_bubbles03.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_5_(bubble_02)
+  rotate: true
+  xy: 56, 17
+  size: 26, 19
+  orig: 26, 19
+  offset: 0, 0
+  index: -1
+animap_bg_5_(bubble_02_cover)
+  rotate: false
+  xy: 2, 2
+  size: 52, 41
+  orig: 52, 41
+  offset: 0, 0
+  index: -1

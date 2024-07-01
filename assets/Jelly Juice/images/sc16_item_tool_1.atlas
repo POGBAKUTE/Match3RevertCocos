@@ -1,0 +1,27 @@
+
+sc16_item_tool_1.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio_dx_1
+  rotate: true
+  xy: 98, 54
+  size: 63, 123
+  orig: 65, 125
+  offset: 1, 1
+  index: -1
+braccio_dx_2
+  rotate: true
+  xy: 2, 29
+  size: 88, 94
+  orig: 90, 96
+  offset: 1, 1
+  index: -1
+braccio_dx_3
+  rotate: false
+  xy: 98, 2
+  size: 100, 50
+  orig: 102, 52
+  offset: 1, 1
+  index: -1

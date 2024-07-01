@@ -1,0 +1,48 @@
+
+hud_booster_hammer.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 2
+  size: 235, 187
+  orig: 235, 187
+  offset: 0, 0
+  index: -1
+manico
+  rotate: false
+  xy: 191, 129
+  size: 43, 108
+  orig: 43, 108
+  offset: 0, 0
+  index: -1
+rosso_front
+  rotate: false
+  xy: 240, 2
+  size: 44, 61
+  orig: 44, 61
+  offset: 0, 0
+  index: -1
+rosso_trequarti_1
+  rotate: false
+  xy: 236, 182
+  size: 47, 55
+  orig: 47, 55
+  offset: 0, 0
+  index: -1
+rosso_trequarti_2
+  rotate: false
+  xy: 191, 5
+  size: 47, 58
+  orig: 47, 58
+  offset: 0, 0
+  index: -1
+splash2
+  rotate: true
+  xy: 191, 65
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1

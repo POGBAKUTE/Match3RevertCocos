@@ -1,0 +1,27 @@
+
+sc4_item_book_blanket.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blanket
+  rotate: false
+  xy: 2, 2
+  size: 124, 105
+  orig: 124, 105
+  offset: 0, 0
+  index: -1
+book
+  rotate: true
+  xy: 128, 49
+  size: 58, 30
+  orig: 58, 30
+  offset: 0, 0
+  index: -1
+page
+  rotate: false
+  xy: 128, 14
+  size: 24, 33
+  orig: 24, 33
+  offset: 0, 0
+  index: -1

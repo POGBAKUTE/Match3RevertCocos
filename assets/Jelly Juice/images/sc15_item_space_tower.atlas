@@ -1,0 +1,20 @@
+
+sc15_item_space_tower.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+seats
+  rotate: true
+  xy: 194, 51
+  size: 41, 22
+  orig: 41, 22
+  offset: 0, 0
+  index: -1
+tower
+  rotate: true
+  xy: 2, 2
+  size: 90, 190
+  orig: 90, 190
+  offset: 0, 0
+  index: -1

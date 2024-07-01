@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>youre_lost_panel_path.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{595,344}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{0,0},{595,344}}</string>
+                <key>sourceSize</key>
+                <string>{595,344}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Iceberg_Event.png</string>
+            <key>size</key>
+            <string>{599,348}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:de1b8a5434d1e88fee66681cbd467c25:3bc69494c645ed49745a28ead756c4b1:cd2216acb3c3ecaa25857c1269b2ac2c$</string>
+            <key>textureFileName</key>
+            <string>Iceberg_Event.png</string>
+        </dict>
+    </dict>
+</plist>

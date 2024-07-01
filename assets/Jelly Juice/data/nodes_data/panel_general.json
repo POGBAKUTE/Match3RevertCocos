@@ -1,0 +1,49 @@
+{
+    "info": {
+        "titleBg": {
+            "position": {
+                "x": 0,
+                "y": 98
+            },
+            "local_z_order": 2,
+            "scale": 0.97
+        },
+
+        "spritePanel": {
+            "local_z_order": 1
+        },
+
+        "back": {
+            "position": {
+                "x": 0,
+                "y": 138
+            },
+            "local_z_order": 0,
+            "scale": 0.97
+        }
+    },
+    
+    "game": {
+        "titleBg": {
+            "position": {
+                "x": 0.3,
+                "y": 82
+            },
+            "local_z_order": 2,
+            "scale": 0.965
+        },
+        
+        "spritePanel": {
+            "local_z_order": 1
+        },
+        
+        "back": {
+            "position": {
+                "x": 0,
+                "y": 115.5
+            },
+            "local_z_order": 0,
+            "scale": 0.97
+        }
+    }
+}

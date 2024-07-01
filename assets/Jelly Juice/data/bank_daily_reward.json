@@ -1,0 +1,68 @@
+{
+    "1": {
+        "reward_str": "jolly1",
+        "reward_type": 4,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "2":{
+        "reward_str": "jolly2",
+        "reward_type": 5,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "3":{
+        "reward_str": "jolly3",
+        "reward_type": 6,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "4":{
+        "reward_str": "jolly4",
+        "reward_type": 7,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "5":{
+        "reward_str": "booster1",
+        "reward_type": 1,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "6":{
+        "reward_str": "booster2",
+        "reward_type": 2,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "7":{
+        "reward_str": "booster3",
+        "reward_type": 3,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "8":{
+        "reward_str": "life",
+        "reward_type": 9,
+        "quantity": 1,
+        "bg": "bank_panel_gift_blu"
+    },
+    "9":{
+        "reward_str": "livesMinutes",
+        "reward_type": 8,
+        "quantity": 15,
+        "bg": "bank_panel_gift_blu"
+    },
+    "10":{
+        "reward_str": "coin",
+        "reward_type": 0,
+        "quantity": 3,
+        "bg": "bank_panel_gift_blu"
+    },
+    "11":{
+        "reward_str": "fertilizer",
+        "reward_type": 10,
+        "quantity": 3,
+        "bg": "bank_panel_gift_blu"
+    }
+}

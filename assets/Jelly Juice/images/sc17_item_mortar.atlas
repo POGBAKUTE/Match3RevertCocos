@@ -1,0 +1,27 @@
+
+sc17_item_mortar.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 290, 2
+  size: 205, 205
+  orig: 205, 207
+  offset: 0, 2
+  index: -1
+full
+  rotate: true
+  xy: 2, 2
+  size: 205, 286
+  orig: 205, 286
+  offset: 0, 0
+  index: -1
+top
+  rotate: true
+  xy: 497, 61
+  size: 146, 85
+  orig: 146, 85
+  offset: 0, 0
+  index: -1

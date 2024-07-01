@@ -1,0 +1,55 @@
+
+sc6_item_mirror.png
+size: 64,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cornice
+  rotate: true
+  xy: 2, 2
+  size: 33, 51
+  orig: 33, 51
+  offset: 0, 0
+  index: -1
+riflesso_1
+  rotate: false
+  xy: 2, 89
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+riflesso_2
+  rotate: true
+  xy: 33, 84
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+riflesso_3
+  rotate: true
+  xy: 27, 61
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+riflesso_4
+  rotate: true
+  xy: 2, 65
+  size: 18, 23
+  orig: 18, 23
+  offset: 0, 0
+  index: -1
+riflesso_5
+  rotate: true
+  xy: 15, 85
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+specchio
+  rotate: true
+  xy: 2, 37
+  size: 22, 38
+  orig: 22, 38
+  offset: 0, 0
+  index: -1

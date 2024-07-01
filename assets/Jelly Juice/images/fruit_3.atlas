@@ -1,0 +1,48 @@
+
+fruit_3.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+grape
+  rotate: false
+  xy: 2, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+grape1
+  rotate: false
+  xy: 82, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: false
+  xy: 162, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+leaf1
+  rotate: false
+  xy: 242, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+steak
+  rotate: false
+  xy: 322, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+stem
+  rotate: false
+  xy: 402, 62
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1

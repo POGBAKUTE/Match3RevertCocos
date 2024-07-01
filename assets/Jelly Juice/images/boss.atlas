@@ -1,0 +1,111 @@
+
+boss.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baffo_dx
+  rotate: false
+  xy: 399, 50
+  size: 73, 57
+  orig: 73, 57
+  offset: 0, 0
+  index: -1
+baffo_sx
+  rotate: false
+  xy: 399, 109
+  size: 82, 41
+  orig: 82, 41
+  offset: 0, 0
+  index: -1
+bocca
+  rotate: true
+  xy: 314, 198
+  size: 105, 64
+  orig: 105, 64
+  offset: 0, 0
+  index: -1
+braccio_dx
+  rotate: false
+  xy: 314, 305
+  size: 169, 204
+  orig: 169, 204
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 181, 22
+  size: 216, 128
+  orig: 216, 128
+  offset: 0, 0
+  index: -1
+busto
+  rotate: true
+  xy: 2, 152
+  size: 357, 310
+  orig: 357, 310
+  offset: 0, 0
+  index: -1
+cappello
+  rotate: true
+  xy: 489, 35
+  size: 170, 164
+  orig: 170, 164
+  offset: 0, 0
+  index: -1
+gamba_dx
+  rotate: false
+  xy: 485, 354
+  size: 62, 155
+  orig: 62, 155
+  offset: 0, 0
+  index: -1
+gamba_sx
+  rotate: false
+  xy: 549, 354
+  size: 62, 155
+  orig: 62, 155
+  offset: 0, 0
+  index: -1
+grembiule
+  rotate: false
+  xy: 380, 207
+  size: 189, 96
+  orig: 189, 96
+  offset: 0, 0
+  index: -1
+naso
+  rotate: false
+  xy: 485, 305
+  size: 35, 47
+  orig: 35, 47
+  offset: 0, 0
+  index: -1
+occhi_aperti
+  rotate: false
+  xy: 314, 153
+  size: 76, 43
+  orig: 76, 43
+  offset: 0, 0
+  index: -1
+occhi_chiusi
+  rotate: false
+  xy: 399, 5
+  size: 74, 28
+  orig: 74, 28
+  offset: 0, 0
+  index: -1
+sopracciglia
+  rotate: false
+  xy: 392, 152
+  size: 95, 53
+  orig: 95, 53
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 2, 2
+  size: 148, 177
+  orig: 148, 177
+  offset: 0, 0
+  index: -1

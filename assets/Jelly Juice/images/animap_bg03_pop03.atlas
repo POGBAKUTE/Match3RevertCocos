@@ -1,0 +1,48 @@
+
+animap_bg03_pop03.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_3_(pop_04)
+  rotate: false
+  xy: 2, 25
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_04_sh)
+  rotate: true
+  xy: 25, 3
+  size: 21, 12
+  orig: 21, 12
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_05)
+  rotate: true
+  xy: 25, 26
+  size: 16, 13
+  orig: 16, 13
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_05_sh)
+  rotate: true
+  xy: 2, 2
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_06)
+  rotate: true
+  xy: 39, 12
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_06_sh)
+  rotate: true
+  xy: 15, 9
+  size: 14, 8
+  orig: 14, 8
+  offset: 0, 0
+  index: -1

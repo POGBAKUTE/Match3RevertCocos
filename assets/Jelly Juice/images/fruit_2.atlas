@@ -1,0 +1,34 @@
+
+fruit_2.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+leaf
+  rotate: false
+  xy: 2, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+leaves
+  rotate: false
+  xy: 82, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+leaves1
+  rotate: false
+  xy: 162, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+strawberry
+  rotate: false
+  xy: 242, 2
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1

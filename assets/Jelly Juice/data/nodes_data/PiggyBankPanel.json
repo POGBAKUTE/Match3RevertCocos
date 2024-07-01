@@ -1,0 +1,332 @@
+{
+    "titleBg": {
+        "position":{
+            "x": 0,
+            "y": 135
+        }
+    },
+    "closeButton": {
+        "position":{
+            "x": 110,
+            "y": 125
+        },
+        "local_z_order": 3
+    },
+    "infoButton": {
+        "position":{
+            "x": -100,
+            "y": 95
+        }
+    },
+    "piggy": {
+        "position":{
+            "x": 0,
+            "y": 15
+        }
+    },
+    "piggyCoinBalloon": {
+        "position":{
+            "x": 75,
+            "y": 98
+        },
+        "scale": 0.95
+    },
+    "piggyCoinsText": {
+        "position":{
+            "x": 83,
+            "y": 98
+        },
+        "scale": 0.65
+    },
+    "piggyCoinsSprite": {
+        "position":{
+            "x": 66,
+            "y": 99.5
+        },
+        "scale": 0.65
+    },
+    "piggyCoinMinBalloon": {
+        "position":{
+            "x": 18,
+            "y": 27
+        }
+    },
+    "piggyMinCoinsText": {
+        "position":{
+            "x": 23,
+            "y": 27
+        },
+        "scale": 0.5
+    },
+    "piggyMinCoinsSprite": {
+        "position":{
+            "x": 11,
+            "y": 28.5
+        },
+        "scale": 0.5
+    },
+    "piggyCoinMaxBalloon": {
+        "position":{
+            "x": 90,
+            "y": 27
+        }
+    },
+    "piggyMaxCoinsText": {
+        "position":{
+            "x": 95,
+            "y": 27
+        },
+        "scale": 0.5
+    },
+    "piggyMaxCoinsSprite": {
+        "position":{
+            "x": 83,
+            "y": 28.5
+        },
+        "scale": 0.5
+    },
+    "buyCoinsButton" : {
+        "position":{
+            "x": 0,
+            "y": -23
+        }
+    },
+    "bottomContainer" : {
+        "position":{
+            "x": 0,
+            "y": -93
+        },
+        "content_size": {
+            "w": 220,
+            "h": 105
+        }
+    },
+    "nextLevelLabel" : {
+        "position":{
+            "x": 65,
+            "y": 65
+        },
+        "max_line_width": 110
+    },
+    "nextLevelPiggy" : {
+        "position":{
+            "x": 170,
+            "y": 65
+        },
+        "scale": 1
+    },
+    "piggyLevel" : {
+        "position":{
+            "x": 16,
+            "y": 22.5
+        },
+        "scale": 0.8
+    },
+    "powerupLabel" : {
+        "position":{
+            "x": 110,
+            "y": 95
+        }
+    },
+    "boosterButton" : {
+        "position":{
+            "x": 60,
+            "y": 62
+        }
+    },
+    "boosterIcon" : {
+        "position":{
+            "x": 27,
+            "y": 32
+        }
+    },
+    "jollyButton" : {
+        "position":{
+            "x": 110,
+            "y": 62
+        }
+    },
+    "jollyIcon" : {
+        "position":{
+            "x": 27,
+            "y": 32
+        }
+    },
+    "otherButton" : {
+        "position":{
+            "x": 160,
+            "y": 62
+        }
+    },
+    "otherIcon" : {
+        "position":{
+            "x": 28,
+            "y": 32
+        }
+    },
+    "buyBundleButton": {
+        "position":{
+            "x": 110,
+            "y": 20
+        }
+    },
+    
+    
+    "boostersPopup": {
+        "position":{
+            "x": 112,
+            "y": 120
+        }
+    },
+    "boostersPopupClose": {
+        "position":{
+            "x": 210,
+            "y": 90
+        }
+    },
+    "hammerButton": {
+        "position":{
+            "x": 63,
+            "y": 52
+        }
+    },
+    "hammerIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 0.25
+    },
+    "wandButton": {
+        "position":{
+            "x": 113,
+            "y": 52
+        }
+    },
+    "wandIcon": {
+        "position":{
+            "x": 29,
+            "y": 34
+        },
+        "scale": 0.23
+    },
+    "magnetButton": {
+        "position":{
+            "x": 163,
+            "y": 52
+        }
+    },
+    "magnetIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 0.35
+    },
+    
+    
+    "jollyPopup": {
+        "position":{
+            "x": 110,
+            "y": 120
+        }
+    },
+    "jollyPopupClose": {
+        "position":{
+            "x": 220,
+            "y": 90
+        }
+    },
+    "bonbonButton": {
+        "position":{
+            "x": 45,
+            "y": 52
+        }
+    },
+    "bonbonIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 0.9
+    },
+    "beeButton": {
+        "position":{
+            "x": 95,
+            "y": 52
+        }
+    },
+    "beeIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 1
+    },
+    "bombButton": {
+        "position":{
+            "x": 145,
+            "y": 52
+        }
+    },
+    "bombIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 1
+    },
+    "rowButton": {
+        "position":{
+            "x": 195,
+            "y": 52
+        }
+    },
+    "rowIcon": {
+        "position":{
+            "x": 27,
+            "y": 32
+        },
+        "scale": 1
+    },
+    
+    
+    "otherPopup": {
+        "position":{
+            "x": 108,
+            "y": 120
+        }
+    },
+    "otherPopupClose": {
+        "position":{
+            "x": 183,
+            "y": 90
+        }
+    },
+    "heartButton": {
+        "position":{
+            "x": 75,
+            "y": 52
+        }
+    },
+    "heartIcon": {
+        "position":{
+            "x": 26,
+            "y": 32
+        },
+        "scale": 0.35
+    },
+    "fertilizerButton": {
+        "position":{
+            "x": 128,
+            "y": 52
+        }
+    },
+    "fertilizerIcon": {
+        "position":{
+            "x": 26.5,
+            "y": 32
+        },
+        "scale": 0.3
+    }
+}

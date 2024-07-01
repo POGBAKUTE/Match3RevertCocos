@@ -1,0 +1,27 @@
+
+sc14_item_anchor.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anchor
+  rotate: false
+  xy: 2, 2
+  size: 82, 94
+  orig: 82, 94
+  offset: 0, 0
+  index: -1
+hole
+  rotate: true
+  xy: 86, 54
+  size: 42, 41
+  orig: 42, 41
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 98
+  size: 113, 118
+  orig: 113, 118
+  offset: 0, 0
+  index: -1

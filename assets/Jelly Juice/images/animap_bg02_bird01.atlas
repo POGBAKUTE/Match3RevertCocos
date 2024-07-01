@@ -1,0 +1,76 @@
+
+animap_bg02_bird01.png
+size: 128,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_2_(bird_01_beak_01)
+  rotate: true
+  xy: 35, 6
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_beak_02)
+  rotate: true
+  xy: 41, 6
+  size: 5, 4
+  orig: 5, 4
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_body)
+  rotate: true
+  xy: 2, 3
+  size: 27, 19
+  orig: 27, 19
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_head)
+  rotate: true
+  xy: 103, 15
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_leg_01)
+  rotate: true
+  xy: 103, 3
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_leg_02)
+  rotate: false
+  xy: 23, 2
+  size: 10, 9
+  orig: 10, 9
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_sh)
+  rotate: false
+  xy: 23, 13
+  size: 30, 17
+  orig: 30, 17
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_tail)
+  rotate: true
+  xy: 74, 8
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_wing_behind)
+  rotate: true
+  xy: 91, 6
+  size: 24, 10
+  orig: 24, 10
+  offset: 0, 0
+  index: -1
+png/animap_bg_2_(bird_01_wing_over)
+  rotate: true
+  xy: 55, 6
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1

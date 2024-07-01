@@ -1,0 +1,132 @@
+{
+    "portrait": {
+        "vipLandscapeDeco": {
+            "visible": false
+        },
+
+        "vipPortraitDeco": {
+            "visible": true,
+            "normalized_position": {
+                "x": 0.5,
+                "y": 0.38
+            }
+        },
+
+        "backgroundL": {
+            "visible": false
+        },
+
+        "backgroundP": 
+        {
+            "visible": true,
+            "anchor": {
+                "x": 0.5,
+                "y": 0
+            }
+        },
+
+        "footerBarDeco": {
+            "normalized_position": {
+                "x":0.5,
+                "y": 0.45
+            }
+        },
+
+        "footerExtension": {
+            "visible":true,
+            "anchor": {
+                "x": 0.5,
+                "y": 1.0
+            }
+        },
+
+        "booster_button_1": {
+            "base_scale": 1,
+            "position": {
+                "x": 135,
+                "y": 40
+            }
+        },
+
+        "booster_button_2": {
+            "base_scale": 1,
+            "position": {
+                "x": 190,
+                "y": 40
+            }
+        },
+
+        "booster_button_3": {
+            "base_scale": 1,
+            "position": {
+                "x": 245,
+                "y": 40
+            }
+        }
+    },
+
+
+
+    "landscape": {
+
+        "vipLandscapeDeco": {
+            "visible": true,
+            "position": {
+                "x": 14,
+                "y": 11.5
+            }
+        },
+
+        "vipPortraitDeco": {
+            "visible": false
+        },
+
+        "backgroundP": {
+            "visible": false
+        },
+
+        "backgroundL": {
+            "visible": true,
+            "position": {
+                "x": 13,
+                "y": -35
+            }
+        },
+
+        "backgroundLDeco": {
+            "position": {
+                "x": 14,
+                "y": 12
+            }
+        },
+
+        "footerExtension": {
+            "visible": false
+        },
+
+        "booster_button_1": {
+            "base_scale": 0.71,
+            "position": {
+                "x": 21,
+                "y": 112
+            }
+        },
+
+        "booster_button_2": {
+            "base_scale": 0.71,
+            "position": {
+                "x": 21,
+                "y": 72
+            }
+        },
+
+        "booster_button_3": {
+            "base_scale": 0.71,
+            "position": {
+                "x": 21,
+                "y": 32
+            }
+        }
+
+    }
+}

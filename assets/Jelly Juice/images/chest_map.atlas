@@ -1,0 +1,20 @@
+
+chest_map.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chest
+  rotate: false
+  xy: 2, 44
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+prize_shadow
+  rotate: false
+  xy: 2, 2
+  size: 80, 40
+  orig: 80, 40
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+glow_screen.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_rays_1
+  rotate: true
+  xy: 2, 2
+  size: 370, 658
+  orig: 370, 658
+  offset: 0, 0
+  index: -1
+bg_rays_2
+  rotate: true
+  xy: 662, 2
+  size: 370, 658
+  orig: 370, 658
+  offset: 0, 0
+  index: -1
+bg_rays_3
+  rotate: true
+  xy: 1322, 2
+  size: 370, 658
+  orig: 370, 658
+  offset: 0, 0
+  index: -1

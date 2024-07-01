@@ -1,0 +1,13 @@
+
+sc2_item_fireflies.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+lampion
+  rotate: false
+  xy: 2, 2
+  size: 83, 114
+  orig: 83, 114
+  offset: 0, 0
+  index: -1

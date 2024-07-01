@@ -1,0 +1,489 @@
+
+Starter_Bundle.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-90%
+  rotate: false
+  xy: 930, 270
+  size: 84, 84
+  orig: 84, 84
+  offset: 0, 0
+  index: -1
+Layer 718
+  rotate: true
+  xy: 749, 236
+  size: 99, 97
+  orig: 99, 97
+  offset: 0, 0
+  index: -1
+Layer 733
+  rotate: true
+  xy: 648, 416
+  size: 94, 72
+  orig: 94, 72
+  offset: 0, 0
+  index: -1
+Layer 734
+  rotate: true
+  xy: 648, 329
+  size: 85, 66
+  orig: 85, 66
+  offset: 0, 0
+  index: -1
+OM copy 2
+  rotate: false
+  xy: 2, 43
+  size: 389, 73
+  orig: 389, 73
+  offset: 0, 0
+  index: -1
+SACCO_sotto
+  rotate: false
+  xy: 503, 139
+  size: 143, 70
+  orig: 143, 70
+  offset: 0, 0
+  index: -1
+TITOLO
+  rotate: false
+  xy: 293, 128
+  size: 208, 81
+  orig: 208, 81
+  offset: 0, 0
+  index: -1
+avambraccio copy_jinny
+  rotate: true
+  xy: 860, 339
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+bocca_aperta_jinny
+  rotate: false
+  xy: 398, 3
+  size: 17, 14
+  orig: 17, 14
+  offset: 0, 0
+  index: -1
+bocca_risata
+  rotate: false
+  xy: 67, 4
+  size: 15, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1
+braccio
+  rotate: false
+  xy: 348, 3
+  size: 25, 14
+  orig: 25, 14
+  offset: 0, 0
+  index: -1
+braccio copy_jinny
+  rotate: false
+  xy: 833, 157
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+braccio_sx_jinny
+  rotate: true
+  xy: 281, 10
+  size: 31, 65
+  orig: 31, 65
+  offset: 0, 0
+  index: -1
+bracciosx
+  rotate: false
+  xy: 857, 387
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+cappello
+  rotate: true
+  xy: 536, 4
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+coda
+  rotate: false
+  xy: 433, 3
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+coin 45 no copy 17
+  rotate: false
+  xy: 821, 215
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+coin 45 no copy 18
+  rotate: false
+  xy: 774, 214
+  size: 22, 20
+  orig: 22, 20
+  offset: 0, 0
+  index: -1
+coin 45 no copy 19
+  rotate: false
+  xy: 798, 214
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+coin 45 no copy 20
+  rotate: false
+  xy: 930, 246
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+coin 45 no copy 21
+  rotate: false
+  xy: 749, 214
+  size: 23, 20
+  orig: 23, 20
+  offset: 0, 0
+  index: -1
+collo_jinny
+  rotate: true
+  xy: 637, 12
+  size: 42, 95
+  orig: 42, 95
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: false
+  xy: 933, 11
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+cuore copy
+  rotate: true
+  xy: 879, 6
+  size: 62, 52
+  orig: 62, 52
+  offset: 0, 0
+  index: -1
+cuore copy 2
+  rotate: false
+  xy: 799, 338
+  size: 59, 47
+  orig: 59, 47
+  offset: 0, 0
+  index: -1
+cuore copy 3
+  rotate: true
+  xy: 989, 2
+  size: 26, 22
+  orig: 26, 22
+  offset: 0, 0
+  index: -1
+cuore copy 4
+  rotate: true
+  xy: 622, 377
+  size: 35, 22
+  orig: 35, 22
+  offset: 0, 0
+  index: -1
+cuore copy 5
+  rotate: false
+  xy: 375, 4
+  size: 21, 13
+  orig: 21, 13
+  offset: 0, 0
+  index: -1
+cuore copy 6
+  rotate: false
+  xy: 225, 2
+  size: 54, 39
+  orig: 54, 39
+  offset: 0, 0
+  index: -1
+cuore copy 7
+  rotate: false
+  xy: 942, 415
+  size: 54, 47
+  orig: 54, 47
+  offset: 0, 0
+  index: -1
+cuore copy 8
+  rotate: true
+  xy: 857, 410
+  size: 100, 83
+  orig: 100, 83
+  offset: 0, 0
+  index: -1
+effetti_luminosi copy
+  rotate: true
+  xy: 2, 118
+  size: 392, 289
+  orig: 392, 289
+  offset: 0, 0
+  index: -1
+elmo
+  rotate: false
+  xy: 508, 370
+  size: 112, 140
+  orig: 112, 140
+  offset: 0, 0
+  index: -1
+giacchetta
+  rotate: false
+  xy: 2, 2
+  size: 63, 39
+  orig: 63, 39
+  offset: 0, 0
+  index: -1
+leg_l copy 2_jinny
+  rotate: true
+  xy: 348, 19
+  size: 22, 81
+  orig: 22, 81
+  offset: 0, 0
+  index: -1
+leg_r copy_jinny
+  rotate: true
+  xy: 67, 13
+  size: 28, 86
+  orig: 28, 86
+  offset: 0, 0
+  index: -1
+maniche
+  rotate: true
+  xy: 622, 414
+  size: 46, 21
+  orig: 46, 21
+  offset: 0, 0
+  index: -1
+mano copy_jinny
+  rotate: true
+  xy: 942, 464
+  size: 46, 56
+  orig: 46, 56
+  offset: 0, 0
+  index: -1
+mantello_jinny
+  rotate: true
+  xy: 837, 70
+  size: 85, 104
+  orig: 85, 104
+  offset: 0, 0
+  index: -1
+martello
+  rotate: true
+  xy: 811, 9
+  size: 58, 66
+  orig: 58, 66
+  offset: 0, 0
+  index: -1
+martello copy
+  rotate: true
+  xy: 734, 2
+  size: 65, 75
+  orig: 65, 75
+  offset: 0, 0
+  index: -1
+martello copy 2
+  rotate: false
+  xy: 564, 336
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+martello copy 3
+  rotate: false
+  xy: 918, 356
+  size: 50, 52
+  orig: 50, 52
+  offset: 0, 0
+  index: -1
+martello_jinny
+  rotate: true
+  xy: 895, 164
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1
+martello_jinny - Copia
+  rotate: true
+  xy: 508, 216
+  size: 114, 125
+  orig: 114, 125
+  offset: 0, 0
+  index: -1
+martello_jinny_effetto_luce
+  rotate: false
+  xy: 848, 246
+  size: 80, 90
+  orig: 80, 90
+  offset: 0, 0
+  index: -1
+monete_centr_DAV
+  rotate: false
+  xy: 603, 56
+  size: 117, 81
+  orig: 117, 81
+  offset: 0, 0
+  index: -1
+monete_dx_DAV
+  rotate: false
+  xy: 970, 369
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+naso
+  rotate: true
+  xy: 448, 4
+  size: 13, 10
+  orig: 13, 10
+  offset: 0, 0
+  index: -1
+occhi_bunny
+  rotate: true
+  xy: 622, 332
+  size: 43, 17
+  orig: 43, 17
+  offset: 0, 0
+  index: -1
+occhi_chiusi_jinny
+  rotate: false
+  xy: 482, 11
+  size: 52, 32
+  orig: 52, 32
+  offset: 0, 0
+  index: -1
+oculo
+  rotate: true
+  xy: 155, 9
+  size: 32, 68
+  orig: 32, 68
+  offset: 0, 0
+  index: -1
+orecchiodx
+  rotate: true
+  xy: 431, 19
+  size: 24, 49
+  orig: 24, 49
+  offset: 0, 0
+  index: -1
+orecchiosx
+  rotate: false
+  xy: 622, 462
+  size: 22, 48
+  orig: 22, 48
+  offset: 0, 0
+  index: -1
+panel
+  rotate: true
+  xy: 293, 211
+  size: 299, 213
+  orig: 299, 213
+  offset: 0, 0
+  index: -1
+piedesx
+  rotate: false
+  xy: 417, 3
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+sacco_centr_DAV
+  rotate: false
+  xy: 722, 69
+  size: 113, 83
+  orig: 113, 83
+  offset: 0, 0
+  index: -1
+sacco_dx_dav
+  rotate: false
+  xy: 746, 154
+  size: 85, 58
+  orig: 85, 58
+  offset: 0, 0
+  index: -1
+scritta
+  rotate: false
+  xy: 393, 45
+  size: 208, 81
+  orig: 208, 81
+  offset: 0, 0
+  index: -1
+soldi copy
+  rotate: true
+  xy: 989, 57
+  size: 34, 29
+  orig: 34, 29
+  offset: 0, 0
+  index: -1
+soldi copy 2
+  rotate: false
+  xy: 716, 337
+  size: 81, 48
+  orig: 81, 48
+  offset: 0, 0
+  index: -1
+sotto_martello
+  rotate: false
+  xy: 722, 387
+  size: 133, 123
+  orig: 133, 123
+  offset: 0, 0
+  index: -1
+t-shirt copy_jinny
+  rotate: false
+  xy: 989, 30
+  size: 29, 25
+  orig: 29, 25
+  offset: 0, 0
+  index: -1
+testa
+  rotate: false
+  xy: 943, 93
+  size: 74, 69
+  orig: 74, 69
+  offset: 0, 0
+  index: -1
+testa_jinny
+  rotate: true
+  xy: 635, 214
+  size: 113, 112
+  orig: 113, 112
+  offset: 0, 0
+  index: -1
+vestito_jinny
+  rotate: true
+  xy: 648, 154
+  size: 58, 96
+  orig: 58, 96
+  offset: 0, 0
+  index: -1
+x30
+  rotate: false
+  xy: 580, 15
+  size: 55, 28
+  orig: 55, 28
+  offset: 0, 0
+  index: -1
+x3h
+  rotate: false
+  xy: 508, 341
+  size: 54, 27
+  orig: 54, 27
+  offset: 0, 0
+  index: -1
+x8
+  rotate: false
+  xy: 848, 217
+  size: 37, 27
+  orig: 37, 27
+  offset: 0, 0
+  index: -1

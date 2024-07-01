@@ -1,0 +1,34 @@
+
+sc2_item_tulips.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 57, 13
+  size: 27, 11
+  orig: 27, 11
+  offset: 0, 0
+  index: -1
+tulips
+  rotate: false
+  xy: 2, 26
+  size: 133, 209
+  orig: 133, 209
+  offset: 0, 0
+  index: -1
+wings_down
+  rotate: true
+  xy: 29, 3
+  size: 21, 26
+  orig: 21, 26
+  offset: 0, 0
+  index: -1
+wings_up
+  rotate: true
+  xy: 2, 2
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1

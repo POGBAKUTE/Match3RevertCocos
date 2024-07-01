@@ -1,0 +1,83 @@
+
+bundle_special_offer.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anello
+  rotate: false
+  xy: 421, 375
+  size: 123, 97
+  orig: 123, 97
+  offset: 0, 0
+  index: -1
+baule
+  rotate: true
+  xy: 662, 374
+  size: 632, 335
+  orig: 632, 335
+  offset: 0, 0
+  index: -1
+coperchio
+  rotate: false
+  xy: 2, 595
+  size: 658, 411
+  orig: 658, 411
+  offset: 0, 0
+  index: -1
+counter
+  rotate: false
+  xy: 2, 99
+  size: 249, 75
+  orig: 249, 75
+  offset: 0, 0
+  index: -1
+light_effect
+  rotate: false
+  xy: 2, 176
+  size: 417, 417
+  orig: 417, 417
+  offset: 0, 0
+  index: -1
+luce_monete
+  rotate: true
+  xy: 542, 550
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
+monete
+  rotate: false
+  xy: 421, 121
+  size: 586, 251
+  orig: 586, 251
+  offset: 0, 0
+  index: -1
+shine
+  rotate: false
+  xy: 421, 474
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+targa
+  rotate: false
+  xy: 399, 2
+  size: 453, 117
+  orig: 453, 117
+  offset: 0, 0
+  index: -1
+x50
+  rotate: true
+  xy: 590, 449
+  size: 144, 70
+  orig: 144, 70
+  offset: 0, 0
+  index: -1
+x60
+  rotate: false
+  xy: 253, 104
+  size: 144, 70
+  orig: 144, 70
+  offset: 0, 0
+  index: -1

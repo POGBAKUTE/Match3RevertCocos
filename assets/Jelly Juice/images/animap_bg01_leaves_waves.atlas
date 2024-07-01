@@ -1,0 +1,41 @@
+
+animap_bg01_leaves_waves.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_1_(wtrfl_leaf_01)
+  rotate: true
+  xy: 2, 19
+  size: 50, 77
+  orig: 50, 77
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(wtrfl_leaf_02)
+  rotate: false
+  xy: 60, 71
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(wtrfl_leaf_03)
+  rotate: true
+  xy: 118, 66
+  size: 49, 93
+  orig: 49, 93
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(wtrfl_leaf_04)
+  rotate: false
+  xy: 2, 80
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(wtrfl_leaves_over)
+  rotate: false
+  xy: 81, 2
+  size: 99, 62
+  orig: 99, 62
+  offset: 0, 0
+  index: -1

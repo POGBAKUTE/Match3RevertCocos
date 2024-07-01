@@ -1,0 +1,20 @@
+
+sc1_item_lights.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 2, 2
+  size: 513, 149
+  orig: 513, 149
+  offset: 0, 0
+  index: -1
+on
+  rotate: false
+  xy: 2, 153
+  size: 513, 157
+  orig: 513, 157
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,76 @@
+
+new_intro_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 2, 1287
+  size: 412, 470
+  orig: 465, 480
+  offset: 8, 9
+  index: -1
+10
+  rotate: false
+  xy: 2, 245
+  size: 651, 519
+  orig: 708, 538
+  offset: 12, 11
+  index: -1
+2
+  rotate: true
+  xy: 474, 1287
+  size: 412, 500
+  orig: 465, 510
+  offset: 8, 9
+  index: -1
+3
+  rotate: true
+  xy: 976, 1287
+  size: 412, 572
+  orig: 465, 582
+  offset: 8, 9
+  index: -1
+4
+  rotate: false
+  xy: 1550, 1127
+  size: 412, 572
+  orig: 465, 581
+  offset: 8, 9
+  index: -1
+5
+  rotate: false
+  xy: 2, 777
+  size: 559, 508
+  orig: 605, 518
+  offset: 1, 9
+  index: -1
+6
+  rotate: false
+  xy: 1305, 2
+  size: 623, 602
+  orig: 668, 614
+  offset: 0, 12
+  index: -1
+7
+  rotate: false
+  xy: 655, 22
+  size: 648, 582
+  orig: 704, 591
+  offset: 11, 9
+  index: -1
+8
+  rotate: false
+  xy: 563, 766
+  size: 651, 519
+  orig: 708, 538
+  offset: 12, 11
+  index: -1
+9
+  rotate: false
+  xy: 1216, 606
+  size: 651, 519
+  orig: 708, 538
+  offset: 12, 11
+  index: -1

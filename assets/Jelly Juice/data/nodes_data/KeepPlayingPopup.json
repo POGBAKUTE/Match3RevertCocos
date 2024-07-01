@@ -1,0 +1,154 @@
+{
+    "normal": {
+        "noMoreMovesLabel": {
+            "position": {
+                "y": 104
+            }
+        },
+        "textLabel": {
+            "position": {
+                "y": 67
+            }
+        },
+        "actionButton": {
+            "content_size": {
+                "w": 150,
+                "h": 52
+            },
+            "base_scale": 1.2,
+            "position": {
+                "y": -80
+            }
+        },
+        "actionButtonLabel":{
+            "scale": 1,
+            "max_line_width": 80
+        },
+        "actionButtonCoinSprite": {
+            "position":{
+                "x": 38,
+                "y": 5
+            },
+            "scale": 0.75
+        },
+        "actionButtonCoinLabel": {
+            "position":{
+                "x": 54,
+                "y": -2
+            },
+            "scale": 0.65
+        }
+    },
+    "video-reward": {
+        "noMoreMovesLabel": {
+            "position": {
+                "y": 104
+            }
+        },
+        "textLabel": {
+            "position": {
+                "y": 67
+            }
+        },
+        "actionButton": {
+            "content_size": {
+                "w": 115,
+                "h": 52
+            },
+            "base_scale": 1,
+            "position": {
+                "x": -56,
+                "y": -85
+            }
+        },
+        "actionButtonLabelDouble":{
+            "max_line_num": 2,
+            "position":{
+                "x": -15,
+                "y": 5
+            }
+        },
+        "actionButtonLabelDoubleNoSprite": {
+            "max_line_num": 2,
+            "position":{
+                "x": 0,
+                "y": 5
+            }
+        },
+        "actionButtonCoinSprite": {
+            "position":{
+                "x": 32,
+                "y": 6
+            },
+            "scale": 0.75
+        },
+        "actionButtonCoinLabel": {
+            "position":{
+                "x": 38,
+                "y": -5
+            },
+            "scale": 0.65
+        },
+        "videoRewardButton": {
+            "content_size": {
+                "w": 115,
+                "h": 52
+            },
+            "base_scale": 1,
+            "position": {
+                "x": 56,
+                "y": -85
+            }
+        },
+        "videoRewardSprite": {
+            "position": {
+                "x": 10,
+                "y": 19
+            }
+        },
+        "videoRewardArrow": {
+            "position": {
+                "x": 50,
+                "y": 25
+            }
+        },
+        "videoRewardMoves": {
+            "position": {
+                "x": 90,
+                "y": 32
+            },
+            "scale": 0.32,
+            "rotation": 10
+        }
+    },
+    "video-reward-rescue": {
+        "actionButton": {
+            "content_size": {
+                "w": 150,
+                "h": 52
+            },
+            "base_scale": 1.2,
+            "position": {
+                "y": -80,
+                "x": 0
+            }
+        },
+        "actionButtonLabel": {
+            "max_line_num": 1,
+            "position":{
+                "x": 0,
+                "y": 3
+            }
+        },
+        "noMoreMovesLabel": {
+            "position": {
+                "y": 104
+            }
+        },
+        "textLabel": {
+            "position": {
+                "y": 67
+            }
+        }
+    }
+}

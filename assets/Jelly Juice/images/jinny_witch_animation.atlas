@@ -1,0 +1,76 @@
+
+jinny_witch_animation.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio_dx
+  rotate: true
+  xy: 2, 41
+  size: 212, 142
+  orig: 212, 142
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 317, 102
+  size: 62, 70
+  orig: 62, 70
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: true
+  xy: 220, 13
+  size: 47, 91
+  orig: 47, 91
+  offset: 0, 0
+  index: -1
+gambe
+  rotate: false
+  xy: 317, 174
+  size: 74, 79
+  orig: 74, 79
+  offset: 0, 0
+  index: -1
+star_1
+  rotate: false
+  xy: 70, 11
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+star_2
+  rotate: false
+  xy: 39, 9
+  size: 29, 30
+  orig: 29, 30
+  offset: 0, 0
+  index: -1
+star_3
+  rotate: false
+  xy: 2, 4
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 146, 62
+  size: 191, 169
+  orig: 191, 169
+  offset: 0, 0
+  index: -1
+treccia_dx
+  rotate: true
+  xy: 146, 2
+  size: 58, 72
+  orig: 58, 72
+  offset: 0, 0
+  index: -1
+treccia_sx
+  rotate: false
+  xy: 317, 39
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1

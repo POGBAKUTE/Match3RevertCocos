@@ -1,0 +1,62 @@
+
+sc4_item_candies.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candies
+  rotate: false
+  xy: 51, 20
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+cups
+  rotate: true
+  xy: 2, 2
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+dish_base
+  rotate: false
+  xy: 2, 44
+  size: 37, 71
+  orig: 37, 71
+  offset: 0, 0
+  index: -1
+dish_reflections
+  rotate: true
+  xy: 41, 81
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+dish_top
+  rotate: false
+  xy: 41, 48
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 84, 83
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+orange
+  rotate: false
+  xy: 81, 63
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 84, 100
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1

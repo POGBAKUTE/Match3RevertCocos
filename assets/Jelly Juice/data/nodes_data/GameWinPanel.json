@@ -1,0 +1,125 @@
+{
+    "play_again": {
+
+        "actionButton": {
+            "position": {
+                "x": 0,
+                "y": -93
+            },
+            "scale": 1.1, 
+            "z_order": 1
+        },
+
+        "topJinny":{
+            "position":{
+                "x": -10.5,
+                "y":163.8
+            },
+            "scale": 0.97
+        },
+
+        "closeButton": {
+            "position": {
+                "x": 113,
+                "y": 126
+            }
+        },
+
+        "retryButton": {
+            "scale": 1.05,
+            "position": {
+                "x": 72,
+                "y": -24
+            }
+        
+        },
+
+        "playAgainLabel": {
+            "scale": 0.55,
+            "position": {
+                "x": 72,
+                "y": -55
+            } 
+        },
+
+        "scoreBannerSpine": {
+            "position": {
+                "x": -29,
+                "y": -17
+            }
+        },
+
+        "scoreBannerLabel": {
+            "position": {
+                "x": -29,
+                "y": -12
+            },
+            "scale": 0.9
+        },
+
+        "scoreValueLabel": {
+            "position": {
+                "x": -27,
+                "y": -46
+            }
+        },
+
+        "pointTillNextStar": {
+            "position": {
+                "x": 0,
+                "y": 16
+            },
+            "scale": 0.45
+
+        }
+    },
+
+    "exit_only": {
+
+        "actionButton": {
+            "position": {
+                "x": 0,
+                "y": -90
+            },
+            "scale": 1.2, 
+            "z_order": 1
+        },
+
+        "topJinny":{
+            "position":{
+                "x": -7.5,
+                "y": 158.8
+            },
+            "scale": 0.97
+        },
+
+        "closeButton": {
+            "position": {
+                "x": 113,
+                "y": 126
+            }
+        },
+
+        "scoreBannerSpine": {
+            "position": {
+                "x": 0,
+                "y": -11
+            }
+        },
+
+        "scoreBannerLabel": {
+            "position": {
+                "x": 0,
+                "y": -7
+            },
+            "scale": 0.9
+        },
+        
+        "scoreValueLabel": {
+            "position": {
+                "x": 0,
+                "y": -40
+            }
+        }
+    }
+}

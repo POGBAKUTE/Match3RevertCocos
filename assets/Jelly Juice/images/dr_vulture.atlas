@@ -1,0 +1,244 @@
+
+dr_vulture.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ala_dx_giu
+  rotate: false
+  xy: 127, 105
+  size: 80, 149
+  orig: 80, 149
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_giu
+  rotate: true
+  xy: 2, 3
+  size: 95, 86
+  orig: 95, 86
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_giu1
+  rotate: false
+  xy: 116, 4
+  size: 75, 94
+  orig: 75, 94
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_giu2
+  rotate: false
+  xy: 504, 25
+  size: 83, 93
+  orig: 83, 93
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_su
+  rotate: true
+  xy: 193, 6
+  size: 97, 93
+  orig: 97, 93
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_su1
+  rotate: false
+  xy: 417, 3
+  size: 85, 111
+  orig: 85, 111
+  offset: 0, 0
+  index: -1
+ala_dx_mezzo_su2
+  rotate: true
+  xy: 589, 28
+  size: 90, 65
+  orig: 90, 65
+  offset: 0, 0
+  index: -1
+ala_dx_su
+  rotate: false
+  xy: 547, 120
+  size: 78, 134
+  orig: 78, 134
+  offset: 0, 0
+  index: -1
+ala_sx_giu
+  rotate: false
+  xy: 2, 100
+  size: 123, 154
+  orig: 123, 154
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_giu
+  rotate: true
+  xy: 209, 112
+  size: 142, 102
+  orig: 142, 102
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_giu1
+  rotate: true
+  xy: 421, 120
+  size: 134, 124
+  orig: 134, 124
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_giu2
+  rotate: true
+  xy: 313, 116
+  size: 138, 106
+  orig: 138, 106
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_su
+  rotate: false
+  xy: 288, 3
+  size: 127, 107
+  orig: 127, 107
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_su1
+  rotate: false
+  xy: 758, 126
+  size: 121, 128
+  orig: 121, 128
+  offset: 0, 0
+  index: -1
+ala_sx_mezzo_su2
+  rotate: false
+  xy: 656, 35
+  size: 123, 84
+  orig: 123, 84
+  offset: 0, 0
+  index: -1
+ala_sx_su
+  rotate: false
+  xy: 627, 121
+  size: 129, 133
+  orig: 129, 133
+  offset: 0, 0
+  index: -1
+becco_aperto
+  rotate: false
+  xy: 656, 2
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+bunny_braccio_dx
+  rotate: true
+  xy: 518, 6
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+bunny_braccio_x
+  rotate: true
+  xy: 544, 6
+  size: 17, 24
+  orig: 17, 24
+  offset: 0, 0
+  index: -1
+bunny_corpo
+  rotate: true
+  xy: 858, 50
+  size: 74, 67
+  orig: 74, 67
+  offset: 0, 0
+  index: -1
+bunny_orecchio_dx
+  rotate: true
+  xy: 589, 2
+  size: 24, 55
+  orig: 24, 55
+  offset: 0, 0
+  index: -1
+bunny_orecchio_sx
+  rotate: false
+  xy: 832, 8
+  size: 52, 33
+  orig: 52, 33
+  offset: 0, 0
+  index: -1
+bunny_piede_dx
+  rotate: false
+  xy: 504, 5
+  size: 12, 18
+  orig: 12, 18
+  offset: 0, 0
+  index: -1
+bunny_piede_sx
+  rotate: false
+  xy: 570, 6
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+bunny_testa
+  rotate: false
+  xy: 781, 43
+  size: 75, 81
+  orig: 75, 81
+  offset: 0, 0
+  index: -1
+coda
+  rotate: true
+  xy: 90, 3
+  size: 95, 24
+  orig: 95, 24
+  offset: 0, 0
+  index: -1
+collare
+  rotate: true
+  xy: 943, 160
+  size: 51, 54
+  orig: 51, 54
+  offset: 0, 0
+  index: -1
+collo
+  rotate: true
+  xy: 927, 60
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: false
+  xy: 881, 142
+  size: 57, 57
+  orig: 57, 57
+  offset: 0, 0
+  index: -1
+testa
+  rotate: false
+  xy: 943, 213
+  size: 66, 41
+  orig: 66, 41
+  offset: 0, 0
+  index: -1
+zampa_dx
+  rotate: false
+  xy: 886, 4
+  size: 55, 44
+  orig: 55, 44
+  offset: 0, 0
+  index: -1
+zampa_dx_chiusa
+  rotate: false
+  xy: 781, 4
+  size: 49, 37
+  orig: 55, 44
+  offset: 6, 7
+  index: -1
+zampa_sx
+  rotate: true
+  xy: 881, 201
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+zampa_sx_chiusa
+  rotate: true
+  xy: 943, 109
+  size: 49, 50
+  orig: 53, 58
+  offset: 4, 8
+  index: -1

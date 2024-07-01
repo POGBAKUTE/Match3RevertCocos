@@ -1,0 +1,16 @@
+{
+    "containerImage": {
+        "position": {
+            "x": 0,
+            "y": 20
+        },
+        "scale": 0.9
+    },
+    "descriptionLabel": {
+        "position": {
+            "x": 0,
+            "y": -62
+        },
+        "scale": 0.55
+    }
+}

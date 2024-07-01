@@ -1,0 +1,293 @@
+
+quatzelcoatl_and_pumpkin.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+p_branch_left_down
+  rotate: true
+  xy: 327, 154
+  size: 100, 52
+  orig: 100, 52
+  offset: 0, 0
+  index: -1
+p_branch_left_up
+  rotate: true
+  xy: 148, 76
+  size: 58, 109
+  orig: 58, 109
+  offset: 0, 0
+  index: -1
+p_branch_right_down
+  rotate: true
+  xy: 381, 174
+  size: 80, 38
+  orig: 80, 38
+  offset: 0, 0
+  index: -1
+p_branch_right_up
+  rotate: true
+  xy: 268, 20
+  size: 54, 96
+  orig: 54, 96
+  offset: 0, 0
+  index: -1
+p_leaf1_left_up
+  rotate: false
+  xy: 401, 2
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+p_leaf1_right_up
+  rotate: false
+  xy: 292, 2
+  size: 18, 16
+  orig: 18, 16
+  offset: 0, 0
+  index: -1
+p_leaf2_left_up
+  rotate: false
+  xy: 381, 154
+  size: 24, 18
+  orig: 24, 18
+  offset: 0, 0
+  index: -1
+p_leaf2_right_up
+  rotate: false
+  xy: 312, 3
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+p_leaf3_left_up
+  rotate: true
+  xy: 468, 81
+  size: 42, 38
+  orig: 42, 38
+  offset: 0, 0
+  index: -1
+p_leaf3_right_up
+  rotate: true
+  xy: 476, 41
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+p_leaf_left_down
+  rotate: true
+  xy: 508, 114
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+p_leaf_right_down
+  rotate: false
+  xy: 336, 3
+  size: 21, 15
+  orig: 21, 15
+  offset: 0, 0
+  index: -1
+p_zucca_bocca_aperta
+  rotate: false
+  xy: 148, 136
+  size: 87, 118
+  orig: 87, 118
+  offset: 0, 0
+  index: -1
+p_zucca_bocca_chiusa
+  rotate: false
+  xy: 237, 151
+  size: 88, 103
+  orig: 88, 103
+  offset: 0, 0
+  index: -1
+q_arancione ok copy 3
+  rotate: true
+  xy: 520, 229
+  size: 25, 24
+  orig: 25, 24
+  offset: 0, 0
+  index: -1
+q_body
+  rotate: false
+  xy: 2, 69
+  size: 144, 185
+  orig: 144, 185
+  offset: 0, 0
+  index: -1
+q_candies_ground
+  rotate: true
+  xy: 222, 17
+  size: 57, 44
+  orig: 57, 44
+  offset: 0, 0
+  index: -1
+q_candies_tail
+  rotate: false
+  xy: 2, 5
+  size: 80, 62
+  orig: 80, 62
+  offset: 0, 0
+  index: -1
+q_h1_eye_left
+  rotate: false
+  xy: 494, 2
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+q_h1_feather1
+  rotate: true
+  xy: 439, 125
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1
+q_h1_feather2
+  rotate: true
+  xy: 469, 138
+  size: 34, 28
+  orig: 34, 28
+  offset: 0, 0
+  index: -1
+q_h1_feather3
+  rotate: false
+  xy: 499, 141
+  size: 23, 31
+  orig: 23, 31
+  offset: 0, 0
+  index: -1
+q_h1_feather4
+  rotate: true
+  xy: 450, 2
+  size: 30, 42
+  orig: 30, 42
+  offset: 0, 0
+  index: -1
+q_h1_feather5
+  rotate: false
+  xy: 439, 79
+  size: 27, 44
+  orig: 27, 44
+  offset: 0, 0
+  index: -1
+q_h1_feather6
+  rotate: true
+  xy: 492, 174
+  size: 34, 24
+  orig: 34, 24
+  offset: 0, 0
+  index: -1
+q_h1_feather7
+  rotate: false
+  xy: 407, 155
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+q_h1_head
+  rotate: false
+  xy: 360, 77
+  size: 77, 75
+  orig: 77, 75
+  offset: 0, 0
+  index: -1
+q_h1_nose
+  rotate: false
+  xy: 421, 207
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+q_h1_tongue
+  rotate: false
+  xy: 268, 2
+  size: 22, 16
+  orig: 22, 16
+  offset: 0, 0
+  index: -1
+q_h2_eye_behind
+  rotate: true
+  xy: 417, 24
+  size: 51, 31
+  orig: 51, 31
+  offset: 0, 0
+  index: -1
+q_h2_feather1
+  rotate: true
+  xy: 467, 210
+  size: 44, 27
+  orig: 44, 27
+  offset: 0, 0
+  index: -1
+q_h2_feather2
+  rotate: false
+  xy: 461, 174
+  size: 29, 31
+  orig: 29, 31
+  offset: 0, 0
+  index: -1
+q_h2_feather3
+  rotate: true
+  xy: 366, 2
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+q_h2_feather4
+  rotate: false
+  xy: 421, 174
+  size: 38, 31
+  orig: 38, 31
+  offset: 0, 0
+  index: -1
+q_h2_feather5
+  rotate: false
+  xy: 450, 34
+  size: 24, 43
+  orig: 24, 43
+  offset: 0, 0
+  index: -1
+q_h2_feather6
+  rotate: false
+  xy: 496, 220
+  size: 22, 34
+  orig: 22, 34
+  offset: 0, 0
+  index: -1
+q_h2_feather7
+  rotate: true
+  xy: 508, 89
+  size: 23, 22
+  orig: 23, 22
+  offset: 0, 0
+  index: -1
+q_h2_head
+  rotate: false
+  xy: 259, 76
+  size: 99, 73
+  orig: 99, 73
+  offset: 0, 0
+  index: -1
+q_h2_nose
+  rotate: false
+  xy: 366, 24
+  size: 49, 51
+  orig: 49, 51
+  offset: 0, 0
+  index: -1
+q_h2_togue
+  rotate: false
+  xy: 518, 192
+  size: 22, 26
+  orig: 22, 26
+  offset: 0, 0
+  index: -1
+q_tail
+  rotate: false
+  xy: 84, 8
+  size: 136, 59
+  orig: 136, 59
+  offset: 0, 0
+  index: -1

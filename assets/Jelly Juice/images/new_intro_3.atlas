@@ -1,0 +1,111 @@
+
+new_intro_3.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baker_baffo_dx
+  rotate: true
+  xy: 1908, 252
+  size: 112, 106
+  orig: 114, 108
+  offset: 1, 1
+  index: -1
+baker_baffo_sx
+  rotate: true
+  xy: 1908, 366
+  size: 126, 108
+  orig: 128, 110
+  offset: 1, 1
+  index: -1
+baker_bocca
+  rotate: true
+  xy: 1908, 86
+  size: 164, 89
+  orig: 166, 91
+  offset: 1, 1
+  index: -1
+baker_braccio_sx
+  rotate: true
+  xy: 975, 36
+  size: 163, 187
+  orig: 165, 189
+  offset: 1, 1
+  index: -1
+baker_corpo
+  rotate: true
+  xy: 2, 65
+  size: 734, 754
+  orig: 734, 754
+  offset: 0, 0
+  index: -1
+baker_giornale
+  rotate: false
+  xy: 758, 201
+  size: 911, 598
+  orig: 913, 600
+  offset: 1, 1
+  index: -1
+baker_giornale_lembo
+  rotate: false
+  xy: 1164, 49
+  size: 212, 150
+  orig: 212, 150
+  offset: 0, 0
+  index: -1
+baker_hat
+  rotate: true
+  xy: 1671, 494
+  size: 305, 300
+  orig: 307, 302
+  offset: 1, 1
+  index: -1
+baker_manica_sx
+  rotate: false
+  xy: 758, 2
+  size: 215, 197
+  orig: 217, 199
+  offset: 1, 1
+  index: -1
+baker_naso
+  rotate: false
+  xy: 1973, 706
+  size: 68, 93
+  orig: 70, 95
+  offset: 1, 1
+  index: -1
+baker_occhi_aperti
+  rotate: true
+  xy: 1973, 579
+  size: 125, 57
+  orig: 128, 59
+  offset: 2, 1
+  index: -1
+baker_occhi_chiusi
+  rotate: true
+  xy: 1999, 127
+  size: 123, 32
+  orig: 125, 34
+  offset: 1, 1
+  index: -1
+baker_sopracciglio_dx
+  rotate: false
+  xy: 1463, 116
+  size: 79, 83
+  orig: 81, 85
+  offset: 1, 1
+  index: -1
+baker_sopracciglio_sx
+  rotate: true
+  xy: 1378, 110
+  size: 89, 83
+  orig: 91, 85
+  offset: 1, 1
+  index: -1
+baker_viso
+  rotate: false
+  xy: 1671, 174
+  size: 235, 318
+  orig: 237, 320
+  offset: 1, 1
+  index: -1

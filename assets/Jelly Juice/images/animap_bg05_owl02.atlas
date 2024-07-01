@@ -1,0 +1,76 @@
+
+animap_bg05_owl02.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_5_(owl_02_beak)
+  rotate: true
+  xy: 116, 25
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_body)
+  rotate: false
+  xy: 2, 2
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_ear1)
+  rotate: true
+  xy: 106, 5
+  size: 12, 13
+  orig: 12, 13
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_ear2)
+  rotate: false
+  xy: 71, 4
+  size: 14, 11
+  orig: 14, 11
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_eyes)
+  rotate: false
+  xy: 56, 33
+  size: 42, 19
+  orig: 42, 19
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_foot1)
+  rotate: false
+  xy: 90, 5
+  size: 14, 12
+  orig: 14, 12
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_foot2)
+  rotate: false
+  xy: 56, 3
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_highlights)
+  rotate: true
+  xy: 116, 34
+  size: 18, 3
+  orig: 18, 3
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_wing1)
+  rotate: true
+  xy: 56, 17
+  size: 14, 32
+  orig: 14, 32
+  offset: 0, 0
+  index: -1
+animap_bg_5_(owl_02_wing2)
+  rotate: false
+  xy: 100, 19
+  size: 14, 33
+  orig: 14, 33
+  offset: 0, 0
+  index: -1

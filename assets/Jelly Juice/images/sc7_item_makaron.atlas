@@ -1,0 +1,41 @@
+
+sc7_item_makaron.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+light
+  rotate: false
+  xy: 111, 4
+  size: 55, 23
+  orig: 55, 23
+  offset: 0, 0
+  index: -1
+makaronflower1
+  rotate: true
+  xy: 106, 29
+  size: 31, 53
+  orig: 31, 53
+  offset: 0, 0
+  index: -1
+makaronflower2
+  rotate: false
+  xy: 2, 3
+  size: 38, 57
+  orig: 38, 57
+  offset: 0, 0
+  index: -1
+makaronflower3
+  rotate: true
+  xy: 42, 29
+  size: 31, 62
+  orig: 31, 62
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 42, 2
+  size: 67, 25
+  orig: 67, 25
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,27 @@
+
+sc8_item_butterfly.png
+size: 128,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ala-dx
+  rotate: false
+  xy: 2, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+ala-sx
+  rotate: false
+  xy: 29, 2
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 56, 9
+  size: 9, 20
+  orig: 9, 20
+  offset: 0, 0
+  index: -1

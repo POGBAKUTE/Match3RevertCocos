@@ -1,0 +1,76 @@
+
+sc3_item_fruits.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+banana
+  rotate: false
+  xy: 146, 2
+  size: 29, 20
+  orig: 29, 20
+  offset: 0, 0
+  index: -1
+banana copy 2
+  rotate: false
+  xy: 163, 69
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+cestino
+  rotate: true
+  xy: 72, 54
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+cloth
+  rotate: true
+  xy: 2, 19
+  size: 107, 68
+  orig: 107, 68
+  offset: 0, 0
+  index: -1
+fragola
+  rotate: false
+  xy: 175, 49
+  size: 17, 18
+  orig: 17, 18
+  offset: 0, 0
+  index: -1
+fragola copy
+  rotate: true
+  xy: 189, 106
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+fruit_hide
+  rotate: false
+  xy: 72, 11
+  size: 72, 41
+  orig: 72, 41
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 126, 58
+  size: 68, 35
+  orig: 68, 35
+  offset: 0, 0
+  index: -1
+uva
+  rotate: true
+  xy: 146, 24
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+uva copy 2
+  rotate: true
+  xy: 163, 97
+  size: 29, 24
+  orig: 29, 24
+  offset: 0, 0
+  index: -1

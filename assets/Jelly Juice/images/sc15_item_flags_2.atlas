@@ -1,0 +1,13 @@
+
+sc15_item_flags_2.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bandierine
+  rotate: false
+  xy: 2, 2
+  size: 226, 119
+  orig: 226, 119
+  offset: 0, 0
+  index: -1

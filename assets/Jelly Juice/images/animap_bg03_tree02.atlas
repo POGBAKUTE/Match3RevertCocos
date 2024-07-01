@@ -1,0 +1,34 @@
+
+animap_bg03_tree02.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_3_(tree_02)
+  rotate: true
+  xy: 25, 2
+  size: 28, 33
+  orig: 28, 33
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(tree_02_sh)
+  rotate: false
+  xy: 26, 32
+  size: 31, 14
+  orig: 31, 14
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(tree_03)
+  rotate: false
+  xy: 2, 12
+  size: 21, 23
+  orig: 21, 23
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(tree_03_sh)
+  rotate: false
+  xy: 2, 37
+  size: 22, 9
+  orig: 22, 9
+  offset: 0, 0
+  index: -1

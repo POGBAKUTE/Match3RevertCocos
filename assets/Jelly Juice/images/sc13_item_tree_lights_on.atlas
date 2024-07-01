@@ -1,0 +1,188 @@
+
+sc13_item_tree_lights_on.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 164, 2
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+10
+  rotate: false
+  xy: 180, 93
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+11
+  rotate: false
+  xy: 110, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+12
+  rotate: false
+  xy: 128, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+13
+  rotate: true
+  xy: 180, 75
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+14
+  rotate: false
+  xy: 146, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+15
+  rotate: false
+  xy: 180, 57
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+16
+  rotate: false
+  xy: 180, 39
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+17
+  rotate: false
+  xy: 182, 21
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+18
+  rotate: false
+  xy: 162, 110
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+18_2
+  rotate: false
+  xy: 162, 74
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+19
+  rotate: false
+  xy: 162, 92
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+20
+  rotate: false
+  xy: 198, 3
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+21
+  rotate: false
+  xy: 162, 56
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+22
+  rotate: false
+  xy: 197, 94
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+23
+  rotate: false
+  xy: 162, 38
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+24
+  rotate: false
+  xy: 164, 20
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 181, 2
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 180, 111
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 20, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 38, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+7
+  rotate: false
+  xy: 56, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+8
+  rotate: false
+  xy: 74, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+9
+  rotate: false
+  xy: 92, 6
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+sc13_item_tree_lights
+  rotate: true
+  xy: 2, 24
+  size: 102, 158
+  orig: 102, 158
+  offset: 0, 0
+  index: -1

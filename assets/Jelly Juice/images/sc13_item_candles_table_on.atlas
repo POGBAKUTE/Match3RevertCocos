@@ -1,0 +1,20 @@
+
+sc13_item_candles_table_on.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candele
+  rotate: false
+  xy: 2, 2
+  size: 62, 57
+  orig: 62, 57
+  offset: 0, 0
+  index: -1
+flame
+  rotate: false
+  xy: 66, 30
+  size: 20, 29
+  orig: 20, 29
+  offset: 0, 0
+  index: -1

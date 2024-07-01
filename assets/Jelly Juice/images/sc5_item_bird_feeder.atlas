@@ -1,0 +1,27 @@
+
+sc5_item_bird_feeder.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird
+  rotate: true
+  xy: 11, 82
+  size: 29, 45
+  orig: 29, 45
+  offset: 0, 0
+  index: -1
+legs
+  rotate: true
+  xy: 2, 106
+  size: 5, 7
+  orig: 5, 7
+  offset: 0, 0
+  index: -1
+mangiatoia
+  rotate: false
+  xy: 2, 2
+  size: 94, 78
+  orig: 94, 78
+  offset: 0, 0
+  index: -1

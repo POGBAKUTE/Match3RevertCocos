@@ -1,0 +1,55 @@
+
+stardust.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dust_cloud_1
+  rotate: false
+  xy: 149, 10
+  size: 89, 81
+  orig: 89, 81
+  offset: 0, 0
+  index: -1
+dust_cloud_2
+  rotate: true
+  xy: 149, 93
+  size: 127, 129
+  orig: 127, 129
+  offset: 0, 0
+  index: -1
+dust_trail
+  rotate: false
+  xy: 280, 102
+  size: 67, 118
+  orig: 67, 118
+  offset: 0, 0
+  index: -1
+logo_glow
+  rotate: false
+  xy: 280, 17
+  size: 83, 83
+  orig: 83, 83
+  offset: 0, 0
+  index: -1
+sacco
+  rotate: true
+  xy: 2, 83
+  size: 137, 145
+  orig: 137, 145
+  offset: 0, 0
+  index: -1
+sparkle_1
+  rotate: false
+  xy: 2, 2
+  size: 80, 79
+  orig: 80, 79
+  offset: 0, 0
+  index: -1
+sparkle_2
+  rotate: false
+  xy: 84, 21
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1

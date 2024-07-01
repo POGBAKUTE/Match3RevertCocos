@@ -1,0 +1,34 @@
+
+sleigh_animation.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+image
+  rotate: true
+  xy: 2, 2
+  size: 247, 221
+  orig: 247, 221
+  offset: 0, 0
+  index: -1
+star1
+  rotate: false
+  xy: 225, 149
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+star11
+  rotate: false
+  xy: 225, 216
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+star2
+  rotate: false
+  xy: 225, 182
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1

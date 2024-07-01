@@ -1,0 +1,314 @@
+
+magic_wand_plant.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PngItem_25182
+  rotate: false
+  xy: 671, 24
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 816, 129
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 896, 25
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+step_2
+  rotate: false
+  xy: 979, 24
+  size: 39, 30
+  orig: 39, 30
+  offset: 0, 0
+  index: -1
+step_3_bulbo
+  rotate: false
+  xy: 890, 190
+  size: 55, 64
+  orig: 55, 64
+  offset: 0, 0
+  index: -1
+step_4_bulbo
+  rotate: false
+  xy: 826, 49
+  size: 61, 78
+  orig: 61, 78
+  offset: 0, 0
+  index: -1
+step_4_gambo
+  rotate: false
+  xy: 861, 184
+  size: 27, 70
+  orig: 27, 70
+  offset: 0, 0
+  index: -1
+step_5_foglia_dx
+  rotate: false
+  xy: 392, 81
+  size: 30, 11
+  orig: 30, 11
+  offset: 0, 0
+  index: -1
+step_5_foglia_sx
+  rotate: false
+  xy: 485, 94
+  size: 24, 24
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+step_5_gambo
+  rotate: false
+  xy: 722, 152
+  size: 44, 102
+  orig: 44, 102
+  offset: 0, 0
+  index: -1
+step_5_petali_back
+  rotate: true
+  xy: 889, 77
+  size: 50, 49
+  orig: 50, 49
+  offset: 0, 0
+  index: -1
+step_5_petali_front
+  rotate: true
+  xy: 768, 156
+  size: 98, 91
+  orig: 98, 91
+  offset: 0, 0
+  index: -1
+step_6_bullbo
+  rotate: false
+  xy: 644, 150
+  size: 76, 104
+  orig: 76, 104
+  offset: 0, 0
+  index: -1
+step_6_foglia_down
+  rotate: false
+  xy: 644, 128
+  size: 64, 20
+  orig: 64, 20
+  offset: 0, 0
+  index: -1
+step_6_foglia_dx
+  rotate: true
+  xy: 946, 28
+  size: 50, 31
+  orig: 50, 31
+  offset: 0, 0
+  index: -1
+step_6_foglia_sx
+  rotate: true
+  xy: 848, 6
+  size: 41, 46
+  orig: 41, 46
+  offset: 0, 0
+  index: -1
+step_6_gambo
+  rotate: false
+  xy: 392, 94
+  size: 91, 160
+  orig: 91, 160
+  offset: 0, 0
+  index: -1
+step_6_petalo_back_1
+  rotate: false
+  xy: 354, 3
+  size: 31, 68
+  orig: 31, 68
+  offset: 0, 0
+  index: -1
+step_6_petalo_back_2
+  rotate: false
+  xy: 861, 129
+  size: 53, 53
+  orig: 53, 53
+  offset: 0, 0
+  index: -1
+step_6_petalo_front_1
+  rotate: true
+  xy: 254, 2
+  size: 69, 45
+  orig: 69, 45
+  offset: 0, 0
+  index: -1
+step_6_petalo_front_2
+  rotate: false
+  xy: 947, 172
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
+step_6_petalo_front_3
+  rotate: true
+  xy: 947, 222
+  size: 32, 64
+  orig: 32, 64
+  offset: 0, 0
+  index: -1
+step_6_petalo_front_4
+  rotate: false
+  xy: 387, 5
+  size: 37, 66
+  orig: 37, 66
+  offset: 0, 0
+  index: -1
+step_7_bocca
+  rotate: false
+  xy: 775, 3
+  size: 71, 27
+  orig: 71, 27
+  offset: 0, 0
+  index: -1
+step_7_bulbo
+  rotate: false
+  xy: 542, 125
+  size: 100, 129
+  orig: 100, 129
+  offset: 0, 0
+  index: -1
+step_7_foglia_down
+  rotate: true
+  xy: 426, 5
+  size: 87, 34
+  orig: 87, 34
+  offset: 0, 0
+  index: -1
+step_7_foglia_dx
+  rotate: true
+  xy: 301, 3
+  size: 68, 51
+  orig: 68, 51
+  offset: 0, 0
+  index: -1
+step_7_foglia_sx
+  rotate: false
+  xy: 85, 5
+  size: 74, 56
+  orig: 74, 56
+  offset: 0, 0
+  index: -1
+step_7_gambo
+  rotate: false
+  xy: 282, 73
+  size: 108, 181
+  orig: 108, 181
+  offset: 0, 0
+  index: -1
+step_7_petalo_back_1
+  rotate: true
+  xy: 916, 137
+  size: 51, 27
+  orig: 51, 27
+  offset: 0, 0
+  index: -1
+step_7_petalo_back_2
+  rotate: false
+  xy: 979, 95
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+step_7_petalo_back_3
+  rotate: false
+  xy: 979, 56
+  size: 40, 37
+  orig: 40, 37
+  offset: 0, 0
+  index: -1
+step_7_petalo_front_1
+  rotate: false
+  xy: 945, 132
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1
+step_7_petalo_front_2
+  rotate: true
+  xy: 940, 80
+  size: 50, 37
+  orig: 50, 37
+  offset: 0, 0
+  index: -1
+step_7_petalo_front_3
+  rotate: false
+  xy: 768, 129
+  size: 46, 25
+  orig: 46, 25
+  offset: 0, 0
+  index: -1
+step_8_bocca
+  rotate: true
+  xy: 511, 6
+  size: 112, 105
+  orig: 112, 105
+  offset: 0, 0
+  index: -1
+step_8_bulbo
+  rotate: false
+  xy: 2, 63
+  size: 154, 191
+  orig: 154, 191
+  offset: 0, 0
+  index: -1
+step_8_fogla_dx
+  rotate: false
+  xy: 2, 5
+  size: 81, 56
+  orig: 81, 56
+  offset: 0, 0
+  index: -1
+step_8_fogla_sx
+  rotate: false
+  xy: 161, 2
+  size: 91, 69
+  orig: 91, 69
+  offset: 0, 0
+  index: -1
+step_8_foglia_sotto
+  rotate: true
+  xy: 462, 8
+  size: 84, 47
+  orig: 84, 47
+  offset: 0, 0
+  index: -1
+step_8_gambo
+  rotate: false
+  xy: 158, 73
+  size: 122, 181
+  orig: 122, 181
+  offset: 0, 0
+  index: -1
+step_8_petali_davanti
+  rotate: true
+  xy: 618, 18
+  size: 105, 51
+  orig: 105, 51
+  offset: 0, 0
+  index: -1
+step_8_petali_dietro
+  rotate: true
+  xy: 485, 120
+  size: 134, 55
+  orig: 134, 55
+  offset: 0, 0
+  index: -1
+step_8_petali_dietro_dietro
+  rotate: true
+  xy: 775, 32
+  size: 95, 49
+  orig: 95, 49
+  offset: 0, 0
+  index: -1

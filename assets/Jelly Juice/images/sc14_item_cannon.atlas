@@ -1,0 +1,20 @@
+
+sc14_item_cannon.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 58
+  size: 107, 112
+  orig: 107, 112
+  offset: 0, 0
+  index: -1
+hole
+  rotate: true
+  xy: 2, 2
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1

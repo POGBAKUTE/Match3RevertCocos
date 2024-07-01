@@ -1,0 +1,69 @@
+
+animap_bg01_flower04.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_1_(fl_01_ptl_01)
+  rotate: true
+  xy: 91, 37
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_ptl_02)
+  rotate: false
+  xy: 85, 2
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_ptl_03)
+  rotate: false
+  xy: 2, 34
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_ptl_04)
+  rotate: false
+  xy: 47, 41
+  size: 42, 26
+  orig: 42, 26
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_ptl_05)
+  rotate: false
+  xy: 47, 12
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_ptl_06)
+  rotate: false
+  xy: 2, 5
+  size: 31, 27
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_stm_01)
+  rotate: false
+  xy: 35, 5
+  size: 7, 13
+  orig: 7, 13
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_stm_02)
+  rotate: false
+  xy: 120, 17
+  size: 5, 18
+  orig: 5, 18
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(fl_01_stm_03)
+  rotate: false
+  xy: 35, 20
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1

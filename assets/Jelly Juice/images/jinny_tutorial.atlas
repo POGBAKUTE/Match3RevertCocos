@@ -1,0 +1,237 @@
+
+jinny_tutorial.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bocca_chiusa
+  rotate: false
+  xy: 1, 1
+  size: 19, 6
+  orig: 19, 6
+  offset: 0, 0
+  index: -1
+bocca_happy
+  rotate: false
+  xy: 174, 3
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+bocca_paura
+  rotate: false
+  xy: 136, 3
+  size: 36, 27
+  orig: 36, 27
+  offset: 0, 0
+  index: -1
+bocca_sorriso
+  rotate: true
+  xy: 212, 3
+  size: 27, 8
+  orig: 27, 8
+  offset: 0, 0
+  index: -1
+bocca_stress
+  rotate: true
+  xy: 222, 4
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+braccio_dx
+  rotate: true
+  xy: 259, 247
+  size: 81, 99
+  orig: 81, 99
+  offset: 0, 0
+  index: -1
+braccio_dx2
+  rotate: false
+  xy: 360, 250
+  size: 68, 78
+  orig: 68, 78
+  offset: 0, 0
+  index: -1
+braccio_manica
+  rotate: false
+  xy: 501, 265
+  size: 51, 66
+  orig: 51, 66
+  offset: 0, 0
+  index: -1
+braccio_manica_2
+  rotate: false
+  xy: 484, 64
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: -1
+braccio_manica_3
+  rotate: true
+  xy: 611, 127
+  size: 58, 56
+  orig: 58, 56
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 606, 399
+  size: 109, 112
+  orig: 109, 112
+  offset: 0, 0
+  index: -1
+braccio_sx_2
+  rotate: true
+  xy: 662, 299
+  size: 98, 57
+  orig: 98, 57
+  offset: 0, 0
+  index: -1
+cerchio
+  rotate: false
+  xy: 1, 247
+  size: 256, 264
+  orig: 256, 264
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: true
+  xy: 611, 187
+  size: 98, 93
+  orig: 100, 94
+  offset: 1, 1
+  index: -1
+elmetto
+  rotate: true
+  xy: 1, 9
+  size: 236, 133
+  orig: 236, 133
+  offset: 0, 0
+  index: -1
+frangia
+  rotate: true
+  xy: 136, 32
+  size: 213, 166
+  orig: 213, 166
+  offset: 0, 0
+  index: -1
+mano
+  rotate: false
+  xy: 602, 287
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+mano_aperta
+  rotate: false
+  xy: 560, 349
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+mano_indice
+  rotate: false
+  xy: 554, 282
+  size: 46, 64
+  orig: 46, 64
+  offset: 0, 0
+  index: -1
+mano_matita
+  rotate: false
+  xy: 430, 256
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+mano_pugno
+  rotate: false
+  xy: 486, 16
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+occhi_aperti
+  rotate: false
+  xy: 368, 1
+  size: 116, 61
+  orig: 116, 61
+  offset: 0, 0
+  index: -1
+occhi_chiusi
+  rotate: true
+  xy: 536, 2
+  size: 117, 49
+  orig: 117, 49
+  offset: 0, 0
+  index: -1
+occhi_chiusi_relax
+  rotate: true
+  xy: 560, 391
+  size: 120, 44
+  orig: 120, 44
+  offset: 0, 0
+  index: -1
+occhi_decisi
+  rotate: true
+  xy: 587, 5
+  size: 114, 35
+  orig: 114, 35
+  offset: 0, 0
+  index: -1
+pupilla
+  rotate: false
+  xy: 247, 10
+  size: 19, 20
+  orig: 19, 20
+  offset: 0, 0
+  index: -1
+sopracciglia_decisa
+  rotate: false
+  xy: 268, 1
+  size: 98, 11
+  orig: 98, 13
+  offset: 0, 1
+  index: -1
+sopracciglia_relax
+  rotate: false
+  xy: 439, 333
+  size: 98, 13
+  orig: 98, 13
+  offset: 0, 0
+  index: -1
+sopracciglia_stress
+  rotate: false
+  xy: 268, 14
+  size: 90, 16
+  orig: 90, 16
+  offset: 0, 0
+  index: -1
+testa
+  rotate: false
+  xy: 259, 330
+  size: 178, 181
+  orig: 178, 181
+  offset: 0, 0
+  index: -1
+testa_paura
+  rotate: false
+  xy: 304, 64
+  size: 178, 181
+  orig: 178, 181
+  offset: 0, 0
+  index: -1
+traccia_dx
+  rotate: false
+  xy: 439, 348
+  size: 119, 163
+  orig: 119, 163
+  offset: 0, 0
+  index: -1
+traccia_sx
+  rotate: true
+  xy: 484, 121
+  size: 133, 125
+  orig: 133, 125
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,90 @@
+
+logo_anim.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+J_green
+  rotate: true
+  xy: 647, 2
+  size: 209, 366
+  orig: 209, 366
+  offset: 0, 0
+  index: -1
+J_orange
+  rotate: true
+  xy: 1015, 4
+  size: 207, 358
+  orig: 207, 358
+  offset: 0, 0
+  index: -1
+base_logo
+  rotate: true
+  xy: 615, 213
+  size: 802, 590
+  orig: 802, 591
+  offset: 0, 0
+  index: -1
+base_logo_shadow
+  rotate: true
+  xy: 2, 193
+  size: 822, 611
+  orig: 828, 617
+  offset: 3, 3
+  index: -1
+c_orange
+  rotate: false
+  xy: 1348, 421
+  size: 130, 156
+  orig: 130, 156
+  offset: 0, 0
+  index: -1
+e_green
+  rotate: false
+  xy: 1207, 417
+  size: 139, 160
+  orig: 139, 160
+  offset: 0, 0
+  index: -1
+e_orange
+  rotate: false
+  xy: 1207, 259
+  size: 137, 156
+  orig: 137, 156
+  offset: 0, 0
+  index: -1
+i_orange
+  rotate: false
+  xy: 1375, 111
+  size: 78, 154
+  orig: 78, 154
+  offset: 0, 0
+  index: -1
+l_1_green
+  rotate: true
+  xy: 2, 69
+  size: 122, 323
+  orig: 122, 323
+  offset: 0, 0
+  index: -1
+l_2_green
+  rotate: true
+  xy: 327, 68
+  size: 123, 318
+  orig: 123, 318
+  offset: 0, 0
+  index: -1
+u_orange
+  rotate: false
+  xy: 1346, 267
+  size: 138, 148
+  orig: 138, 148
+  offset: 0, 0
+  index: -1
+y_green
+  rotate: true
+  xy: 1207, 579
+  size: 436, 226
+  orig: 436, 226
+  offset: 0, 0
+  index: -1

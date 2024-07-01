@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "571d5fe2-a9f8-44f9-95d6-c567ae205635",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "571d5fe2-a9f8-44f9-95d6-c567ae205635@6c48a",
+      "displayName": "Magic_Garden",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "571d5fe2-a9f8-44f9-95d6-c567ae205635",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "571d5fe2-a9f8-44f9-95d6-c567ae205635@f9941",
+      "displayName": "Magic_Garden",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": -0.5,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 1864,
+        "height": 997,
+        "rawWidth": 1868,
+        "rawHeight": 1000,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -932,
+            -498.5,
+            0,
+            932,
+            -498.5,
+            0,
+            -932,
+            498.5,
+            0,
+            932,
+            498.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            998,
+            1866,
+            998,
+            2,
+            1,
+            1866,
+            1
+          ],
+          "nuv": [
+            0.0010706638115631692,
+            0.001,
+            0.9989293361884368,
+            0.001,
+            0.0010706638115631692,
+            0.998,
+            0.9989293361884368,
+            0.998
+          ],
+          "minPos": [
+            -932,
+            -498.5,
+            0
+          ],
+          "maxPos": [
+            932,
+            498.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "571d5fe2-a9f8-44f9-95d6-c567ae205635@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "571d5fe2-a9f8-44f9-95d6-c567ae205635@f9941"
+  }
+}

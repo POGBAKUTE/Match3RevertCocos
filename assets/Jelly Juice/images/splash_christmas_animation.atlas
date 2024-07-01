@@ -1,0 +1,314 @@
+
+splash_christmas_animation.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 2
+  size: 1144, 1024
+  orig: 1146, 1026
+  offset: 1, 1
+  index: -1
+bunny_baffo_dx
+  rotate: false
+  xy: 1761, 687
+  size: 24, 21
+  orig: 26, 23
+  offset: 1, 1
+  index: -1
+bunny_baffo_sx
+  rotate: false
+  xy: 1761, 710
+  size: 33, 18
+  orig: 35, 20
+  offset: 1, 1
+  index: -1
+bunny_barba
+  rotate: true
+  xy: 1934, 304
+  size: 58, 66
+  orig: 60, 68
+  offset: 1, 1
+  index: -1
+bunny_bocca
+  rotate: false
+  xy: 2035, 827
+  size: 10, 21
+  orig: 12, 23
+  offset: 1, 1
+  index: -1
+bunny_braccio_dx
+  rotate: true
+  xy: 2014, 850
+  size: 39, 32
+  orig: 41, 34
+  offset: 1, 1
+  index: -1
+bunny_braccio_sx
+  rotate: true
+  xy: 1761, 754
+  size: 50, 34
+  orig: 52, 36
+  offset: 1, 1
+  index: -1
+bunny_cappello
+  rotate: true
+  xy: 1227, 388
+  size: 117, 70
+  orig: 117, 70
+  offset: 0, 0
+  index: -1
+bunny_naso
+  rotate: true
+  xy: 2035, 813
+  size: 12, 10
+  orig: 14, 12
+  offset: 1, 1
+  index: -1
+bunny_occhi_aperti
+  rotate: true
+  xy: 2014, 738
+  size: 46, 23
+  orig: 46, 23
+  offset: 0, 0
+  index: -1
+bunny_testa
+  rotate: false
+  xy: 1299, 364
+  size: 83, 74
+  orig: 85, 76
+  offset: 1, 1
+  index: -1
+bunny_vestito
+  rotate: true
+  xy: 1705, 470
+  size: 105, 73
+  orig: 107, 75
+  offset: 1, 1
+  index: -1
+camino
+  rotate: false
+  xy: 1148, 739
+  size: 301, 287
+  orig: 303, 289
+  offset: 1, 1
+  index: -1
+candela_1
+  rotate: false
+  xy: 1990, 534
+  size: 49, 58
+  orig: 51, 60
+  offset: 1, 1
+  index: -1
+candela_2
+  rotate: true
+  xy: 1990, 423
+  size: 49, 55
+  orig: 51, 57
+  offset: 1, 1
+  index: -1
+candela_3
+  rotate: false
+  xy: 1990, 474
+  size: 48, 58
+  orig: 50, 60
+  offset: 1, 1
+  index: -1
+candela_4
+  rotate: true
+  xy: 1857, 326
+  size: 57, 75
+  orig: 59, 77
+  offset: 1, 1
+  index: -1
+candela_5
+  rotate: false
+  xy: 1990, 594
+  size: 55, 71
+  orig: 57, 73
+  offset: 1, 1
+  index: -1
+fuoco_1
+  rotate: true
+  xy: 1148, 623
+  size: 114, 162
+  orig: 116, 164
+  offset: 1, 1
+  index: -1
+fuoco_2
+  rotate: false
+  xy: 1312, 575
+  size: 114, 162
+  orig: 116, 164
+  offset: 1, 1
+  index: -1
+fuoco_3
+  rotate: true
+  xy: 1148, 507
+  size: 114, 156
+  orig: 116, 158
+  offset: 1, 1
+  index: -1
+fuoco_4
+  rotate: true
+  xy: 1428, 461
+  size: 114, 151
+  orig: 116, 153
+  offset: 1, 1
+  index: -1
+jinny_bocca chiusa
+  rotate: true
+  xy: 2037, 936
+  size: 18, 7
+  orig: 20, 9
+  offset: 1, 1
+  index: -1
+jinny_bocca_aperta
+  rotate: true
+  xy: 1990, 667
+  size: 24, 19
+  orig: 26, 21
+  offset: 1, 1
+  index: -1
+jinny_braccio_dx
+  rotate: false
+  xy: 1426, 391
+  size: 100, 68
+  orig: 100, 68
+  offset: 0, 0
+  index: -1
+jinny_braccio_sx
+  rotate: true
+  xy: 1148, 324
+  size: 181, 77
+  orig: 181, 77
+  offset: 0, 0
+  index: -1
+jinny_capelli_back
+  rotate: true
+  xy: 1227, 289
+  size: 97, 59
+  orig: 99, 61
+  offset: 1, 1
+  index: -1
+jinny_capelli_front
+  rotate: false
+  xy: 1581, 391
+  size: 107, 86
+  orig: 109, 88
+  offset: 1, 1
+  index: -1
+jinny_colletto_front
+  rotate: true
+  xy: 1990, 364
+  size: 57, 47
+  orig: 59, 49
+  offset: 1, 1
+  index: -1
+jinny_collo
+  rotate: true
+  xy: 1761, 730
+  size: 22, 34
+  orig: 24, 36
+  offset: 1, 1
+  index: -1
+jinny_naso
+  rotate: false
+  xy: 2037, 921
+  size: 7, 13
+  orig: 9, 15
+  offset: 1, 1
+  index: -1
+jinny_occhi_aperti
+  rotate: true
+  xy: 2014, 956
+  size: 70, 28
+  orig: 70, 28
+  offset: 0, 0
+  index: -1
+jinny_occhi_chiusi
+  rotate: true
+  xy: 2014, 891
+  size: 63, 21
+  orig: 65, 23
+  offset: 1, 1
+  index: -1
+jinny_pupille
+  rotate: true
+  xy: 2014, 690
+  size: 46, 20
+  orig: 46, 20
+  offset: 0, 0
+  index: -1
+jinny_sopracciglia
+  rotate: true
+  xy: 2014, 786
+  size: 62, 19
+  orig: 64, 21
+  offset: 1, 1
+  index: -1
+jinny_treccia_dx
+  rotate: true
+  xy: 1148, 246
+  size: 76, 77
+  orig: 76, 77
+  offset: 0, 0
+  index: -1
+jinny_treccia_sx
+  rotate: false
+  xy: 1787, 315
+  size: 68, 68
+  orig: 70, 70
+  offset: 1, 1
+  index: -1
+jinny_vestito
+  rotate: false
+  xy: 1306, 440
+  size: 118, 133
+  orig: 118, 133
+  offset: 0, 0
+  index: -1
+jinny_viso
+  rotate: false
+  xy: 1690, 374
+  size: 95, 94
+  orig: 97, 96
+  offset: 1, 1
+  index: -1
+luci_albero_1
+  rotate: false
+  xy: 1787, 385
+  size: 201, 306
+  orig: 203, 308
+  offset: 1, 1
+  index: -1
+luci_albero_2
+  rotate: false
+  xy: 1797, 693
+  size: 215, 333
+  orig: 217, 335
+  offset: 1, 1
+  index: -1
+luci_albero_3
+  rotate: true
+  xy: 1451, 577
+  size: 227, 308
+  orig: 229, 310
+  offset: 1, 1
+  index: -1
+luci_albero_4
+  rotate: true
+  xy: 1451, 806
+  size: 220, 344
+  orig: 222, 346
+  offset: 1, 1
+  index: -1
+scatola
+  rotate: false
+  xy: 1581, 479
+  size: 122, 96
+  orig: 122, 96
+  offset: 0, 0
+  index: -1

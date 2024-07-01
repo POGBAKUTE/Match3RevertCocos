@@ -1,0 +1,27 @@
+
+animap_bg04_mushroom01.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_4_(mush_01_cap)
+  rotate: true
+  xy: 101, 29
+  size: 43, 38
+  orig: 43, 38
+  offset: 0, 0
+  index: -1
+animap_bg_4_(mush_01_foot)
+  rotate: false
+  xy: 101, 2
+  size: 22, 25
+  orig: 22, 25
+  offset: 0, 0
+  index: -1
+animap_bg_4_(mush_02_sh)
+  rotate: false
+  xy: 2, 6
+  size: 97, 66
+  orig: 97, 66
+  offset: 0, 0
+  index: -1

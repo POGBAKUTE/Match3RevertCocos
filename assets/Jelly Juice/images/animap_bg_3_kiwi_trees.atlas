@@ -1,0 +1,27 @@
+
+animap_bg_3_kiwi_trees.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_3_(kiwitree_01)
+  rotate: true
+  xy: 104, 14
+  size: 61, 99
+  orig: 61, 99
+  offset: 0, 0
+  index: -1
+animap_bg_3_(kiwitree_01_over)
+  rotate: true
+  xy: 205, 30
+  size: 45, 41
+  orig: 45, 41
+  offset: 0, 0
+  index: -1
+animap_bg_3_(kiwitree_02)
+  rotate: true
+  xy: 2, 2
+  size: 73, 100
+  orig: 73, 100
+  offset: 0, 0
+  index: -1

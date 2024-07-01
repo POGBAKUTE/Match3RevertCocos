@@ -1,0 +1,69 @@
+
+sc16_item_bunny.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bunny_bocca
+  rotate: true
+  xy: 158, 20
+  size: 19, 18
+  orig: 21, 20
+  offset: 1, 1
+  index: -1
+bunny_braccio_sx
+  rotate: true
+  xy: 2, 2
+  size: 33, 27
+  orig: 35, 29
+  offset: 1, 1
+  index: -1
+bunny_corpo
+  rotate: true
+  xy: 85, 41
+  size: 85, 82
+  orig: 87, 84
+  offset: 1, 1
+  index: -1
+bunny_naso
+  rotate: true
+  xy: 91, 2
+  size: 14, 10
+  orig: 16, 12
+  offset: 1, 1
+  index: -1
+bunny_occhi
+  rotate: false
+  xy: 91, 18
+  size: 65, 21
+  orig: 67, 23
+  offset: 1, 1
+  index: -1
+bunny_orecchio_dx
+  rotate: true
+  xy: 31, 8
+  size: 27, 58
+  orig: 29, 60
+  offset: 1, 1
+  index: -1
+bunny_orecchio_sx
+  rotate: false
+  xy: 169, 78
+  size: 43, 48
+  orig: 45, 50
+  offset: 1, 1
+  index: -1
+bunny_testa
+  rotate: true
+  xy: 2, 37
+  size: 89, 81
+  orig: 91, 83
+  offset: 1, 1
+  index: -1
+occhi aperti
+  rotate: false
+  xy: 103, 4
+  size: 67, 12
+  orig: 69, 14
+  offset: 1, 1
+  index: -1

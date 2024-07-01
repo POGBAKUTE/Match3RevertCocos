@@ -1,0 +1,34 @@
+
+animap_bg00_flipflop.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_0_(flip_flop_01)
+  rotate: true
+  xy: 2, 5
+  size: 36, 35
+  orig: 36, 35
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(flip_flop_01_sh)
+  rotate: true
+  xy: 49, 31
+  size: 39, 35
+  orig: 39, 35
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(flip_flop_02)
+  rotate: false
+  xy: 39, 2
+  size: 42, 27
+  orig: 42, 27
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(flip_flop_02_sh)
+  rotate: false
+  xy: 2, 43
+  size: 45, 27
+  orig: 45, 27
+  offset: 0, 0
+  index: -1

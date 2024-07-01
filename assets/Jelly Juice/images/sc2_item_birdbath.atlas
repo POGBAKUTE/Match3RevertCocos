@@ -1,0 +1,195 @@
+
+sc2_item_birdbath.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fountain
+  rotate: false
+  xy: 2, 18
+  size: 81, 108
+  orig: 81, 108
+  offset: 0, 0
+  index: -1
+r_legs
+  rotate: false
+  xy: 94, 3
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1
+robin
+  rotate: true
+  xy: 216, 4
+  size: 30, 19
+  orig: 30, 19
+  offset: 0, 0
+  index: -1
+water_1
+  rotate: false
+  xy: 189, 82
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+water_10
+  rotate: false
+  xy: 273, 38
+  size: 18, 43
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+water_11
+  rotate: false
+  xy: 236, 82
+  size: 17, 44
+  orig: 17, 44
+  offset: 0, 0
+  index: -1
+water_12
+  rotate: false
+  xy: 188, 32
+  size: 20, 45
+  orig: 20, 45
+  offset: 0, 0
+  index: -1
+water_13
+  rotate: true
+  xy: 2, 2
+  size: 14, 44
+  orig: 14, 44
+  offset: 0, 0
+  index: -1
+water_14
+  rotate: true
+  xy: 124, 2
+  size: 15, 45
+  orig: 15, 45
+  offset: 0, 0
+  index: -1
+water_15
+  rotate: true
+  xy: 48, 3
+  size: 13, 44
+  orig: 13, 44
+  offset: 0, 0
+  index: -1
+water_16
+  rotate: false
+  xy: 293, 45
+  size: 16, 38
+  orig: 16, 38
+  offset: 0, 0
+  index: -1
+water_17
+  rotate: true
+  xy: 171, 3
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+water_18
+  rotate: true
+  xy: 279, 19
+  size: 17, 40
+  orig: 17, 40
+  offset: 0, 0
+  index: -1
+water_19
+  rotate: false
+  xy: 149, 21
+  size: 18, 47
+  orig: 18, 47
+  offset: 0, 0
+  index: -1
+water_2
+  rotate: false
+  xy: 124, 19
+  size: 23, 49
+  orig: 23, 49
+  offset: 0, 0
+  index: -1
+water_20
+  rotate: false
+  xy: 169, 30
+  size: 17, 47
+  orig: 17, 47
+  offset: 0, 0
+  index: -1
+water_21
+  rotate: false
+  xy: 169, 79
+  size: 18, 47
+  orig: 18, 47
+  offset: 0, 0
+  index: -1
+water_22
+  rotate: false
+  xy: 105, 18
+  size: 17, 46
+  orig: 17, 46
+  offset: 0, 0
+  index: -1
+water_23
+  rotate: false
+  xy: 85, 18
+  size: 18, 46
+  orig: 18, 46
+  offset: 0, 0
+  index: -1
+water_24
+  rotate: false
+  xy: 255, 83
+  size: 22, 43
+  orig: 22, 43
+  offset: 0, 0
+  index: -1
+water_3
+  rotate: true
+  xy: 237, 2
+  size: 33, 40
+  orig: 33, 40
+  offset: 0, 0
+  index: -1
+water_4
+  rotate: true
+  xy: 85, 66
+  size: 60, 37
+  orig: 60, 37
+  offset: 0, 0
+  index: -1
+water_5
+  rotate: true
+  xy: 124, 70
+  size: 56, 43
+  orig: 56, 43
+  offset: 0, 0
+  index: -1
+water_6
+  rotate: true
+  xy: 236, 37
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+water_7
+  rotate: false
+  xy: 279, 85
+  size: 21, 41
+  orig: 21, 41
+  offset: 0, 0
+  index: -1
+water_8
+  rotate: false
+  xy: 210, 36
+  size: 24, 44
+  orig: 24, 44
+  offset: 0, 0
+  index: -1
+water_9
+  rotate: false
+  xy: 215, 82
+  size: 19, 44
+  orig: 19, 44
+  offset: 0, 0
+  index: -1

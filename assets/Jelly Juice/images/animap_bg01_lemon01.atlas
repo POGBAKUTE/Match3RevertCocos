@@ -1,0 +1,48 @@
+
+animap_bg01_lemon01.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_1_(lemon_01)
+  rotate: false
+  xy: 2, 93
+  size: 189, 149
+  orig: 189, 149
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(lemon_01_over)
+  rotate: true
+  xy: 193, 92
+  size: 150, 41
+  orig: 150, 41
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(lemon_01_wave_01)
+  rotate: false
+  xy: 116, 47
+  size: 73, 44
+  orig: 73, 44
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(lemon_01_wave_02)
+  rotate: true
+  xy: 2, 2
+  size: 89, 55
+  orig: 89, 55
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(lemon_01_wave_03)
+  rotate: true
+  xy: 191, 17
+  size: 73, 44
+  orig: 73, 44
+  offset: 0, 0
+  index: -1
+png/animap_bg_1_(lemon_01_wave_04)
+  rotate: true
+  xy: 59, 2
+  size: 89, 55
+  orig: 89, 55
+  offset: 0, 0
+  index: -1

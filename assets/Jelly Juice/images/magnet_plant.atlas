@@ -1,0 +1,230 @@
+
+magnet_plant.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PngItem_25182
+  rotate: false
+  xy: 2, 2
+  size: 102, 94
+  orig: 102, 102
+  offset: 0, 4
+  index: -1
+dot
+  rotate: false
+  xy: 211, 310
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 544, 200
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+step_2
+  rotate: false
+  xy: 167, 299
+  size: 42, 25
+  orig: 42, 25
+  offset: 0, 0
+  index: -1
+step_3
+  rotate: false
+  xy: 503, 323
+  size: 62, 50
+  orig: 62, 50
+  offset: 0, 0
+  index: -1
+step_4
+  rotate: false
+  xy: 106, 2
+  size: 67, 94
+  orig: 67, 94
+  offset: 0, 0
+  index: -1
+step_5_bulbo
+  rotate: false
+  xy: 353, 375
+  size: 89, 134
+  orig: 89, 134
+  offset: 0, 0
+  index: -1
+step_5_bulbo_interno
+  rotate: true
+  xy: 550, 277
+  size: 44, 40
+  orig: 44, 40
+  offset: 0, 0
+  index: -1
+step_6_bulbo
+  rotate: true
+  xy: 477, 107
+  size: 78, 76
+  orig: 78, 76
+  offset: 0, 0
+  index: -1
+step_6_bulbo_esterno
+  rotate: false
+  xy: 477, 32
+  size: 61, 73
+  orig: 61, 73
+  offset: 0, 0
+  index: -1
+step_6_foglie
+  rotate: true
+  xy: 283, 177
+  size: 137, 130
+  orig: 137, 130
+  offset: 0, 0
+  index: -1
+step_6_foglie_dietro
+  rotate: true
+  xy: 267, 356
+  size: 153, 84
+  orig: 153, 84
+  offset: 0, 0
+  index: -1
+step_6_gambo
+  rotate: true
+  xy: 353, 318
+  size: 55, 83
+  orig: 55, 83
+  offset: 0, 0
+  index: -1
+step_7_bulbo
+  rotate: true
+  xy: 258, 2
+  size: 134, 118
+  orig: 134, 118
+  offset: 0, 0
+  index: -1
+step_7_foglie
+  rotate: true
+  xy: 378, 41
+  size: 134, 97
+  orig: 134, 97
+  offset: 0, 0
+  index: -1
+step_7_foglie_dietro
+  rotate: true
+  xy: 118, 326
+  size: 183, 73
+  orig: 183, 73
+  offset: 0, 0
+  index: -1
+step_7_foglioline
+  rotate: false
+  xy: 175, 2
+  size: 81, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: -1
+step_7_gambo
+  rotate: false
+  xy: 415, 187
+  size: 65, 129
+  orig: 65, 129
+  offset: 0, 0
+  index: -1
+step_8_bulbo_1
+  rotate: false
+  xy: 2, 98
+  size: 123, 190
+  orig: 123, 190
+  offset: 0, 0
+  index: -1
+step_8_bulbo_2
+  rotate: false
+  xy: 193, 337
+  size: 72, 172
+  orig: 72, 172
+  offset: 0, 0
+  index: -1
+step_8_bulbo_3
+  rotate: false
+  xy: 127, 118
+  size: 87, 176
+  orig: 87, 176
+  offset: 0, 0
+  index: -1
+step_8_bulbo_4
+  rotate: true
+  xy: 438, 323
+  size: 50, 63
+  orig: 50, 63
+  offset: 0, 0
+  index: -1
+step_8_foglia_1
+  rotate: true
+  xy: 482, 252
+  size: 69, 66
+  orig: 69, 66
+  offset: 0, 0
+  index: -1
+step_8_foglia_2
+  rotate: true
+  xy: 444, 424
+  size: 85, 64
+  orig: 85, 64
+  offset: 0, 0
+  index: -1
+step_8_foglia_3
+  rotate: true
+  xy: 482, 188
+  size: 62, 60
+  orig: 62, 60
+  offset: 0, 0
+  index: -1
+step_8_foglia_4
+  rotate: true
+  xy: 540, 34
+  size: 71, 69
+  orig: 71, 69
+  offset: 0, 0
+  index: -1
+step_8_foglie_base
+  rotate: true
+  xy: 2, 290
+  size: 219, 114
+  orig: 219, 114
+  offset: 0, 0
+  index: -1
+step_8_gambo
+  rotate: false
+  xy: 216, 138
+  size: 65, 170
+  orig: 65, 170
+  offset: 0, 0
+  index: -1
+step_8_petalo_1
+  rotate: false
+  xy: 507, 376
+  size: 60, 46
+  orig: 60, 46
+  offset: 0, 0
+  index: -1
+step_8_petalo_2
+  rotate: false
+  xy: 444, 375
+  size: 61, 47
+  orig: 61, 47
+  offset: 0, 0
+  index: -1
+step_8_petalo_3
+  rotate: false
+  xy: 238, 316
+  size: 48, 19
+  orig: 48, 19
+  offset: 0, 0
+  index: -1
+step_8_petalo_4
+  rotate: false
+  xy: 118, 296
+  size: 47, 28
+  orig: 47, 28
+  offset: 0, 0
+  index: -1

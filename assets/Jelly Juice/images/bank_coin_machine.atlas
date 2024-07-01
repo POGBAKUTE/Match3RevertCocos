@@ -1,0 +1,125 @@
+
+bank_coin_machine.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hole_1
+  rotate: true
+  xy: 587, 128
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_10
+  rotate: true
+  xy: 106, 9
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_2
+  rotate: true
+  xy: 587, 24
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_3
+  rotate: false
+  xy: 683, 10
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_4
+  rotate: false
+  xy: 787, 10
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_5
+  rotate: true
+  xy: 891, 2
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_6
+  rotate: false
+  xy: 2, 113
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_7
+  rotate: false
+  xy: 106, 113
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_8
+  rotate: true
+  xy: 210, 105
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+hole_9
+  rotate: false
+  xy: 2, 17
+  size: 102, 94
+  orig: 102, 94
+  offset: 0, 0
+  index: -1
+machine
+  rotate: false
+  xy: 742, 106
+  size: 236, 365
+  orig: 236, 365
+  offset: 0, 0
+  index: -1
+manopola
+  rotate: true
+  xy: 683, 187
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+ombra1
+  rotate: true
+  xy: 548, 25
+  size: 205, 37
+  orig: 205, 37
+  offset: 0, 0
+  index: -1
+ombra2
+  rotate: true
+  xy: 372, 232
+  size: 239, 368
+  orig: 239, 368
+  offset: 0, 0
+  index: -1
+rays
+  rotate: false
+  xy: 372, 62
+  size: 174, 168
+  orig: 174, 168
+  offset: 0, 0
+  index: -1
+shine
+  rotate: true
+  xy: 202, 29
+  size: 74, 93
+  orig: 74, 93
+  offset: 0, 0
+  index: -1
+total
+  rotate: true
+  xy: 2, 209
+  size: 262, 368
+  orig: 262, 368
+  offset: 0, 0
+  index: -1

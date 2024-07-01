@@ -1,0 +1,55 @@
+
+candle.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dinamite
+  rotate: false
+  xy: 1, 30
+  size: 71, 75
+  orig: 102, 102
+  offset: 17, 15
+  index: -1
+flame_1
+  rotate: false
+  xy: 40, 13
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+flame_2
+  rotate: false
+  xy: 1, 11
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+flame_3
+  rotate: false
+  xy: 20, 13
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+flame_4
+  rotate: false
+  xy: 58, 14
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+flame_base
+  rotate: false
+  xy: 58, 1
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: true
+  xy: 20, 4
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1

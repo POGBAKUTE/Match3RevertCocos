@@ -1,0 +1,27 @@
+
+sc11_item_barbecue.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barbecue
+  rotate: true
+  xy: 2, 2
+  size: 42, 72
+  orig: 42, 72
+  offset: 0, 0
+  index: -1
+fumo1
+  rotate: false
+  xy: 76, 26
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+fumo2
+  rotate: false
+  xy: 76, 6
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1

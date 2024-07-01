@@ -1,0 +1,94 @@
+{
+    "titleBg": {
+        "position": {
+            "x":0,
+            "y": 105
+        }
+    },
+    "titleLabel": {
+        "position": {
+            "x":0,
+            "y": 110
+        }
+    },
+    "appleConnectLabel": {
+        "position": {
+            "x":0,
+            "y": 74
+        },
+        "scale": 0.5
+    },
+    "btnAppleLogin": {
+        "position": {
+            "x":0,
+            "y": 34
+        },
+        "scale": 0.85
+    },
+    "orLabel": {
+        "position": {
+            "x":0,
+            "y": 4.5
+        }
+    },
+    "facebookConnectLabel": {
+        "position": {
+            "x":0,
+            "y": -18
+        },
+        "scale": 0.5
+    },
+    "shareLivesLabel": {
+        "position": {
+            "x":0,
+            "y": -48
+        },
+        "local_z_order": 2
+    },
+    "fbShareLives": {
+        "local_z_order": 2
+    },
+    "leaderboardLabel": {
+        "position": {
+            "x":0,
+            "y": -63
+        },
+        "local_z_order": 2
+    },
+    "fbLeaderboard": {
+        "local_z_order": 2
+    },
+    "moreDevicesLabel": {
+        "position": {
+            "x":0,
+            "y": -78
+        },
+        "local_z_order": 2
+    },
+    "fbMoreDevice": {
+        "local_z_order": 2
+    },
+    "btnFbLogin": {
+        "position": {
+            "x":0,
+            "y": -110
+        },
+        "scale": 0.85,
+        "local_z_order": 2
+    },
+    "noPublishLabel": {
+        "position": {
+            "x":0,
+            "y": -136
+        },
+        "scale": 0.3,
+        "local_z_order": 2
+    },
+    "fbLabelContainer": {
+        "position": {
+            "x":0,
+            "y": -87
+        },
+        "local_z_order": 1
+    }
+}

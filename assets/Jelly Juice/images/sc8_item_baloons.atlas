@@ -1,0 +1,34 @@
+
+sc8_item_baloons.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+green
+  rotate: true
+  xy: 71, 27
+  size: 22, 77
+  orig: 22, 77
+  offset: 0, 0
+  index: -1
+pink
+  rotate: true
+  xy: 71, 2
+  size: 23, 64
+  orig: 23, 64
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 5
+  size: 67, 44
+  orig: 67, 44
+  offset: 0, 0
+  index: -1
+yellow
+  rotate: true
+  xy: 150, 24
+  size: 25, 64
+  orig: 25, 64
+  offset: 0, 0
+  index: -1

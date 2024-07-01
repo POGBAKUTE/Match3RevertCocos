@@ -1,0 +1,48 @@
+
+sc3_item_toaster.png
+size: 128,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 70, 24
+  size: 33, 5
+  orig: 33, 5
+  offset: 0, 0
+  index: -1
+bread1
+  rotate: true
+  xy: 53, 13
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+bread2
+  rotate: true
+  xy: 53, 13
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+button
+  rotate: true
+  xy: 70, 15
+  size: 7, 5
+  orig: 7, 5
+  offset: 0, 0
+  index: -1
+front
+  rotate: false
+  xy: 2, 2
+  size: 49, 27
+  orig: 49, 27
+  offset: 0, 0
+  index: -1
+middle
+  rotate: false
+  xy: 53, 6
+  size: 36, 5
+  orig: 36, 5
+  offset: 0, 0
+  index: -1

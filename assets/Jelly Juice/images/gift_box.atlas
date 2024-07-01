@@ -1,0 +1,139 @@
+
+gift_box.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+coperchio
+  rotate: true
+  xy: 286, 336
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_blu
+  rotate: true
+  xy: 410, 336
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_rosa
+  rotate: true
+  xy: 398, 63
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+coperchio_rosso
+  rotate: true
+  xy: 534, 336
+  size: 172, 122
+  orig: 172, 122
+  offset: 0, 0
+  index: -1
+fiocco_01
+  rotate: false
+  xy: 286, 237
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_02
+  rotate: false
+  xy: 413, 237
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_03
+  rotate: false
+  xy: 540, 237
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+fiocco_04
+  rotate: false
+  xy: 667, 246
+  size: 124, 94
+  orig: 124, 94
+  offset: 0, 0
+  index: -1
+luce
+  rotate: true
+  xy: 2, 2
+  size: 222, 162
+  orig: 222, 162
+  offset: 0, 0
+  index: -1
+nastro
+  rotate: false
+  xy: 844, 193
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_blu
+  rotate: false
+  xy: 844, 44
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_giallo
+  rotate: false
+  xy: 969, 193
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+nastro_verde
+  rotate: false
+  xy: 980, 361
+  size: 123, 147
+  orig: 123, 147
+  offset: 0, 0
+  index: -1
+raggi
+  rotate: false
+  xy: 2, 226
+  size: 282, 282
+  orig: 282, 282
+  offset: 0, 0
+  index: -1
+scatola
+  rotate: false
+  xy: 522, 69
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_blu
+  rotate: false
+  xy: 658, 342
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_rosa
+  rotate: false
+  xy: 683, 78
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+scatola_rosso
+  rotate: false
+  xy: 819, 342
+  size: 159, 166
+  orig: 159, 166
+  offset: 0, 0
+  index: -1
+stelline
+  rotate: false
+  xy: 166, 14
+  size: 230, 210
+  orig: 230, 210
+  offset: 0, 0
+  index: -1

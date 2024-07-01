@@ -1,0 +1,174 @@
+
+new_intro_b_2.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+jinny_avambraccio_sx
+  rotate: false
+  xy: 1331, 373
+  size: 102, 211
+  orig: 104, 213
+  offset: 1, 1
+  index: -1
+jinny_bocca
+  rotate: false
+  xy: 284, 7
+  size: 36, 13
+  orig: 38, 15
+  offset: 1, 1
+  index: -1
+jinny_braccio_dx
+  rotate: false
+  xy: 1304, 586
+  size: 186, 123
+  orig: 186, 123
+  offset: 0, 0
+  index: -1
+jinny_braccio_sx
+  rotate: true
+  xy: 1548, 906
+  size: 113, 100
+  orig: 115, 102
+  offset: 1, 1
+  index: -1
+jinny_capelli
+  rotate: false
+  xy: 252, 22
+  size: 249, 209
+  orig: 251, 211
+  offset: 1, 1
+  index: -1
+jinny_capelli_dietro
+  rotate: true
+  xy: 1020, 538
+  size: 232, 107
+  orig: 234, 109
+  offset: 1, 1
+  index: -1
+jinny_ciuffi_fronte
+  rotate: true
+  xy: 1435, 380
+  size: 204, 87
+  orig: 204, 87
+  offset: 0, 0
+  index: -1
+jinny_gamba_dx
+  rotate: false
+  xy: 2, 2
+  size: 248, 229
+  orig: 248, 229
+  offset: 0, 0
+  index: -1
+jinny_gamba_sx
+  rotate: false
+  xy: 1492, 610
+  size: 128, 99
+  orig: 130, 101
+  offset: 1, 1
+  index: -1
+jinny_laccio_fionda
+  rotate: true
+  xy: 1548, 809
+  size: 95, 93
+  orig: 97, 95
+  offset: 1, 1
+  index: -1
+jinny_naso
+  rotate: true
+  xy: 252, 4
+  size: 16, 30
+  orig: 20, 35
+  offset: 3, 2
+  index: -1
+jinny_occhi
+  rotate: false
+  xy: 769, 286
+  size: 138, 63
+  orig: 140, 65
+  offset: 1, 1
+  index: -1
+jinny_ombra
+  rotate: true
+  xy: 1020, 772
+  size: 247, 113
+  orig: 267, 135
+  offset: 9, 14
+  index: -1
+jinny_rossi
+  rotate: false
+  xy: 398, 258
+  size: 149, 26
+  orig: 151, 28
+  offset: 1, 1
+  index: -1
+jinny_treccia_dx
+  rotate: false
+  xy: 1129, 540
+  size: 173, 169
+  orig: 173, 169
+  offset: 0, 0
+  index: -1
+jinny_treccia_sx
+  rotate: false
+  xy: 1349, 227
+  size: 132, 144
+  orig: 134, 146
+  offset: 1, 1
+  index: -1
+jinny_vestito
+  rotate: true
+  xy: 769, 351
+  size: 199, 217
+  orig: 201, 219
+  offset: 1, 1
+  index: -1
+jinny_viso
+  rotate: true
+  xy: 1155, 86
+  size: 199, 192
+  orig: 201, 194
+  offset: 1, 1
+  index: -1
+nuvola_1
+  rotate: false
+  xy: 988, 287
+  size: 341, 249
+  orig: 343, 251
+  offset: 1, 1
+  index: -1
+nuvola_2
+  rotate: true
+  xy: 2, 233
+  size: 786, 394
+  orig: 788, 396
+  offset: 1, 1
+  index: -1
+nuvola_3
+  rotate: true
+  xy: 398, 286
+  size: 733, 369
+  orig: 735, 371
+  offset: 1, 1
+  index: -1
+nuvola_4
+  rotate: false
+  xy: 549, 7
+  size: 604, 277
+  orig: 606, 279
+  offset: 1, 1
+  index: -1
+nuvola_5
+  rotate: true
+  xy: 769, 552
+  size: 467, 249
+  orig: 469, 251
+  offset: 1, 1
+  index: -1
+nuvola_6
+  rotate: false
+  xy: 1155, 711
+  size: 391, 308
+  orig: 393, 310
+  offset: 1, 1
+  index: -1

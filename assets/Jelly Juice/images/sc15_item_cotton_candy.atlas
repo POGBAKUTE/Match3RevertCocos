@@ -1,0 +1,27 @@
+
+sc15_item_cotton_candy.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+carretto
+  rotate: false
+  xy: 2, 2
+  size: 168, 135
+  orig: 168, 135
+  offset: 0, 0
+  index: -1
+contenitore
+  rotate: true
+  xy: 172, 40
+  size: 51, 33
+  orig: 51, 33
+  offset: 0, 0
+  index: -1
+zucchero_filato
+  rotate: false
+  xy: 172, 93
+  size: 34, 44
+  orig: 34, 44
+  offset: 0, 0
+  index: -1

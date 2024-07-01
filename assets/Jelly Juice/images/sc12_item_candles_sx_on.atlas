@@ -1,0 +1,27 @@
+
+sc12_item_candles_sx_on.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candele
+  rotate: true
+  xy: 2, 8
+  size: 143, 279
+  orig: 143, 279
+  offset: 0, 0
+  index: -1
+fire1
+  rotate: true
+  xy: 283, 2
+  size: 52, 88
+  orig: 52, 88
+  offset: 0, 0
+  index: -1
+fire2
+  rotate: false
+  xy: 283, 56
+  size: 57, 95
+  orig: 57, 95
+  offset: 0, 0
+  index: -1

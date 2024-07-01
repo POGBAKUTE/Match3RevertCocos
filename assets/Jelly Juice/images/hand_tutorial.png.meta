@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b@6c48a",
+      "displayName": "hand_tutorial",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b@f9941",
+      "displayName": "hand_tutorial",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -51,
+        "offsetY": 13.5,
+        "trimX": 2,
+        "trimY": 3,
+        "width": 150,
+        "height": 223,
+        "rawWidth": 256,
+        "rawHeight": 256,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -75,
+            -111.5,
+            0,
+            75,
+            -111.5,
+            0,
+            -75,
+            111.5,
+            0,
+            75,
+            111.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            2,
+            253,
+            152,
+            253,
+            2,
+            30,
+            152,
+            30
+          ],
+          "nuv": [
+            0.0078125,
+            0.1171875,
+            0.59375,
+            0.1171875,
+            0.0078125,
+            0.98828125,
+            0.59375,
+            0.98828125
+          ],
+          "minPos": [
+            -75,
+            -111.5,
+            0
+          ],
+          "maxPos": [
+            75,
+            111.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "b3d04784-7cd0-44c0-90c6-2bb9c962cb9b@f9941"
+  }
+}

@@ -1,0 +1,48 @@
+
+animap_bg00_flower01.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_0_(fl_00_over)
+  rotate: false
+  xy: 2, 7
+  size: 77, 54
+  orig: 77, 54
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(fl_00_ptls_01)
+  rotate: false
+  xy: 2, 63
+  size: 78, 63
+  orig: 78, 63
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(fl_00_ptls_02)
+  rotate: true
+  xy: 81, 13
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(fl_00_stm_01)
+  rotate: true
+  xy: 96, 6
+  size: 5, 13
+  orig: 5, 13
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(fl_00_stm_02)
+  rotate: true
+  xy: 82, 114
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(fl_00_stm_03)
+  rotate: false
+  xy: 81, 2
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1

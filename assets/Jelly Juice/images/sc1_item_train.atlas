@@ -1,0 +1,20 @@
+
+sc1_item_train.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cloud
+  rotate: true
+  xy: 175, 22
+  size: 48, 35
+  orig: 48, 35
+  offset: 0, 0
+  index: -1
+sc1_item_train
+  rotate: false
+  xy: 2, 2
+  size: 171, 68
+  orig: 171, 68
+  offset: 0, 0
+  index: -1

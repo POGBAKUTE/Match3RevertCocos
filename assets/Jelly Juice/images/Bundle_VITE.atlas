@@ -1,0 +1,139 @@
+
+Bundle_VITE.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-80%
+  rotate: false
+  xy: 520, 52
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+OM
+  rotate: false
+  xy: 287, 140
+  size: 243, 62
+  orig: 243, 62
+  offset: 0, 0
+  index: -1
+cartellino
+  rotate: true
+  xy: 442, 25
+  size: 113, 76
+  orig: 113, 76
+  offset: 0, 0
+  index: -1
+cestino
+  rotate: true
+  xy: 471, 283
+  size: 286, 173
+  orig: 286, 173
+  offset: 0, 0
+  index: -1
+cuore
+  rotate: true
+  xy: 646, 408
+  size: 208, 180
+  orig: 208, 180
+  offset: 0, 0
+  index: -1
+cuore copy 10
+  rotate: true
+  xy: 437, 631
+  size: 83, 60
+  orig: 83, 60
+  offset: 0, 0
+  index: -1
+cuore copy 11
+  rotate: false
+  xy: 109, 3
+  size: 84, 43
+  orig: 84, 43
+  offset: 0, 0
+  index: -1
+cuore copy 2
+  rotate: true
+  xy: 608, 75
+  size: 206, 189
+  orig: 206, 189
+  offset: 0, 0
+  index: -1
+cuore copy 4
+  rotate: true
+  xy: 628, 618
+  size: 204, 188
+  orig: 204, 188
+  offset: 0, 0
+  index: -1
+cuore copy 6
+  rotate: false
+  xy: 437, 571
+  size: 82, 58
+  orig: 82, 58
+  offset: 0, 0
+  index: -1
+effetto cuore copy 2
+  rotate: false
+  xy: 628, 824
+  size: 206, 189
+  orig: 206, 189
+  offset: 0, 0
+  index: -1
+fascio_cuore
+  rotate: false
+  xy: 333, 8
+  size: 107, 130
+  orig: 107, 130
+  offset: 0, 0
+  index: -1
+luce_1
+  rotate: false
+  xy: 2, 554
+  size: 433, 459
+  orig: 433, 459
+  offset: 0, 0
+  index: -1
+luce_2
+  rotate: true
+  xy: 437, 716
+  size: 297, 189
+  orig: 297, 189
+  offset: 0, 0
+  index: -1
+raggi_1
+  rotate: true
+  xy: 2, 130
+  size: 422, 283
+  orig: 422, 283
+  offset: 0, 0
+  index: -1
+raggi_2
+  rotate: true
+  xy: 287, 204
+  size: 348, 182
+  orig: 348, 182
+  offset: 0, 0
+  index: -1
+special_offer
+  rotate: false
+  xy: 2, 48
+  size: 329, 80
+  orig: 329, 80
+  offset: 0, 0
+  index: -1
+timer
+  rotate: false
+  xy: 2, 2
+  size: 105, 44
+  orig: 105, 44
+  offset: 0, 0
+  index: -1
+x6h
+  rotate: false
+  xy: 195, 7
+  size: 78, 39
+  orig: 78, 39
+  offset: 0, 0
+  index: -1

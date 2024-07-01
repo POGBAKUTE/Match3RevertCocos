@@ -1,0 +1,426 @@
+{
+    "portrait": {
+        "hudDecorationLandscape": {
+            "visible": false
+        },
+        "frisbeeBackLandscape": {
+            "visible": false
+        },
+
+
+        "hudNodeRing": {
+            "visible": true,
+            "_position_wp": {
+                "x": 0.5
+            },
+            "position":{
+                "y": -38.5
+            }
+        },
+        "frisbeeBack": {
+            "visible": true,
+            "anchor": {
+                "x":0.5,
+                "y":0.5
+            },
+            "_position_wp": {
+                "x": 0.5
+            },
+            "position": {
+                "y": -31.5
+            }
+        },
+        "frisbeeBackDecoration": {
+            "content_size_wp": {
+                "w": 1.0
+            },
+            "position_wp": {
+                "x":0.5
+            },
+            "position": {
+                "y": -2.2
+            }
+        },
+
+        "circleDecoLeft_hard": {
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "position": {
+                "x": -35,
+                "y": -22
+            }
+        },
+
+        "circleDecoRight_hard": {
+            "position": {
+                "x": 35,
+                "y": -22
+            }
+        },
+
+        "circleDecoLeft_superhard": {
+            "rotation": 0,
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "position": {
+                "x": -43,
+                "y": -22
+            }
+        },
+
+        "circleDecoRight_superhard": {
+            "rotation": 0,
+            "scale": 1,
+            "position": {
+                "x": 43,
+                "y": -22
+            }
+        },
+
+        "backgroundPortraitExtension":{
+            "visible": true
+        },
+        
+        "vipLandscapeDecoTop": {
+            "visible": false
+        },
+
+        "vipLandscapeDecoBottom": {
+            "visible": false
+        },
+        
+        "scoreLabel": {
+            "position": {
+                "y": -11
+            },
+            "position_wp": {
+                "x": 0.82
+            }
+        },
+        "actualScoreLabel": {
+            "position_wp": {
+                "x": 0.82
+            },
+            "position": {
+                "y": -33
+            }
+        },    
+        "arcScoreP": {
+            "position_wp": {
+                "x": 0.82
+            },
+            "position": {
+                "y": -44
+            }
+        },
+
+        "objectiveLabel": {
+            "position": {
+                "y": -11
+            },
+            "position_wp": {
+                "x": 0.18
+            }
+        },
+
+        "ArcP": {
+            "position_wp": {
+                "x": 0.18
+            },
+            "position": {
+                "y": -44
+            }
+        },
+
+        "_smallArc": {
+            "position": {
+                "y": -48
+            },
+            "scale": 1.15
+        },
+
+        "icon_mini": {
+            "position": {
+                "y": -25
+            }
+        },
+
+        "goalLabel_mini": {
+            "position": {
+                "y": -44
+            }
+        },
+
+        "icon": {
+            "position": {
+                "_x": 32,
+                "y": -30
+            },
+            "position_wp": {
+                "x": 0.1
+            }
+        },
+
+        "tick": {
+            "position_wp": {
+                "x": 0.205
+            },
+            "position": {
+                "y": -33
+            }
+        },
+        "goalLabel": {
+            "position_wp": {
+                "x": 0.215
+            },
+            "position": {
+                "y": -33
+            },
+            "max_line_width": 32
+        },
+
+        "bar": {
+            "position": {
+                "y": -14
+            }
+        },
+        "emptyBar": {
+            "position": {
+                "y": -14
+            }
+        },
+        "star1":{
+            "position": {
+                "x": -29,
+                "y": -8
+            }
+        },
+        "star2":{
+            "position": {
+                "y": -29.5
+            }
+        },
+        "star3":{
+            "position": {
+                "x": 29,
+                "y": -8
+            }
+        },
+    
+        "vipIcon": {
+            "position_wp": {
+                "x": 0.92
+            },
+            "position": {
+                "y": -55
+            }
+
+        },
+
+        "vipPortraitDeco": {
+            "visible": true
+        }
+
+    },
+
+
+
+    "landscape": {
+        "vipIcon": {
+            "position": {
+                "x": 0,
+                "y": -115
+            }
+        },
+        "frisbeeBack": {
+            "visible": false
+        },
+        "backgroundPortraitExtension":{
+            "visible": false
+        },
+
+        "hudDecorationLandscape": {
+            "visible": true,
+            "position": { 
+                "y": -30
+            }
+        },
+        "frisbeeBackLandscape": {
+            "visible": true,
+            "position": { 
+                "y": 38
+            }
+        },
+        "hudNodeRing": {
+            "position":{
+                "y": 39
+            }
+        },
+        "panelBgL": {
+            "position": {
+                "y": -46
+            }
+        },
+
+        "vipLandscapeDecoTop": {
+            "visible": true,
+            "position": {
+                "x": 41,
+                "y": 101
+            }
+        },
+
+        "vipLandscapeDecoBottom": {
+            "visible": true,
+            "position": {
+                "x": 41,
+                "y": 15
+            }  
+        },
+
+        "bar": {
+            "position": {
+                "y": -14
+            }
+        },
+        "emptyBar": {
+            "position": {
+                "y": -14
+            }
+        },
+        "_star1":{
+            "position": {
+                "y": -17.5
+            }
+        },
+        "_star2":{
+            "position": {
+                "y": -29.5
+            }
+        },
+        "_star3":{
+            "position": {
+                "y": -17.5
+            }
+        },
+
+        "scoreLabel": {
+            "position": {
+                "y": -65
+            }
+        },
+        "actualScoreLabel": {
+            "position": {
+                "x": 0,
+                "y": -89
+            },
+            "scale": 0.6
+        },
+        "arcScoreP": {
+            "visible": false
+        },
+        "arcScoreL": {
+            "visible": true,
+            "position": {
+                "y": -100
+            }
+        },
+
+        "ArcL": {
+            "position": {
+                "y": -35
+            },
+            "scale": 1.0
+        },
+
+        "objectiveLabel": {
+            "position": {
+                "y": -12
+            }
+        },
+
+        "icon": {
+            "position": {
+                "y": -34,
+                "x": -24
+            }
+        },
+
+        "tick": {
+            "position": {
+                "x": 6,
+                "y": -35
+            }
+        },
+        "goalLabel": {
+            "position": {
+                "x": 6,
+                "y": -37
+            }
+        },
+        "circleDecoLeft_hard": {
+            "scale": {
+                "x": -1,
+                "y": 1
+            },
+            "position": {
+                "x": -24,
+                "y": -32
+            }
+        },
+        "circleDecoRight_hard": {
+            "position": {
+                "x": 24,
+                "y": -32
+            }
+        },
+
+        "circleDecoLeft_superhard": {
+            "rotation": 60,
+            "scale": {
+                "x": -1,
+                "y": -1
+            },
+            "position": {
+                "x": -24,
+                "y": -29
+            }
+        },
+        "circleDecoRight_superhard": {
+            "rotation": -60,
+            "scale": {
+                "x": 1,
+                "y": -1
+            },
+            "position": {
+                "x": 24,
+                "y": -29
+            }
+        },
+
+        "vipPortraitDeco": {
+            "visible": false
+        },
+
+        "star1":{
+            "position": {
+                "x": -29,
+                "y": -8
+            }
+        },
+        "star2":{
+            "position": {
+                "y": -29.5
+            }
+        },
+        "star3":{
+            "position": {
+                "x": 29,
+                "y": -8
+        }
+    }
+}

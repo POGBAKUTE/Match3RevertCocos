@@ -1,0 +1,335 @@
+
+win_level.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Jinny_bianco_dx
+  rotate: false
+  xy: 596, 343
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+Jinny_bianco_sx
+  rotate: false
+  xy: 798, 2
+  size: 62, 69
+  orig: 62, 69
+  offset: 0, 0
+  index: -1
+Jinny_ciglia_dx
+  rotate: false
+  xy: 840, 348
+  size: 95, 77
+  orig: 95, 77
+  offset: 0, 0
+  index: -1
+Jinny_ciglia_sx
+  rotate: false
+  xy: 783, 728
+  size: 77, 41
+  orig: 77, 41
+  offset: 0, 0
+  index: -1
+Jinny_pupilla_dx
+  rotate: false
+  xy: 634, 707
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+Jinny_pupilla_sx
+  rotate: false
+  xy: 491, 4
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: -1
+Jinny_sopracciglia_dx
+  rotate: true
+  xy: 469, 667
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+Jinny_sopracciglia_sx
+  rotate: false
+  xy: 510, 674
+  size: 41, 22
+  orig: 41, 22
+  offset: 0, 0
+  index: -1
+braccio_dx
+  rotate: true
+  xy: 2, 322
+  size: 340, 206
+  orig: 340, 206
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 2, 13
+  size: 155, 307
+  orig: 155, 307
+  offset: 0, 0
+  index: -1
+bretella_dx
+  rotate: false
+  xy: 938, 4
+  size: 102, 74
+  orig: 102, 74
+  offset: 0, 0
+  index: -1
+bretella_sx
+  rotate: true
+  xy: 773, 344
+  size: 81, 65
+  orig: 81, 65
+  offset: 0, 0
+  index: -1
+bunny_bocca
+  rotate: false
+  xy: 353, 664
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+bunny_bocca_risata
+  rotate: false
+  xy: 710, 8
+  size: 35, 51
+  orig: 35, 51
+  offset: 0, 0
+  index: -1
+bunny_braccio_dx
+  rotate: false
+  xy: 617, 8
+  size: 91, 51
+  orig: 91, 51
+  offset: 0, 0
+  index: -1
+bunny_braccio_sx
+  rotate: true
+  xy: 680, 344
+  size: 81, 91
+  orig: 81, 91
+  offset: 0, 0
+  index: -1
+bunny_coda
+  rotate: false
+  xy: 747, 10
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+bunny_corpo
+  rotate: true
+  xy: 850, 499
+  size: 227, 218
+  orig: 227, 218
+  offset: 0, 0
+  index: -1
+bunny_guance
+  rotate: true
+  xy: 1039, 807
+  size: 215, 127
+  orig: 215, 127
+  offset: 0, 0
+  index: -1
+bunny_hat_sopra
+  rotate: false
+  xy: 924, 80
+  size: 246, 266
+  orig: 246, 266
+  offset: 0, 0
+  index: -1
+bunny_hat_sotto
+  rotate: true
+  xy: 1070, 601
+  size: 204, 137
+  orig: 204, 137
+  offset: 0, 0
+  index: -1
+bunny_naso
+  rotate: true
+  xy: 741, 722
+  size: 47, 40
+  orig: 47, 40
+  offset: 0, 0
+  index: -1
+bunny_occhi_aperti
+  rotate: false
+  xy: 937, 350
+  size: 183, 147
+  orig: 183, 147
+  offset: 0, 0
+  index: -1
+bunny_occhi_chiusi
+  rotate: false
+  xy: 1042, 5
+  size: 147, 73
+  orig: 147, 73
+  offset: 0, 0
+  index: -1
+bunny_orecchio_dx
+  rotate: false
+  xy: 1284, 880
+  size: 130, 142
+  orig: 130, 142
+  offset: 0, 0
+  index: -1
+bunny_orecchio_sx
+  rotate: true
+  xy: 1122, 438
+  size: 161, 158
+  orig: 161, 158
+  offset: 0, 0
+  index: -1
+bunny_piede_dx
+  rotate: false
+  xy: 543, 6
+  size: 72, 53
+  orig: 72, 53
+  offset: 0, 0
+  index: -1
+bunny_piede_sx
+  rotate: true
+  xy: 698, 711
+  size: 58, 41
+  orig: 58, 41
+  offset: 0, 0
+  index: -1
+bunny_testa
+  rotate: true
+  xy: 596, 427
+  size: 269, 252
+  orig: 269, 252
+  offset: 0, 0
+  index: -1
+capelli_back
+  rotate: true
+  xy: 2, 664
+  size: 358, 349
+  orig: 358, 349
+  offset: 0, 0
+  index: -1
+capelli_frangia
+  rotate: false
+  xy: 353, 698
+  size: 279, 324
+  orig: 279, 324
+  offset: 0, 0
+  index: -1
+ciuffo
+  rotate: true
+  xy: 1191, 51
+  size: 119, 111
+  orig: 119, 111
+  offset: 0, 0
+  index: -1
+gamba_dx
+  rotate: true
+  xy: 364, 342
+  size: 320, 230
+  orig: 320, 230
+  offset: 0, 0
+  index: -1
+gamba_sx
+  rotate: true
+  xy: 210, 331
+  size: 331, 152
+  orig: 331, 152
+  offset: 0, 0
+  index: -1
+jinny_bocca_aperta
+  rotate: false
+  xy: 862, 5
+  size: 74, 66
+  orig: 74, 66
+  offset: 0, 0
+  index: -1
+jinny_bocca_chiusa
+  rotate: false
+  xy: 406, 667
+  size: 61, 29
+  orig: 61, 29
+  offset: 0, 0
+  index: -1
+jinny_naso
+  rotate: false
+  xy: 862, 731
+  size: 34, 40
+  orig: 34, 40
+  offset: 0, 0
+  index: -1
+jinny_occhi_chiusi
+  rotate: true
+  xy: 1209, 680
+  size: 157, 106
+  orig: 157, 106
+  offset: 0, 0
+  index: -1
+jinny_rossi
+  rotate: true
+  xy: 1168, 839
+  size: 183, 114
+  orig: 183, 114
+  offset: 0, 0
+  index: -1
+manica_dx_sopra
+  rotate: true
+  xy: 1172, 296
+  size: 140, 120
+  orig: 140, 120
+  offset: 0, 0
+  index: -1
+manica_dx_sotto
+  rotate: true
+  xy: 1172, 172
+  size: 122, 113
+  orig: 122, 113
+  offset: 0, 0
+  index: -1
+manica_sx
+  rotate: false
+  xy: 1287, 181
+  size: 103, 113
+  orig: 103, 113
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 159, 21
+  size: 299, 330
+  orig: 299, 330
+  offset: 0, 0
+  index: -1
+treccia_dx
+  rotate: true
+  xy: 634, 771
+  size: 251, 214
+  orig: 251, 214
+  offset: 0, 0
+  index: -1
+treccia_sx
+  rotate: false
+  xy: 850, 773
+  size: 187, 249
+  orig: 187, 249
+  offset: 0, 0
+  index: -1
+vestito_back
+  rotate: false
+  xy: 768, 73
+  size: 154, 269
+  orig: 154, 269
+  offset: 0, 0
+  index: -1
+vestito_sopra
+  rotate: false
+  xy: 491, 61
+  size: 275, 279
+  orig: 275, 279
+  offset: 0, 0
+  index: -1

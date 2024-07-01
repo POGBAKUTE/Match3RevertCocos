@@ -1,0 +1,125 @@
+{
+    "normal": {
+        "normalImage": {
+            "position": {
+                "x": 0,
+                "y": -50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0   
+            },
+            "scale": 1.05
+        },
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": 70
+            },            
+            "scale": 0.7,
+            "color": {
+                    "r": 144,
+                    "g": 23,
+                    "b": 137
+            }
+        },
+        "quitButton": {
+            "position": {
+                "x": 0,
+                "y": -74
+            },
+            "content_size": {
+                "w": 160,
+                "h": 52.5
+            }
+        },
+        "actionButton": {
+            "position": {
+                "x": 0,
+                "y": -121
+            },
+            "content_size": {
+                "w": 160,
+                "h": 52.5
+            }
+        }
+    },
+
+    "event": {
+        "eventContainer": {
+            "position": {
+                "x": 0,
+                "y": 37
+            },
+            "scale": 1
+        },
+        "eventHeart": {
+            "position": {
+                "x": -65,
+                "y": 37
+            },
+            "scale": 1
+        },
+
+        "eventText": {
+            "position": {
+                "x": 33,
+                "y": 37
+            },
+            "scale": 0.8
+        },
+
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": -20
+            },            
+            "scale": 0.8
+        },
+        "quitButton": {
+            "position": {
+                "x": 0,
+                "y": -68
+            }
+        },
+        "actionButton": {
+            "position": {
+                "x": 0,
+                "y": -119
+            }
+        } 
+    },
+
+    "_normal": {
+        "normalImage": {
+            "position": {
+                "x": 0,
+                "y": -20
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0   
+            },
+            "scale": 1.09
+        },
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": -30
+            },            
+            "scale": 0.7
+        },
+        "actionButton": {
+            "position": {
+                "x": 0,
+                "y": -120
+            }
+        },
+        "quitButton": {
+            "position": {
+                "x": 0,
+                "y": -70
+            }
+        } 
+    }
+}

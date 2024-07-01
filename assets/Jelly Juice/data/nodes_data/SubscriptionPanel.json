@@ -1,0 +1,104 @@
+{
+    "collect_renew": {
+        "bgImage": {
+            "position": {
+                "x": 0,
+                "y": 55
+            },
+            "scale": 0.8
+        },
+        "infoLabel":{
+            "position": {
+                "x": 0,
+                "y": -52
+            },
+            "scale": 0.8
+        },
+        "renewLabel":{
+            "position": {
+                "x": 0,
+                "y": -84
+            }
+        },
+        "timeLeftLabel": {
+            "position": {
+                "x": 0,
+                "y": -69
+            }
+        }
+    },
+
+    "collect": {
+        "bgImage": {
+            "position": {
+                "x": 0,
+                "y": 55
+            },
+            "scale": 0.8
+        },
+        "infoLabel":{
+            "position": {
+                "x": 0,
+                "y": -80
+            },
+            "scale": 0.8
+        },
+        "timeLeftLabel": {
+            "position": {
+                "x": 0,
+                "y": -105
+            }
+        }
+    },
+
+    "renew": {
+        "bgImage": {
+            "position": {
+                "x": 0,
+                "y": 55
+            },
+            "scale": 0.8
+        },
+        "renewLabel":{
+            "position": {
+                "x": 0,
+                "y": -70
+            }
+        },
+        "infoLabel":{
+            "position": {
+                "x": 0,
+                "y": -7
+            },
+            "scale": 0.8
+        },
+        "timeLeftLabel": {
+            "position": {
+                "x": 0,
+                "y": -35
+            }
+        }
+
+    },
+
+    "neither": {
+        "bgImage": {
+            "position": {
+                "x": 0,
+                "y": 40
+            }
+        },
+        "infoLabel":{
+            "position": {
+                "x": 0,
+                "y": -50
+            } 
+        },
+        "timeLeftLabel": {
+            "position": {
+                "x": 0,
+                "y": -80
+            }
+        }
+    }
+}

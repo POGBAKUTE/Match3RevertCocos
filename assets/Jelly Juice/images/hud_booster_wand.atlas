@@ -1,0 +1,55 @@
+
+hud_booster_wand.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 19
+  size: 235, 187
+  orig: 235, 187
+  offset: 0, 0
+  index: -1
+stella_1
+  rotate: false
+  xy: 347, 6
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+stellina_3
+  rotate: false
+  xy: 191, 2
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+wand_1
+  rotate: false
+  xy: 291, 51
+  size: 95, 203
+  orig: 95, 203
+  offset: 0, 0
+  index: -1
+wand_2
+  rotate: false
+  xy: 388, 89
+  size: 84, 165
+  orig: 84, 165
+  offset: 0, 0
+  index: -1
+wand_3
+  rotate: false
+  xy: 191, 32
+  size: 98, 222
+  orig: 98, 222
+  offset: 0, 0
+  index: -1
+wing
+  rotate: false
+  xy: 291, 7
+  size: 54, 42
+  orig: 54, 42
+  offset: 0, 0
+  index: -1

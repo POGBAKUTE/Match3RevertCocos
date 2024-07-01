@@ -1,0 +1,104 @@
+
+bunny_scenarios.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+braccio_dx
+  rotate: true
+  xy: 550, 62
+  size: 72, 50
+  orig: 72, 50
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 550, 5
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+coda
+  rotate: false
+  xy: 581, 181
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: true
+  xy: 578, 307
+  size: 198, 172
+  orig: 198, 172
+  offset: 0, 0
+  index: -1
+flag_1
+  rotate: true
+  xy: 136, 9
+  size: 101, 205
+  orig: 101, 205
+  offset: 0, 0
+  index: -1
+flag_2
+  rotate: true
+  xy: 343, 9
+  size: 101, 205
+  orig: 101, 205
+  offset: 0, 0
+  index: -1
+occhi_aperti
+  rotate: true
+  xy: 362, 128
+  size: 143, 73
+  orig: 143, 73
+  offset: 0, 0
+  index: -1
+occhi_chiusi
+  rotate: true
+  xy: 437, 131
+  size: 140, 45
+  orig: 140, 45
+  offset: 0, 0
+  index: -1
+orecchio_dx
+  rotate: true
+  xy: 2, 2
+  size: 108, 132
+  orig: 108, 132
+  offset: 0, 0
+  index: -1
+orecchio_sx
+  rotate: false
+  xy: 484, 136
+  size: 95, 135
+  orig: 95, 135
+  offset: 0, 0
+  index: -1
+piede_dx
+  rotate: true
+  xy: 581, 223
+  size: 48, 33
+  orig: 48, 33
+  offset: 0, 0
+  index: -1
+piede_sx
+  rotate: false
+  xy: 578, 273
+  size: 49, 32
+  orig: 49, 32
+  offset: 0, 0
+  index: -1
+pollicione
+  rotate: false
+  xy: 2, 112
+  size: 358, 393
+  orig: 358, 393
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 362, 273
+  size: 232, 214
+  orig: 232, 214
+  offset: 0, 0
+  index: -1

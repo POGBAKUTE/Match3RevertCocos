@@ -1,0 +1,20 @@
+
+sc11_item_water.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sparkle
+  rotate: false
+  xy: 2, 186
+  size: 12, 12
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+water
+  rotate: false
+  xy: 16, 2
+  size: 220, 196
+  orig: 220, 196
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,146 @@
+
+bundle_10martelli.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-80%
+  rotate: false
+  xy: 861, 62
+  size: 109, 108
+  orig: 109, 108
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 509, 754
+  size: 473, 265
+  orig: 473, 265
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 509, 579
+  size: 428, 173
+  orig: 428, 173
+  offset: 0, 0
+  index: -1
+Ellipse 30
+  rotate: false
+  xy: 517, 433
+  size: 371, 144
+  orig: 371, 144
+  offset: 0, 0
+  index: -1
+Ellipse 30 copy
+  rotate: false
+  xy: 2, 504
+  size: 505, 515
+  orig: 505, 515
+  offset: 0, 0
+  index: -1
+cartello
+  rotate: true
+  xy: 707, 202
+  size: 229, 155
+  orig: 229, 155
+  offset: 0, 0
+  index: -1
+cassetta_attrezzi
+  rotate: false
+  xy: 2, 80
+  size: 399, 422
+  orig: 399, 422
+  offset: 0, 0
+  index: -1
+martello
+  rotate: false
+  xy: 517, 222
+  size: 188, 209
+  orig: 188, 209
+  offset: 0, 0
+  index: -1
+martello copy
+  rotate: false
+  xy: 2, 2
+  size: 131, 76
+  orig: 131, 76
+  offset: 0, 0
+  index: -1
+martello copy 2
+  rotate: false
+  xy: 517, 16
+  size: 133, 95
+  orig: 133, 95
+  offset: 0, 0
+  index: -1
+martello copy 3
+  rotate: false
+  xy: 135, 22
+  size: 133, 56
+  orig: 133, 56
+  offset: 0, 0
+  index: -1
+martello copy 4
+  rotate: false
+  xy: 517, 113
+  size: 133, 107
+  orig: 133, 107
+  offset: 0, 0
+  index: -1
+martello copy 5
+  rotate: true
+  xy: 764, 75
+  size: 125, 95
+  orig: 125, 95
+  offset: 0, 0
+  index: -1
+martello copy 6
+  rotate: false
+  xy: 652, 24
+  size: 95, 63
+  orig: 95, 63
+  offset: 0, 0
+  index: -1
+martello copy 7
+  rotate: false
+  xy: 652, 89
+  size: 110, 111
+  orig: 110, 111
+  offset: 0, 0
+  index: -1
+martello copy 8
+  rotate: false
+  xy: 890, 479
+  size: 132, 98
+  orig: 132, 98
+  offset: 0, 0
+  index: -1
+martello copy 9
+  rotate: false
+  xy: 270, 22
+  size: 121, 56
+  orig: 121, 56
+  offset: 0, 0
+  index: -1
+scia_luminosa
+  rotate: false
+  xy: 864, 172
+  size: 135, 259
+  orig: 135, 259
+  offset: 0, 0
+  index: -1
+special_offer copy
+  rotate: true
+  xy: 403, 17
+  size: 485, 112
+  orig: 485, 112
+  offset: 0, 0
+  index: -1
+x10
+  rotate: true
+  xy: 939, 655
+  size: 97, 55
+  orig: 97, 55
+  offset: 0, 0
+  index: -1

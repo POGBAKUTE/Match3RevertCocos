@@ -1,0 +1,13 @@
+
+animap_bg06_hog04.png
+size: 32,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_6_(hog_hiding_sh)
+  rotate: false
+  xy: 2, 2
+  size: 15, 7
+  orig: 15, 7
+  offset: 0, 0
+  index: -1

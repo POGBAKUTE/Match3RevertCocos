@@ -1,0 +1,97 @@
+{
+    "titleBg": {
+        "position": {
+            "x": 0,
+            "y": 70
+        }
+    },
+    "titleLabel": {
+        "position": {
+            "x": 0,
+            "y": 77
+        }
+    },
+    "actionButton": {
+        "position": {
+            "x": 0,
+            "y": -90
+        }
+    },
+    "topImage":{
+        "position":{
+            "x": 0,
+            "y": 148
+        },
+        "scale": 0.9
+    },
+    "textContainer": {
+        "position": {
+            "x": 0,
+            "y": 25
+        },
+        "scale": 0.8
+    },
+    "errorLabel": {
+        "position": {
+            "x": 0,
+            "y": -5
+        }
+    },
+    "panelFrame": {
+        "position": {
+            "x": 0,
+            "y": 3
+        }
+    },
+    "legendContainer": {
+        "position": {
+            "x": 5,
+            "y": 5
+        }
+    },
+    "username_panel_legend1": {
+        "position": {
+            "x": 0,
+            "y": 65
+        }
+    },
+    "point2": {
+        "position": {
+            "x": 2,
+            "y": 47.5
+        },
+        "scale": 0.6
+    },
+    "username_panel_legend2": {
+        "position": {
+            "x": 4,
+            "y": 52
+        }
+    },
+    "point3": {
+        "position": {
+            "x": 2,
+            "y": 34.5
+        },
+        "scale": 0.6
+    },
+    "username_panel_legend3": {
+        "position": {
+            "x": 4,
+            "y": 39
+        }
+    },
+    "point4": {
+        "position": {
+            "x": 2,
+            "y": 21.5
+        },
+        "scale": 0.6
+    },
+    "username_panel_legend4": {
+        "position": {
+            "x": 4,
+            "y": 26
+        }
+    }
+}

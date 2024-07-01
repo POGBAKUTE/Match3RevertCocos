@@ -1,0 +1,41 @@
+
+bundle_christmas_ball.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bank_rays
+  rotate: true
+  xy: 1376, 164
+  size: 128, 126
+  orig: 133, 133
+  offset: 2, 5
+  index: -1
+bg
+  rotate: false
+  xy: 2, 2
+  size: 986, 1319
+  orig: 987, 1320
+  offset: 1, 1
+  index: -1
+fg
+  rotate: false
+  xy: 990, 294
+  size: 882, 1027
+  orig: 886, 1190
+  offset: 1, 0
+  index: -1
+scritta
+  rotate: false
+  xy: 990, 28
+  size: 384, 264
+  orig: 384, 264
+  offset: 0, 0
+  index: -1
+snowflake
+  rotate: false
+  xy: 1376, 141
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1

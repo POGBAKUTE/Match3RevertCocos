@@ -1,0 +1,20 @@
+
+sc9_item_clock.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clock
+  rotate: false
+  xy: 2, 11
+  size: 42, 50
+  orig: 42, 50
+  offset: 0, 0
+  index: -1
+pendola
+  rotate: true
+  xy: 2, 2
+  size: 7, 23
+  orig: 7, 23
+  offset: 0, 0
+  index: -1

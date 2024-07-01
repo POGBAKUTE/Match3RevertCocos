@@ -1,0 +1,14 @@
+{
+    "closeButton": {
+        "position": {
+            "x": 111,
+            "y": 151
+        },
+        "scale": 0.55
+    },
+    "actionButton": {
+        "position": {
+            "y": -153
+        }
+    }
+}

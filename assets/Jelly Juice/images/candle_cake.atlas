@@ -1,0 +1,83 @@
+
+candle_cake.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cake_lv0
+  rotate: true
+  xy: 209, 22
+  size: 102, 100
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+cake_lv1
+  rotate: true
+  xy: 311, 22
+  size: 102, 100
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+cake_lv2
+  rotate: true
+  xy: 413, 22
+  size: 102, 100
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+cake_lv3
+  rotate: true
+  xy: 106, 22
+  size: 102, 101
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+canvas
+  rotate: false
+  xy: 1, 21
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+flame_1
+  rotate: true
+  xy: 37, 3
+  size: 16, 15
+  orig: 16, 15
+  offset: 0, 0
+  index: -1
+flame_2
+  rotate: false
+  xy: 1, 2
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+flame_3
+  rotate: true
+  xy: 20, 1
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+flame_4
+  rotate: true
+  xy: 54, 3
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+flame_base
+  rotate: true
+  xy: 70, 6
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+sparkle
+  rotate: false
+  xy: 83, 11
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1

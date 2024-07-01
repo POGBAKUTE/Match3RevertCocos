@@ -1,0 +1,14 @@
+{
+    "image": {
+        "position": {
+            "x": 0,
+            "y": 42
+        }
+    },
+    "textLabel": {
+        "position": {
+            "x": 0,
+            "y": -24
+        }
+    }    
+}

@@ -1,0 +1,13 @@
+
+sc6_item_hanging_chair.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hanging_chair
+  rotate: false
+  xy: 2, 2
+  size: 162, 237
+  orig: 162, 237
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,139 @@
+
+popup_moves.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_+15
+  rotate: true
+  xy: 1316, 118
+  size: 195, 173
+  orig: 226, 232
+  offset: 16, 29
+  index: -1
+bg_+5
+  rotate: true
+  xy: 1274, 315
+  size: 195, 173
+  orig: 226, 232
+  offset: 16, 29
+  index: -1
+bg_+50
+  rotate: true
+  xy: 1449, 315
+  size: 195, 173
+  orig: 226, 232
+  offset: 16, 29
+  index: -1
+canvas_+15
+  rotate: true
+  xy: 227, 2
+  size: 224, 223
+  orig: 226, 232
+  offset: 1, 1
+  index: -1
+canvas_+5
+  rotate: true
+  xy: 2, 2
+  size: 224, 223
+  orig: 226, 232
+  offset: 1, 1
+  index: -1
+canvas_+50
+  rotate: true
+  xy: 452, 2
+  size: 224, 223
+  orig: 226, 232
+  offset: 1, 1
+  index: -1
+canvas_glow_+15
+  rotate: true
+  xy: 284, 228
+  size: 282, 280
+  orig: 292, 300
+  offset: 5, 10
+  index: -1
+canvas_glow_+5
+  rotate: true
+  xy: 2, 228
+  size: 282, 280
+  orig: 292, 300
+  offset: 5, 10
+  index: -1
+canvas_glow_+50
+  rotate: true
+  xy: 566, 228
+  size: 282, 280
+  orig: 292, 300
+  offset: 5, 10
+  index: -1
+canvas_shine_+1
+  rotate: true
+  xy: 677, 14
+  size: 212, 211
+  orig: 226, 232
+  offset: 7, 11
+  index: -1
+canvas_shine_+15
+  rotate: true
+  xy: 1061, 298
+  size: 212, 211
+  orig: 226, 232
+  offset: 7, 11
+  index: -1
+canvas_shine_+2
+  rotate: true
+  xy: 848, 298
+  size: 212, 211
+  orig: 226, 232
+  offset: 7, 11
+  index: -1
+canvas_shine_+5
+  rotate: true
+  xy: 890, 84
+  size: 212, 211
+  orig: 226, 232
+  offset: 7, 11
+  index: -1
+canvas_shine_+50
+  rotate: true
+  xy: 1103, 84
+  size: 212, 211
+  orig: 226, 232
+  offset: 7, 11
+  index: -1
+icon_+1
+  rotate: true
+  xy: 1582, 169
+  size: 144, 105
+  orig: 226, 232
+  offset: 34, 56
+  index: -1
+icon_+15
+  rotate: true
+  xy: 1491, 143
+  size: 170, 89
+  orig: 226, 232
+  offset: 27, 65
+  index: -1
+icon_+2
+  rotate: false
+  xy: 1316, 10
+  size: 155, 106
+  orig: 226, 232
+  offset: 34, 56
+  index: -1
+icon_+5
+  rotate: false
+  xy: 1473, 11
+  size: 155, 105
+  orig: 226, 232
+  offset: 34, 56
+  index: -1
+icon_+50
+  rotate: false
+  xy: 890, 6
+  size: 172, 76
+  orig: 226, 232
+  offset: 27, 71
+  index: -1

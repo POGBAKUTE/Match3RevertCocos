@@ -1,0 +1,41 @@
+
+missions_icon_clock.png
+size: 256,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clock_base
+  rotate: true
+  xy: 1, 1
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+clock_base_red
+  rotate: true
+  xy: 63, 1
+  size: 61, 60
+  orig: 61, 60
+  offset: 0, 0
+  index: -1
+clock_center
+  rotate: false
+  xy: 125, 11
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+clock_pointer
+  rotate: true
+  xy: 125, 2
+  size: 7, 16
+  orig: 7, 16
+  offset: 0, 0
+  index: -1
+clock_smooth
+  rotate: false
+  xy: 125, 30
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1

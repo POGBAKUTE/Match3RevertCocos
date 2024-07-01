@@ -1,0 +1,672 @@
+{
+    "val": {
+        "date": {
+            "startDay": 14,
+            "startMonth": 2,
+            "endDay": 15,
+            "endMonth": 2
+        },
+        "nameToDisplay": "Jelly Valentine",
+        "buttonImage": "icon_event_valentine_day",
+        "buttonLabelColor": "D50360",
+        "panelImage": "event_jelly_valentine",
+        "panelColor": "red",
+        "levelToPlay": 2527,
+        "gifts": {
+            "8": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "women": {
+        "date": {
+            "startDay": 7,
+            "startMonth": 3,
+            "endDay": 8,
+            "endMonth": 3
+        },
+        "nameToDisplay": "Women's Day",
+        "buttonImage": "icon_event_women's_day",
+        "buttonLabelColor": "089678",
+        "panelImage": "event_women's_day",
+        "panelColor": "pink",
+        "levelToPlay": 2588,
+        "gifts": {
+            "2": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "piGreco": {
+        "date": {
+            "startDay": 14,
+            "startMonth": 3,
+            "endDay": 14,
+            "endMonth": 3
+        },
+        "nameToDisplay": "Pi Greco Day",
+        "buttonImage": "icon_event_Pi_greco_day",
+        "buttonLabelColor": "A66A01",
+        "panelImage": "event_Pi_greco_day",
+        "panelColor": "blue",
+        "levelToPlay": 4261,
+        "gifts": {
+            "3": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "patrick": {
+        "date": {
+            "startDay": 17,
+            "startMonth": 3,
+            "endDay": 17,
+            "endMonth": 3
+        },
+        "nameToDisplay": "St. Patrick Day",
+        "buttonImage": "icon_event_st_patricks_day",
+        "buttonLabelColor": "D65B00",
+        "panelImage": "event_st_patricks_day",
+        "panelColor": "pink",
+        "levelToPlay": 2640,
+        "gifts": {
+            "9": 10
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "springDay": {
+        "date": {
+            "startDay": 20,
+            "startMonth": 3,
+            "endDay": 20,
+            "endMonth": 3
+        },
+        "nameToDisplay": "First Day Of Spring",
+        "buttonImage": "icon_event_first_day_of_spring",
+        "buttonLabelColor": "B71C4B",
+        "panelImage": "event_first_day_of_spring_panel",
+        "panelColor": "pink",
+        "levelToPlay": 4266,
+        "gifts": {
+            "15": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "aprilFoolDay": {
+        "date": {
+            "startDay": 1,
+            "startMonth": 4,
+            "endDay": 1,
+            "endMonth": 4
+        },
+        "nameToDisplay": "April's Fool Day",
+        "buttonImage": "icon_event_april_fool's",
+        "buttonLabelColor": "8419E'7",
+        "panelImage": "event_april's_Fools",
+        "panelColor": "orange",
+        "levelToPlay": 4274,
+        "gifts": {
+            "5": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "jellyWars": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 5,
+            "endDay": 4,
+            "endMonth": 5
+        },
+        "nameToDisplay": "Jelly Wars Day",
+        "buttonImage": "icon_event_may_the_fourth",
+        "buttonLabelColor": "B71C4B",
+        "panelImage": "event_may_the_fourth",
+        "panelColor": "pink",
+        "levelToPlay": 4389,
+        "gifts": {
+            "5": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "easter": {
+        "dates": {
+            "2022": {
+                "startDay": 15,
+                "startMonth": 4,
+                "endDay": 18,
+                "endMonth": 4
+            },
+            "2023": {
+                "startDay": 8,
+                "startMonth": 4,
+                "endDay": 10,
+                "endMonth": 4
+            },
+            "2024": {
+                "startDay": 30,
+                "startMonth": 3,
+                "endDay": 1,
+                "endMonth": 4
+            }
+        },
+        "nameToDisplay": "Easter",
+        "buttonImage": "icon_event_easter",
+        "buttonLabelColor": "2674B7",
+        "panelImage": "event_easter",
+        "panelColor": "blue",
+        "levelToPlay": 4390,
+        "gifts": {
+            "15": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "laughterDay": {
+        "dates": {
+            "2023": {
+                "startDay": 6,
+                "startMonth": 5,
+                "endDay": 7,
+                "endMonth": 5
+            },
+            "2024": {
+                "startDay": 4,
+                "startMonth": 5,
+                "endDay": 5,
+                "endMonth": 5
+            }
+        },
+        "nameToDisplay": "World Laughter Day",
+        "buttonImage": "icon_event_world_laught_day",
+        "buttonLabelColor": "FF6C00",
+        "panelImage": "event_world_laught_day",
+        "panelColor": "blue",
+        "levelToPlay": 5002,
+        "gifts": {
+            "1": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "bee": {
+        "date": {
+            "startDay": 20,
+            "startMonth": 5,
+            "endDay": 20,
+            "endMonth": 5
+        },
+        "nameToDisplay": "World Bee Day",
+        "buttonImage": "icon_event_world_bee_day",
+        "buttonLabelColor": "40A7E9",
+        "panelImage": "event_bee_day",
+        "panelColor": "blue",
+        "levelToPlay": 4290,
+        "gifts": {
+            "7": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "summer": {
+        "dates": {
+            "2022": {
+                "startDay": 21,
+                "startMonth": 6,
+                "endDay": 21,
+                "endMonth": 6
+            },
+            "2023": {
+                "startDay": 21,
+                "startMonth": 6,
+                "endDay": 21,
+                "endMonth": 6
+            },
+            "2024": {
+                "startDay": 20,
+                "startMonth": 6,
+                "endDay": 20,
+                "endMonth": 6
+            }
+        },
+        "nameToDisplay": "First Day Of Summer",
+        "buttonImage": "icon_event_summer_day",
+        "buttonLabelColor": "024CB4",
+        "panelImage": "event_summer_day",
+        "panelColor": "pink",
+        "levelToPlay": 4540,
+        "gifts": {
+            "6": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 60
+        }
+    },
+    "choco": {
+        "date": {
+            "startDay": 7,
+            "startMonth": 7,
+            "endDay": 7,
+            "endMonth": 7
+        },
+        "nameToDisplay": "World Chocolate Day",
+        "buttonImage": "icon_event_world_chocolate_day",
+        "buttonLabelColor": "660F00",
+        "panelImage": "event_world_chocolate_day",
+        "panelColor": "pink",
+        "levelToPlay": 2850,
+        "gifts": {
+            "4": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "olympic": {
+        "dates": {
+            "2021": {
+                "startDay": 23,
+                "startMonth": 7,
+                "endDay": 25,
+                "endMonth": 7
+            },
+            "2024": {
+                "startDay": 26,
+                "startMonth": 7,
+                "endDay": 28,
+                "endMonth": 7
+            }
+        },
+        "nameToDisplay": "Olympic Games",
+        "buttonImage": "icon_event_olympic_games",
+        "buttonLabelColor": "4063c7",
+        "panelImage": "event_olympic_games",
+        "panelColor": "pink",
+        "levelToPlay": 3780,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "emoji": {
+        "date": {
+            "startDay": 17,
+            "startMonth": 7,
+            "endDay": 18,
+            "endMonth": 7
+        },
+        "nameToDisplay": "World Emoji Day",
+        "buttonImage": "icon_event_world_emoji_day",
+        "buttonLabelColor": "C135BB",
+        "panelImage": "event_world_emoji_day",
+        "panelColor": "blue",
+        "levelToPlay": 2880,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "friend": {
+        "date": {
+            "startDay": 30,
+            "startMonth": 7,
+            "endDay": 30,
+            "endMonth": 7
+        },
+        "nameToDisplay": "International Day of Friendship",
+        "buttonImage": "icon_event_international_day_of_friendship",
+        "buttonLabelColor": "003062",
+        "panelImage": "event_international_day_of_friendship",
+        "panelColor": "red",
+        "levelToPlay": 2905,
+        "gifts": {
+            "2": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "lazy": {
+        "date": {
+            "startDay": 10,
+            "startMonth": 8,
+            "endDay": 10,
+            "endMonth": 8
+        },
+        "nameToDisplay": "National Lazy Day",
+        "buttonImage": "icon_event_national_lazy_day",
+        "buttonLabelColor": "0A7CA2",
+        "panelImage": "event_national_lazy_day",
+        "panelColor": "blue",
+        "levelToPlay": 2936,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "videogame": {
+        "date": {
+            "startDay": 12,
+            "startMonth": 9,
+            "endDay": 13,
+            "endMonth": 9
+        },
+        "nameToDisplay": "National Videogames Day",
+        "buttonImage": "icon_event_national_videogames_day",
+        "buttonLabelColor": "1C0165",
+        "panelImage": "event_national_videogames_day",
+        "panelColor": "red",
+        "levelToPlay": 2998,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "autumn": {
+        "dates": {
+            "2022": {
+                "startDay": 23,
+                "startMonth": 9,
+                "endDay": 25,
+                "endMonth": 9
+            },
+            "2023": {
+                "startDay": 23,
+                "startMonth": 9,
+                "endDay": 25,
+                "endMonth": 9
+            },
+            "2024": {
+                "startDay": 22,
+                "startMonth": 9,
+                "endDay": 24,
+                "endMonth": 9
+            }
+        },
+        "nameToDisplay": "Fall Day",
+        "buttonImage": "icon_event_fall_day",
+        "buttonLabelColor": "006BC8",
+        "panelImage": "event_fall_day",
+        "panelColor": "blue",
+        "levelToPlay": 4616,
+        "gifts": {
+            "1": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "coffee": {
+        "date": {
+            "startDay": 29,
+            "startMonth": 9,
+            "endDay": 29,
+            "endMonth": 9
+        },
+        "nameToDisplay": "International Coffee Day",
+        "buttonImage": "icon_event_international_coffee_day",
+        "buttonLabelColor": "4D2312",
+        "panelImage": "event_international_coffee_day",
+        "panelColor": "red",
+        "levelToPlay": 3060,
+        "gifts": {
+            "5": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "dessert": {
+        "date": {
+            "startDay": 14,
+            "startMonth": 10,
+            "endDay": 15,
+            "endMonth": 10
+        },
+        "nameToDisplay": "National Dessert Day",
+        "buttonImage": "icon_event_national_dessert_day",
+        "buttonLabelColor": "079cfa",
+        "panelImage": "event_national_dessert_day",
+        "panelColor": "purple",
+        "levelToPlay": 3090,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "candy": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 11,
+            "endDay": 4,
+            "endMonth": 11
+        },
+        "nameToDisplay": "National Candy Day",
+        "buttonImage": "icon_event_national_candy_day",
+        "buttonLabelColor": "B80196",
+        "panelImage": "event_national_candy_day",
+        "panelColor": "pink",
+        "levelToPlay": 3120,
+        "gifts": {
+            "8": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "cyber": {
+        "dates": {
+            "2020": {
+                "startDay": 30,
+                "startMonth": 11,
+                "endDay": 30,
+                "endMonth": 11
+            },
+            "2021": {
+                "startDay": 29,
+                "startMonth": 11,
+                "endDay": 29,
+                "endMonth": 11
+            },
+            "2022": {
+                "startDay": 28,
+                "startMonth": 11,
+                "endDay": 28,
+                "endMonth": 11
+            },
+            "2023": {
+                "startDay": 27,
+                "startMonth": 11,
+                "endDay": 27,
+                "endMonth": 11
+            },
+            "2024": {
+                "startDay": 2,
+                "startMonth": 12,
+                "endDay": 2,
+                "endMonth": 12
+            }
+        },
+        "nameToDisplay": "Cyber Monday",
+        "buttonImage": "icon_event_cyber_monday",
+        "buttonLabelColor": "130D77",
+        "panelImage": "event_cyber_monday",
+        "panelColor": "pink",
+        "levelToPlay": 3180,
+        "gifts": {
+            "1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "cake": {
+        "date": {
+            "startDay": 26,
+            "startMonth": 11,
+            "endDay": 27,
+            "endMonth": 11
+        },
+        "nameToDisplay": "National Cake Day",
+        "buttonImage": "icon_event_cake_day",
+        "buttonLabelColor": "3D937C",
+        "panelImage": "national_cake_day",
+        "panelColor": "pink",
+        "levelToPlay": 2083,
+        "gifts": {
+            "9": 25
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "cookie": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 12,
+            "endDay": 4,
+            "endMonth": 12
+        },
+        "nameToDisplay": "National Cookie Day",
+        "buttonImage": "Icon_event_national_cookie_day",
+        "buttonLabelColor": "315A84",
+        "panelImage": "event_national_cookie_day",
+        "panelColor": "pink",
+        "levelToPlay": 3179,
+        "gifts": {
+            "4": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "nobel": {
+        "date": {
+            "startDay": 10,
+            "startMonth": 12,
+            "endDay": 10,
+            "endMonth": 12
+        },
+        "nameToDisplay": "Nobel Prize Day",
+        "buttonImage": "icon_event_nobel_prize_day",
+        "buttonLabelColor": "543E91",
+        "panelImage": "event_nobel_prize_day",
+        "panelColor": "red",
+        "levelToPlay": 3210,
+        "gifts": {
+            "5": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "winterDay": {
+        "dates": {
+            "2020": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2021": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2022": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2023": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2024": {
+                "startDay": 22,
+                "startMonth": 12,
+                "endDay": 22,
+                "endMonth": 12
+            }
+        },
+        "nameToDisplay": "First Day Of Winter",
+        "buttonImage": "icon_event_first_day_of_winter",
+        "buttonLabelColor": "2E2984",
+        "panelImage": "event_first_day_of_winter",
+        "panelColor": "red",
+        "levelToPlay": 3299,
+        "gifts": {
+            "3": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "chris": {
+        "date": {
+            "startDay": 22,
+            "startMonth": 12,
+            "endDay": 26,
+            "endMonth": 12
+        },
+        "nameToDisplay": "Juicy Christmas",
+        "buttonImage": "icon_event_christmas",
+        "buttonLabelColor": "C20E0E",
+        "panelImage": "Event_Juicy_Christmas",
+        "panelColor": "red",
+        "levelToPlay": 2460,
+        "gifts": {
+            "9": 30
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    },
+    "newYear": {
+        "date": {
+            "startDay": 31,
+            "startMonth": 12,
+            "endDay": 31,
+            "endMonth": 12
+        },
+        "nameToDisplay": "New Year's Eve",
+        "buttonImage": "icon_event_new_year's_eve",
+        "buttonLabelColor": "C61113",
+        "panelImage": "event_new_year's_eve",
+        "panelColor": "red",
+        "levelToPlay": 3300,
+        "gifts": {
+            "9": 10
+        },
+        "conditionForShow": {
+            "afterLevel": 49
+        }
+    }
+}

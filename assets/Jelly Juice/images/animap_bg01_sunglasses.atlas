@@ -1,0 +1,34 @@
+
+animap_bg01_sunglasses.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/sunglasses/base
+  rotate: true
+  xy: 2, 2
+  size: 58, 45
+  orig: 58, 45
+  offset: 0, 0
+  index: -1
+png/sunglasses/glass
+  rotate: true
+  xy: 49, 21
+  size: 39, 36
+  orig: 39, 36
+  offset: 0, 0
+  index: -1
+png/sunglasses/light1
+  rotate: false
+  xy: 61, 6
+  size: 9, 13
+  orig: 9, 13
+  offset: 0, 0
+  index: -1
+png/sunglasses/light2
+  rotate: false
+  xy: 49, 6
+  size: 10, 13
+  orig: 10, 13
+  offset: 0, 0
+  index: -1

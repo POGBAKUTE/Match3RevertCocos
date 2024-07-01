@@ -1,0 +1,27 @@
+
+sc15_item_balloons_1.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arancione
+  rotate: true
+  xy: 2, 24
+  size: 16, 92
+  orig: 16, 92
+  offset: 0, 0
+  index: -1
+verde
+  rotate: true
+  xy: 2, 42
+  size: 16, 100
+  orig: 16, 100
+  offset: 0, 0
+  index: -1
+viola
+  rotate: true
+  xy: 2, 2
+  size: 20, 88
+  orig: 20, 88
+  offset: 0, 0
+  index: -1

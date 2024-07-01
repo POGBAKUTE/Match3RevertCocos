@@ -1,0 +1,272 @@
+
+new_intro_5.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 2, 991
+  size: 1055, 1055
+  orig: 1055, 1055
+  offset: 0, 0
+  index: -1
+bunny_1_arm_left
+  rotate: false
+  xy: 925, 293
+  size: 227, 317
+  orig: 227, 317
+  offset: 0, 0
+  index: -1
+bunny_1_arm_right
+  rotate: true
+  xy: 1386, 55
+  size: 196, 111
+  orig: 196, 111
+  offset: 0, 0
+  index: -1
+bunny_1_body
+  rotate: false
+  xy: 1059, 1234
+  size: 447, 441
+  orig: 447, 441
+  offset: 0, 0
+  index: -1
+bunny_1_cheeks
+  rotate: true
+  xy: 925, 612
+  size: 377, 115
+  orig: 377, 115
+  offset: 0, 0
+  index: -1
+bunny_1_eyes_close
+  rotate: true
+  xy: 1996, 1776
+  size: 270, 37
+  orig: 270, 37
+  offset: 0, 0
+  index: -1
+bunny_1_eyes_open
+  rotate: false
+  xy: 1154, 253
+  size: 313, 133
+  orig: 329, 152
+  offset: 9, 9
+  index: -1
+bunny_1_head
+  rotate: false
+  xy: 1059, 820
+  size: 451, 412
+  orig: 451, 412
+  offset: 0, 0
+  index: -1
+bunny_1_hear_left
+  rotate: false
+  xy: 925, 2
+  size: 163, 289
+  orig: 163, 289
+  offset: 0, 0
+  index: -1
+bunny_1_hear_right
+  rotate: true
+  xy: 1512, 715
+  size: 143, 287
+  orig: 143, 287
+  offset: 0, 0
+  index: -1
+bunny_1_mouth_open
+  rotate: true
+  xy: 1090, 2
+  size: 47, 85
+  orig: 47, 85
+  offset: 0, 0
+  index: -1
+bunny_1_nose
+  rotate: false
+  xy: 1912, 863
+  size: 95, 76
+  orig: 106, 91
+  offset: 10, 6
+  index: -1
+bunny_2_arm
+  rotate: true
+  xy: 1090, 51
+  size: 200, 294
+  orig: 201, 295
+  offset: 1, 0
+  index: -1
+bunny_2_body
+  rotate: false
+  xy: 1512, 860
+  size: 398, 394
+  orig: 399, 395
+  offset: 1, 0
+  index: -1
+bunny_2_cheeks
+  rotate: false
+  xy: 1665, 594
+  size: 117, 119
+  orig: 117, 119
+  offset: 0, 0
+  index: -1
+bunny_2_eye
+  rotate: true
+  xy: 1526, 485
+  size: 95, 118
+  orig: 103, 128
+  offset: 4, 5
+  index: -1
+bunny_2_head
+  rotate: false
+  xy: 1508, 1256
+  size: 456, 419
+  orig: 456, 419
+  offset: 0, 0
+  index: -1
+bunny_2_mouth_close
+  rotate: false
+  xy: 81, 7
+  size: 38, 40
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+bunny_2_mouth_open
+  rotate: false
+  xy: 1446, 388
+  size: 53, 109
+  orig: 54, 110
+  offset: 0, 0
+  index: -1
+bunny_2_nose
+  rotate: false
+  xy: 1871, 615
+  size: 60, 61
+  orig: 61, 62
+  offset: 0, 1
+  index: -1
+bunny_2_sweat
+  rotate: true
+  xy: 1177, 5
+  size: 44, 71
+  orig: 45, 72
+  offset: 1, 1
+  index: -1
+bushes_front
+  rotate: false
+  xy: 1059, 1677
+  size: 935, 369
+  orig: 936, 383
+  offset: 0, 0
+  index: -1
+pastry_baffo_dx
+  rotate: false
+  xy: 1250, 3
+  size: 59, 46
+  orig: 59, 46
+  offset: 0, 0
+  index: -1
+pastry_baffo_sx
+  rotate: false
+  xy: 1042, 617
+  size: 67, 34
+  orig: 67, 34
+  offset: 0, 0
+  index: -1
+pastry_bocca
+  rotate: false
+  xy: 1784, 624
+  size: 85, 52
+  orig: 85, 52
+  offset: 0, 0
+  index: -1
+pastry_bracciodx
+  rotate: false
+  xy: 1801, 678
+  size: 116, 180
+  orig: 116, 180
+  offset: 0, 0
+  index: -1
+pastry_bracciosx
+  rotate: false
+  xy: 1912, 1085
+  size: 95, 169
+  orig: 95, 169
+  offset: 0, 0
+  index: -1
+pastry_cappello
+  rotate: false
+  xy: 1526, 582
+  size: 137, 131
+  orig: 137, 131
+  offset: 0, 0
+  index: -1
+pastry_giacca
+  rotate: false
+  xy: 1154, 388
+  size: 290, 263
+  orig: 290, 263
+  offset: 0, 0
+  index: -1
+pastry_gonnellino
+  rotate: true
+  xy: 1446, 499
+  size: 152, 78
+  orig: 152, 78
+  offset: 0, 0
+  index: -1
+pastry_manicadx
+  rotate: false
+  xy: 1919, 765
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+pastry_manicasx
+  rotate: true
+  xy: 1919, 679
+  size: 84, 99
+  orig: 84, 99
+  offset: 0, 0
+  index: -1
+pastry_naso
+  rotate: false
+  xy: 1495, 673
+  size: 29, 40
+  orig: 30, 40
+  offset: 0, 0
+  index: -1
+pastry_occhi
+  rotate: false
+  xy: 1090, 255
+  size: 62, 36
+  orig: 62, 36
+  offset: 0, 0
+  index: -1
+pastry_retino
+  rotate: false
+  xy: 1042, 653
+  size: 451, 165
+  orig: 451, 165
+  offset: 0, 0
+  index: -1
+pastry_sopracciglia
+  rotate: false
+  xy: 2, 4
+  size: 77, 43
+  orig: 77, 43
+  offset: 0, 0
+  index: -1
+pastry_testa
+  rotate: false
+  xy: 1912, 941
+  size: 119, 142
+  orig: 119, 142
+  offset: 0, 0
+  index: -1
+phone_bg
+  rotate: false
+  xy: 2, 49
+  size: 921, 940
+  orig: 921, 940
+  offset: 0, 0
+  index: -1

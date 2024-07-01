@@ -1,0 +1,41 @@
+
+animap_bg00_melonboat.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+melon_rope
+  rotate: true
+  xy: 139, 2
+  size: 95, 61
+  orig: 95, 61
+  offset: 0, 0
+  index: -1
+rmelon_boat
+  rotate: true
+  xy: 111, 144
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+water_hide
+  rotate: false
+  xy: 2, 13
+  size: 135, 84
+  orig: 135, 84
+  offset: 0, 0
+  index: -1
+water_shadow
+  rotate: true
+  xy: 2, 99
+  size: 134, 107
+  orig: 134, 107
+  offset: 0, 0
+  index: -1
+waves
+  rotate: false
+  xy: 111, 99
+  size: 70, 43
+  orig: 70, 43
+  offset: 0, 0
+  index: -1

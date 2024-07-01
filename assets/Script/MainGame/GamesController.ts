@@ -1,8 +1,10 @@
-import { _decorator, Component, Label, Node } from 'cc';
+import { _decorator, Component, game, Label, Node, EventTarget } from 'cc';
 const { ccclass, property } = _decorator;
 
 import { Circle } from "./Circle";
 import { GameField } from "./GameField";
+
+export const eventTarget = new EventTarget();
 
 @ccclass('GamesController')
 export class GameController extends Component {
@@ -16,7 +18,7 @@ export class GameController extends Component {
     currentMove: Label | null = null;
     private movepoints: number = 0;
     @property
-    testGame: boolean = true;
+    testGame: boolean = false;
     @property(Label)
     textPoint: Label | null = null;
     @property(GameField)
@@ -33,57 +35,57 @@ export class GameController extends Component {
     blockField: Node | null = null;
     onLoad() {
 
-        if(this.testGame) {
-        this.testGameText.active=true;
+        if (this.testGame) {
+            this.testGameText.active = true;
         }
 
         this.taskpoints = Number(this.taskType.string);
         this.movepoints = Number(this.currentMove.string);
 
-        this.node.on('moveCircleEnd', this.gameField.createOneLineCircles, this.gameField);
-        this.node.on('moveCircleEnd', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('moveCircleEnd', this.gameField.createOneLineCircles, this.gameField);
+        // eventTarget.on('moveCircleEnd', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('clickOnCellForDestroyCircle', this.gameField.clickDestroyCircleInCell, this.gameField);
-        this.node.on('clickOnCellForDestroyCircle', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('clickOnCellForDestroyCircle', this.gameField.clickDestroyCircleInCell, this.gameField);
+        // eventTarget.on('clickOnCellForDestroyCircle', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('destroyCircles', this.gameField.allCirclesMove, this.gameField);
-        this.node.on('destroyCircles', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('destroyCircles', this.gameField.allCirclesMove, this.gameField);
+        // eventTarget.on('destroyCircles', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('needCheckField', this.gameField.checkLine, this.gameField);
-        this.node.on('needCheckField', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on("needCheckField", this.gameField.checkLine, this.gameField);
+        // eventTarget.on('needCheckField', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('setPoint', this.setPoint, this);
-        this.node.on('setPoint', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('setPoint', this.setPoint, this);
+        // eventTarget.on('setPoint', (event) => {
+        //     event.stopPropagation();
+        // });
 
 
         this.node.on('getDestroyCirclesType', this.gameField.getTypeDestroyCircle, this.gameField);
-        this.node.on('getDestroyCirclesType', function (event) {
-        event.stopPropagation();
-        });
+        // this.node.on('getDestroyCirclesType', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('setDestroyCirclesType_', this.setTypeDestroyCircle, this);
-        this.node.on('setDestroyCirclesType_', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('setDestroyCirclesType_', this.setTypeDestroyCircle, this);
+        // eventTarget.on('setDestroyCirclesType_', (event) => {
+        //     event.stopPropagation();
+        // });
 
-        this.node.on('countProgressStep', this.countProgressStep, this);
-        this.node.on('countProgressStep', function (event) {
-        event.stopPropagation();
-        });
+        eventTarget.on('countProgressStep', this.countProgressStep, this);
+        // eventTarget.on('countProgressStep',  (event) => {
+        //     event.stopPropagation();
+        // });
         this.node.on('countProgressDestrCirles', this.countProgressStep, this);
-        this.node.on('countProgressDestrCirles', function (event) {
-        event.stopPropagation();
-        });
+        // this.node.on('countProgressDestrCirles', (event) => {
+        //     event.stopPropagation();
+        // });
 
 
     }
@@ -92,41 +94,41 @@ export class GameController extends Component {
         this.textPoint.string = this.allpoints.toString();
 
     }
-/*
-    setBuster() {
-        this.gameField.
-    }
-*/
+    /*
+        setBuster() {
+            this.gameField.
+        }
+    */
     private countProgressStep() {
 
         this.movepoints--;
         console.log(this.movepoints)
-        this. currentMove.string = String(this.movepoints);
+        this.currentMove.string = String(this.movepoints);
         if (!this.testGame) {
-        if (this.movepoints==0) {
-        this.gameOver.active = true;
-        }
+            if (this.movepoints == 0) {
+                this.gameOver.active = true;
+            }
         }
 
     }
-    progressTargetDestoyCircle(){
+    progressTargetDestoyCircle() {
 
         var circleTask = this.typeTask.getComponent(Circle);
         var countDestroyersTaskCircles = this.countTypeAndMove - this.gameField.destroyTipeColors[circleTask.CircleTypeColor];
         this.taskType.string = String(countDestroyersTaskCircles);
         if (!this.testGame) {
-        if (countDestroyersTaskCircles<=0){
-        this.gameWon.active = true;
-        }
+            if (countDestroyersTaskCircles <= 0) {
+                this.gameWon.active = true;
+            }
         }
     }
-    gameOverNodeDeActivate(){
+    gameOverNodeDeActivate() {
         this.gameOver.active = false;
     }
-    gameWonNodeDeActivate(){
+    gameWonNodeDeActivate() {
         this.gameWon.active = false;
     }
-    private CheckGameOverIfColorChallengeIsComplete(){
+    private CheckGameOverIfColorChallengeIsComplete() {
 
     }
     RestartGame() {
@@ -154,119 +156,119 @@ export class GameController extends Component {
 // import { Circle } from "./Circle";
 // import { GameField } from "./GameField";
 // const { ccclass, property } = cc._decorator;
-// 
+//
 // @ccclass
 // export class GameController extends cc.Component {
-// 
+//
 //     @property
 //     countTypeAndMove: number = 12;
-// 
+//
 //     private allpoints: number = 0;
-// 
+//
 //     @property(cc.Label)
 //     taskType: cc.Label = null;
-// 
+//
 //     private taskpoints: number = 0;
-// 
+//
 //     @property(cc.Label)
 //     currentMove: cc.Label = null;
-// 
+//
 //     private movepoints: number = 0;
-// 
+//
 //     @property
 //     testGame: boolean = true;
-// 
+//
 //     @property(cc.Label)
 //     textPoint: cc.Label = null;
-// 
+//
 //     @property(GameField)
 //     gameField: GameField = null;
-// 
+//
 //     @property(cc.Node)
 //     gameOver: cc.Node = null;
-// 
+//
 //     @property(cc.Node)
 //     gameWon: cc.Node = null;
-// 
+//
 //     @property(cc.Node)
 //     typeTask: cc.Node = null;
-// 
+//
 //     @property(cc.Node)
 //     testGameText: cc.Node = null;
-// 
+//
 //     @property(cc.Node)
 //     blockField: cc.Node = null;
 //     onLoad() {
-// 
+//
 //         if(this.testGame) {
 //             this.testGameText.active=true;
 //         }
-// 
+//
 //         this.taskpoints = Number(this.taskType.string);
 //         this.movepoints = Number(this.currentMove.string);
-// 
+//
 //         this.node.on('moveCircleEnd', this.gameField.createOneLineCircles, this.gameField);
-//         this.node.on('moveCircleEnd', function (event) {
+//         this.node.on('moveCircleEnd', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('clickOnCellForDestroyCircle', this.gameField.clickDestroyCircleInCell, this.gameField);
-//         this.node.on('clickOnCellForDestroyCircle', function (event) {
+//         this.node.on('clickOnCellForDestroyCircle', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('destroyCircles', this.gameField.allCirclesMove, this.gameField);
-//         this.node.on('destroyCircles', function (event) {
+//         this.node.on('destroyCircles', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('needCheckField', this.gameField.checkLine, this.gameField);
-//         this.node.on('needCheckField', function (event) {
+//         this.node.on('needCheckField', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('setPoint', this.setPoint, this);
-//         this.node.on('setPoint', function (event) {
+//         this.node.on('setPoint', (event) => {
 //             event.stopPropagation();
 //         });
-// 
-// 
+//
+//
 //         this.node.on('getDestroyCirclesType', this.gameField.getTypeDestroyCircle, this.gameField);
-//         this.node.on('getDestroyCirclesType', function (event) {
+//         this.node.on('getDestroyCirclesType', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('setDestroyCirclesType_', this.setTypeDestroyCircle, this);
-//         this.node.on('setDestroyCirclesType_', function (event) {
+//         this.node.on('setDestroyCirclesType_', (event) => {
 //             event.stopPropagation();
 //         });
-// 
+//
 //         this.node.on('countProgressStep', this.countProgressStep, this);
-//         this.node.on('countProgressStep', function (event) {
+//         this.node.on('countProgressStep', (event) => {
 //             event.stopPropagation();
 //         });
 //         this.node.on('countProgressDestrCirles', this.countProgressStep, this);
-//         this.node.on('countProgressDestrCirles', function (event) {
+//         this.node.on('countProgressDestrCirles', (event) => {
 //             event.stopPropagation();
 //         });
-// 
-//       
+//
+//
 //     }
-// 
-// 
+//
+//
 //     private setPoint() {
 //         this.allpoints += 1;
 //         this.textPoint.string = this.allpoints.toString();
-//        
+//
 //     }
 // /*
 //     setBuster() {
 //         this.gameField.
 //     }
 // */
-// 
+//
 //     private countProgressStep() {
-//       
+//
 //         this.movepoints--;
 //         cc.log(this.movepoints)
 //         this. currentMove.string = String(this.movepoints);
@@ -275,11 +277,11 @@ export class GameController extends Component {
 //                 this.gameOver.active = true;
 //             }
 //         }
-// 
+//
 //     }
-// 
+//
 //     progressTargetDestoyCircle(){
-//      
+//
 //         var circleTask = this.typeTask.getComponent(Circle);
 //         var countDestroyersTaskCircles = this.countTypeAndMove - this.gameField.destroyTipeColors[circleTask.CircleTypeColor];
 //         this.taskType.string = String(countDestroyersTaskCircles);
@@ -289,21 +291,21 @@ export class GameController extends Component {
 //             }
 //         }
 //     }
-// 
+//
 //     gameOverNodeDeActivate(){
 //         this.gameOver.active = false;
 //     }
-// 
+//
 //     gameWonNodeDeActivate(){
 //         this.gameWon.active = false;
 //     }
-// 
+//
 //     private CheckGameOverIfColorChallengeIsComplete(){
-// 
+//
 //     }
-// 
+//
 //     RestartGame() {
-// 
+//
 //         this.gameField.node.active = false;
 //         this.gameField.node.active = true;
 //         this.allpoints = 1;
@@ -313,11 +315,11 @@ export class GameController extends Component {
 //         this.currentMove.string = this.countTypeAndMove.toString();
 //         var circleTask = this.typeTask.getComponent(Circle);
 //         circleTask.setRandomColor();
-// 
+//
 //     }
-// 
+//
 //     setTypeDestroyCircle() {
 //         this.progressTargetDestoyCircle();
 //     }
-// 
+//
 // }

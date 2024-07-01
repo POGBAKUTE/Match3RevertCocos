@@ -1,0 +1,27 @@
+
+sc14_item_flag.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flag_1
+  rotate: true
+  xy: 2, 2
+  size: 93, 96
+  orig: 93, 96
+  offset: 0, 0
+  index: -1
+flag_2
+  rotate: false
+  xy: 2, 97
+  size: 94, 80
+  orig: 94, 80
+  offset: 0, 0
+  index: -1
+flag_3
+  rotate: false
+  xy: 2, 179
+  size: 60, 59
+  orig: 60, 59
+  offset: 0, 0
+  index: -1

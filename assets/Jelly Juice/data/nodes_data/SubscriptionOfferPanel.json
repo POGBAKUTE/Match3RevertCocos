@@ -1,0 +1,14 @@
+{
+    "bgImage": {
+        "position": {
+            "x": 0,
+            "y": 30
+        }
+    },
+    "infoLabel": {
+        "position": {
+            "x": 0,
+            "y": -50
+        }
+    }
+}

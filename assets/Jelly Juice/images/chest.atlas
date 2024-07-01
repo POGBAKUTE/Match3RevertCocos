@@ -1,0 +1,69 @@
+
+chest.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chest_coin/chest_coin_00000
+  rotate: true
+  xy: 2, 2
+  size: 252, 258
+  orig: 252, 258
+  offset: 0, 0
+  index: -1
+chest_coin/chest_coin_00007
+  rotate: true
+  xy: 262, 2
+  size: 252, 258
+  orig: 252, 258
+  offset: 0, 0
+  index: -1
+chest_coin/chest_coin_00020
+  rotate: true
+  xy: 340, 472
+  size: 252, 258
+  orig: 252, 258
+  offset: 0, 0
+  index: -1
+chest_coin/chest_coin_00033
+  rotate: true
+  xy: 600, 472
+  size: 252, 258
+  orig: 252, 258
+  offset: 0, 0
+  index: -1
+chest_coin/chest_coin_00040
+  rotate: false
+  xy: 522, 85
+  size: 252, 258
+  orig: 252, 258
+  offset: 0, 0
+  index: -1
+chest_coin/chest_coin_glow_key
+  rotate: false
+  xy: 652, 403
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+circle_glow
+  rotate: false
+  xy: 340, 345
+  size: 310, 125
+  orig: 310, 125
+  offset: 0, 0
+  index: -1
+circle_glow_rays
+  rotate: false
+  xy: 2, 256
+  size: 336, 468
+  orig: 336, 468
+  offset: 0, 0
+  index: -1
+ray
+  rotate: true
+  xy: 340, 274
+  size: 69, 115
+  orig: 69, 115
+  offset: 0, 0
+  index: -1

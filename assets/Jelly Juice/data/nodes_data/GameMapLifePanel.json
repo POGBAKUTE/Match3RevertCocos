@@ -1,0 +1,213 @@
+{
+    "with_lives": {
+        "titleBg": {
+            "position": {
+                "y": 104
+            }
+        },
+        "titleLabel":
+        {
+            "position": {
+                "y": 109
+            }
+        },
+        "bunny":{
+            "position": {
+                "x":-50,
+                "y":33
+            },
+            "scale": 0.75
+        },
+
+        "heartContainer": {
+            "position": {
+                "x": -2,
+                "y": -10
+            },
+            "rotation": 5,
+            "scale": 0.9
+        },
+        "nextLifeLabel": {
+            "position":{
+                "x":0,
+                "y":-30
+            },
+            "scale": 0.5
+        },
+
+        "buyButton": {
+            "position":{
+                "x":0,
+                "y":-66
+            },
+            "content_size": {
+                "w": 130,
+                "h": 50
+            },
+            "base_scale": 1.1
+        },
+
+        "moreOfferButton": {
+            "position":{
+                "x":0,
+                "y":-120
+            },
+            "content_size": {
+                "w": 150,
+                "h": 50
+            },
+            "base_scale": 1.1
+        },
+
+        "uLivesSprite":{
+            "position":{
+                "x": -45,
+                "y": 8
+            },
+            "scale": 0.35
+        }
+    },
+
+    "without_lives": {
+        "titleBg": {
+            "position": {
+                "y": 104
+            }
+        },
+        "titleLabel":
+        {
+            "position": {
+                "y": 109
+            }
+        },
+        "heartContainer": {
+            "position": {
+                "x": -2,
+                "y": -15
+            },
+            "rotation": 5,
+            "scale": 0.9
+        },
+
+        "bunny":{
+            "position": {
+                "x":-30,
+                "y":40
+            },
+            "scale": 0.65
+        },
+
+        "nextLifeLabel": {
+            "position":{
+                "x":0,
+                "y": -25
+            }
+        },
+
+        "buyButton": {
+            "position":{
+                "x":-55,
+                "y":-65
+            },
+            "content_size": {
+                "w": 110,
+                "h": 50
+            },
+            "base_scale": 1        },
+
+        "rechargeButton": {
+            "position":{
+                "x": 55,
+                "y":-65
+            },
+            "content_size": {
+                "w": 110,
+                "h": 50
+            },
+            "base_scale": 1
+        },
+        
+        "videoRewardButton": {
+            "position":{
+                "x": 55,
+                "y":-118
+            },
+            "content_size": {
+                "w": 110,
+                "h": 50
+            },
+            "base_scale": 1
+        },
+        
+        "videoRewardSprite": {
+            "position":{
+                "x": 9,
+                "y": 17
+            },
+            "scale": 0.9
+        },
+        
+        "videoRewardArrow": {
+            "position":{
+                "x": 45,
+                "y": 24
+            },
+            "scale": 0.95
+        },
+        
+        "videoRewardHeart": {
+            "position":{
+                "x": 70,
+                "y": 17
+            },
+            "scale": 0.9
+        },
+        
+        "videoRewardHeartLabel": {
+            "position":{
+                "x": 6,
+                "y": 5
+            },
+            "scale": 0.6,
+            "rotation": 12
+        },
+
+        "moreOfferButton": {
+            "position":{
+                "x":0,
+                "y":-118
+            },
+            "base_scale": 1.2
+        },
+
+        "rechargeButtonLabel":{
+            "position":{
+                "x": 13,
+                "y": 3
+            },
+            "max_line_width": 65
+        },
+        "rechargeButtonCoinSprite":{
+            "position": {
+                "x": -40,
+                "y": 10
+            },
+            "scale": 0.8
+        },
+        "rechargeButtonCoinLabel":{
+            "position": {
+                "x": -32,
+                "y": -3
+            },
+            "scale": 0.7
+        },
+
+        "uLivesSprite":{
+            "position":{
+                "x": -40,
+                "y": 12
+            },
+            "scale": 0.35
+        }
+    }
+}

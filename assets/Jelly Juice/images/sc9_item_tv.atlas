@@ -1,0 +1,97 @@
+
+sc9_item_tv.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cc
+  rotate: true
+  xy: 91, 2
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+cc2
+  rotate: true
+  xy: 143, 2
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+cc3
+  rotate: true
+  xy: 150, 67
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+jj
+  rotate: true
+  xy: 195, 8
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+jj1
+  rotate: true
+  xy: 202, 67
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+jj2
+  rotate: true
+  xy: 247, 8
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+pr
+  rotate: true
+  xy: 254, 67
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+pr1
+  rotate: true
+  xy: 299, 8
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+pr2
+  rotate: true
+  xy: 306, 67
+  size: 57, 50
+  orig: 57, 50
+  offset: 0, 0
+  index: -1
+reflections
+  rotate: true
+  xy: 91, 61
+  size: 63, 57
+  orig: 63, 57
+  offset: 0, 0
+  index: -1
+schermo_acceso
+  rotate: true
+  xy: 351, 11
+  size: 54, 48
+  orig: 54, 48
+  offset: 0, 0
+  index: -1
+tv
+  rotate: false
+  xy: 2, 25
+  size: 87, 99
+  orig: 87, 99
+  offset: 0, 0
+  index: -1
+white_spot
+  rotate: true
+  xy: 358, 74
+  size: 50, 41
+  orig: 50, 41
+  offset: 0, 0
+  index: -1

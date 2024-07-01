@@ -1,0 +1,48 @@
+
+hammer.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: true
+  xy: 2, 447
+  size: 140, 305
+  orig: 140, 305
+  offset: 0, 0
+  index: -1
+02
+  rotate: true
+  xy: 2, 305
+  size: 140, 303
+  orig: 140, 303
+  offset: 0, 0
+  index: -1
+03
+  rotate: true
+  xy: 2, 163
+  size: 140, 331
+  orig: 140, 331
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 309, 305
+  size: 161, 282
+  orig: 161, 282
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 2, 21
+  size: 140, 321
+  orig: 140, 321
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 335, 2
+  size: 140, 301
+  orig: 140, 301
+  offset: 0, 0
+  index: -1

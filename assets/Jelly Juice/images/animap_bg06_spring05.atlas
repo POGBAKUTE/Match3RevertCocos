@@ -1,0 +1,20 @@
+
+animap_bg06_spring05.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_6_(tube_05)
+  rotate: false
+  xy: 2, 2
+  size: 144, 97
+  orig: 144, 97
+  offset: 0, 0
+  index: -1
+animap_bg_6_(tube_05_cover)
+  rotate: false
+  xy: 148, 6
+  size: 131, 93
+  orig: 131, 93
+  offset: 0, 0
+  index: -1

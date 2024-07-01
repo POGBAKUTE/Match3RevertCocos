@@ -1,0 +1,20 @@
+
+animap_bg06_leaf04.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_6_(leaf_04)
+  rotate: false
+  xy: 2, 2
+  size: 108, 111
+  orig: 108, 111
+  offset: 0, 0
+  index: -1
+animap_bg_6_(leaf_04_cover)
+  rotate: false
+  xy: 112, 39
+  size: 60, 74
+  orig: 60, 74
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,24 @@
+{
+    "image": {
+        "position": {
+            "x":0,
+            "y":-28
+        },
+        "scale": 1
+    },
+
+    "label": {
+        "position": {
+            "x":0,
+            "y":60 
+        },
+        "scale":0.95
+    },
+
+    "actionButton": {
+        "position": {
+            "x":0,
+            "y":-120
+        }
+    }
+}

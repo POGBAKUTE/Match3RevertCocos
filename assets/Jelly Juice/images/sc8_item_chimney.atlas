@@ -1,0 +1,20 @@
+
+sc8_item_chimney.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+chimney
+  rotate: true
+  xy: 2, 2
+  size: 49, 76
+  orig: 49, 76
+  offset: 0, 0
+  index: -1
+smoke
+  rotate: true
+  xy: 80, 14
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1

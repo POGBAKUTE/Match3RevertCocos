@@ -1,0 +1,13 @@
+
+sc12_item_bunny_ghost.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bunny_ghost
+  rotate: false
+  xy: 2, 2
+  size: 95, 135
+  orig: 95, 135
+  offset: 0, 0
+  index: -1

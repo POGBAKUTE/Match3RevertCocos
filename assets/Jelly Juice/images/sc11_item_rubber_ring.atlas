@@ -1,0 +1,13 @@
+
+sc11_item_rubber_ring.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sc11_item_rubber_ring
+  rotate: false
+  xy: 2, 2
+  size: 109, 94
+  orig: 109, 94
+  offset: 0, 0
+  index: -1

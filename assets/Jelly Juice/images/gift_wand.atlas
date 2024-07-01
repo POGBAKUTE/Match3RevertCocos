@@ -1,0 +1,83 @@
+
+gift_wand.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_particles
+  rotate: false
+  xy: 362, 250
+  size: 225, 226
+  orig: 228, 228
+  offset: 3, 2
+  index: -1
+circle_remove
+  rotate: false
+  xy: 2, 71
+  size: 358, 358
+  orig: 358, 358
+  offset: 0, 0
+  index: -1
+firework
+  rotate: false
+  xy: 2, 431
+  size: 354, 365
+  orig: 358, 365
+  offset: 2, 0
+  index: -1
+flash_ring
+  rotate: false
+  xy: 358, 478
+  size: 318, 318
+  orig: 358, 358
+  offset: 20, 20
+  index: -1
+frame/frames/wand_00000
+  rotate: true
+  xy: 362, 132
+  size: 116, 252
+  orig: 280, 280
+  offset: 82, 14
+  index: -1
+frame/frames/wand_00001
+  rotate: true
+  xy: 589, 255
+  size: 109, 252
+  orig: 280, 280
+  offset: 84, 14
+  index: -1
+frame/frames/wand_00003
+  rotate: false
+  xy: 616, 2
+  size: 76, 251
+  orig: 280, 280
+  offset: 104, 14
+  index: -1
+frame/frames/wand_00005
+  rotate: true
+  xy: 678, 690
+  size: 106, 252
+  orig: 280, 280
+  offset: 86, 14
+  index: -1
+frame/frames/wand_00006
+  rotate: true
+  xy: 678, 517
+  size: 79, 251
+  orig: 280, 280
+  offset: 98, 14
+  index: -1
+frame/frames/wand_00007
+  rotate: true
+  xy: 678, 598
+  size: 90, 251
+  orig: 280, 280
+  offset: 98, 14
+  index: -1
+frame/frames/wand_00008
+  rotate: true
+  xy: 589, 366
+  size: 110, 252
+  orig: 280, 280
+  offset: 87, 14
+  index: -1

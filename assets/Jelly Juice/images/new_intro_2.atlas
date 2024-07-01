@@ -1,0 +1,167 @@
+
+new_intro_2.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bunny tale
+  rotate: true
+  xy: 1614, 575
+  size: 32, 31
+  orig: 34, 33
+  offset: 1, 1
+  index: -1
+bunny_body
+  rotate: false
+  xy: 1868, 1145
+  size: 158, 131
+  orig: 160, 133
+  offset: 1, 1
+  index: -1
+bunny_ear
+  rotate: false
+  xy: 1959, 613
+  size: 76, 106
+  orig: 78, 108
+  offset: 1, 1
+  index: -1
+bunny_eyes_closed
+  rotate: false
+  xy: 1933, 535
+  size: 105, 30
+  orig: 107, 32
+  offset: 1, 1
+  index: -1
+bunny_eyes_open
+  rotate: true
+  xy: 1868, 510
+  size: 117, 63
+  orig: 123, 70
+  offset: 4, 2
+  index: -1
+bunny_head
+  rotate: true
+  xy: 795, 448
+  size: 230, 251
+  orig: 230, 251
+  offset: 0, 0
+  index: -1
+bunny_left_arm
+  rotate: false
+  xy: 1933, 489
+  size: 52, 44
+  orig: 54, 46
+  offset: 1, 1
+  index: -1
+bunny_left_foot
+  rotate: true
+  xy: 1933, 586
+  size: 41, 24
+  orig: 43, 26
+  offset: 1, 1
+  index: -1
+bunny_mouth_open
+  rotate: false
+  xy: 2028, 1242
+  size: 18, 34
+  orig: 20, 36
+  offset: 1, 1
+  index: -1
+bunny_nose
+  rotate: false
+  xy: 1987, 501
+  size: 35, 32
+  orig: 72, 70
+  offset: 2, 1
+  index: -1
+bunny_right_arm
+  rotate: false
+  xy: 1959, 567
+  size: 76, 44
+  orig: 80, 49
+  offset: 1, 4
+  index: -1
+bunny_right_foot
+  rotate: false
+  xy: 1987, 473
+  size: 39, 26
+  orig: 41, 28
+  offset: 1, 1
+  index: -1
+bush_sx
+  rotate: true
+  xy: 1614, 101
+  size: 407, 310
+  orig: 409, 326
+  offset: 1, 1
+  index: -1
+butterfly
+  rotate: false
+  xy: 1960, 721
+  size: 78, 167
+  orig: 79, 167
+  offset: 1, 0
+  index: -1
+butterfly_wing
+  rotate: false
+  xy: 1868, 937
+  size: 100, 206
+  orig: 101, 206
+  offset: 0, 0
+  index: -1
+candy_1
+  rotate: false
+  xy: 1868, 1278
+  size: 171, 153
+  orig: 173, 155
+  offset: 1, 1
+  index: -1
+candy_2
+  rotate: false
+  xy: 1868, 629
+  size: 89, 137
+  orig: 91, 139
+  offset: 1, 1
+  index: -1
+candy_3
+  rotate: false
+  xy: 1868, 768
+  size: 90, 167
+  orig: 92, 169
+  offset: 1, 1
+  index: -1
+ombra
+  rotate: true
+  xy: 1970, 890
+  size: 253, 66
+  orig: 258, 70
+  offset: 3, 2
+  index: -1
+quinta_dx
+  rotate: false
+  xy: 2, 2
+  size: 791, 676
+  orig: 796, 680
+  offset: 4, 1
+  index: -1
+quinta_sx
+  rotate: false
+  xy: 2, 680
+  size: 1055, 751
+  orig: 1058, 753
+  offset: 1, 1
+  index: -1
+red_tree_1
+  rotate: false
+  xy: 1614, 609
+  size: 252, 822
+  orig: 254, 824
+  offset: 1, 1
+  index: -1
+red_tree_2
+  rotate: false
+  xy: 1059, 415
+  size: 553, 1016
+  orig: 555, 1018
+  offset: 1, 1
+  index: -1

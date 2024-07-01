@@ -1,0 +1,90 @@
+
+beach_river.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bolla
+  rotate: false
+  xy: 170, 76
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+luci_sopra
+  rotate: true
+  xy: 2, 75
+  size: 177, 166
+  orig: 178, 166
+  offset: 0, 0
+  index: -1
+luci_sotto
+  rotate: false
+  xy: 85, 5
+  size: 65, 37
+  orig: 65, 37
+  offset: 0, 0
+  index: -1
+luci_sotto_1
+  rotate: false
+  xy: 2, 5
+  size: 81, 68
+  orig: 81, 68
+  offset: 0, 0
+  index: -1
+luci_sotto_2
+  rotate: false
+  xy: 232, 2
+  size: 24, 49
+  orig: 24, 49
+  offset: 0, 0
+  index: -1
+luci_sotto_3
+  rotate: false
+  xy: 212, 98
+  size: 77, 18
+  orig: 77, 18
+  offset: 0, 0
+  index: -1
+riflesso_1
+  rotate: true
+  xy: 152, 2
+  size: 40, 51
+  orig: 40, 51
+  offset: 0, 0
+  index: -1
+riflesso_2
+  rotate: false
+  xy: 85, 44
+  size: 100, 29
+  orig: 100, 29
+  offset: 0, 0
+  index: -1
+riflesso_3
+  rotate: false
+  xy: 187, 53
+  size: 71, 21
+  orig: 71, 21
+  offset: 0, 0
+  index: -1
+riflesso_cascata_1
+  rotate: false
+  xy: 205, 2
+  size: 25, 49
+  orig: 25, 49
+  offset: 0, 0
+  index: -1
+riflesso_cascata_2
+  rotate: false
+  xy: 258, 4
+  size: 23, 47
+  orig: 23, 47
+  offset: 0, 0
+  index: -1
+splash
+  rotate: true
+  xy: 170, 118
+  size: 134, 77
+  orig: 134, 77
+  offset: 0, 0
+  index: -1

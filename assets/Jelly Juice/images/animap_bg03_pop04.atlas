@@ -1,0 +1,20 @@
+
+animap_bg03_pop04.png
+size: 64,16
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_3_(pop_07)
+  rotate: false
+  xy: 2, 2
+  size: 13, 11
+  orig: 13, 11
+  offset: 0, 0
+  index: -1
+png/animap_bg_3_(pop_07_sh)
+  rotate: false
+  xy: 17, 5
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1

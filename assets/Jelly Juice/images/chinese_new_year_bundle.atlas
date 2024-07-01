@@ -1,0 +1,146 @@
+
+chinese_new_year_bundle.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+-50%
+  rotate: false
+  xy: 544, 399
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+OM_character
+  rotate: true
+  xy: 933, 596
+  size: 417, 66
+  orig: 417, 66
+  offset: 0, 0
+  index: -1
+OM_drago
+  rotate: true
+  xy: 933, 282
+  size: 312, 67
+  orig: 312, 67
+  offset: 0, 0
+  index: -1
+bombe
+  rotate: false
+  xy: 680, 417
+  size: 149, 116
+  orig: 149, 116
+  offset: 0, 0
+  index: -1
+bunny_happy
+  rotate: true
+  xy: 735, 31
+  size: 115, 213
+  orig: 115, 213
+  offset: 0, 0
+  index: -1
+corpo_drago
+  rotate: false
+  xy: 594, 148
+  size: 213, 132
+  orig: 213, 132
+  offset: 0, 0
+  index: -1
+dragone_testa_ verde
+  rotate: true
+  xy: 2, 306
+  size: 254, 200
+  orig: 254, 200
+  offset: 0, 0
+  index: -1
+fuoco_artificio
+  rotate: true
+  xy: 388, 2
+  size: 67, 139
+  orig: 67, 139
+  offset: 0, 0
+  index: -1
+fuoco_artificio_blu
+  rotate: true
+  xy: 529, 2
+  size: 67, 139
+  orig: 67, 139
+  offset: 0, 0
+  index: -1
+fuoco_artificio_giallo
+  rotate: true
+  xy: 594, 79
+  size: 67, 139
+  orig: 67, 139
+  offset: 0, 0
+  index: -1
+jinny
+  rotate: true
+  xy: 2, 50
+  size: 230, 384
+  orig: 230, 384
+  offset: 0, 0
+  index: -1
+lanterna
+  rotate: false
+  xy: 388, 346
+  size: 154, 214
+  orig: 154, 214
+  offset: 0, 0
+  index: -1
+luce_lanterna
+  rotate: true
+  xy: 388, 71
+  size: 209, 204
+  orig: 209, 204
+  offset: 0, 0
+  index: -1
+ombrellino
+  rotate: false
+  xy: 204, 374
+  size: 168, 186
+  orig: 168, 186
+  offset: 0, 0
+  index: -1
+panel
+  rotate: true
+  xy: 575, 535
+  size: 478, 356
+  orig: 478, 356
+  offset: 0, 0
+  index: -1
+scritta
+  rotate: false
+  xy: 809, 193
+  size: 202, 87
+  orig: 202, 87
+  offset: 0, 0
+  index: -1
+soldi
+  rotate: false
+  xy: 204, 297
+  size: 127, 75
+  orig: 127, 75
+  offset: 0, 0
+  index: -1
+temple
+  rotate: false
+  xy: 2, 562
+  size: 571, 451
+  orig: 571, 451
+  offset: 0, 0
+  index: -1
+x10
+  rotate: false
+  xy: 119, 4
+  size: 84, 44
+  orig: 84, 44
+  offset: 0, 0
+  index: -1
+x100
+  rotate: false
+  xy: 2, 4
+  size: 115, 44
+  orig: 115, 44
+  offset: 0, 0
+  index: -1

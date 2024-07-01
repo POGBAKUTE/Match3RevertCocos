@@ -1,0 +1,123 @@
+{
+    "portrait": {
+        "firework_0": {
+            "scale": 0.15
+        },
+        "firework_1": {
+            "scale": 0.15
+        },
+        "firework_2": {
+            "scale": 0.15        
+        },
+        "destination_0": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.24,
+                "y": 0.785
+            }
+        },
+        "destination_1": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.6,
+                "y": 0.87
+            }
+        },
+        "destination_2": {
+            "scale": 0.5,
+            "position_wp": {
+                "x":0.77,
+                "y": 0.73
+            }
+        },
+        "source_0": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.4,
+                "y": -0.07
+            }
+        },
+        "source_1": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.53,
+                "y": -0.05
+            }
+        },
+        "source_2": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.62,
+                "y": -0.09
+            }
+        }
+    },
+
+
+    "landscape": {
+        "firework_0": {
+            "scale": 0.15
+        },
+
+        "firework_1": {
+            "scale": 0.15
+        },
+
+        "firework_2": {
+            "scale": 0.15        
+        },
+
+        "destination_0": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.26,
+                "y": 0.72
+            }
+        },
+        "destination_1": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.55,
+                "y": 0.84
+            }
+        },
+        "destination_2": {
+            "scale": 0.5,
+            "position_wp": {
+                "x":0.77,
+                "y": 0.55
+            }
+        },
+        "source_0": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.41,
+                "y": -0.15
+            }
+        },
+        "source_1": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.5,
+                "y": -0.1
+            }
+        },
+        "source_2": {
+            "scale": 0.5,
+
+            "position_wp": {
+                "x":0.56,
+                "y": -0.17
+            }
+        }
+    }
+}

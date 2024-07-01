@@ -1,0 +1,106 @@
+{
+    "itemImage":{
+        "position":{
+            "x": -78,
+            "y": 0
+        },
+        "scale": 1.05
+    },
+
+    "infoLabel": {
+        "position":{
+            "x": -8,
+            "y": 0
+        },
+        "scale": 0.5
+    },
+    "itemButton": {
+        "position":{
+            "x": 65,
+            "y": 0
+        }
+    },
+    "titleBg":{
+        "position": {
+            "y": 106
+        }
+    },
+    "titleLabel":{
+        "position": {
+            "y": 111
+        }        
+    },
+    "background": {
+        "position":{
+            "y": -28
+        },
+        "content_size": {
+            "w": 214,
+            "h": 227
+        }
+    },
+    "backgroundShadow": {
+        "content_size": {
+            "w": 214,
+            "h": 227
+        }
+    },
+    "itemContainer_5": {
+        "position":{
+            "y": 60
+        },
+        "content_size":{
+            "w": 200,
+            "h": 45
+        }
+    },
+    "itemContainer_4": {
+        "position":{
+            "y": 15
+        },
+        "content_size":{
+            "w": 200,
+            "h": 45
+        }
+    },
+    "itemContainer_3": {
+        "position":{
+            "x": -51.5,
+            "y": -40
+        },
+        "content_size":{
+            "w": 100,
+            "h": 65
+        }
+    },
+    "itemContainer_2": {
+        "position":{
+            "x": 51.5,
+            "y": -40
+        },
+        "content_size":{
+            "w": 100,
+            "h": 65
+        }
+    },
+    "itemContainer_1": {
+        "position":{
+            "x": -51.5,
+            "y": -105
+        },
+        "content_size":{
+            "w": 100,
+            "h": 65
+        }
+    },
+    "itemContainer_0": {
+        "position":{
+            "x": 51.5,
+            "y": -105
+        },
+        "content_size":{
+            "w": 100,
+            "h": 65
+        }
+    }
+}

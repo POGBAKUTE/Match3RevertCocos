@@ -1,0 +1,20 @@
+
+sc13_item_table_chocolate.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cup
+  rotate: false
+  xy: 2, 8
+  size: 64, 47
+  orig: 64, 47
+  offset: 0, 0
+  index: -1
+fumo
+  rotate: false
+  xy: 68, 2
+  size: 17, 53
+  orig: 17, 53
+  offset: 0, 0
+  index: -1

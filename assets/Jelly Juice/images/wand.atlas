@@ -1,0 +1,104 @@
+
+wand.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ala_1
+  rotate: true
+  xy: 656, 80
+  size: 73, 56
+  orig: 73, 56
+  offset: 0, 0
+  index: -1
+ala_2
+  rotate: true
+  xy: 656, 5
+  size: 73, 56
+  orig: 73, 56
+  offset: 0, 0
+  index: -1
+bacchetta
+  rotate: true
+  xy: 2, 124
+  size: 130, 296
+  orig: 130, 296
+  offset: 0, 0
+  index: -1
+bacchetta_2
+  rotate: true
+  xy: 2, 4
+  size: 118, 270
+  orig: 118, 270
+  offset: 0, 0
+  index: -1
+bacchetta_3
+  rotate: true
+  xy: 274, 10
+  size: 112, 220
+  orig: 112, 220
+  offset: 0, 0
+  index: -1
+bacchetta_4
+  rotate: true
+  xy: 496, 26
+  size: 99, 158
+  orig: 99, 158
+  offset: 0, 0
+  index: -1
+bacchetta_5
+  rotate: true
+  xy: 572, 155
+  size: 99, 158
+  orig: 99, 158
+  offset: 0, 0
+  index: -1
+bacchetta_o
+  rotate: true
+  xy: 300, 127
+  size: 127, 270
+  orig: 127, 270
+  offset: 0, 0
+  index: -1
+stella_1
+  rotate: false
+  xy: 714, 110
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+stella_2
+  rotate: false
+  xy: 732, 224
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+stella_3
+  rotate: false
+  xy: 496, 2
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+stellina_1
+  rotate: false
+  xy: 542, 7
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+stellina_2
+  rotate: false
+  xy: 520, 4
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+stellina_3
+  rotate: false
+  xy: 732, 194
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1

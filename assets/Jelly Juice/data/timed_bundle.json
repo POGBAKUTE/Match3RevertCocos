@@ -1,0 +1,1282 @@
+{
+    "happyNewYear": {
+        "date": {
+            "startDay": 1,
+            "startMonth": 1,
+            "endDay": 3,
+            "endMonth": 1
+        },
+        "buttonImage": "icon_bundle_new_year's_party",
+        "buttonLabelColor": "8b0e71",
+        "panelImage": "bundle_new_year's_party",
+        "panelColor": "pink",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "F959D5",
+        "discountPriceBarColor": "purple",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "bundlebank05_201901",
+        "goods": {
+            "coin": 50,
+            "livesMinutes": 1440,
+            "jolly2": 5,
+            "jolly1": 5,
+            "jolly4": 5,
+            "jolly3": 5,
+            "fertilizer": 6
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "worldSnowDay": {
+        "date": {
+            "startDay": 16,
+            "startMonth": 1,
+            "endDay": 17,
+            "endMonth": 1
+        },
+        "buttonImage": "icon_bundle_world_snow_day",
+        "buttonLabelColor": "0A7CA2",
+        "panelImage": "bundle_world_snow_day",
+        "panelColor": "blue",
+        "priceLabelColor": "F959D5",
+        "discountPriceLabelColor": "C052F9",
+        "discountPriceBarColor": "purple",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "coins5_201901",
+        "goods": {
+            "coin": 50,
+            "livesMinutes": 360,
+            "booster1": 3,
+            "booster3": 3,
+            "booster2": 3,
+            "fertilizer": 4
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "chineseNewYear": {
+        "dates": {
+            "2020": {
+                "startDay": 25,
+                "startMonth": 1,
+                "endDay": 27,
+                "endMonth": 1
+            },
+            "2021": {
+                "startDay": 12,
+                "startMonth": 2,
+                "endDay": 13,
+                "endMonth": 2
+            },
+            "2022": {
+                "startDay": 31,
+                "startMonth": 1,
+                "endDay": 1,
+                "endMonth": 2
+            },
+            "2023": {
+                "startDay": 20,
+                "startMonth": 1,
+                "endDay": 22,
+                "endMonth": 1
+            },
+            "2024": {
+                "startDay": 9,
+                "startMonth": 2,
+                "endDay": 11,
+                "endMonth": 2
+            }
+        },
+        "buttonImage": "icon_bundle_cinese",
+        "buttonLabelColor": 801815,
+        "panelImage": "chinese_new_year_bundle",
+        "panelColor": "blue",
+        "priceLabelColor": "FFFFFF",
+        "discountPriceLabelColor": "66CCFB",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "bundlebank03",
+        "goods": {
+            "coin": 100,
+            "jolly2": 8
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "chocolateCream": {
+        "date": {
+            "startDay": 5,
+            "startMonth": 2,
+            "endDay": 5,
+            "endMonth": 2
+        },
+        "buttonImage": "icon_bundle_chocolate_cream_day",
+        "buttonLabelColor": "ff0006",
+        "panelImage": "bundle_chocolate_cream_day",
+        "panelColor": "red",
+        "priceLabelColor": "000000",
+        "discountPriceLabelColor": "FFFFFF",
+        "discountPriceBarColor": "blue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "bundle01_20",
+        "goods": {
+            "livesMinutes": 60,
+            "jolly1": 5,
+            "jolly4": 5,
+            "jolly3": 5
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "valentinesDay": {
+        "date": {
+            "startDay": 14,
+            "startMonth": 2,
+            "endDay": 15,
+            "endMonth": 2
+        },
+        "buttonImage": "icon_bundle_st_valentine",
+        "buttonLabelColor": "CE143D",
+        "panelImage": "bundle_st_valentine",
+        "panelColor": "red",
+        "priceLabelColor": "FFFFFF",
+        "discountPriceLabelColor": "E39DAB",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer8",
+        "fillPriceItem": "bundlebank04_201901",
+        "goods": {
+            "coin": 50,
+            "livesMinutes": 1440
+        },
+        "conditionForShow": {
+            "afterLevel": 30
+        }
+    },
+    "carnivalFair": {
+        "dates": {
+            "2020": {
+                "startDay": 20,
+                "startMonth": 2,
+                "endDay": 25,
+                "endMonth": 2
+            },
+            "2021": {
+                "startDay": 16,
+                "startMonth": 2,
+                "endDay": 21,
+                "endMonth": 2
+            },
+            "2022": {
+                "startDay": 24,
+                "startMonth": 2,
+                "endDay": 1,
+                "endMonth": 3
+            },
+            "2023": {
+                "startDay": 16,
+                "startMonth": 2,
+                "endDay": 21,
+                "endMonth": 2
+            },
+            "2024": {
+                "startDay": 8,
+                "startMonth": 2,
+                "endDay": 13,
+                "endMonth": 2
+            }
+        },
+        "buttonImage": "icon_bundle_carnival_fair",
+        "buttonLabelColor": "C23600",
+        "panelImage": "bundle_carnival_fair",
+        "panelColor": "blue",
+        "priceLabelColor": "EE0087",
+        "discountPriceLabelColor": "2C2C2C",
+        "discountPriceBarColor": "green",
+        "timerLabelColor": "FFFFFF",
+        "priority": 2,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "bundlebank03",
+        "goods": {
+            "coin": 100,
+            "booster2": 8
+        },
+        "conditionForShow": {
+            "afterLevel": 20
+        }
+    },
+    "stPatrickDay": {
+        "date": {
+            "startDay": 17,
+            "startMonth": 3,
+            "endDay": 17,
+            "endMonth": 3
+        },
+        "buttonImage": "icon_bundle_st_patricks_day",
+        "buttonLabelColor": "2C7100",
+        "panelImage": "bundle_st_patricks_day",
+        "panelColor": "blue",
+        "priceLabelColor": "FFE347",
+        "discountPriceLabelColor": 267300,
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "coins3_201909",
+        "goods": {
+            "coin": 100
+        },
+        "conditionForShow": {
+            "afterLevel": 20
+        }
+    },
+    "spring": {
+        "date": {
+            "startDay": 20,
+            "startMonth": 3,
+            "endDay": 20,
+            "endMonth": 3
+        },
+        "buttonImage": "icon_bundle_first_day_of_spring",
+        "buttonLabelColor": "8B300A",
+        "panelImage": "bundle_first_day_of_spring",
+        "panelColor": "pink",
+        "priceLabelColor": "F959D5",
+        "discountPriceLabelColor": "C052F9",
+        "discountPriceBarColor": "purple",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer10",
+        "goods": {
+            "coin": 10,
+            "jolly4": 4,
+            "fertilizer": 10,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "aprilFoolDay": {
+        "date": {
+            "startDay": 1,
+            "startMonth": 4,
+            "endDay": 1,
+            "endMonth": 4
+        },
+        "buttonImage": "icon_bundle_april_fool's",
+        "buttonLabelColor": "1571B8",
+        "panelImage": "bundle_april_fool's",
+        "panelColor": "blue",
+        "priceLabelColor": "FFFFFB",
+        "discountPriceLabelColor": "F963A4",
+        "discountPriceBarColor": "purple",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer8",
+        "fillPriceItem": "specialoffer17",
+        "goods": {
+            "jolly1": 3,
+            "booster1": 3,
+            "booster2": 3,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "earthDay": {
+        "date": {
+            "startDay": 22,
+            "startMonth": 4,
+            "endDay": 22,
+            "endMonth": 4
+        },
+        "buttonImage": "icon_bundle_earth_day",
+        "buttonLabelColor": "26418C",
+        "panelImage": "bundle_earth_day",
+        "panelColor": "blue",
+        "priceLabelColor": "FEEB16",
+        "discountPriceLabelColor": "F4B150",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer15",
+        "goods": {
+            "coin": 50,
+            "fertilizer": 6,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 24
+        }
+    },
+    "easter": {
+        "dates": {
+            "2020": {
+                "startDay": 10,
+                "startMonth": 4,
+                "endDay": 12,
+                "endMonth": 4
+            },
+            "2021": {
+                "startDay": 2,
+                "startMonth": 4,
+                "endDay": 4,
+                "endMonth": 4
+            },
+            "2022": {
+                "startDay": 15,
+                "startMonth": 4,
+                "endDay": 18,
+                "endMonth": 4
+            },
+            "2023": {
+                "startDay": 7,
+                "startMonth": 4,
+                "endDay": 10,
+                "endMonth": 4
+            },
+            "2024": {
+                "startDay": 29,
+                "startMonth": 3,
+                "endDay": 1,
+                "endMonth": 4
+            }
+        },
+        "buttonImage": "icon_bundle_happy_easter",
+        "buttonLabelColor": "A70F82",
+        "panelImage": "bundle_happy_easter",
+        "panelColor": "blue",
+        "priceLabelColor": "FFDD33",
+        "discountPriceLabelColor": 381600,
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer13",
+        "fillPriceItem": "coins4",
+        "goods": {
+            "coin": 100,
+            "booster1": 6,
+            "jolly1": 6,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "jellyWarsDay": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 5,
+            "endDay": 4,
+            "endMonth": 5
+        },
+        "buttonImage": "icon_bundle_Jelly_Wars_Day",
+        "buttonLabelColor": "A2EA25",
+        "panelImage": "bundle_jelly_wars_day",
+        "panelColor": "blue",
+        "priceLabelColor": "F1D33D",
+        "discountPriceLabelColor": "F8572C",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer20",
+        "goods": {
+            "jolly1": 4,
+            "booster2": 4,
+            "booster1": 4,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "worldLaughterDay": {
+        "dates": {
+            "2023": {
+                "startDay": 6,
+                "startMonth": 5,
+                "endDay": 7,
+                "endMonth": 5
+            },
+            "2024": {
+                "startDay": 4,
+                "startMonth": 5,
+                "endDay": 5,
+                "endMonth": 5
+            }
+        },
+        "buttonImage": "icon_bundle_world_laught_day",
+        "buttonLabelColor": "0A79B3",
+        "panelImage": "bundle_world_laught_day",
+        "panelColor": "orange",
+        "priceLabelColor": "0040AD",
+        "discountPriceLabelColor": "E32A69",
+        "discountPriceBarColor": "darkblue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer8",
+        "fillPriceItem": "specialoffer17",
+        "goods": {
+            "jolly2": 3,
+            "booster3": 3,
+            "jolly4": 3,
+            "jolly1": 3,
+            "livesMinutes": 60,
+            "jolly3": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "happyMotherDay": {
+        "dates": {
+            "2021": {
+                "startDay": 9,
+                "startMonth": 5,
+                "endDay": 11,
+                "endMonth": 5
+            },
+            "2022": {
+                "startDay": 8,
+                "startMonth": 5,
+                "endDay": 10,
+                "endMonth": 5
+            },
+            "2023": {
+                "startDay": 14,
+                "startMonth": 5,
+                "endDay": 16,
+                "endMonth": 5
+            },
+            "2024": {
+                "startDay": 12,
+                "startMonth": 5,
+                "endDay": 14,
+                "endMonth": 5
+            }
+        },
+        "buttonImage": "icon_bundle_happy_mother_day",
+        "buttonLabelColor": 840548,
+        "panelImage": "bundle_happy_mother_day",
+        "panelColor": "red",
+        "priceLabelColor": 840548,
+        "discountPriceLabelColor": "76835D",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "specialoffer18",
+        "goods": {
+            "jolly1": 5,
+            "booster1": 5,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "beeDay": {
+        "date": {
+            "startDay": 20,
+            "startMonth": 5,
+            "endDay": 22,
+            "endMonth": 5
+        },
+        "buttonImage": "icon_bundle_world_bee_day",
+        "buttonLabelColor": "b50DB3",
+        "panelImage": "Bundle_world_bee_day",
+        "panelColor": "orange",
+        "priceLabelColor": "FDF405",
+        "discountPriceLabelColor": "FDA6FB",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer7",
+        "fillPriceItem": "bundle01_20",
+        "goods": {
+            "coin": 50,
+            "jolly4": 9,
+            "fertilizer": 9,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 64
+        }
+    },
+    "bestFriendDay": {
+        "date": {
+            "startDay": 8,
+            "startMonth": 6,
+            "endDay": 10,
+            "endMonth": 6
+        },
+        "buttonImage": "icon_bundle_best_friend_day",
+        "buttonLabelColor": "1F5477",
+        "panelImage": "bundle_national_best_friend_day",
+        "panelColor": "blue",
+        "priceLabelColor": "37D1F7",
+        "discountPriceLabelColor": "FDA6FB",
+        "discountPriceBarColor": "darkblue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer15",
+        "goods": {
+            "booster2": 4,
+            "booster1": 4,
+            "booster3": 4,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "summer": {
+        "dates": {
+            "2020": {
+                "startDay": 20,
+                "startMonth": 6,
+                "endDay": 21,
+                "endMonth": 6
+            },
+            "2021": {
+                "startDay": 21,
+                "startMonth": 6,
+                "endDay": 22,
+                "endMonth": 6
+            },
+            "2022": {
+                "startDay": 21,
+                "startMonth": 6,
+                "endDay": 22,
+                "endMonth": 6
+            },
+            "2023": {
+                "startDay": 21,
+                "startMonth": 6,
+                "endDay": 22,
+                "endMonth": 6
+            },
+            "2024": {
+                "startDay": 20,
+                "startMonth": 6,
+                "endDay": 21,
+                "endMonth": 6
+            }
+        },
+        "buttonImage": "icon_bundle_summer_special",
+        "buttonLabelColor": "006294",
+        "panelImage": "bundle_summer_special",
+        "panelColor": "blue",
+        "priceLabelColor": "7B5F00",
+        "discountPriceLabelColor": "B98F00",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "coins3_201909",
+        "goods": {
+            "booster1": 6,
+            "booster2": 7,
+            "booster3": 8
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "chocolateDay": {
+        "date": {
+            "startDay": 7,
+            "startMonth": 7,
+            "endDay": 7,
+            "endMonth": 7
+        },
+        "buttonImage": "icon_bundle_chocolate_party",
+        "buttonLabelColor": "660F00",
+        "panelImage": "bundle_chocolate_party",
+        "panelColor": "red",
+        "priceLabelColor": "2E0400",
+        "discountPriceLabelColor": "FFDFB2",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer10",
+        "goods": {
+            "jolly1": 12
+        },
+        "conditionForShow": {
+            "afterLevel": 45
+        }
+    },
+    "emojiDay": {
+        "date": {
+            "startDay": 17,
+            "startMonth": 7,
+            "endDay": 19,
+            "endMonth": 7
+        },
+        "buttonImage": "icon_bundle_emoji_explosion",
+        "buttonLabelColor": "1944C0",
+        "panelImage": "bundle_emoji_explosion",
+        "panelColor": "blue",
+        "priceLabelColor": "FFF000",
+        "discountPriceLabelColor": "FF99F7",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer4",
+        "fillPriceItem": "specialoffer13",
+        "goods": {
+            "coin": 50,
+            "booster1": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 12
+        }
+    },
+    "olympicGames": {
+        "dates": {
+            "2021": {
+                "startDay": 23,
+                "startMonth": 7,
+                "endDay": 25,
+                "endMonth": 7
+            },
+            "2024": {
+                "startDay": 26,
+                "startMonth": 7,
+                "endDay": 28,
+                "endMonth": 7
+            }
+        },
+        "buttonImage": "icon_bundle_olympic_games",
+        "buttonLabelColor": "4063c7",
+        "panelImage": "bundle_olympic_games",
+        "panelColor": "pink",
+        "priceLabelColor": "f6fcfb",
+        "discountPriceLabelColor": "42448b",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "specialoffer18",
+        "goods": {
+            "booster1": 10,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 12
+        }
+    },
+    "friendDay": {
+        "date": {
+            "startDay": 30,
+            "startMonth": 7,
+            "endDay": 30,
+            "endMonth": 7
+        },
+        "buttonImage": "icon_bundles_friends_forever",
+        "buttonLabelColor": "6C2D58",
+        "panelImage": "bundle_friends_forever",
+        "panelColor": "blue",
+        "priceLabelColor": "6C2D58",
+        "discountPriceLabelColor": "FED20E",
+        "discountPriceBarColor": "purple",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer13",
+        "goods": {
+            "booster2": 5,
+            "jolly2": 5,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "catDay": {
+        "date": {
+            "startDay": 8,
+            "startMonth": 8,
+            "endDay": 8,
+            "endMonth": 8
+        },
+        "buttonImage": "icon_bundle_cat_day",
+        "buttonLabelColor": "9d13a2",
+        "panelImage": "bundle_cat_day",
+        "panelColor": "pink",
+        "priceLabelColor": "ffe347",
+        "discountPriceLabelColor": "720c73",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "specialoffer17",
+        "goods": {
+            "jolly2": 6,
+            "jolly1": 6,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 52
+        }
+    },
+    "lazyDay": {
+        "date": {
+            "startDay": 10,
+            "startMonth": 8,
+            "endDay": 10,
+            "endMonth": 8
+        },
+        "buttonImage": "icon_bundle_chill_out_pack",
+        "buttonLabelColor": "0A7CA2",
+        "panelImage": "bundle_chill_out_pack",
+        "panelColor": "blue",
+        "priceLabelColor": "FDDD2E",
+        "discountPriceLabelColor": "6B009D",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer13",
+        "goods": {
+            "booster1": 3,
+            "jolly1": 3,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "dogDay": {
+        "date": {
+            "startDay": 26,
+            "startMonth": 8,
+            "endDay": 26,
+            "endMonth": 8
+        },
+        "buttonImage": "icon_bundle_dog_day",
+        "buttonLabelColor": "0574c1",
+        "panelImage": "bundle_dog_day",
+        "panelColor": "blue",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "6FC3DE",
+        "discountPriceBarColor": "darkblue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "specialoffer20",
+        "goods": {
+            "booster1": 6,
+            "booster2": 6,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 20
+        }
+    },
+    "videogameDay": {
+        "date": {
+            "startDay": 12,
+            "startMonth": 9,
+            "endDay": 13,
+            "endMonth": 9
+        },
+        "buttonImage": "icon_bundle_gamer_pack",
+        "buttonLabelColor": "1C0165",
+        "panelImage": "bundle_gamer_pack",
+        "panelColor": "blue",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "1C1F39",
+        "discountPriceBarColor": "blue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer7",
+        "fillPriceItem": "specialoffer16",
+        "goods": {
+            "coin": 50,
+            "booster1": 6
+        },
+        "conditionForShow": {
+            "afterLevel": 12
+        }
+    },
+    "autumn": {
+        "dates": {
+            "2022": {
+                "startDay": 23,
+                "startMonth": 9,
+                "endDay": 25,
+                "endMonth": 9
+            },
+            "2023": {
+                "startDay": 23,
+                "startMonth": 9,
+                "endDay": 25,
+                "endMonth": 9
+            },
+            "2024": {
+                "startDay": 22,
+                "startMonth": 9,
+                "endDay": 24,
+                "endMonth": 9
+            }
+        },
+        "buttonImage": "icon_bundle_autumn's_spell",
+        "buttonLabelColor": "872F75",
+        "panelImage": "bundle_autumn’s_spell",
+        "panelColor": "blue",
+        "priceLabelColor": "FFD820",
+        "discountPriceLabelColor": "CA1B65",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer20",
+        "goods": {
+            "coin": 50,
+            "booster1": 3,
+            "booster3": 3,
+            "livesMinutes": 360
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "coffeeDay": {
+        "date": {
+            "startDay": 29,
+            "startMonth": 9,
+            "endDay": 29,
+            "endMonth": 9
+        },
+        "buttonImage": "icon_bundle_coffeelicious",
+        "buttonLabelColor": 172757,
+        "panelImage": "bundle_coffeelicious",
+        "panelColor": "red",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "FEBD0E",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer3",
+        "fillPriceItem": "specialoffer6",
+        "goods": {
+            "coin": 10,
+            "jolly2": 3,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "dessertDay": {
+        "date": {
+            "startDay": 14,
+            "startMonth": 10,
+            "endDay": 15,
+            "endMonth": 10
+        },
+        "buttonImage": "icon_bundle_sweet_surprise",
+        "buttonLabelColor": "B74014",
+        "panelImage": "bundle_sweet_surprise",
+        "panelColor": "orange",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "FEBD0E",
+        "discountPriceBarColor": "red",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer16",
+        "goods": {
+            "coin": 50,
+            "booster1": 6
+        },
+        "conditionForShow": {
+            "afterLevel": 12
+        }
+    },
+    "halloween1": {
+        "date": {
+            "startDay": 21,
+            "startMonth": 10,
+            "endDay": 23,
+            "endMonth": 10
+        },
+        "buttonImage": "icon_bundle_spooky_halloween",
+        "buttonLabelColor": "DB690C",
+        "panelImage": "bundle_spooky_halloween",
+        "panelColor": "pink",
+        "priceLabelColor": "FFCE09",
+        "discountPriceLabelColor": "FDA6FB",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFA200",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "coins4",
+        "goods": {
+            "coin": 100,
+            "jolly2": 2,
+            "booster2": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "halloween2": {
+        "date": {
+            "startDay": 28,
+            "startMonth": 10,
+            "endDay": 30,
+            "endMonth": 10
+        },
+        "buttonImage": "icon_bundle_trick_or_treat",
+        "buttonLabelColor": "9209FB",
+        "panelImage": "bundle_trick_or_treat",
+        "panelColor": "purple",
+        "priceLabelColor": "f974EE",
+        "discountPriceLabelColor": "A563BA",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer15",
+        "goods": {
+            "coin": 50,
+            "jolly2": 1,
+            "jolly1": 1,
+            "booster1": 1
+        },
+        "conditionForShow": {
+            "afterLevel": 44
+        }
+    },
+    "candyDay": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 11,
+            "endDay": 4,
+            "endMonth": 11
+        },
+        "buttonImage": "icon_bundle_candy_explosion",
+        "buttonLabelColor": "D04164",
+        "panelImage": "bundle_candy_explosion",
+        "panelColor": "blue",
+        "priceLabelColor": "FFD7F9",
+        "discountPriceLabelColor": "590F22",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer10",
+        "goods": {
+            "coin": 10,
+            "jolly1": 3,
+            "jolly3": 3,
+            "livesMinutes": 60
+        },
+        "conditionForShow": {
+            "afterLevel": 60
+        }
+    },
+    "cappuccinoDay": {
+        "date": {
+            "startDay": 8,
+            "startMonth": 11,
+            "endDay": 8,
+            "endMonth": 11
+        },
+        "buttonImage": "icon_bundle_cappuccino_day",
+        "buttonLabelColor": "7931BB",
+        "panelImage": "bundle_cappuccino_day",
+        "panelColor": "blue",
+        "priceLabelColor": "FFF9FE",
+        "discountPriceLabelColor": "6FC3DE",
+        "discountPriceBarColor": "blue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer13",
+        "goods": {
+            "livesMinutes": 360,
+            "jolly1": 6
+        },
+        "conditionForShow": {
+            "afterLevel": 60
+        }
+    },
+    "blackFriday": {
+        "dates": {
+            "2019": {
+                "startDay": 26,
+                "startMonth": 11,
+                "endDay": 28,
+                "endMonth": 11
+            },
+            "2020": {
+                "startDay": 27,
+                "startMonth": 11,
+                "endDay": 29,
+                "endMonth": 11
+            },
+            "2021": {
+                "startDay": 25,
+                "startMonth": 11,
+                "endDay": 28,
+                "endMonth": 11
+            },
+            "2022": {
+                "startDay": 25,
+                "startMonth": 11,
+                "endDay": 27,
+                "endMonth": 11
+            },
+            "2023": {
+                "startDay": 24,
+                "startMonth": 11,
+                "endDay": 26,
+                "endMonth": 11
+            },
+            "2024": {
+                "startDay": 29,
+                "startMonth": 11,
+                "endDay": 1,
+                "endMonth": 12
+            }
+        },
+        "buttonImage": "icon_bundle_black_friday",
+        "buttonLabelColor": "353A45",
+        "panelImage": "bundle_black_friday",
+        "panelColor": "blue",
+        "priceLabelColor": "223E58",
+        "discountPriceLabelColor": "787070",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer4",
+        "fillPriceItem": "specialoffer18",
+        "goods": {
+            "booster1": 3,
+            "booster2": 3,
+            "booster3": 3,
+            "livesMinutes": 1440
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "cyberMonday": {
+        "dates": {
+            "2019": {
+                "startDay": 29,
+                "startMonth": 11,
+                "endDay": 29,
+                "endMonth": 11
+            },
+            "2020": {
+                "startDay": 30,
+                "startMonth": 11,
+                "endDay": 30,
+                "endMonth": 11
+            },
+            "2021": {
+                "startDay": 29,
+                "startMonth": 11,
+                "endDay": 29,
+                "endMonth": 11
+            },
+            "2022": {
+                "startDay": 28,
+                "startMonth": 11,
+                "endDay": 28,
+                "endMonth": 11
+            },
+            "2023": {
+                "startDay": 27,
+                "startMonth": 11,
+                "endDay": 27,
+                "endMonth": 11
+            },
+            "2024": {
+                "startDay": 2,
+                "startMonth": 12,
+                "endDay": 2,
+                "endMonth": 12
+            }
+        },
+        "buttonImage": "icon_bundle_sales_invaders",
+        "buttonLabelColor": "1200FF",
+        "panelImage": "bundle_sales_invaders",
+        "panelColor": "blue",
+        "priceLabelColor": "E7F4F1",
+        "discountPriceLabelColor": "080371",
+        "discountPriceBarColor": "yellow",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "bundle01_20",
+        "goods": {
+            "coin": 100,
+            "booster1": 3,
+            "booster2": 3,
+            "booster3": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "cookieDay": {
+        "date": {
+            "startDay": 4,
+            "startMonth": 12,
+            "endDay": 4,
+            "endMonth": 12
+        },
+        "buttonImage": "Icon_bundle_cookie_licious",
+        "buttonLabelColor": "315A84",
+        "panelImage": "bundle_cookie_licious",
+        "panelColor": "blue",
+        "priceLabelColor": "FEF8FE",
+        "discountPriceLabelColor": "7340A5",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer10",
+        "fillPriceItem": "bundle01_20",
+        "goods": {
+            "coin": 50,
+            "booster1": 6,
+            "jolly1": 6
+        },
+        "conditionForShow": {
+            "afterLevel": 45
+        }
+    },
+    "nobelPrizeDay": {
+        "date": {
+            "startDay": 10,
+            "startMonth": 12,
+            "endDay": 10,
+            "endMonth": 12
+        },
+        "buttonImage": "icon_bundle_nobel_prize_day",
+        "buttonLabelColor": "8B0000",
+        "panelImage": "bundle_nobel_prize_day",
+        "panelColor": "blue",
+        "priceLabelColor": "FFFBC3",
+        "discountPriceLabelColor": "060E45",
+        "discountPriceBarColor": "yellow",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer6",
+        "fillPriceItem": "specialoffer12",
+        "goods": {
+            "jolly1": 3,
+            "jolly2": 3,
+            "jolly3": 3
+        },
+        "conditionForShow": {
+            "afterLevel": 60
+        }
+    },
+    "winterDay": {
+        "dates": {
+            "2020": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2021": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2022": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2023": {
+                "startDay": 21,
+                "startMonth": 12,
+                "endDay": 21,
+                "endMonth": 12
+            },
+            "2024": {
+                "startDay": 22,
+                "startMonth": 12,
+                "endDay": 22,
+                "endMonth": 12
+            }
+        },
+        "buttonImage": "icon_bundle_winter_magic",
+        "buttonLabelColor": "0A7CA2",
+        "panelImage": "bundle_winter_magic",
+        "panelColor": "blue",
+        "priceLabelColor": "FDDD2E",
+        "discountPriceLabelColor": "E55674",
+        "discountPriceBarColor": "darkblue",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer5",
+        "fillPriceItem": "specialoffer15",
+        "goods": {
+            "coin": 50,
+            "booster1": 2,
+            "booster2": 2,
+            "booster3": 2
+        },
+        "conditionForShow": {
+            "afterLevel": 36
+        }
+    },
+    "newYearDay": {
+        "date": {
+            "startDay": 30,
+            "startMonth": 12,
+            "endDay": 31,
+            "endMonth": 12
+        },
+        "buttonImage": "icon_bundle_new_year's_eve",
+        "buttonLabelColor": "023662",
+        "panelImage": "bundle_new_year's_eve",
+        "panelColor": "red",
+        "priceLabelColor": "023662",
+        "discountPriceLabelColor": "E4A713",
+        "discountPriceBarColor": "darkred",
+        "timerLabelColor": "FFFFFF",
+        "priority": 1,
+        "iapItem": "specialoffer9",
+        "fillPriceItem": "specialoffer19",
+        "goods": {
+            "booster1": 10,
+            "booster2": 5
+        },
+        "conditionForShow": {
+            "afterLevel": 20
+        }
+    }
+}

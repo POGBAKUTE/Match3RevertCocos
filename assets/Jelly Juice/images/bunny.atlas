@@ -1,0 +1,125 @@
+
+bunny.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bacchetta
+  rotate: true
+  xy: 347, 186
+  size: 319, 340
+  orig: 319, 340
+  offset: 0, 0
+  index: -1
+bocca_aperta
+  rotate: true
+  xy: 2, 2
+  size: 85, 101
+  orig: 85, 101
+  offset: 0, 0
+  index: -1
+bocca_chiusa
+  rotate: true
+  xy: 959, 52
+  size: 85, 40
+  orig: 85, 40
+  offset: 0, 0
+  index: -1
+braccio_dx
+  rotate: false
+  xy: 347, 621
+  size: 118, 129
+  orig: 118, 129
+  offset: 0, 0
+  index: -1
+braccio_sx
+  rotate: false
+  xy: 347, 510
+  size: 137, 109
+  orig: 137, 109
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: true
+  xy: 2, 355
+  size: 395, 343
+  orig: 395, 343
+  offset: 0, 0
+  index: -1
+cosa
+  rotate: false
+  xy: 105, 8
+  size: 79, 79
+  orig: 79, 79
+  offset: 0, 0
+  index: -1
+occhi_accigliati
+  rotate: true
+  xy: 219, 85
+  size: 268, 116
+  orig: 268, 116
+  offset: 0, 0
+  index: -1
+occhi_aperti
+  rotate: false
+  xy: 689, 106
+  size: 268, 128
+  orig: 268, 128
+  offset: 0, 0
+  index: -1
+occhi_chiusi
+  rotate: false
+  xy: 337, 107
+  size: 263, 77
+  orig: 263, 77
+  offset: 0, 0
+  index: -1
+occhi_perplessi
+  rotate: true
+  xy: 880, 237
+  size: 268, 128
+  orig: 268, 128
+  offset: 0, 0
+  index: -1
+occhiali
+  rotate: false
+  xy: 2, 752
+  size: 485, 218
+  orig: 485, 218
+  offset: 0, 0
+  index: -1
+orecchio_dx
+  rotate: false
+  xy: 2, 89
+  size: 215, 264
+  orig: 215, 264
+  offset: 0, 0
+  index: -1
+orecchio_sx
+  rotate: false
+  xy: 689, 236
+  size: 189, 269
+  orig: 189, 269
+  offset: 0, 0
+  index: -1
+piede_dx
+  rotate: false
+  xy: 959, 139
+  size: 62, 96
+  orig: 62, 96
+  offset: 0, 0
+  index: -1
+piede_sx
+  rotate: false
+  xy: 602, 95
+  size: 75, 89
+  orig: 75, 89
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 489, 507
+  size: 463, 427
+  orig: 463, 427
+  offset: 0, 0
+  index: -1

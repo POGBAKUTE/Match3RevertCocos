@@ -1,0 +1,20 @@
+
+watering_can.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+innaffiatoio
+  rotate: false
+  xy: 2, 2
+  size: 179, 170
+  orig: 179, 170
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 183, 142
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,15 @@
+{
+    "image": {
+        "position":{
+            "x": 0,
+            "y": 35
+        },
+        "scale": 0.8
+    },
+    "textLabel": {
+        "position": {
+            "x": 0,
+            "y": -53
+        }
+    }
+}

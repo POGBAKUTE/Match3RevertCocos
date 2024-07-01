@@ -1,0 +1,307 @@
+
+striped_plant.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PngItem_25182
+  rotate: false
+  xy: 430, 77
+  size: 100, 72
+  orig: 102, 102
+  offset: 1, 15
+  index: -1
+dot
+  rotate: false
+  xy: 258, 53
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+star
+  rotate: false
+  xy: 530, 151
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+step_2_bulbo
+  rotate: true
+  xy: 578, 5
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
+step_2_gambo
+  rotate: false
+  xy: 270, 100
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+step_3_bulbo
+  rotate: true
+  xy: 480, 308
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+step_3_gambo
+  rotate: true
+  xy: 463, 154
+  size: 28, 65
+  orig: 28, 65
+  offset: 0, 0
+  index: -1
+step_4_bulbo
+  rotate: false
+  xy: 519, 201
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1
+step_4_gambo
+  rotate: false
+  xy: 398, 55
+  size: 30, 83
+  orig: 30, 83
+  offset: 0, 0
+  index: -1
+step_5_bulbo_1
+  rotate: true
+  xy: 578, 39
+  size: 53, 38
+  orig: 53, 38
+  offset: 0, 0
+  index: -1
+step_5_bulbo_2
+  rotate: true
+  xy: 225, 53
+  size: 25, 31
+  orig: 25, 31
+  offset: 0, 0
+  index: -1
+step_5_bulbo_3
+  rotate: false
+  xy: 345, 255
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+step_5_corolla_back
+  rotate: false
+  xy: 177, 2
+  size: 97, 49
+  orig: 97, 49
+  offset: 0, 0
+  index: -1
+step_5_corolla_frontale
+  rotate: false
+  xy: 397, 257
+  size: 69, 28
+  orig: 69, 28
+  offset: 0, 0
+  index: -1
+step_5_gambo
+  rotate: true
+  xy: 89, 5
+  size: 42, 86
+  orig: 42, 86
+  offset: 0, 0
+  index: -1
+step_5_gambo_2
+  rotate: false
+  xy: 480, 351
+  size: 26, 52
+  orig: 26, 52
+  offset: 0, 0
+  index: -1
+step_5_gambo_3
+  rotate: false
+  xy: 373, 255
+  size: 22, 30
+  orig: 22, 30
+  offset: 0, 0
+  index: -1
+step_6_bulbo_1
+  rotate: false
+  xy: 276, 2
+  size: 39, 49
+  orig: 39, 49
+  offset: 0, 0
+  index: -1
+step_6_bulbo_2
+  rotate: true
+  xy: 2, 2
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+step_6_corolla
+  rotate: true
+  xy: 270, 121
+  size: 131, 69
+  orig: 131, 69
+  offset: 0, 0
+  index: -1
+step_6_gambo
+  rotate: false
+  xy: 93, 53
+  size: 93, 185
+  orig: 93, 185
+  offset: 0, 0
+  index: -1
+step_7_bulbo_dx
+  rotate: true
+  xy: 396, 3
+  size: 48, 62
+  orig: 48, 62
+  offset: 0, 0
+  index: -1
+step_7_bulbo_dx_corolla
+  rotate: false
+  xy: 468, 260
+  size: 51, 32
+  orig: 51, 32
+  offset: 0, 0
+  index: -1
+step_7_bulbo_sx
+  rotate: false
+  xy: 532, 94
+  size: 50, 55
+  orig: 50, 55
+  offset: 0, 0
+  index: -1
+step_7_bulbo_sx_corolla
+  rotate: true
+  xy: 47, 2
+  size: 45, 40
+  orig: 45, 40
+  offset: 0, 0
+  index: -1
+step_7_corolla_dx
+  rotate: true
+  xy: 463, 184
+  size: 71, 54
+  orig: 71, 54
+  offset: 0, 0
+  index: -1
+step_7_corolla_sotto
+  rotate: true
+  xy: 188, 80
+  size: 172, 80
+  orig: 172, 80
+  offset: 0, 0
+  index: -1
+step_7_corolla_sx
+  rotate: false
+  xy: 317, 3
+  size: 77, 48
+  orig: 77, 48
+  offset: 0, 0
+  index: -1
+step_7_gambo
+  rotate: false
+  xy: 187, 254
+  size: 156, 256
+  orig: 156, 256
+  offset: 0, 0
+  index: -1
+step_8_bulbo_dx_a
+  rotate: false
+  xy: 404, 294
+  size: 74, 105
+  orig: 74, 105
+  offset: 0, 0
+  index: -1
+step_8_bulbo_dx_b
+  rotate: false
+  xy: 341, 140
+  size: 58, 112
+  orig: 58, 112
+  offset: 0, 0
+  index: -1
+step_8_bulbo_dx_c
+  rotate: false
+  xy: 345, 287
+  size: 57, 109
+  orig: 57, 109
+  offset: 0, 0
+  index: -1
+step_8_bulbo_dx_corolla
+  rotate: true
+  xy: 460, 3
+  size: 72, 58
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+step_8_bulbo_dx_d
+  rotate: false
+  xy: 508, 367
+  size: 26, 36
+  orig: 26, 36
+  offset: 0, 0
+  index: -1
+step_8_bulbo_sx_a
+  rotate: false
+  xy: 458, 405
+  size: 73, 105
+  orig: 73, 105
+  offset: 0, 0
+  index: -1
+step_8_bulbo_sx_b
+  rotate: false
+  xy: 402, 401
+  size: 54, 109
+  orig: 54, 109
+  offset: 0, 0
+  index: -1
+step_8_bulbo_sx_c
+  rotate: false
+  xy: 345, 398
+  size: 55, 112
+  orig: 55, 112
+  offset: 0, 0
+  index: -1
+step_8_bulbo_sx_corolla
+  rotate: true
+  xy: 520, 4
+  size: 71, 56
+  orig: 71, 56
+  offset: 0, 0
+  index: -1
+step_8_bulbo_sx_d
+  rotate: true
+  xy: 188, 53
+  size: 25, 35
+  orig: 25, 35
+  offset: 0, 0
+  index: -1
+step_8_corolla_dx
+  rotate: false
+  xy: 285, 53
+  size: 111, 66
+  orig: 111, 66
+  offset: 0, 0
+  index: -1
+step_8_corolla_sotto
+  rotate: true
+  xy: 2, 49
+  size: 189, 89
+  orig: 189, 89
+  offset: 0, 0
+  index: -1
+step_8_corolla_sx
+  rotate: true
+  xy: 401, 151
+  size: 104, 60
+  orig: 104, 60
+  offset: 0, 0
+  index: -1
+step_8_gambo
+  rotate: false
+  xy: 2, 240
+  size: 183, 270
+  orig: 183, 270
+  offset: 0, 0
+  index: -1

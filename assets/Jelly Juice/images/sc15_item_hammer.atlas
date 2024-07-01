@@ -1,0 +1,48 @@
+
+sc15_item_hammer.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: true
+  xy: 2, 32
+  size: 93, 205
+  orig: 93, 205
+  offset: 0, 0
+  index: -1
+campanello
+  rotate: true
+  xy: 2, 4
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+martelletto
+  rotate: true
+  xy: 60, 19
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+martello
+  rotate: true
+  xy: 209, 15
+  size: 49, 44
+  orig: 49, 44
+  offset: 0, 0
+  index: -1
+ombra_martello
+  rotate: true
+  xy: 209, 66
+  size: 59, 51
+  orig: 59, 51
+  offset: 0, 0
+  index: -1
+pulsante
+  rotate: true
+  xy: 34, 2
+  size: 28, 24
+  orig: 28, 24
+  offset: 0, 0
+  index: -1

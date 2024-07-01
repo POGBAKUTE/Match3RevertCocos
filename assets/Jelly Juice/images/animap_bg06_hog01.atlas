@@ -1,0 +1,90 @@
+
+animap_bg06_hog01.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_6_(hog_01_body)
+  rotate: true
+  xy: 75, 3
+  size: 39, 21
+  orig: 39, 21
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_coat)
+  rotate: true
+  xy: 2, 43
+  size: 81, 65
+  orig: 81, 65
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_cover)
+  rotate: true
+  xy: 2, 3
+  size: 38, 45
+  orig: 38, 45
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_ear1)
+  rotate: false
+  xy: 123, 15
+  size: 7, 8
+  orig: 7, 8
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_ear2)
+  rotate: false
+  xy: 91, 44
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_eyes)
+  rotate: false
+  xy: 69, 44
+  size: 20, 6
+  orig: 20, 6
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_fringe)
+  rotate: true
+  xy: 49, 2
+  size: 39, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_head)
+  rotate: true
+  xy: 98, 8
+  size: 34, 23
+  orig: 34, 23
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_leg1)
+  rotate: false
+  xy: 123, 25
+  size: 8, 11
+  orig: 8, 11
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_leg2)
+  rotate: false
+  xy: 123, 38
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_nose)
+  rotate: true
+  xy: 100, 44
+  size: 6, 5
+  orig: 6, 5
+  offset: 0, 0
+  index: -1
+animap_bg_6_(hog_01_sh)
+  rotate: true
+  xy: 69, 52
+  size: 72, 56
+  orig: 72, 56
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,83 @@
+
+gum_dispenser.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 64, 370
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+dispenser
+  rotate: false
+  xy: 2, 161
+  size: 199, 145
+  orig: 213, 247
+  offset: 7, 0
+  index: -1
+glass
+  rotate: false
+  xy: 2, 2
+  size: 191, 157
+  orig: 191, 157
+  offset: 0, 0
+  index: -1
+gum_1
+  rotate: false
+  xy: 155, 359
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+gum_2
+  rotate: false
+  xy: 53, 319
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+gum_3
+  rotate: false
+  xy: 104, 359
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+gum_4
+  rotate: false
+  xy: 155, 308
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+gum_5
+  rotate: false
+  xy: 2, 343
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+gum_6
+  rotate: false
+  xy: 104, 308
+  size: 49, 49
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+left_button
+  rotate: false
+  xy: 2, 394
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1
+right_button
+  rotate: false
+  xy: 33, 394
+  size: 29, 14
+  orig: 29, 14
+  offset: 0, 0
+  index: -1

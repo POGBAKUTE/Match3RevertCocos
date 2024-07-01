@@ -1,0 +1,83 @@
+
+hud_booster_magnet.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: true
+  xy: 2, 15
+  size: 235, 187
+  orig: 235, 187
+  offset: 0, 0
+  index: -1
+magnet_0
+  rotate: true
+  xy: 191, 127
+  size: 123, 99
+  orig: 123, 99
+  offset: 0, 0
+  index: -1
+magnet_1
+  rotate: true
+  xy: 292, 148
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+magnet_2
+  rotate: false
+  xy: 494, 151
+  size: 45, 99
+  orig: 45, 99
+  offset: 0, 0
+  index: -1
+magnet_3
+  rotate: true
+  xy: 292, 44
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+magnet_4
+  rotate: true
+  xy: 191, 2
+  size: 123, 99
+  orig: 123, 99
+  offset: 0, 0
+  index: -1
+magnet_5
+  rotate: true
+  xy: 393, 148
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+magnet_6
+  rotate: false
+  xy: 494, 50
+  size: 45, 99
+  orig: 45, 99
+  offset: 0, 0
+  index: -1
+magnet_7
+  rotate: true
+  xy: 393, 44
+  size: 102, 99
+  orig: 102, 99
+  offset: 0, 0
+  index: -1
+swish_1
+  rotate: false
+  xy: 494, 2
+  size: 66, 46
+  orig: 66, 46
+  offset: 0, 0
+  index: -1
+swish_2
+  rotate: false
+  xy: 292, 15
+  size: 46, 27
+  orig: 46, 27
+  offset: 0, 0
+  index: -1

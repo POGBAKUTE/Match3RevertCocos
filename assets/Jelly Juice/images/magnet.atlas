@@ -1,0 +1,90 @@
+
+magnet.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01
+  rotate: false
+  xy: 690, 306
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+02
+  rotate: false
+  xy: 1066, 306
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+03
+  rotate: false
+  xy: 1442, 306
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+04
+  rotate: false
+  xy: 2, 166
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+05
+  rotate: true
+  xy: 378, 94
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+06
+  rotate: false
+  xy: 682, 2
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+07
+  rotate: false
+  xy: 1058, 2
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+08
+  rotate: false
+  xy: 1434, 2
+  size: 374, 302
+  orig: 374, 302
+  offset: 0, 0
+  index: -1
+swish_1
+  rotate: false
+  xy: 290, 470
+  size: 198, 138
+  orig: 198, 138
+  offset: 0, 0
+  index: -1
+swish_2
+  rotate: false
+  xy: 490, 470
+  size: 198, 138
+  orig: 198, 138
+  offset: 0, 0
+  index: -1
+swish_3
+  rotate: false
+  xy: 2, 526
+  size: 139, 82
+  orig: 139, 82
+  offset: 0, 0
+  index: -1
+swish_4
+  rotate: false
+  xy: 143, 524
+  size: 145, 84
+  orig: 145, 84
+  offset: 0, 0
+  index: -1

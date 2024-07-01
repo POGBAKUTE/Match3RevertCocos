@@ -1,0 +1,20 @@
+
+animap_bg00_pebble02.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+png/animap_bg_0_(pebble_03)
+  rotate: false
+  xy: 2, 29
+  size: 32, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+png/animap_bg_0_(pebble_03_sh)
+  rotate: false
+  xy: 2, 2
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1

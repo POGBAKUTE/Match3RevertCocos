@@ -1,0 +1,132 @@
+
+new_intro_6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+balloon
+  rotate: false
+  xy: 2, 2
+  size: 733, 514
+  orig: 733, 516
+  offset: 0, 2
+  index: -1
+balloon1
+  rotate: false
+  xy: 1954, 561
+  size: 41, 32
+  orig: 41, 32
+  offset: 0, 0
+  index: -1
+balloon2
+  rotate: false
+  xy: 1954, 595
+  size: 57, 46
+  orig: 57, 46
+  offset: 0, 0
+  index: -1
+jinny_6_braid_left
+  rotate: true
+  xy: 1862, 1314
+  size: 183, 147
+  orig: 183, 148
+  offset: 0, 0
+  index: -1
+jinny_6_braid_right
+  rotate: true
+  xy: 1862, 1130
+  size: 182, 147
+  orig: 183, 148
+  offset: 1, 0
+  index: -1
+jinny_6_dress
+  rotate: false
+  xy: 1862, 1499
+  size: 183, 255
+  orig: 183, 255
+  offset: 0, 0
+  index: -1
+jinny_6_eyes
+  rotate: true
+  xy: 1276, 292
+  size: 166, 69
+  orig: 166, 69
+  offset: 0, 0
+  index: -1
+jinny_6_face
+  rotate: false
+  xy: 737, 288
+  size: 255, 228
+  orig: 255, 228
+  offset: 0, 0
+  index: -1
+jinny_6_hair
+  rotate: false
+  xy: 994, 308
+  size: 280, 208
+  orig: 280, 208
+  offset: 0, 0
+  index: -1
+jinny_6_left_arm
+  rotate: true
+  xy: 737, 158
+  size: 128, 69
+  orig: 128, 69
+  offset: 0, 0
+  index: -1
+jinny_6_left_hand
+  rotate: false
+  xy: 1950, 429
+  size: 80, 120
+  orig: 80, 120
+  offset: 0, 0
+  index: -1
+jinny_6_left_sleeve
+  rotate: true
+  xy: 1862, 460
+  size: 89, 86
+  orig: 89, 86
+  offset: 0, 0
+  index: -1
+jinny_6_mouth
+  rotate: false
+  xy: 1997, 576
+  size: 45, 17
+  orig: 45, 17
+  offset: 0, 0
+  index: -1
+jinny_6_neck
+  rotate: false
+  xy: 1862, 643
+  size: 114, 266
+  orig: 114, 266
+  offset: 0, 0
+  index: -1
+jinny_6_right_arm
+  rotate: true
+  xy: 994, 182
+  size: 124, 79
+  orig: 124, 79
+  offset: 0, 0
+  index: -1
+jinny_6_right_sleeve
+  rotate: false
+  xy: 1862, 551
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+jinny_right_hand
+  rotate: false
+  xy: 1862, 911
+  size: 121, 217
+  orig: 121, 217
+  offset: 0, 0
+  index: -1
+objects front
+  rotate: false
+  xy: 2, 518
+  size: 1858, 1236
+  orig: 1865, 1242
+  offset: 0, 0
+  index: -1

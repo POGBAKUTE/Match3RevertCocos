@@ -1,0 +1,36 @@
+{
+    "titleBg": {
+        "position": {
+            "x": 0,
+            "y": 65
+        }
+    },
+
+    "titleLabel": {
+        "position": {
+            "x": 0,
+            "y": 70
+        }
+    },
+
+    "hintStatusLabel": {
+        "position": {
+            "x": 0,
+            "y": 30
+        }
+    },
+
+    "complimentsLabel": {
+        "position": {
+            "x": 0,
+            "y": -49
+        }
+    },
+    
+    "closeButton": {
+        "position": {
+            "x": 115,
+            "y": 110
+        }
+    }
+}

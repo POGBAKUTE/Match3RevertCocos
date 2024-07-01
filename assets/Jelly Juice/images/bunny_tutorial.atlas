@@ -1,0 +1,398 @@
+
+bunny_tutorial.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+3_bocca_A
+  rotate: false
+  xy: 154, 2
+  size: 38, 16
+  orig: 38, 16
+  offset: 0, 0
+  index: -1
+Layer 1
+  rotate: false
+  xy: 284, 249
+  size: 255, 262
+  orig: 255, 262
+  offset: 0, 0
+  index: -1
+bocca_3_F
+  rotate: false
+  xy: 194, 1
+  size: 35, 17
+  orig: 35, 17
+  offset: 0, 0
+  index: -1
+bocca_A
+  rotate: false
+  xy: 702, 13
+  size: 20, 33
+  orig: 20, 33
+  offset: 0, 0
+  index: -1
+bocca_D_felice
+  rotate: false
+  xy: 583, 257
+  size: 42, 18
+  orig: 42, 18
+  offset: 0, 0
+  index: -1
+bocca_F
+  rotate: true
+  xy: 693, 198
+  size: 20, 35
+  orig: 20, 35
+  offset: 0, 0
+  index: -1
+braccio_D_dx
+  rotate: false
+  xy: 487, 90
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+braccio_D_sx
+  rotate: true
+  xy: 398, 144
+  size: 36, 62
+  orig: 36, 62
+  offset: 0, 0
+  index: -1
+braccio_F_dx
+  rotate: true
+  xy: 523, 191
+  size: 56, 44
+  orig: 56, 44
+  offset: 0, 0
+  index: -1
+braccio_F_sx
+  rotate: true
+  xy: 541, 275
+  size: 58, 40
+  orig: 58, 40
+  offset: 0, 0
+  index: -1
+braccio_S_dx
+  rotate: false
+  xy: 487, 33
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+braccio_S_sx
+  rotate: false
+  xy: 659, 220
+  size: 38, 55
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+bracciosx's Drop Shadow
+  rotate: false
+  xy: 583, 277
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+broncio
+  rotate: true
+  xy: 312, 90
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+coda_34
+  rotate: false
+  xy: 702, 81
+  size: 33, 33
+  orig: 33, 33
+  offset: 0, 0
+  index: -1
+coda_S
+  rotate: false
+  xy: 702, 48
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+corpo_34
+  rotate: false
+  xy: 327, 2
+  size: 158, 140
+  orig: 158, 140
+  offset: 0, 0
+  index: -1
+corpo_S
+  rotate: false
+  xy: 1, 6
+  size: 151, 128
+  orig: 151, 128
+  offset: 0, 0
+  index: -1
+goccia
+  rotate: true
+  xy: 266, 1
+  size: 17, 25
+  orig: 17, 25
+  offset: 0, 0
+  index: -1
+goccia2
+  rotate: true
+  xy: 439, 182
+  size: 13, 15
+  orig: 13, 15
+  offset: 0, 0
+  index: -1
+goccia3
+  rotate: false
+  xy: 724, 23
+  size: 19, 23
+  orig: 19, 23
+  offset: 0, 0
+  index: -1
+luce_A_dx
+  rotate: false
+  xy: 312, 32
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+luce_A_sx
+  rotate: true
+  xy: 400, 183
+  size: 12, 17
+  orig: 12, 17
+  offset: 0, 0
+  index: -1
+luce_D_sx
+  rotate: false
+  xy: 627, 257
+  size: 14, 18
+  orig: 14, 18
+  offset: 0, 0
+  index: -1
+luce_F_dx
+  rotate: true
+  xy: 419, 184
+  size: 11, 18
+  orig: 11, 18
+  offset: 0, 0
+  index: -1
+luce_F_sx
+  rotate: false
+  xy: 312, 70
+  size: 13, 18
+  orig: 13, 18
+  offset: 0, 0
+  index: -1
+luce_S_sx
+  rotate: false
+  xy: 312, 51
+  size: 13, 17
+  orig: 13, 17
+  offset: 0, 0
+  index: -1
+luce_T_dx
+  rotate: true
+  xy: 312, 23
+  size: 7, 11
+  orig: 7, 11
+  offset: 0, 0
+  index: -1
+luce_T_sx
+  rotate: true
+  xy: 456, 186
+  size: 9, 14
+  orig: 9, 14
+  offset: 0, 0
+  index: -1
+naso
+  rotate: false
+  xy: 659, 195
+  size: 32, 23
+  orig: 32, 23
+  offset: 0, 0
+  index: -1
+naso_D
+  rotate: false
+  xy: 487, 7
+  size: 32, 24
+  orig: 32, 24
+  offset: 0, 0
+  index: -1
+occhi_F_chiusi
+  rotate: false
+  xy: 284, 144
+  size: 112, 36
+  orig: 112, 36
+  offset: 0, 0
+  index: -1
+occhi_T_dx
+  rotate: false
+  xy: 711, 289
+  size: 36, 44
+  orig: 36, 44
+  offset: 0, 0
+  index: -1
+occhio_C_dx
+  rotate: false
+  xy: 293, 5
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+occhio_C_sx
+  rotate: true
+  xy: 312, 110
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+occhio_D_dx
+  rotate: false
+  xy: 702, 153
+  size: 34, 43
+  orig: 34, 43
+  offset: 0, 0
+  index: -1
+occhio_D_sx
+  rotate: false
+  xy: 665, 286
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+occhio_F_dx
+  rotate: false
+  xy: 742, 246
+  size: 34, 41
+  orig: 34, 41
+  offset: 0, 0
+  index: -1
+occhio_F_sx
+  rotate: false
+  xy: 699, 239
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+occhio_T_sx
+  rotate: true
+  xy: 730, 201
+  size: 36, 40
+  orig: 36, 40
+  offset: 0, 0
+  index: -1
+occhio_chiuso_D_dx
+  rotate: false
+  xy: 231, 1
+  size: 33, 17
+  orig: 33, 17
+  offset: 0, 0
+  index: -1
+occhio_chiuso_D_sx
+  rotate: false
+  xy: 541, 253
+  size: 40, 20
+  orig: 40, 20
+  offset: 0, 0
+  index: -1
+ochio_A_dx
+  rotate: false
+  xy: 749, 298
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+ochio_A_sx
+  rotate: false
+  xy: 702, 116
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+ombra_D_sx
+  rotate: true
+  xy: 462, 147
+  size: 37, 63
+  orig: 37, 63
+  offset: 0, 0
+  index: -1
+ombra_braccio_D_dx
+  rotate: false
+  xy: 624, 277
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+ombra_braccio_S_sx
+  rotate: false
+  xy: 618, 199
+  size: 39, 56
+  orig: 39, 56
+  offset: 0, 0
+  index: -1
+orecchio_dx_34
+  rotate: false
+  xy: 154, 20
+  size: 82, 114
+  orig: 82, 114
+  offset: 0, 0
+  index: -1
+orecchio_dx_Front
+  rotate: true
+  xy: 284, 182
+  size: 65, 114
+  orig: 65, 114
+  offset: 0, 0
+  index: -1
+orecchio_sx_34
+  rotate: false
+  xy: 238, 20
+  size: 72, 114
+  orig: 72, 114
+  offset: 0, 0
+  index: -1
+orecchio_sx_Front
+  rotate: false
+  xy: 400, 197
+  size: 121, 50
+  orig: 121, 50
+  offset: 0, 0
+  index: -1
+ref_ammirato
+  rotate: false
+  xy: 1, 136
+  size: 281, 375
+  orig: 281, 381
+  offset: 0, 0
+  index: -1
+scintilla
+  rotate: false
+  xy: 569, 204
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+testa
+  rotate: true
+  xy: 541, 335
+  size: 176, 163
+  orig: 176, 163
+  offset: 0, 0
+  index: -1
+testa_A
+  rotate: true
+  xy: 706, 335
+  size: 176, 163
+  orig: 176, 163
+  offset: 0, 0
+  index: -1
+testa_D
+  rotate: true
+  xy: 527, 3
+  size: 186, 173
+  orig: 186, 173
+  offset: 0, 0
+  index: -1

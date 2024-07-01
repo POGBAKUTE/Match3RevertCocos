@@ -1,0 +1,48 @@
+
+mouse_tutorial.png
+size: 64,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pointer
+  rotate: false
+  xy: 2, 9
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+sparkle_1
+  rotate: false
+  xy: 2, 2
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+sparkle_2
+  rotate: true
+  xy: 54, 46
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+sparkle_3
+  rotate: false
+  xy: 17, 2
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+sparkle_4
+  rotate: true
+  xy: 54, 31
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1
+sparkle_5
+  rotate: false
+  xy: 32, 2
+  size: 13, 5
+  orig: 13, 5
+  offset: 0, 0
+  index: -1

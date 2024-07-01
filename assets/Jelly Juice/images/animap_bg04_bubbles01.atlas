@@ -1,0 +1,41 @@
+
+animap_bg04_bubbles01.png
+size: 64,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+animap_bg_4_(bubble_01)
+  rotate: false
+  xy: 25, 95
+  size: 23, 18
+  orig: 23, 18
+  offset: 0, 0
+  index: -1
+animap_bg_4_(bubble_02)
+  rotate: false
+  xy: 2, 2
+  size: 46, 37
+  orig: 46, 37
+  offset: 0, 0
+  index: -1
+animap_bg_4_(bubble_03)
+  rotate: false
+  xy: 2, 41
+  size: 33, 26
+  orig: 33, 26
+  offset: 0, 0
+  index: -1
+animap_bg_4_(bubble_04)
+  rotate: false
+  xy: 2, 69
+  size: 35, 24
+  orig: 35, 24
+  offset: 0, 0
+  index: -1
+animap_bg_4_(bubble_05)
+  rotate: false
+  xy: 2, 96
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1

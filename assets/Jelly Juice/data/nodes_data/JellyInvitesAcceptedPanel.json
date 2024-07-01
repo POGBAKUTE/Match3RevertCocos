@@ -1,0 +1,36 @@
+{
+    "titleBg": {
+        "position": {
+            "x": 0,
+            "y": 22
+        },
+        "scale": 0.765
+    },
+    "titleLabel": {
+        "position": {
+            "x": 0,
+            "y": 25
+        }
+    },
+    "closeButton": {
+        "position": {
+            "x": 87,
+            "y": 62
+        },
+        "scale": 0.55
+    },
+    "description": {
+        "position": {
+            "x": 0,
+            "y": -8
+        },
+        "scale": 0.6
+    },
+    "actionButton": {
+        "position": {
+            "x": 0,
+            "y": -45
+        },
+        "scale": 0.65
+    }
+}

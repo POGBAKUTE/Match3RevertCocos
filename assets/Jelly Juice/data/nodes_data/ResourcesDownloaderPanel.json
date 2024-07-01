@@ -1,0 +1,61 @@
+{
+    "info": {
+        "panelImage": {
+            "position": {
+                "x": 0,
+                "y": 28
+            },
+            "scale": 0.85
+        },
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": -62
+            }
+        }
+    },
+    "download": {
+        "panelImage": {
+            "position": {
+                "x": 0,
+                "y": 25
+            },
+            "scale": 0.85
+        },
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": -70
+            }
+        },
+        "downloadProgressBarClippingNode": {
+            "position": {
+                "x": -98,
+                "y": -110
+            }
+        },
+        "numResourcesLabel": {
+            "position": {
+                "x": 0,
+                "y": -130
+            },
+            "scale": 0.5f
+        }
+    },
+    "reward": {
+        "panelImage": {
+            "position": {
+                "x": 0,
+                "y": 25
+            },
+            "scale": 0.85
+        },
+        "textLabel": {
+            "position": {
+                "x": 0,
+                "y": -65
+            }
+        }
+    }
+}
+

@@ -1,0 +1,39 @@
+{
+    "eventContainer": {
+        "position": {
+            "x": 0,
+            "y": 50
+        },
+        "scale": 0.87
+    },
+    "eventHeart": {
+        "position": {
+            "x": -70,
+            "y": 50
+        }
+    },
+    "eventText": {
+        "position": {
+            "x": 25,
+            "y": 50
+        }
+    },
+    "mushrooms": {
+        "position": {
+            "x": 0,
+            "y": -12
+        }
+    },
+    "textLabel": {
+        "position": {
+            "x": 0,
+            "y": -65
+        }
+    },
+    "actionButton": {
+        "position": {
+            "x": 0,
+            "y": -115
+        }
+    }
+}

@@ -1,0 +1,27 @@
+
+sc15_item_baloons_1.png
+size: 128,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arancione
+  rotate: false
+  xy: 36, 19
+  size: 32, 183
+  orig: 32, 183
+  offset: 0, 0
+  index: -1
+verde
+  rotate: false
+  xy: 2, 2
+  size: 32, 200
+  orig: 32, 200
+  offset: 0, 0
+  index: -1
+viola
+  rotate: false
+  xy: 70, 27
+  size: 40, 175
+  orig: 40, 175
+  offset: 0, 0
+  index: -1

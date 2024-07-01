@@ -1,0 +1,181 @@
+
+jinny.png
+size: 512,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avambraccio_dx
+  rotate: false
+  xy: 389, 2
+  size: 26, 34
+  orig: 26, 34
+  offset: 0, 0
+  index: -1
+avambraccio_sx
+  rotate: false
+  xy: 476, 34
+  size: 31, 28
+  orig: 31, 28
+  offset: 0, 0
+  index: -1
+avambraccio_sx_2
+  rotate: true
+  xy: 435, 11
+  size: 16, 37
+  orig: 16, 37
+  offset: 0, 0
+  index: -1
+bocca_aperta
+  rotate: false
+  xy: 179, 4
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+bocca_chiusa
+  rotate: false
+  xy: 435, 5
+  size: 9, 4
+  orig: 9, 4
+  offset: 0, 0
+  index: -1
+bocca_triste
+  rotate: false
+  xy: 417, 34
+  size: 7, 2
+  orig: 7, 2
+  offset: 0, 0
+  index: -1
+bocca_triste_aperta
+  rotate: false
+  xy: 239, 2
+  size: 9, 6
+  orig: 9, 6
+  offset: 0, 0
+  index: -1
+braccio_dx
+  rotate: true
+  xy: 211, 2
+  size: 23, 26
+  orig: 23, 26
+  offset: 0, 0
+  index: -1
+braccio_sx_2
+  rotate: false
+  xy: 417, 2
+  size: 16, 30
+  orig: 16, 30
+  offset: 0, 0
+  index: -1
+corpo
+  rotate: true
+  xy: 211, 27
+  size: 35, 66
+  orig: 35, 66
+  offset: 0, 0
+  index: -1
+coscia_dx
+  rotate: true
+  xy: 435, 29
+  size: 15, 39
+  orig: 15, 39
+  offset: 0, 0
+  index: -1
+coscia_sx
+  rotate: true
+  xy: 476, 18
+  size: 14, 33
+  orig: 14, 33
+  offset: 0, 0
+  index: -1
+frangia
+  rotate: false
+  xy: 2, 3
+  size: 74, 59
+  orig: 74, 59
+  offset: 0, 0
+  index: -1
+gamba_dx
+  rotate: true
+  xy: 474, 2
+  size: 14, 32
+  orig: 14, 32
+  offset: 0, 0
+  index: -1
+gamba_sx
+  rotate: true
+  xy: 239, 10
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+lacrima
+  rotate: true
+  xy: 358, 5
+  size: 8, 12
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+occhi_aperti
+  rotate: false
+  xy: 389, 38
+  size: 41, 24
+  orig: 41, 24
+  offset: 0, 0
+  index: -1
+occhi_chiusi
+  rotate: false
+  xy: 279, 6
+  size: 40, 14
+  orig: 40, 14
+  offset: 0, 0
+  index: -1
+occhi_tristi
+  rotate: false
+  xy: 432, 46
+  size: 42, 16
+  orig: 42, 16
+  offset: 0, 0
+  index: -1
+sopracciglia
+  rotate: false
+  xy: 321, 5
+  size: 35, 8
+  orig: 35, 8
+  offset: 0, 0
+  index: -1
+sopracciglia_tristi
+  rotate: false
+  xy: 142, 4
+  size: 35, 9
+  orig: 35, 9
+  offset: 0, 0
+  index: -1
+testa
+  rotate: false
+  xy: 78, 3
+  size: 62, 59
+  orig: 62, 59
+  offset: 0, 0
+  index: -1
+treccia_dx
+  rotate: true
+  xy: 339, 15
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+treccia_sx
+  rotate: true
+  xy: 279, 22
+  size: 40, 58
+  orig: 40, 58
+  offset: 0, 0
+  index: -1
+vestito
+  rotate: true
+  xy: 142, 15
+  size: 47, 67
+  orig: 47, 67
+  offset: 0, 0
+  index: -1

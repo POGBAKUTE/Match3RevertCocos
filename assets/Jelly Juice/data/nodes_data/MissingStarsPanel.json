@@ -1,0 +1,20 @@
+{
+    "panelImage": {
+        "position": {
+            "x": 0,
+            "y": 25
+        }
+    },
+    "text": {
+        "position": {
+            "x": 0,
+            "y": -60
+        }
+    },
+    "closeButton": {
+        "position": {
+            "x": 114,
+            "y": 145
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+icon_missions.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bonbon
+  rotate: true
+  xy: 340, 21
+  size: 37, 36
+  orig: 39, 38
+  offset: 1, 1
+  index: -1
+check
+  rotate: false
+  xy: 346, 83
+  size: 31, 34
+  orig: 33, 36
+  offset: 1, 1
+  index: -1
+coin_middle
+  rotate: false
+  xy: 340, 0
+  size: 33, 19
+  orig: 37, 23
+  offset: 2, 2
+  index: -1
+coin_up
+  rotate: false
+  xy: 340, 0
+  size: 33, 19
+  orig: 37, 23
+  offset: 2, 2
+  index: -1
+hammer
+  rotate: false
+  xy: 293, 7
+  size: 45, 51
+  orig: 47, 53
+  offset: 1, 1
+  index: -1
+hammer_stroke
+  rotate: false
+  xy: 293, 60
+  size: 51, 57
+  orig: 53, 59
+  offset: 1, 1
+  index: -1
+icon_base
+  rotate: true
+  xy: 0, 3
+  size: 114, 148
+  orig: 119, 150
+  offset: 0, 1
+  index: -1
+stroke_outside_base
+  rotate: true
+  xy: 150, 4
+  size: 113, 141
+  orig: 115, 143
+  offset: 1, 1
+  index: -1

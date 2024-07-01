@@ -1,0 +1,20 @@
+
+sc13_item_candles_quinta_on.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+candle
+  rotate: false
+  xy: 2, 76
+  size: 147, 170
+  orig: 147, 170
+  offset: 0, 0
+  index: -1
+flame
+  rotate: true
+  xy: 2, 2
+  size: 72, 107
+  orig: 72, 107
+  offset: 0, 0
+  index: -1

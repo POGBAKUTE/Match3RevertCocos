@@ -1,0 +1,293 @@
+
+sc5_item_windmill.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+_0001_mulino0001
+  rotate: false
+  xy: 2, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0003_mulino0003
+  rotate: false
+  xy: 2, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0005_mulino0005
+  rotate: false
+  xy: 79, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0007_mulino0007
+  rotate: false
+  xy: 79, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0009_mulino0009
+  rotate: true
+  xy: 2, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0011_mulino0011
+  rotate: false
+  xy: 156, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0013_mulino0013
+  rotate: false
+  xy: 156, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0015_mulino0015
+  rotate: true
+  xy: 89, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0017_mulino0017
+  rotate: false
+  xy: 233, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0019_mulino0019
+  rotate: false
+  xy: 233, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0021_mulino0021
+  rotate: true
+  xy: 176, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0023_mulino0023
+  rotate: false
+  xy: 310, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0025_mulino0025
+  rotate: false
+  xy: 310, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0027_mulino0027
+  rotate: true
+  xy: 263, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0029_mulino0029
+  rotate: false
+  xy: 387, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0031_mulino0031
+  rotate: false
+  xy: 387, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0033_mulino0033
+  rotate: true
+  xy: 350, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0035_mulino0035
+  rotate: false
+  xy: 464, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0037_mulino0037
+  rotate: false
+  xy: 464, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0039_mulino0039
+  rotate: true
+  xy: 437, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0041_mulino0041
+  rotate: false
+  xy: 541, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0043_mulino0043
+  rotate: false
+  xy: 541, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0045_mulino0045
+  rotate: true
+  xy: 524, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0047_mulino0047
+  rotate: false
+  xy: 618, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0049_mulino0049
+  rotate: false
+  xy: 618, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0051_mulino0051
+  rotate: false
+  xy: 695, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0053_mulino0053
+  rotate: false
+  xy: 695, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0055_mulino0055
+  rotate: true
+  xy: 611, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0057_mulino0057
+  rotate: false
+  xy: 772, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0059_mulino0059
+  rotate: false
+  xy: 772, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0061_mulino0061
+  rotate: true
+  xy: 698, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0063_mulino0063
+  rotate: false
+  xy: 849, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0065_mulino0065
+  rotate: false
+  xy: 849, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0067_mulino0067
+  rotate: true
+  xy: 785, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0069_mulino0069
+  rotate: false
+  xy: 926, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0071_mulino0071
+  rotate: false
+  xy: 926, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0073_mulino0073
+  rotate: true
+  xy: 872, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0075_mulino0075
+  rotate: false
+  xy: 1003, 166
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0077_mulino0077
+  rotate: false
+  xy: 1003, 79
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+_0079_mulino0079
+  rotate: true
+  xy: 959, 2
+  size: 75, 85
+  orig: 75, 85
+  offset: 0, 0
+  index: -1
+stick
+  rotate: false
+  xy: 1080, 171
+  size: 45, 80
+  orig: 45, 80
+  offset: 0, 0
+  index: -1

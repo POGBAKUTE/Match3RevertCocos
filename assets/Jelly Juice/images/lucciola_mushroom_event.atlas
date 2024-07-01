@@ -1,0 +1,27 @@
+
+lucciola_mushroom_event.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 38
+  size: 92, 80
+  orig: 92, 80
+  offset: 0, 0
+  index: -1
+wing_left
+  rotate: false
+  xy: 2, 2
+  size: 52, 34
+  orig: 52, 34
+  offset: 0, 0
+  index: -1
+wing_right
+  rotate: false
+  xy: 56, 5
+  size: 32, 31
+  orig: 32, 31
+  offset: 0, 0
+  index: -1

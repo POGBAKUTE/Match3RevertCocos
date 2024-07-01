@@ -1,0 +1,20 @@
+
+sc12_item_cauldron_on.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bubble
+  rotate: false
+  xy: 89, 116
+  size: 9, 9
+  orig: 9, 9
+  offset: 0, 0
+  index: -1
+cauldron
+  rotate: false
+  xy: 2, 2
+  size: 85, 123
+  orig: 85, 123
+  offset: 0, 0
+  index: -1

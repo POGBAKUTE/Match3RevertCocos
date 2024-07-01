@@ -1,0 +1,83 @@
+
+win_level_congrats.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+congrats_DE
+  rotate: false
+  xy: 1387, 336
+  size: 518, 97
+  orig: 518, 97
+  offset: 0, 0
+  index: -1
+congrats_EN
+  rotate: false
+  xy: 2, 327
+  size: 708, 106
+  orig: 708, 106
+  offset: 0, 0
+  index: -1
+congrats_ES
+  rotate: false
+  xy: 2, 102
+  size: 608, 116
+  orig: 608, 116
+  offset: 0, 0
+  index: -1
+congrats_FR
+  rotate: false
+  xy: 2, 2
+  size: 541, 98
+  orig: 541, 98
+  offset: 0, 0
+  index: -1
+congrats_IT
+  rotate: false
+  xy: 2, 220
+  size: 702, 105
+  orig: 702, 105
+  offset: 0, 0
+  index: -1
+congrats_JA
+  rotate: false
+  xy: 712, 221
+  size: 507, 119
+  orig: 507, 119
+  offset: 0, 0
+  index: -1
+congrats_KO
+  rotate: false
+  xy: 706, 105
+  size: 502, 114
+  orig: 502, 114
+  offset: 0, 0
+  index: -1
+congrats_PT
+  rotate: false
+  xy: 1221, 236
+  size: 429, 98
+  orig: 429, 98
+  offset: 0, 0
+  index: -1
+congrats_RU
+  rotate: false
+  xy: 712, 342
+  size: 673, 91
+  orig: 673, 91
+  offset: 0, 0
+  index: -1
+congrats_SW
+  rotate: false
+  xy: 1210, 38
+  size: 332, 86
+  orig: 332, 86
+  offset: 0, 0
+  index: -1
+congrats_ZH
+  rotate: false
+  xy: 1221, 126
+  size: 342, 108
+  orig: 342, 108
+  offset: 0, 0
+  index: -1

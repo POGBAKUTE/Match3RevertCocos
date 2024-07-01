@@ -1,0 +1,90 @@
+
+seed_pack.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pack_base
+  rotate: true
+  xy: 2, 2
+  size: 183, 217
+  orig: 183, 217
+  offset: 0, 0
+  index: -1
+pack_stripe
+  rotate: false
+  xy: 327, 718
+  size: 180, 18
+  orig: 180, 18
+  offset: 0, 0
+  index: -1
+seed_1
+  rotate: false
+  xy: 2, 413
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_2
+  rotate: false
+  xy: 228, 413
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_3
+  rotate: false
+  xy: 327, 738
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_4
+  rotate: false
+  xy: 454, 492
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_5
+  rotate: false
+  xy: 553, 738
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_6
+  rotate: false
+  xy: 454, 266
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_7
+  rotate: false
+  xy: 2, 187
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_8
+  rotate: false
+  xy: 228, 187
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_9
+  rotate: false
+  xy: 454, 40
+  size: 224, 224
+  orig: 224, 224
+  offset: 0, 0
+  index: -1
+seed_glow
+  rotate: false
+  xy: 2, 639
+  size: 323, 323
+  orig: 323, 323
+  offset: 0, 0
+  index: -1

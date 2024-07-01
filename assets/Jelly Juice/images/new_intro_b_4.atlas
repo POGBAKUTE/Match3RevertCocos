@@ -1,0 +1,237 @@
+
+new_intro_b_4.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+baker_baffo
+  rotate: false
+  xy: 844, 151
+  size: 72, 83
+  orig: 74, 85
+  offset: 1, 1
+  index: -1
+baker_braccio_destro
+  rotate: false
+  xy: 1482, 116
+  size: 309, 381
+  orig: 311, 383
+  offset: 1, 1
+  index: -1
+baker_braccio_sx
+  rotate: false
+  xy: 2, 20
+  size: 247, 181
+  orig: 249, 183
+  offset: 1, 1
+  index: -1
+baker_corpo
+  rotate: false
+  xy: 664, 463
+  size: 550, 559
+  orig: 552, 561
+  offset: 1, 1
+  index: -1
+baker_gambe
+  rotate: false
+  xy: 1009, 4
+  size: 267, 231
+  orig: 269, 233
+  offset: 1, 1
+  index: -1
+baker_gonnellino
+  rotate: true
+  xy: 1216, 499
+  size: 523, 314
+  orig: 525, 316
+  offset: 1, 1
+  index: -1
+baker_manica_dx
+  rotate: true
+  xy: 1226, 237
+  size: 260, 254
+  orig: 262, 256
+  offset: 1, 1
+  index: -1
+baker_manica_sx
+  rotate: false
+  xy: 976, 237
+  size: 248, 224
+  orig: 250, 226
+  offset: 1, 1
+  index: -1
+baker_mano_sx
+  rotate: false
+  xy: 251, 65
+  size: 220, 136
+  orig: 222, 138
+  offset: 1, 1
+  index: -1
+baker_piede_dx
+  rotate: false
+  xy: 473, 81
+  size: 161, 120
+  orig: 163, 122
+  offset: 1, 1
+  index: -1
+baker_sopracciglia
+  rotate: true
+  xy: 844, 99
+  size: 50, 66
+  orig: 52, 68
+  offset: 1, 1
+  index: -1
+baker_testa
+  rotate: true
+  xy: 664, 236
+  size: 225, 310
+  orig: 227, 312
+  offset: 1, 1
+  index: -1
+bunny_braccio_sx
+  rotate: false
+  xy: 743, 215
+  size: 36, 19
+  orig: 38, 21
+  offset: 1, 1
+  index: -1
+bunny_coda
+  rotate: true
+  xy: 807, 213
+  size: 21, 20
+  orig: 23, 22
+  offset: 1, 1
+  index: -1
+bunny_corpo
+  rotate: true
+  xy: 780, 2
+  size: 90, 88
+  orig: 92, 90
+  offset: 1, 1
+  index: -1
+bunny_orecchio_dx
+  rotate: true
+  xy: 941, 45
+  size: 53, 34
+  orig: 57, 37
+  offset: 1, 2
+  index: -1
+bunny_orecchio_sx
+  rotate: false
+  xy: 664, 213
+  size: 51, 21
+  orig: 53, 23
+  offset: 1, 1
+  index: -1
+bunny_piede_dx
+  rotate: false
+  xy: 781, 210
+  size: 24, 24
+  orig: 26, 26
+  offset: 1, 1
+  index: -1
+bunny_piede_sx
+  rotate: false
+  xy: 717, 204
+  size: 24, 30
+  orig: 26, 32
+  offset: 1, 1
+  index: -1
+bunny_testa
+  rotate: false
+  xy: 697, 6
+  size: 81, 76
+  orig: 83, 78
+  offset: 1, 1
+  index: -1
+cespugli_quinta
+  rotate: true
+  xy: 2, 203
+  size: 819, 660
+  orig: 821, 662
+  offset: 1, 1
+  index: -1
+jinny_braccio_dx
+  rotate: true
+  xy: 963, 164
+  size: 70, 38
+  orig: 72, 40
+  offset: 1, 1
+  index: -1
+jinny_braccio_sx
+  rotate: false
+  xy: 411, 16
+  size: 74, 47
+  orig: 76, 49
+  offset: 1, 1
+  index: -1
+jinny_bunny_shadow
+  rotate: false
+  xy: 487, 6
+  size: 208, 73
+  orig: 234, 87
+  offset: 16, 7
+  index: -1
+jinny_capelli
+  rotate: false
+  xy: 742, 94
+  size: 100, 108
+  orig: 102, 110
+  offset: 1, 1
+  index: -1
+jinny_gamba_dx
+  rotate: false
+  xy: 251, 6
+  size: 87, 57
+  orig: 89, 59
+  offset: 1, 1
+  index: -1
+jinny_gamba_sx
+  rotate: false
+  xy: 918, 171
+  size: 43, 63
+  orig: 45, 65
+  offset: 1, 1
+  index: -1
+jinny_manica_dx
+  rotate: true
+  xy: 941, 10
+  size: 33, 46
+  orig: 35, 48
+  offset: 1, 1
+  index: -1
+jinny_manica_sx
+  rotate: true
+  xy: 973, 126
+  size: 36, 34
+  orig: 38, 36
+  offset: 1, 1
+  index: -1
+jinny_treccia_dx
+  rotate: false
+  xy: 870, 21
+  size: 69, 76
+  orig: 71, 78
+  offset: 1, 1
+  index: -1
+jinny_treccia_sx
+  rotate: false
+  xy: 340, 2
+  size: 69, 61
+  orig: 72, 63
+  offset: 1, 1
+  index: -1
+jinny_vestito
+  rotate: false
+  xy: 636, 84
+  size: 104, 117
+  orig: 106, 119
+  offset: 1, 1
+  index: -1
+jinny_viso
+  rotate: false
+  xy: 912, 100
+  size: 59, 49
+  orig: 61, 51
+  offset: 1, 1
+  index: -1

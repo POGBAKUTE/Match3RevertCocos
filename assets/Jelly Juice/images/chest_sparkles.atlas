@@ -1,0 +1,13 @@
+
+chest_sparkles.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+sparkle_glow
+  rotate: false
+  xy: 2, 2
+  size: 80, 79
+  orig: 80, 79
+  offset: 0, 0
+  index: -1

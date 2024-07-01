@@ -1,0 +1,63 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "385b92b5-6b72-498a-aa79-5ae1b31b8d08",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "75a76": {
+      "importer": "sprite-frame",
+      "uuid": "385b92b5-6b72-498a-aa79-5ae1b31b8d08@75a76",
+      "displayName": "",
+      "id": "75a76",
+      "name": "youre_lost_panel_path",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 595,
+        "height": 344,
+        "rawWidth": 595,
+        "rawHeight": 344,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "25a200bd-5562-4b2f-9156-e8846161c36b@6c48a",
+        "atlasUuid": "385b92b5-6b72-498a-aa79-5ae1b31b8d08"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Iceberg_Event.png",
+    "format": 2,
+    "uuid": "385b92b5-6b72-498a-aa79-5ae1b31b8d08",
+    "textureUuid": "25a200bd-5562-4b2f-9156-e8846161c36b@6c48a"
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "normal": {
+        "titleBg": {
+            "position": {
+                "x":0,
+                "y": 103
+            }
+        },
+        "titleLabel": {
+            "position": {
+                "x":0,
+                "y": 108
+            }
+        },
+        "containerBg": {
+            "position": {
+                "x": 0,
+                "y": -5
+            },
+            "content_size": {
+                "w": 200,
+                "h": 130
+            }
+        },
+        "scrollView": {
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "content_size": {
+                "w": 200,
+                "h": 130
+            },
+            "position": {
+                "x": 0,
+                "y": -5
+            }
+        },
+        "itemsContainer": {
+            "scale": 0.9
+        },
+        "selectAllBtn": {
+            "position": {
+                "x": -80,
+                "y": -97     
+            }
+        },
+        "leftTab": {
+            "local_z_order": 100,
+            "position": {
+                "x": -50,
+                "y": 63
+            }
+        },
+        "rightTab": {
+            "local_z_order": 100,
+            "position": {
+                "x": 50,
+                "y": 63
+            }
+        },
+        "inviteLabel": {
+            "position": {
+                "x": 0,
+                "y": 20
+            },
+            "scale":0.5
+        },
+        "inviteSprite": {
+            "scale": 0.85,
+            "position":{
+                "x": 0,
+                "y": -40
+            }
+        }
+    },
+
+    "invite": {
+        "inviteLabel": {
+            "position": {
+                "x": 0,
+                "y": 45
+            },
+            "scale":0.57
+        },
+        "inviteSprite": {
+            "scale": 0.95,
+            "position":{
+                "x": 0,
+                "y": -45
+            }
+        },
+        "leftTab": {
+            "visible": false
+        },
+        "rightTab": {
+            "visible": false
+        }        
+    }
+}

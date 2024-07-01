@@ -1,0 +1,83 @@
+
+gift_heart.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+circle_particles
+  rotate: false
+  xy: 362, 406
+  size: 225, 226
+  orig: 228, 228
+  offset: 3, 2
+  index: -1
+circle_remove
+  rotate: false
+  xy: 2, 227
+  size: 358, 358
+  orig: 358, 358
+  offset: 0, 0
+  index: -1
+firework
+  rotate: false
+  xy: 2, 587
+  size: 354, 365
+  orig: 358, 365
+  offset: 2, 0
+  index: -1
+flash_ring
+  rotate: false
+  xy: 358, 634
+  size: 318, 318
+  orig: 358, 358
+  offset: 20, 20
+  index: -1
+frame/frames/heart_00000
+  rotate: true
+  xy: 572, 159
+  size: 245, 197
+  orig: 280, 280
+  offset: 18, 37
+  index: -1
+frame/frames/heart_00001
+  rotate: false
+  xy: 2, 26
+  size: 235, 199
+  orig: 280, 280
+  offset: 17, 38
+  index: -1
+frame/frames/heart_00003
+  rotate: true
+  xy: 589, 461
+  size: 171, 204
+  orig: 280, 280
+  offset: 46, 38
+  index: -1
+frame/frames/heart_00005
+  rotate: true
+  xy: 678, 643
+  size: 138, 204
+  orig: 280, 280
+  offset: 74, 38
+  index: -1
+frame/frames/heart_00006
+  rotate: true
+  xy: 678, 783
+  size: 169, 204
+  orig: 280, 280
+  offset: 65, 38
+  index: -1
+frame/frames/heart_00007
+  rotate: false
+  xy: 362, 202
+  size: 208, 202
+  orig: 280, 280
+  offset: 46, 38
+  index: -1
+frame/frames/heart_00008
+  rotate: false
+  xy: 239, 2
+  size: 234, 198
+  orig: 280, 280
+  offset: 29, 38
+  index: -1

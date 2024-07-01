@@ -1,0 +1,342 @@
+
+mq_bunny.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bunny_bocca_aperta
+  rotate: false
+  xy: 362, 164
+  size: 9, 10
+  orig: 9, 10
+  offset: 0, 0
+  index: -1
+bunny_bocca_chiusa
+  rotate: false
+  xy: 367, 119
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+bunny_bocca_risata
+  rotate: true
+  xy: 356, 101
+  size: 9, 4
+  orig: 9, 4
+  offset: 0, 0
+  index: -1
+bunny_braccio_dx
+  rotate: false
+  xy: 199, 64
+  size: 10, 15
+  orig: 10, 15
+  offset: 0, 0
+  index: -1
+bunny_braccio_sx
+  rotate: true
+  xy: 339, 3
+  size: 13, 12
+  orig: 13, 12
+  offset: 0, 0
+  index: -1
+bunny_briciole_dx
+  rotate: false
+  xy: 241, 65
+  size: 14, 14
+  orig: 14, 14
+  offset: 0, 0
+  index: -1
+bunny_briciole_sx
+  rotate: true
+  xy: 353, 112
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1
+bunny_coda
+  rotate: false
+  xy: 356, 91
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+bunny_corpo
+  rotate: true
+  xy: 329, 214
+  size: 40, 35
+  orig: 40, 35
+  offset: 0, 0
+  index: -1
+bunny_guance
+  rotate: false
+  xy: 298, 67
+  size: 38, 17
+  orig: 38, 17
+  offset: 0, 0
+  index: -1
+bunny_naso
+  rotate: true
+  xy: 362, 102
+  size: 8, 6
+  orig: 8, 6
+  offset: 0, 0
+  index: -1
+bunny_occhi_allegri
+  rotate: false
+  xy: 211, 65
+  size: 28, 14
+  orig: 28, 14
+  offset: 0, 0
+  index: -1
+bunny_occhi_chiusi
+  rotate: true
+  xy: 352, 161
+  size: 27, 8
+  orig: 27, 8
+  offset: 0, 0
+  index: -1
+bunny_occhi_tristi
+  rotate: false
+  xy: 311, 2
+  size: 26, 13
+  orig: 26, 13
+  offset: 0, 0
+  index: -1
+bunny_orecchio_dx
+  rotate: false
+  xy: 328, 158
+  size: 22, 27
+  orig: 22, 27
+  offset: 0, 0
+  index: -1
+bunny_orecchio_sx
+  rotate: true
+  xy: 257, 65
+  size: 19, 27
+  orig: 19, 27
+  offset: 0, 0
+  index: -1
+bunny_piede_dx
+  rotate: true
+  xy: 329, 100
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+bunny_piede_sx
+  rotate: true
+  xy: 329, 88
+  size: 10, 7
+  orig: 10, 7
+  offset: 0, 0
+  index: -1
+bunny_shadow
+  rotate: true
+  xy: 311, 17
+  size: 48, 8
+  orig: 48, 8
+  offset: 0, 0
+  index: -1
+bunny_testa
+  rotate: true
+  xy: 321, 18
+  size: 47, 43
+  orig: 47, 43
+  offset: 0, 0
+  index: -1
+moon_bited
+  rotate: false
+  xy: 248, 86
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
+moon_full
+  rotate: false
+  xy: 260, 187
+  size: 67, 67
+  orig: 67, 67
+  offset: 0, 0
+  index: -1
+moon_particles
+  rotate: false
+  xy: 362, 176
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+nuvola
+  rotate: true
+  xy: 2, 64
+  size: 190, 134
+  orig: 190, 134
+  offset: 0, 0
+  index: -1
+paracadute
+  rotate: true
+  xy: 138, 155
+  size: 99, 73
+  orig: 99, 73
+  offset: 0, 0
+  index: -1
+skin_1_cintura
+  rotate: false
+  xy: 138, 64
+  size: 43, 15
+  orig: 43, 15
+  offset: 0, 0
+  index: -1
+skin_1_comando_dx
+  rotate: true
+  xy: 317, 90
+  size: 20, 10
+  orig: 20, 10
+  offset: 0, 0
+  index: -1
+skin_1_comando_sx
+  rotate: true
+  xy: 286, 65
+  size: 19, 10
+  orig: 19, 10
+  offset: 0, 0
+  index: -1
+skin_1_fuoco_dx
+  rotate: false
+  xy: 177, 5
+  size: 44, 57
+  orig: 44, 57
+  offset: 0, 0
+  index: -1
+skin_1_fuoco_sx
+  rotate: false
+  xy: 177, 5
+  size: 44, 57
+  orig: 44, 57
+  offset: 0, 0
+  index: -1
+skin_1_reattore_dx
+  rotate: true
+  xy: 213, 155
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+skin_1_reattore_sx
+  rotate: true
+  xy: 258, 155
+  size: 25, 43
+  orig: 25, 43
+  offset: 0, 0
+  index: -1
+skin_1_schienale
+  rotate: true
+  xy: 138, 81
+  size: 72, 61
+  orig: 72, 61
+  offset: 0, 0
+  index: -1
+skin_2_ali
+  rotate: false
+  xy: 2, 4
+  size: 116, 58
+  orig: 116, 58
+  offset: 0, 0
+  index: -1
+skin_2_casco_dx
+  rotate: true
+  xy: 223, 2
+  size: 61, 67
+  orig: 61, 67
+  offset: 0, 0
+  index: -1
+skin_2_casco_sx
+  rotate: false
+  xy: 303, 158
+  size: 23, 27
+  orig: 23, 27
+  offset: 0, 0
+  index: -1
+skin_2_cintura
+  rotate: true
+  xy: 338, 68
+  size: 42, 16
+  orig: 42, 16
+  offset: 0, 0
+  index: -1
+skin_2_fuoco_dx
+  rotate: false
+  xy: 201, 81
+  size: 45, 72
+  orig: 45, 72
+  offset: 0, 0
+  index: -1
+skin_2_fuoco_sx
+  rotate: false
+  xy: 213, 182
+  size: 45, 72
+  orig: 45, 72
+  offset: 0, 0
+  index: -1
+skin_2_reattore_dx
+  rotate: true
+  xy: 329, 190
+  size: 22, 35
+  orig: 22, 35
+  offset: 0, 0
+  index: -1
+skin_2_reattore_sx
+  rotate: false
+  xy: 353, 125
+  size: 20, 34
+  orig: 20, 34
+  offset: 0, 0
+  index: -1
+skin_3_braccio_dx
+  rotate: true
+  xy: 292, 2
+  size: 11, 17
+  orig: 11, 17
+  offset: 0, 0
+  index: -1
+skin_3_braccio_sx
+  rotate: false
+  xy: 183, 64
+  size: 14, 15
+  orig: 14, 15
+  offset: 0, 0
+  index: -1
+skin_3_collo
+  rotate: true
+  xy: 292, 15
+  size: 48, 17
+  orig: 48, 17
+  offset: 0, 0
+  index: -1
+skin_3_corpo
+  rotate: true
+  xy: 317, 112
+  size: 44, 34
+  orig: 44, 34
+  offset: 0, 0
+  index: -1
+skin_3_piede_dx
+  rotate: true
+  xy: 353, 3
+  size: 13, 9
+  orig: 13, 9
+  offset: 0, 0
+  index: -1
+skin_3_piede_sx
+  rotate: true
+  xy: 364, 3
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+skin_3_zaino
+  rotate: false
+  xy: 120, 4
+  size: 55, 58
+  orig: 55, 58
+  offset: 0, 0
+  index: -1

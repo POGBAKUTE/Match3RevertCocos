@@ -1,0 +1,20 @@
+
+mushroom_event_panel.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mushrooms
+  rotate: true
+  xy: 2, 2
+  size: 81, 121
+  orig: 81, 121
+  offset: 0, 0
+  index: -1
+rays
+  rotate: false
+  xy: 2, 85
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,209 @@
+
+bundle_Christmas.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bunny_braccio_dx
+  rotate: true
+  xy: 2, 2
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+Bunny_braccio_sx
+  rotate: true
+  xy: 998, 542
+  size: 37, 24
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+Bunny_corpo
+  rotate: true
+  xy: 921, 368
+  size: 116, 101
+  orig: 116, 101
+  offset: 0, 0
+  index: -1
+Bunny_orecchio_dx
+  rotate: true
+  xy: 623, 17
+  size: 53, 64
+  orig: 53, 64
+  offset: 0, 0
+  index: -1
+Bunny_orecchio_sx
+  rotate: true
+  xy: 689, 10
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+Bunny_piede_dx
+  rotate: true
+  xy: 903, 272
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+Bunny_testa
+  rotate: false
+  xy: 783, 186
+  size: 118, 110
+  orig: 118, 110
+  offset: 0, 0
+  index: -1
+Jinny_braccio_dx
+  rotate: true
+  xy: 942, 581
+  size: 120, 76
+  orig: 120, 76
+  offset: 0, 0
+  index: -1
+Jinny_braccio_sx
+  rotate: false
+  xy: 411, 2
+  size: 120, 61
+  orig: 120, 61
+  offset: 0, 0
+  index: -1
+Jinny_corpo
+  rotate: false
+  xy: 911, 703
+  size: 97, 156
+  orig: 97, 156
+  offset: 0, 0
+  index: -1
+Jinny_hat
+  rotate: true
+  xy: 911, 861
+  size: 161, 98
+  orig: 161, 98
+  offset: 0, 0
+  index: -1
+Jinny_occhi_aperti
+  rotate: true
+  xy: 942, 487
+  size: 92, 54
+  orig: 92, 54
+  offset: 0, 0
+  index: -1
+Jinny_occhi_chiusi
+  rotate: false
+  xy: 533, 19
+  size: 88, 44
+  orig: 88, 44
+  offset: 0, 0
+  index: -1
+Jinny_testa
+  rotate: true
+  xy: 619, 72
+  size: 153, 162
+  orig: 153, 162
+  offset: 0, 0
+  index: -1
+Jinny_treccia_dx
+  rotate: true
+  xy: 921, 262
+  size: 104, 96
+  orig: 104, 96
+  offset: 0, 0
+  index: -1
+Jinny_treccia_sx
+  rotate: true
+  xy: 783, 103
+  size: 81, 120
+  orig: 81, 120
+  offset: 0, 0
+  index: -1
+bollicina_1
+  rotate: false
+  xy: 981, 241
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+bollicina_2
+  rotate: false
+  xy: 959, 71
+  size: 22, 19
+  orig: 22, 19
+  offset: 0, 0
+  index: -1
+bottle_1
+  rotate: false
+  xy: 905, 92
+  size: 77, 96
+  orig: 77, 96
+  offset: 0, 0
+  index: -1
+bottle_2
+  rotate: true
+  xy: 783, 25
+  size: 76, 96
+  orig: 76, 96
+  offset: 0, 0
+  index: -1
+cartello
+  rotate: true
+  xy: 782, 690
+  size: 332, 127
+  orig: 332, 127
+  offset: 0, 0
+  index: -1
+cartello_Natale
+  rotate: false
+  xy: 2, 37
+  size: 407, 188
+  orig: 407, 188
+  offset: 0, 0
+  index: -1
+flare
+  rotate: true
+  xy: 782, 298
+  size: 186, 137
+  orig: 186, 137
+  offset: 0, 0
+  index: -1
+jar_1
+  rotate: false
+  xy: 903, 190
+  size: 76, 70
+  orig: 76, 70
+  offset: 0, 0
+  index: -1
+jar_2
+  rotate: false
+  xy: 881, 20
+  size: 76, 70
+  orig: 76, 70
+  offset: 0, 0
+  index: -1
+jar_shadow
+  rotate: false
+  xy: 33, 19
+  size: 76, 16
+  orig: 76, 16
+  offset: 0, 0
+  index: -1
+sacco_dx
+  rotate: false
+  xy: 411, 65
+  size: 206, 160
+  orig: 206, 160
+  offset: 0, 0
+  index: -1
+sacco_sx
+  rotate: true
+  xy: 782, 486
+  size: 202, 158
+  orig: 202, 158
+  offset: 0, 0
+  index: -1
+tendone_new_Natale
+  rotate: false
+  xy: 2, 227
+  size: 778, 795
+  orig: 778, 795
+  offset: 0, 0
+  index: -1

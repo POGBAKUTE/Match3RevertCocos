@@ -1,0 +1,55 @@
+
+sc16_item_start_control_unit.png
+size: 1024,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue
+  rotate: true
+  xy: 2, 86
+  size: 3, 27
+  orig: 5, 29
+  offset: 1, 1
+  index: -1
+container
+  rotate: true
+  xy: 89, 65
+  size: 24, 31
+  orig: 26, 33
+  offset: 1, 1
+  index: -1
+green
+  rotate: true
+  xy: 31, 86
+  size: 3, 27
+  orig: 5, 29
+  offset: 1, 1
+  index: -1
+leva
+  rotate: true
+  xy: 122, 25
+  size: 64, 199
+  orig: 66, 201
+  offset: 1, 1
+  index: -1
+lights_1
+  rotate: true
+  xy: 323, 2
+  size: 87, 207
+  orig: 89, 209
+  offset: 1, 1
+  index: -1
+lights_2
+  rotate: true
+  xy: 532, 2
+  size: 87, 204
+  orig: 89, 206
+  offset: 1, 1
+  index: -1
+purple
+  rotate: true
+  xy: 60, 86
+  size: 3, 27
+  orig: 5, 29
+  offset: 1, 1
+  index: -1

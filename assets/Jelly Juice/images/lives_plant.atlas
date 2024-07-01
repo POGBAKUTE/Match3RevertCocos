@@ -1,0 +1,251 @@
+
+lives_plant.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+PngItem_25182
+  rotate: false
+  xy: 543, 152
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+dot
+  rotate: false
+  xy: 525, 29
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+star
+  rotate: true
+  xy: 452, 2
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+step_2_cuore
+  rotate: false
+  xy: 213, 111
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+step_2_gambo
+  rotate: true
+  xy: 531, 8
+  size: 19, 31
+  orig: 19, 31
+  offset: 0, 0
+  index: -1
+step_3_cuore
+  rotate: false
+  xy: 329, 9
+  size: 31, 31
+  orig: 31, 31
+  offset: 0, 0
+  index: -1
+step_3_gambo
+  rotate: true
+  xy: 386, 146
+  size: 46, 73
+  orig: 46, 73
+  offset: 0, 0
+  index: -1
+step_4_cuore
+  rotate: false
+  xy: 289, 2
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+step_4_gambo
+  rotate: true
+  xy: 134, 6
+  size: 32, 108
+  orig: 32, 108
+  offset: 0, 0
+  index: -1
+step_5_cuore
+  rotate: false
+  xy: 497, 207
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+step_5_gambo
+  rotate: true
+  xy: 2, 10
+  size: 28, 130
+  orig: 28, 130
+  offset: 0, 0
+  index: -1
+step_5_gambo_1
+  rotate: false
+  xy: 502, 3
+  size: 27, 17
+  orig: 27, 17
+  offset: 0, 0
+  index: -1
+step_5_gambo_2
+  rotate: true
+  xy: 502, 22
+  size: 32, 21
+  orig: 32, 21
+  offset: 0, 0
+  index: -1
+step_6_cuore
+  rotate: false
+  xy: 582, 2
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+step_6_gambo
+  rotate: true
+  xy: 141, 142
+  size: 45, 137
+  orig: 45, 137
+  offset: 0, 0
+  index: -1
+step_6_gambo_1
+  rotate: false
+  xy: 334, 143
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+step_6_gambo_2
+  rotate: false
+  xy: 391, 5
+  size: 59, 47
+  orig: 59, 47
+  offset: 0, 0
+  index: -1
+step_6_gambo_3
+  rotate: false
+  xy: 244, 114
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+step_7_cuore
+  rotate: true
+  xy: 480, 56
+  size: 88, 100
+  orig: 88, 100
+  offset: 0, 0
+  index: -1
+step_7_gambo
+  rotate: true
+  xy: 141, 189
+  size: 65, 213
+  orig: 65, 213
+  offset: 0, 0
+  index: -1
+step_7_gambo_1
+  rotate: true
+  xy: 647, 181
+  size: 73, 70
+  orig: 73, 70
+  offset: 0, 0
+  index: -1
+step_7_gambo_2
+  rotate: false
+  xy: 244, 3
+  size: 43, 35
+  orig: 43, 35
+  offset: 0, 0
+  index: -1
+step_7_gambo_3
+  rotate: false
+  xy: 356, 194
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+step_7_gambo_4
+  rotate: false
+  xy: 362, 11
+  size: 27, 29
+  orig: 27, 29
+  offset: 0, 0
+  index: -1
+step_7_gambo_5
+  rotate: false
+  xy: 280, 143
+  size: 52, 44
+  orig: 52, 44
+  offset: 0, 0
+  index: -1
+step_8_cuore
+  rotate: true
+  xy: 2, 111
+  size: 143, 137
+  orig: 143, 137
+  offset: 0, 0
+  index: -1
+step_8_gambo
+  rotate: true
+  xy: 2, 40
+  size: 69, 273
+  orig: 69, 273
+  offset: 0, 0
+  index: -1
+step_8_gambo_1
+  rotate: true
+  xy: 461, 146
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+step_8_gambo_2
+  rotate: true
+  xy: 582, 64
+  size: 86, 70
+  orig: 86, 70
+  offset: 0, 0
+  index: -1
+step_8_gambo_3
+  rotate: false
+  xy: 428, 200
+  size: 67, 54
+  orig: 67, 54
+  offset: 0, 0
+  index: -1
+step_8_gambo_4
+  rotate: true
+  xy: 277, 42
+  size: 98, 94
+  orig: 98, 94
+  offset: 0, 0
+  index: -1
+step_8_gambo_5
+  rotate: false
+  xy: 141, 111
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+step_8_gambo_6
+  rotate: false
+  xy: 373, 54
+  size: 105, 87
+  orig: 105, 87
+  offset: 0, 0
+  index: -1
+step_8_gambo_7
+  rotate: true
+  xy: 175, 116
+  size: 24, 36
+  orig: 24, 36
+  offset: 0, 0
+  index: -1
+step_8_gambo_dietro
+  rotate: false
+  xy: 552, 42
+  size: 11, 12
+  orig: 11, 12
+  offset: 0, 0
+  index: -1

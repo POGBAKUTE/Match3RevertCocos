@@ -1,0 +1,20 @@
+
+sc17_item_radar.png
+size: 256,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 138, 48
+  size: 70, 73
+  orig: 70, 73
+  offset: 0, 0
+  index: -1
+radar
+  rotate: true
+  xy: 2, 2
+  size: 119, 134
+  orig: 119, 134
+  offset: 0, 0
+  index: -1

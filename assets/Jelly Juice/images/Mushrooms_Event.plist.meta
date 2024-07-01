@@ -1,0 +1,109 @@
+{
+  "ver": "1.0.8",
+  "importer": "sprite-atlas",
+  "imported": true,
+  "uuid": "263a1ccc-2199-4d82-9b63-801258211a43",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "64772": {
+      "importer": "sprite-frame",
+      "uuid": "263a1ccc-2199-4d82-9b63-801258211a43@64772",
+      "displayName": "",
+      "id": "64772",
+      "name": "mushroom_event_heart",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 2,
+        "trimY": 2,
+        "width": 205,
+        "height": 183,
+        "rawWidth": 205,
+        "rawHeight": 183,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1952737c-895d-4e60-80ee-2ba8d7b03869@6c48a",
+        "atlasUuid": "263a1ccc-2199-4d82-9b63-801258211a43"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "24ee7": {
+      "importer": "sprite-frame",
+      "uuid": "263a1ccc-2199-4d82-9b63-801258211a43@24ee7",
+      "displayName": "",
+      "id": "24ee7",
+      "name": "mushrooms_pannello",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 0,
+        "trimX": 211,
+        "trimY": 2,
+        "width": 188,
+        "height": 180,
+        "rawWidth": 188,
+        "rawHeight": 180,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [],
+          "indexes": [],
+          "uv": [],
+          "nuv": [],
+          "minPos": [],
+          "maxPos": []
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "1952737c-895d-4e60-80ee-2ba8d7b03869@6c48a",
+        "atlasUuid": "263a1ccc-2199-4d82-9b63-801258211a43"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "atlasTextureName": "Mushrooms_Event.png",
+    "format": 2,
+    "uuid": "263a1ccc-2199-4d82-9b63-801258211a43",
+    "textureUuid": "1952737c-895d-4e60-80ee-2ba8d7b03869@6c48a"
+  }
+}

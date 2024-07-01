@@ -1,4 +1,5 @@
-import { _decorator, Color, Component, Node, Sprite , Event, UITransform, Size} from 'cc';
+import { _decorator, Color, Component, Node, Sprite, Event, UITransform, Size, game } from 'cc';
+import { eventTarget } from './GamesController';
 const { ccclass, property } = _decorator;
 
 @ccclass('Cell')
@@ -11,7 +12,7 @@ export class Cell extends Component {
     typeCell: typeCell = 0;
     wasSelectCircle: boolean = false;
     wasClick: boolean = false;
-    _circle : Node = null
+    _circle: Node = null
     onLoad() {
         this.node.on(Node.EventType.TOUCH_START, this.wasClickSet, this);
         this.node.on(Node.EventType.TOUCH_MOVE, this.moveCircle, this);
@@ -43,14 +44,15 @@ export class Cell extends Component {
     selectCircle() {
         if (this._circle == null) return;
         this.countClick++;
+        console.log(this.countClick)
         if (this.countClick % 2 == 0) {
             this.wasSelectCircle = false;
             this.wasClick = false;
             this.setNormalSize();
-            game.emit('wasClickOnCell')
+            eventTarget.emit("wasTwoClickOnCell")
         } else {
             this.wasSelectCircle = true;
-            game.emit('wasTwoClickOnCell')
+            eventTarget.emit("wasClickOnCell")
             this._circle.getComponent(UITransform).setContentSize(this.node.getComponent(UITransform).contentSize);
         }
     }
@@ -68,7 +70,7 @@ export class Cell extends Component {
         if (this._circle != null) {
             this._circle.destroy();
             this._circle = null;
-            this.node.dispatchEvent(new Event.EventCustom('clickOnCellForDestroyCircle', true));
+            eventTarget.emit("clickOnCellForDestroyCircle")
         }
     }
     circleIsNotNull() {
@@ -78,6 +80,17 @@ export class Cell extends Component {
     CellIsNotNull() {
         if (this != null) return true;
         return false;
+    }
+
+    activeCell(active: boolean) {
+        if (active) {
+            this.node.on(Node.EventType.TOUCH_START, this.wasClickSet, this);
+            this.node.on(Node.EventType.TOUCH_MOVE, this.moveCircle, this);
+        }
+        else {
+            this.node.off(Node.EventType.TOUCH_START, this.wasClickSet, this);
+            this.node.off(Node.EventType.TOUCH_MOVE, this.moveCircle, this);
+        }
     }
 }
 

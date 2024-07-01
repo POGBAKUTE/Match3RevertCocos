@@ -1,0 +1,20 @@
+
+cake_event_panel.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cake
+  rotate: false
+  xy: 160, 27
+  size: 102, 131
+  orig: 102, 131
+  offset: 0, 0
+  index: -1
+rays
+  rotate: false
+  xy: 2, 2
+  size: 156, 156
+  orig: 156, 156
+  offset: 0, 0
+  index: -1
