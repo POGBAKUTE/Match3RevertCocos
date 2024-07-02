@@ -25,7 +25,7 @@ export class GameField extends Component {
       @property
       private StartCellPosY: number = 250;
       @property
-      private lenghtCell: number = 62;
+      private height: number = 62;
       @property
       private widthCell: number = 62;
       private countCircle: number = 0;
@@ -51,18 +51,19 @@ export class GameField extends Component {
             eventTarget.on("wasTwoClickOnCell", this.workWithTwoClickedCell, this);
             this.timeForCheckFild = this.Cells.length * this.iter + 0.1;
       }
-      start() {
-            // this.createCells();
-            // this.setTypeCellsOnIandJ(4, 0, this.Cells.length, 4, 1);
-            // this.CreateCircles();
-      }
-      onEnable() {
+
+      onInit() {
             this.createCells();
             this.setTypeCellsOnIandJ(4, 0, this.Cells.length, 4, 1);
             this.CreateCircles();
             this.destroyTipeColors = new Array(Object.keys(typeColorCircle).length);
             for (var i = 0; i < this.destroyTipeColors.length; i++) this.destroyTipeColors[i] = 0;
       }
+
+      protected onEnable(): void {
+            this.onInit()
+      }
+
       onDisable() {
             this.DestroyCircles();
       }
@@ -241,7 +242,9 @@ export class GameField extends Component {
             // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
       }
       private createCells() {
-            console.log("OKE TAO")
+            let pos = this.node.getPosition()
+            this.StartCellPosX = this.widthCell * -3.5
+            this.StartCellPosY = this.widthCell * 3.5
             var xPos: number = 0;
             var yPos: number = 0;
             var _cell;
@@ -249,7 +252,7 @@ export class GameField extends Component {
             for (var j = 0; j < this.Cells.length; j++) {
                   for (var i = 0; i < this.Cells[j].length; i++) {
                         _cell = instantiate(this.Cell);
-                        _cell.getComponent(UITransform).setContentSize(this.lenghtCell, this.widthCell);
+                        _cell.getComponent(UITransform).setContentSize(this.height, this.widthCell);
                         _cell.parent = this.node;
                         _cell.setPosition(this.StartCellPosX + xPos, this.StartCellPosY + yPos, 0);
                         this.Cells[j][i] = _cell.getComponent(Cell);
@@ -258,7 +261,7 @@ export class GameField extends Component {
                         if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
                         this.Cells[j][i].jcolumn = j;
                         this.Cells[j][i].irow = i;
-                        xPos = xPos + this.lenghtCell;
+                        xPos = xPos + this.height;
                   }
                   xPos = 0;
                   yPos = yPos - this.widthCell;
@@ -301,7 +304,7 @@ export class GameField extends Component {
                   Cell._circle = instantiate(this.Circle);
                   Cell._circle.setParent(this.node);
                   Cell._circle.setPosition(Cell.node.getPosition());
-                  Cell._circle.getComponent(UITransform).setContentSize(this.lenghtCell - 15, this.widthCell - 15);
+                  Cell._circle.getComponent(UITransform).setContentSize(this.height - 15, this.widthCell - 15);
                   this.countCircle++;
             }
       }
@@ -663,7 +666,7 @@ export class GameField extends Component {
 //   private StartCellPosY: number = 250;
 //
 //   @property
-//   private lenghtCell: number = 62;
+//   private height: number = 62;
 //   @property
 //   private widthCell: number = 62;
 //
@@ -908,7 +911,7 @@ export class GameField extends Component {
 //     for (var j = 0; j < this.Cells.length; j++) {
 //       for (var i = 0; i < this.Cells[j].length; i++) {
 //         _cell = instantiate(this.Cell);
-//         _cell.setContentSize(this.lenghtCell, this.widthCell);
+//         _cell.setContentSize(this.height, this.widthCell);
 //         _cell.setParent(this.node);
 //         _cell.setPosition(this.StartCellPosX + xPos, this.StartCellPosY + yPos);
 //         this.Cells[j][i] = _cell.getComponent(Cell);
@@ -917,7 +920,7 @@ export class GameField extends Component {
 //         if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
 //         this.Cells[j][i].jcolumn = j;
 //         this.Cells[j][i].irow = i;
-//         xPos = xPos + this.lenghtCell;
+//         xPos = xPos + this.height;
 //       }
 //       xPos = 0;
 //       yPos = yPos - this.widthCell;
@@ -964,7 +967,7 @@ export class GameField extends Component {
 //       Cell._circle = instantiate(this.Circle);
 //       Cell._circle.setParent(this.node);
 //       Cell._circle.setPosition(Cell.node.position);
-//       Cell._circle.setContentSize(this.lenghtCell - 15, this.widthCell - 15);
+//       Cell._circle.setContentSize(this.height - 15, this.widthCell - 15);
 //       this.countCircle++;
 //     }
 //   }

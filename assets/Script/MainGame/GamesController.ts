@@ -1,13 +1,17 @@
-import { _decorator, Component, game, Label, Node, EventTarget } from 'cc';
+import { _decorator, Component, game, Label, Node, EventTarget, resources } from 'cc';
 const { ccclass, property } = _decorator;
 
 import { Circle } from "./Circle";
 import { GameField } from "./GameField";
-
+import { UIManager } from '../UI/UIManager';
+import { UIFail } from '../UI/UIFail';
+import { UIVictory } from '../UI/UIVictory';
 export const eventTarget = new EventTarget();
 
 @ccclass('GamesController')
 export class GameController extends Component {
+    public static Instance: GameController;
+
     @property
     countTypeAndMove: number = 12;
     private allpoints: number = 0;
@@ -24,17 +28,19 @@ export class GameController extends Component {
     @property(GameField)
     gameField: GameField = null;
     @property(Node)
-    gameOver: Node | null = null;
-    @property(Node)
-    gameWon: Node | null = null;
-    @property(Node)
     typeTask: Node | null = null;
     @property(Node)
     testGameText: Node | null = null;
     @property(Node)
     blockField: Node | null = null;
-    onLoad() {
 
+    onLoad() {
+        if (GameController.Instance == null) {
+            GameController.Instance = this;
+        }
+        else {
+            this.destroy();
+        }
         if (this.testGame) {
             this.testGameText.active = true;
         }
@@ -106,7 +112,7 @@ export class GameController extends Component {
         this.currentMove.string = String(this.movepoints);
         if (!this.testGame) {
             if (this.movepoints == 0) {
-                this.gameOver.active = true;
+                UIManager.Instance.openUI(UIFail)
             }
         }
 
@@ -118,27 +124,23 @@ export class GameController extends Component {
         this.taskType.string = String(countDestroyersTaskCircles);
         if (!this.testGame) {
             if (countDestroyersTaskCircles <= 0) {
-                this.gameWon.active = true;
+                UIManager.Instance.openUI(UIVictory)
             }
         }
-    }
-    gameOverNodeDeActivate() {
-        this.gameOver.active = false;
-    }
-    gameWonNodeDeActivate() {
-        this.gameWon.active = false;
     }
     private CheckGameOverIfColorChallengeIsComplete() {
 
     }
     RestartGame() {
-
+        var data_level = resources.load('data/levels_configurations.json', function(err, res) {
+            console.log(JSON.stringify(res))
+        })
         this.gameField.node.active = false;
         this.gameField.node.active = true;
-        this.allpoints = 1;
+        this.allpoints = 0;
         this.textPoint.string = this.allpoints.toString();
         this.movepoints = this.countTypeAndMove;
-        this.taskType.string = this.countTypeAndMove.toString();
+        this.taskType.string = "12"
         this.currentMove.string = this.countTypeAndMove.toString();
         var circleTask = this.typeTask.getComponent(Circle);
         circleTask.setRandomColor();

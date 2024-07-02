@@ -35,7 +35,7 @@ export class Cell extends Component {
         this.node.getComponent(Sprite).color = new Color(197, 197, 197);
     }
     setWhiteColor() {
-        this.node.getComponent(Sprite).color = new Color(255, 255, 255);
+        this.node.getComponent(Sprite).color = new Color(255, 255, 255, 0);
     }
     setColorInType() {
         if (this.typeCell == 1) this.setWhiteColor();
