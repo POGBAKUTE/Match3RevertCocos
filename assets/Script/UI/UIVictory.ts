@@ -7,6 +7,7 @@ const { ccclass, property } = _decorator;
 export class UIVictory extends UICanvas {
     retryGame() {
         this.close(0)
+        GameController.Instance.setLevelCurrent(GameController.Instance.getLevelCurrent() + 1)
         GameController.Instance.RestartGame();
     }
 }

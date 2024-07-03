@@ -10,17 +10,33 @@ export class Circle extends Component {
       sprite: SpriteFrame[] = [];
       @property(Prefab)
       circlesTipe: Prefab[] = [];
+
+      @property()
+      circlesTipe2: SpriteFrame[][] = [];
       @property
       CircleTypeColor: typeColorCircle;
       CircleType: tipeCircle = 0;
       randomNumber: number;
       inMove: boolean = false;
-      onLoad() {
-            this.setRandomColor();
+      // onLoad() {
+      //       this.setRandomColor();
+      // }
+
+      setColor(typeColor, checkHave, amountColor) {
+            if(checkHave) {
+                  var sp = this.node.getComponent(Sprite);
+                  sp.spriteFrame = this.sprite[typeColor];
+                  this.setColorTipe(typeColor);
+            }
+            else {
+                  this.setRandomColor(amountColor)
+            }
       }
-      setRandomColor() {
+
+      setRandomColor(amountColor) {
+            console.log("AMOUNT COUNT: " + amountColor)
             var sp = this.node.getComponent(Sprite);
-            this.randomNumber = Math.floor(Math.random() * Math.floor(this.sprite.length));
+            this.randomNumber = Math.floor(Math.random() * Math.floor(amountColor));
             sp.spriteFrame = this.sprite[this.randomNumber];
             this.setColorTipe(this.randomNumber);
       }

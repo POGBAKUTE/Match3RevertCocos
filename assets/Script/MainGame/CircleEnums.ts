@@ -14,3 +14,8 @@ export enum tipeCircle {
     rainbowBall,
     lightningVerticalAndlightningHorizont
 }
+
+
+export class CircleTypes {
+    
+}

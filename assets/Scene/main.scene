@@ -187,7 +187,7 @@
     "_priority": -1,
     "_fov": 60,
     "_fovAxis": 0,
-    "_orthoHeight": 525.9016393442623,
+    "_orthoHeight": 420.9836065573771,
     "_near": 1,
     "_far": 4096,
     "_color": {
@@ -1542,7 +1542,7 @@
       }
     ],
     "_interactable": true,
-    "_transition": 3,
+    "_transition": 0,
     "_normalColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -1950,10 +1950,10 @@
     },
     "needRandomVoidCell": true,
     "ChangeForCreateAnActiveCell": 15,
-    "iter": 0.1,
+    "iter": 0.5,
     "StartCellPosX": -170,
     "StartCellPosY": 250,
-    "height": 72,
+    "heightCell": 72,
     "widthCell": 72,
     "_id": "9f/HltaRpEN4NfyZ4skbCT"
   },
@@ -4526,7 +4526,7 @@
     "_top": 0,
     "_bottom": 0,
     "_horizontalCenter": 0,
-    "_verticalCenter": -5,
+    "_verticalCenter": 0,
     "_isAbsLeft": true,
     "_isAbsRight": true,
     "_isAbsTop": true,

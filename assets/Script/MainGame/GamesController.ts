@@ -1,4 +1,4 @@
-import { _decorator, Component, game, Label, Node, EventTarget, resources } from 'cc';
+import { _decorator, Component, game, Label, Node, EventTarget, resources,JsonAsset } from 'cc';
 const { ccclass, property } = _decorator;
 
 import { Circle } from "./Circle";
@@ -6,7 +6,10 @@ import { GameField } from "./GameField";
 import { UIManager } from '../UI/UIManager';
 import { UIFail } from '../UI/UIFail';
 import { UIVictory } from '../UI/UIVictory';
+import { UIGamePlay } from '../UI/UIGamePlay';
 export const eventTarget = new EventTarget();
+
+export let data_level
 
 @ccclass('GamesController')
 export class GameController extends Component {
@@ -34,6 +37,8 @@ export class GameController extends Component {
     @property(Node)
     blockField: Node | null = null;
 
+    private isEnd : boolean = false
+
     onLoad() {
         if (GameController.Instance == null) {
             GameController.Instance = this;
@@ -47,6 +52,8 @@ export class GameController extends Component {
 
         this.taskpoints = Number(this.taskType.string);
         this.movepoints = Number(this.currentMove.string);
+
+        this.loadJsonFile()
 
         eventTarget.on('moveCircleEnd', this.gameField.createOneLineCircles, this.gameField);
         // eventTarget.on('moveCircleEnd', (event) => {
@@ -95,6 +102,19 @@ export class GameController extends Component {
 
 
     }
+
+    loadJsonFile() {
+        resources.load('data/levels_configurations', JsonAsset, (err, jsonAsset) => {
+            if (err) {
+                console.error(err);
+                return;
+            }
+            const jsonData = jsonAsset.json;
+            data_level = jsonData
+            // Thực hiện các thao tác với jsonData tại đây
+        });
+    }
+
     private setPoint() {
         this.allpoints += 1;
         this.textPoint.string = this.allpoints.toString();
@@ -111,7 +131,8 @@ export class GameController extends Component {
         console.log(this.movepoints)
         this.currentMove.string = String(this.movepoints);
         if (!this.testGame) {
-            if (this.movepoints == 0) {
+            if (this.movepoints == 0 && !this.isEnd) {
+                this.isEnd = true
                 UIManager.Instance.openUI(UIFail)
             }
         }
@@ -123,7 +144,8 @@ export class GameController extends Component {
         var countDestroyersTaskCircles = this.countTypeAndMove - this.gameField.destroyTipeColors[circleTask.CircleTypeColor];
         this.taskType.string = String(countDestroyersTaskCircles);
         if (!this.testGame) {
-            if (countDestroyersTaskCircles <= 0) {
+            if (countDestroyersTaskCircles <= 0 && !this.isEnd) {
+                this.isEnd = true
                 UIManager.Instance.openUI(UIVictory)
             }
         }
@@ -131,21 +153,32 @@ export class GameController extends Component {
     private CheckGameOverIfColorChallengeIsComplete() {
 
     }
+
+    private levelCurrent: number = 1
+
+    getLevelCurrent() {
+        return this.levelCurrent;
+    }
+
+    setLevelCurrent(levelCurrent) {
+        this.levelCurrent = levelCurrent
+    }
+
     RestartGame() {
-        var data_level = resources.load('data/levels_configurations.json', function(err, res) {
-            console.log(JSON.stringify(res))
-        })
+        UIManager.Instance.openUI(UIGamePlay)
+        this.isEnd = false
         this.gameField.node.active = false;
         this.gameField.node.active = true;
         this.allpoints = 0;
         this.textPoint.string = this.allpoints.toString();
-        this.movepoints = this.countTypeAndMove;
+        let levelString = `level${this.levelCurrent}`;
+        this.movepoints = data_level.levels[levelString].moves ?? this.countTypeAndMove
         this.taskType.string = "12"
-        this.currentMove.string = this.countTypeAndMove.toString();
+        this.currentMove.string = this.movepoints.toString()
         var circleTask = this.typeTask.getComponent(Circle);
-        circleTask.setRandomColor();
-
+        circleTask.setRandomColor(data_level.levels[levelString].numColors ?? 6);
     }
+
     setTypeDestroyCircle() {
         this.progressTargetDestoyCircle();
     }

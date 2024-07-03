@@ -6,7 +6,7 @@ import { Cell } from "./Cell";
 import { CheckerBoolean } from "./ClassHelpers";
 import { tipeCircle } from "./CircleEnums";
 import { typeColorCircle } from "./CircleEnums";
-import { eventTarget } from './GamesController';
+import { data_level, eventTarget, GameController } from './GamesController';
 
 @ccclass('GameField')
 export class GameField extends Component {
@@ -19,45 +19,75 @@ export class GameField extends Component {
       @property
       private ChangeForCreateAnActiveCell: number = 25;
       @property
-      private iter: number = 0.1;
+      private iter: number = 0.5;
       @property
       private StartCellPosX: number = -150;
       @property
       private StartCellPosY: number = 250;
       @property
-      private height: number = 62;
+      private heightCell: number = 62;
       @property
       private widthCell: number = 62;
       private countCircle: number = 0;
       countProgressStep: number = 0;
       private previousCountCircle: number = 0;
       busterClick: boolean = false;
-      private Cells: Cell[][] = [
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-            [, , , , , , , ,],
-      ];
+      private Cells: Array<Array<Cell>> = new Array<Array<Cell>>()
       destroyTipeColors: number[];
       private currentI_cell_click: number = 0;
       private currentJ_cell_click: number = 0;
       private timeForCheckFild: number = 0;
+      private row: number = 8;
+      private col: number = 8;
+      private amountColor: number
+      private level: any
       onLoad() {
             eventTarget.on("wasClickOnCell", this.workWithClickedCell, this);
             eventTarget.on("wasTwoClickOnCell", this.workWithTwoClickedCell, this);
-            this.timeForCheckFild = this.Cells.length * this.iter + 0.1;
+
       }
 
       onInit() {
+            this.destroyCellInit()
+            let levelCurrent = GameController.Instance.getLevelCurrent()
+            this.level = data_level.levels[`level${levelCurrent}`]
+            this.amountColor = this.level.numColors ?? 6
+            this.initializeCells()
             this.createCells();
-            this.setTypeCellsOnIandJ(4, 0, this.Cells.length, 4, 1);
-            this.CreateCircles();
+            let startCandiesTemplate = this.level.startCandiesTemplate
+            console.log(startCandiesTemplate)
+            this.CreateCircles(startCandiesTemplate);
             this.destroyTipeColors = new Array(Object.keys(typeColorCircle).length);
             for (var i = 0; i < this.destroyTipeColors.length; i++) this.destroyTipeColors[i] = 0;
+      }
+
+      destroyCellInit() {
+            if(this.Cells != null) {
+
+                  for(var cellTmp of this.Cells) {
+                        for(var cell of cellTmp) {
+                              cell.node.destroy()
+                        }
+                  }
+            }
+      }
+
+      private initializeCells() {
+            let levelCurrent = GameController.Instance.getLevelCurrent()
+            this.Cells = new Array<Array<Cell>>()
+            console.log(this.Cells)
+            console.log("LEVEL CURRENT" + `level${levelCurrent}`)
+            this.row = data_level.levels[`level${levelCurrent}`].rows
+            this.col = data_level.levels[`level${levelCurrent}`].cols
+            console.log(this.row + " " + this.col)
+            for (let i = 0; i < this.row; i++) {
+                  let cellTmp = new Array<Cell>()
+                  for (let j = 0; j < this.col; j++) {
+                        cellTmp.push(new Cell()); // Khởi tạo từng đối tượng Cell
+                  }
+                  this.Cells.push(cellTmp)
+            }
+            this.timeForCheckFild = this.Cells.length * this.iter + 0.1;
       }
 
       protected onEnable(): void {
@@ -115,6 +145,7 @@ export class GameField extends Component {
             this.scheduleOnce(function () {
                   console.log("CHUYEN XONG ROI TOI CAN CHECK")
                   eventTarget.emit("needCheckField")
+                  console.log("KAKAKAKAKAKAK")
                   this.setCellNoClick(this.prewCell);
                   this.setCellNoClick(this.currentCell);
                   this.oneCheckField = true;
@@ -140,7 +171,7 @@ export class GameField extends Component {
             }, this.timeForCheckFild);
       }
       private swapCircles(cell1, cell2) {
-            if(cell1 == null && cell2 == null) return;
+            if (cell1 == null && cell2 == null) return;
             console.log("swapCirle")
             this.animateMoveCircle(cell1, cell2);
             this.animateMoveCircle(cell2, cell1);
@@ -221,7 +252,7 @@ export class GameField extends Component {
       private oneCheckField: boolean = true;
       createOneLineCircles() {
             for (var i = 0; i < this.Cells[0].length; i++) {
-                  this.createCircle(this.Cells[0][i]);
+                  this.createCircle(this.Cells[0][i], undefined);
             }
             this.allCirclesMove();
             if (this.oneCheckField) {
@@ -243,25 +274,28 @@ export class GameField extends Component {
       }
       private createCells() {
             let pos = this.node.getPosition()
-            this.StartCellPosX = this.widthCell * -3.5
-            this.StartCellPosY = this.widthCell * 3.5
+            this.StartCellPosX = this.widthCell * -1 * (this.col / 2 - 0.5)
+            this.StartCellPosY = this.heightCell * (this.row / 2 - 0.5)
             var xPos: number = 0;
             var yPos: number = 0;
             var _cell;
-
+            let map = this.level.map
             for (var j = 0; j < this.Cells.length; j++) {
                   for (var i = 0; i < this.Cells[j].length; i++) {
                         _cell = instantiate(this.Cell);
-                        _cell.getComponent(UITransform).setContentSize(this.height, this.widthCell);
+                        _cell.getComponent(UITransform).setContentSize(this.heightCell, this.widthCell);
                         _cell.parent = this.node;
                         _cell.setPosition(this.StartCellPosX + xPos, this.StartCellPosY + yPos, 0);
                         this.Cells[j][i] = _cell.getComponent(Cell);
                         if (i % 2 != 0 && j % 2 == 0) { this.Cells[j][i].setGrayColor(); }
                         if (i % 2 == 0 && j % 2 != 0) { this.Cells[j][i].setGrayColor(); }
-                        if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
+                        // if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
+                        if (map !== undefined && map[j][i] === 0) {
+                              this.createAnyTypeCell(this.Cells[j][i], 1)
+                        }
                         this.Cells[j][i].jcolumn = j;
                         this.Cells[j][i].irow = i;
-                        xPos = xPos + this.height;
+                        xPos = xPos + this.heightCell;
                   }
                   xPos = 0;
                   yPos = yPos - this.widthCell;
@@ -270,10 +304,8 @@ export class GameField extends Component {
 
       }
       private createAnyTypeCell(Cell, type) {
-            if (Math.floor((Math.random() * this.ChangeForCreateAnActiveCell) + 1) == 1) {
-                  Cell.typeCell = type;
-                  Cell.setColorInType();
-            }
+            Cell.typeCell = type;
+            Cell.setColorInType();
       }
       private setTypeCellsOnIandJ(i_, j_, iLength, jLegth, type) {
             for (var j = j_; j < jLegth; j++) {
@@ -283,10 +315,10 @@ export class GameField extends Component {
                   }
             }
       }
-      private CreateCircles() {
+      private CreateCircles(startCandiesTemplate) {
             for (var j = 0; j < this.Cells.length; j++)
                   for (var i = 0; i < this.Cells[j].length; i++) {
-                        if (this.Cells[j][i].typeCell == 0) this.createCircle(this.Cells[j][i]);
+                        if (this.Cells[j][i].typeCell == 0) this.createCircle(this.Cells[j][i], startCandiesTemplate);
                   }
             eventTarget.emit('needCheckField')
       }
@@ -299,12 +331,19 @@ export class GameField extends Component {
                         }
                   }
       }
-      private createCircle(Cell) {
+      private createCircle(Cell, startCandiesTemplate) {
             if (!Cell.circleIsNotNull() && Cell.typeCell == 0) {
                   Cell._circle = instantiate(this.Circle);
+                  if (startCandiesTemplate === undefined) {
+
+                        Cell._circle.getComponent(Circle).setColor(0, false, this.amountColor)
+                  }
+                  else {
+                        Cell._circle.getComponent(Circle).setColor(startCandiesTemplate[Cell.jcolumn][Cell.irow] - 1, true, this.amountColor)
+                  }
                   Cell._circle.setParent(this.node);
                   Cell._circle.setPosition(Cell.node.getPosition());
-                  Cell._circle.getComponent(UITransform).setContentSize(this.height - 15, this.widthCell - 15);
+                  Cell._circle.getComponent(UITransform).setContentSize(this.heightCell - 15, this.widthCell - 15);
                   this.countCircle++;
             }
       }
@@ -345,6 +384,7 @@ export class GameField extends Component {
       }
       private swapCircleInCell(i, j, newi, newj) {
             if (this.validateCircleMove(i, j, newi, newj)) {
+                  console.log("DA DOI TOA DO + " + "(" + newj + " , " + newi + ")" + " cho toa do " + "(" + j + " , " + i + ")")
                   this.Cells[j][i]._circle = this.Cells[newj][newi]._circle;
                   this.Cells[newj][newi]._circle = null;
                   this.moveCircle(this.Cells[j][i]._circle, this.Cells[j][i].node.getPosition());
@@ -666,7 +706,7 @@ export class GameField extends Component {
 //   private StartCellPosY: number = 250;
 //
 //   @property
-//   private height: number = 62;
+//   private heightCell: number = 62;
 //   @property
 //   private widthCell: number = 62;
 //
@@ -911,7 +951,7 @@ export class GameField extends Component {
 //     for (var j = 0; j < this.Cells.length; j++) {
 //       for (var i = 0; i < this.Cells[j].length; i++) {
 //         _cell = instantiate(this.Cell);
-//         _cell.setContentSize(this.height, this.widthCell);
+//         _cell.setContentSize(this.heightCell, this.widthCell);
 //         _cell.setParent(this.node);
 //         _cell.setPosition(this.StartCellPosX + xPos, this.StartCellPosY + yPos);
 //         this.Cells[j][i] = _cell.getComponent(Cell);
@@ -920,7 +960,7 @@ export class GameField extends Component {
 //         if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
 //         this.Cells[j][i].jcolumn = j;
 //         this.Cells[j][i].irow = i;
-//         xPos = xPos + this.height;
+//         xPos = xPos + this.heightCell;
 //       }
 //       xPos = 0;
 //       yPos = yPos - this.widthCell;
@@ -967,7 +1007,7 @@ export class GameField extends Component {
 //       Cell._circle = instantiate(this.Circle);
 //       Cell._circle.setParent(this.node);
 //       Cell._circle.setPosition(Cell.node.position);
-//       Cell._circle.setContentSize(this.height - 15, this.widthCell - 15);
+//       Cell._circle.setContentSize(this.heightCell - 15, this.widthCell - 15);
 //       this.countCircle++;
 //     }
 //   }

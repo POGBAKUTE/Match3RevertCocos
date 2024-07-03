@@ -9,7 +9,6 @@ const { ccclass, property } = _decorator;
 export class UIHome extends UICanvas {
     playButton() {
         this.close(0);
-        UIManager.Instance.openUI(UIGamePlay)
         GameController.Instance.RestartGame()
     }
 }
