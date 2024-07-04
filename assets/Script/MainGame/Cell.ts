@@ -1,5 +1,5 @@
 import { _decorator, Color, Component, Node, Sprite, Event, UITransform, Size, game } from 'cc';
-import { eventTarget } from './GamesController';
+import { GameController, eventTarget } from './GamesController';
 const { ccclass, property } = _decorator;
 
 @ccclass('Cell')
@@ -18,22 +18,32 @@ export class Cell extends Component {
         this.node.on(Node.EventType.TOUCH_MOVE, this.moveCircle, this);
     }
     wasClickSet() {
-        if (this._circle != null) {
-            this.wasClick = true;
-
-            console.log("clicedInCell")
-            this.selectCircle();
+        if(GameController.Instance.getIsTouch() === true) {
+            console.log("CHAM" + GameController.Instance.getIsTouch())
+            if (this._circle != null) {
+                this.wasClick = true;
+    
+                console.log("clicedInCell")
+                this.selectCircle();
+            }
+        }
+        else {
+            console.log("KO CHAM" + GameController.Instance.getIsTouch())
         }
     }
     start() {
-
     }
     moveCircle() {
         console.log("circle is move")
     }
     setGrayColor() {
-        this.node.getComponent(Sprite).color = new Color(197, 197, 197);
+        this.node.getComponent(Sprite).color = new Color(25, 105, 40, 200);
     }
+
+    setNormalColor() {
+        this.node.getComponent(Sprite).color = new Color(76, 204, 101, 200);
+    }
+
     setWhiteColor() {
         this.node.getComponent(Sprite).color = new Color(255, 255, 255, 0);
     }

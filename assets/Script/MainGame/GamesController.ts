@@ -38,7 +38,7 @@ export class GameController extends Component {
     blockField: Node | null = null;
 
     private isEnd : boolean = false
-
+    private isTouch : boolean = false
     onLoad() {
         if (GameController.Instance == null) {
             GameController.Instance = this;
@@ -165,6 +165,8 @@ export class GameController extends Component {
     }
 
     RestartGame() {
+        this.setIsTouch(true)
+        console.log(this.isTouch)
         UIManager.Instance.openUI(UIGamePlay)
         this.isEnd = false
         this.gameField.node.active = false;
@@ -181,6 +183,15 @@ export class GameController extends Component {
 
     setTypeDestroyCircle() {
         this.progressTargetDestoyCircle();
+    }
+
+    getIsTouch() {
+        return this.isTouch
+    }
+
+    setIsTouch(active : boolean) {
+        this.isTouch = active
+        console.log("DA DOI")
     }
 }
 

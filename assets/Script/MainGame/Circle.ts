@@ -1,20 +1,16 @@
 import { _decorator, Component, SpriteFrame, Prefab, Sprite, instantiate, UITransform } from 'cc';
 const { ccclass, property } = _decorator;
 
-import { typeColorCircle } from "./CircleEnums";
+import { CircleTypes, typeColorCircle } from "./CircleEnums";
 import { tipeCircle } from "./CircleEnums";
+import { GatePopup } from '../Gate/GatePopup';
 
 @ccclass('Circle')
 export class Circle extends Component {
-      @property(SpriteFrame)
-      sprite: SpriteFrame[] = [];
-      @property(Prefab)
-      circlesTipe: Prefab[] = [];
+      @property(CircleTypes)
+      circlesTipe: CircleTypes[] = [];
 
-      @property()
-      circlesTipe2: SpriteFrame[][] = [];
-      @property
-      CircleTypeColor: typeColorCircle;
+      CircleTypeColor: typeColorCircle = 0;
       CircleType: tipeCircle = 0;
       randomNumber: number;
       inMove: boolean = false;
@@ -23,44 +19,40 @@ export class Circle extends Component {
       // }
 
       setColor(typeColor, checkHave, amountColor) {
-            if(checkHave) {
-                  var sp = this.node.getComponent(Sprite);
-                  sp.spriteFrame = this.sprite[typeColor];
-                  this.setColorTipe(typeColor);
+            if (checkHave) {
+                  this.setColorTipe(typeColor)
             }
             else {
                   this.setRandomColor(amountColor)
             }
+            GatePopup.popupBubleItem(this.node, 0.3, 1)
       }
 
       setRandomColor(amountColor) {
-            console.log("AMOUNT COUNT: " + amountColor)
             var sp = this.node.getComponent(Sprite);
             this.randomNumber = Math.floor(Math.random() * Math.floor(amountColor));
-            sp.spriteFrame = this.sprite[this.randomNumber];
+            sp.spriteFrame = this.circlesTipe[this.randomNumber].listTypes[0]
             this.setColorTipe(this.randomNumber);
       }
       setTipe(tipe) {
-            this.CircleType = tipe;
-            if (tipe > 0) {
-                  if (tipe == 4) {
-                        this.setTipeTMP(1);
-                        this.setTipeTMP(2);
-                  } else {
-                        this.setTipeTMP(tipe - 1);
-                  }
-            }
+            this.setTipeTMP(tipe)
       }
       private setTipeTMP(tipe) {
-            var newNode = instantiate(this.circlesTipe[tipe]);
-            newNode.setParent(this.node);
-            newNode.getComponent(UITransform).setContentSize(this.node.getComponent(UITransform).contentSize);
-            newNode.setPosition(0, 0, 0);
+            console.log("TIPE: " + tipeCircle[tipe])
+            console.log("TIPE COLOR: " + typeColorCircle[this.CircleTypeColor])
+            this.CircleType = tipe
+            var sp = this.node.getComponent(Sprite);
+            sp.spriteFrame = this.circlesTipe[this.CircleTypeColor].listTypes[tipe]
+            console.log(this.circlesTipe[this.CircleTypeColor][tipe])
       }
       setColorTipe(tipe) {
+            this.CircleTypeColor = tipe
             var sp = this.node.getComponent(Sprite);
-            this.CircleTypeColor = tipe;
-            sp.spriteFrame = this.sprite[tipe];
+            sp.spriteFrame = this.circlesTipe[tipe].listTypes[0]
+      }
+
+      getSprite() {
+            return this.circlesTipe[this.CircleTypeColor].listTypes[this.CircleType]
       }
 }
 

@@ -1,4 +1,4 @@
-import { _decorator, Component, game, instantiate, Prefab, tween, UITransform, Vec3 } from 'cc';
+import { _decorator, Component, game, instantiate, Prefab, tween, UITransform, Vec3, Node, easing } from 'cc';
 const { ccclass, property } = _decorator;
 
 import { Circle } from "./Circle";
@@ -7,6 +7,9 @@ import { CheckerBoolean } from "./ClassHelpers";
 import { tipeCircle } from "./CircleEnums";
 import { typeColorCircle } from "./CircleEnums";
 import { data_level, eventTarget, GameController } from './GamesController';
+import { MaskCircle } from './MaskCircle';
+import { GatePopup } from '../Gate/GatePopup';
+import { GateParticle } from '../Gate/GateParticle';
 
 @ccclass('GameField')
 export class GameField extends Component {
@@ -28,6 +31,10 @@ export class GameField extends Component {
       private heightCell: number = 62;
       @property
       private widthCell: number = 62;
+
+      @property(Prefab)
+      maskCirclePrefab: Prefab
+
       private countCircle: number = 0;
       countProgressStep: number = 0;
       private previousCountCircle: number = 0;
@@ -62,10 +69,10 @@ export class GameField extends Component {
       }
 
       destroyCellInit() {
-            if(this.Cells != null) {
+            if (this.Cells != null) {
 
-                  for(var cellTmp of this.Cells) {
-                        for(var cell of cellTmp) {
+                  for (var cellTmp of this.Cells) {
+                        for (var cell of cellTmp) {
                               cell.node.destroy()
                         }
                   }
@@ -75,11 +82,8 @@ export class GameField extends Component {
       private initializeCells() {
             let levelCurrent = GameController.Instance.getLevelCurrent()
             this.Cells = new Array<Array<Cell>>()
-            console.log(this.Cells)
-            console.log("LEVEL CURRENT" + `level${levelCurrent}`)
             this.row = data_level.levels[`level${levelCurrent}`].rows
             this.col = data_level.levels[`level${levelCurrent}`].cols
-            console.log(this.row + " " + this.col)
             for (let i = 0; i < this.row; i++) {
                   let cellTmp = new Array<Cell>()
                   for (let j = 0; j < this.col; j++) {
@@ -102,7 +106,6 @@ export class GameField extends Component {
       //todo 
       private tmpPrewCell: Cell;
       workWithClickedCell() {
-            console.log("OK")
             this.currentCell = this.getClickCell();
 
             if (this.currentCell === this.prewCell) this.prewCell = null;
@@ -136,16 +139,16 @@ export class GameField extends Component {
                               this.prewCell.irow == this.currentCell.irow
                               && this.prewCell.jcolumn - 1 == this.currentCell.jcolumn) {
                               // this.node.dispatchEvent(new Event.EventCustom('setBlockTouch', true));
-                              this.swapCircles(this.prewCell, this.currentCell);
+                              GameController.Instance.setIsTouch(false)
+                              this.swapCircles(this.prewCell, this.currentCell, true);
                               this.needCheckFieldAfterSwapCircle();
                         }
                   }
       }
+
       private needCheckFieldAfterSwapCircle() {
             this.scheduleOnce(function () {
-                  console.log("CHUYEN XONG ROI TOI CAN CHECK")
                   eventTarget.emit("needCheckField")
-                  console.log("KAKAKAKAKAKAK")
                   this.setCellNoClick(this.prewCell);
                   this.setCellNoClick(this.currentCell);
                   this.oneCheckField = true;
@@ -154,7 +157,8 @@ export class GameField extends Component {
                   if (!this.destroyExisted) {
                         console.log("comeBackCircle")
                         // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
-                        this.swapCircles(this.currentCell, this.tmpPrewCell);
+                        // GameController.Instance.setIsTouch(false)
+                        this.swapCircles(this.currentCell, this.tmpPrewCell, false);
                         this.setCellNoClick(this.tmpPrewCell);
                         this.setCellNoClick(this.currentCell);
                         this.prewCell = null;
@@ -162,6 +166,7 @@ export class GameField extends Component {
                         this.tmpPrewCell = null;
                   } else {
                         console.log("countProgressStep")
+                        GameController.Instance.setIsTouch(true)
                         // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
                         eventTarget.emit('countProgressStep')
                         this.prewCell = null;
@@ -170,11 +175,11 @@ export class GameField extends Component {
                   }
             }, this.timeForCheckFild);
       }
-      private swapCircles(cell1, cell2) {
+      private swapCircles(cell1, cell2, direction) {
             if (cell1 == null && cell2 == null) return;
             console.log("swapCirle")
-            this.animateMoveCircle(cell1, cell2);
-            this.animateMoveCircle(cell2, cell1);
+            this.animateMoveCircle(cell1, cell2, direction);
+            this.animateMoveCircle(cell2, cell1, direction);
             var tmpCircle = cell2._circle;
             cell2._circle = cell1._circle;
             cell1._circle = tmpCircle;
@@ -187,10 +192,9 @@ export class GameField extends Component {
             cell.wasClick = false;
             cell.setNormalSize();
       }
-      private animateMoveCircle(Cell1, Cell2) {
+      private animateMoveCircle(Cell1, Cell2, direction) {
             if (Cell1 == null || Cell2 == null) return;
             let posEnd = Cell2.node.getPosition()
-            Cell1.activeCell(false)
             tween(Cell1._circle)
                   .parallel(
                         tween().to(this.iter, { scale: new Vec3(1, 1, 1) }),
@@ -198,7 +202,9 @@ export class GameField extends Component {
                   )
                   .call(() => {
                         console.log("finish move");
-                        Cell1.activeCell(true)
+                        if (!direction) {
+                              GameController.Instance.setIsTouch(true)
+                        }
                   }).start()
       }
       setBuster() {
@@ -270,6 +276,7 @@ export class GameField extends Component {
             this.destroyExisted = false;
             this.InArow();
             console.log("fied fullness");
+            // GameController.Instance.setIsTouch(true)
             // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
       }
       private createCells() {
@@ -287,6 +294,7 @@ export class GameField extends Component {
                         _cell.parent = this.node;
                         _cell.setPosition(this.StartCellPosX + xPos, this.StartCellPosY + yPos, 0);
                         this.Cells[j][i] = _cell.getComponent(Cell);
+                        this.Cells[j][i].setNormalColor()
                         if (i % 2 != 0 && j % 2 == 0) { this.Cells[j][i].setGrayColor(); }
                         if (i % 2 == 0 && j % 2 != 0) { this.Cells[j][i].setGrayColor(); }
                         // if (this.needRandomVoidCell) this.createAnyTypeCell(this.Cells[j][i], 1);
@@ -347,72 +355,181 @@ export class GameField extends Component {
                   this.countCircle++;
             }
       }
+      private createCircleAdd() {
+            let _circle = instantiate(this.Circle);
+            _circle.getComponent(Circle).setColor(0, false, this.amountColor)
+            _circle.getComponent(UITransform).setContentSize(this.heightCell - 15, this.widthCell - 15);
+            this.countCircle++;
+            return _circle
+      }
       cellExist: boolean = false;
+      // allCirclesMove() {
+
+      //       for (var j = 0; j < this.Cells.length; j++)
+      //             for (var i = 0; i < this.Cells[j].length; i++) {
+      //                   if (this.Cells[j][i].CellIsNotNull())
+      //                         if (!this.Cells[j][i].circleIsNotNull() && this.Cells[j][i].typeCell == 0) {
+      //                               if (j == 0) {
+      //                                     this.scheduleOnce(function () {
+      //                                           eventTarget.emit("moveCircleEnd")
+      //                                     }, this.iter);
+      //                               }
+      //                               if (j >= 1) {
+      //                                     this.swapCircleInCell(i, j, i, j - 1);
+      //                               }
+      //                               if (!this.cellExist) {
+      //                                     if (j >= 1 && i < this.Cells[j].length - 1) {
+      //                                           if (Math.floor(Math.random() * Math.floor(2)) == 1) {
+      //                                                 this.swapCircleInCell(i, j, i - 1, j - 1);
+      //                                                 if (!this.cellExist) this.swapCircleInCell(i, j, i + 1, j - 1);
+      //                                           }
+      //                                           else this.swapCircleInCell(i, j, i + 1, j - 1);
+      //                                           if (!this.cellExist) this.swapCircleInCell(i, j, i - 1, j - 1);
+      //                                     }
+      //                                     if (i == 0 && j >= 1) {
+      //                                           this.swapCircleInCell(i, j, i + 1, j - 1);
+      //                                     }
+      //                                     if (i == this.Cells[j].length - 1 && j >= 1) {
+      //                                           this.swapCircleInCell(i, j, i - 1, j - 1);
+      //                                     }
+      //                               }
+      //                         }
+      //             }
+
+      // }
+
       allCirclesMove() {
-
-            for (var j = 0; j < this.Cells.length; j++)
-                  for (var i = 0; i < this.Cells[j].length; i++) {
-                        if (this.Cells[j][i].CellIsNotNull())
+            let mapCellsNull: Map<Cell, number> = new Map<Cell, number>()
+            for (var i = 0; i < this.Cells[0].length; i++) {
+                  let amountNull = 0;
+                  let cellPos: Cell = null
+                  for (var j = this.Cells.length - 1; j >= 0; j--) {
+                        if (this.Cells[j][i].CellIsNotNull()) {
                               if (!this.Cells[j][i].circleIsNotNull() && this.Cells[j][i].typeCell == 0) {
-                                    if (j == 0) {
-                                          this.scheduleOnce(function () {
-                                                eventTarget.emit("moveCircleEnd")
-                                          }, this.iter);
+                                    if (cellPos == null) {
+                                          cellPos = this.Cells[j][i];
                                     }
-                                    if (j >= 1) {
-                                          this.swapCircleInCell(i, j, i, j - 1);
-                                    }
-                                    if (!this.cellExist) {
-                                          if (j >= 1 && i < this.Cells[j].length - 1) {
-                                                if (Math.floor(Math.random() * Math.floor(2)) == 1) {
-                                                      this.swapCircleInCell(i, j, i - 1, j - 1);
-                                                      if (!this.cellExist) this.swapCircleInCell(i, j, i + 1, j - 1);
-                                                }
-                                                else this.swapCircleInCell(i, j, i + 1, j - 1);
-                                                if (!this.cellExist) this.swapCircleInCell(i, j, i - 1, j - 1);
-                                          }
-                                          if (i == 0 && j >= 1) {
-                                                this.swapCircleInCell(i, j, i + 1, j - 1);
-                                          }
-                                          if (i == this.Cells[j].length - 1 && j >= 1) {
-                                                this.swapCircleInCell(i, j, i - 1, j - 1);
-                                          }
-                                    }
+                                    amountNull++;
                               }
+                        }
                   }
-
-      }
-      private swapCircleInCell(i, j, newi, newj) {
-            if (this.validateCircleMove(i, j, newi, newj)) {
-                  console.log("DA DOI TOA DO + " + "(" + newj + " , " + newi + ")" + " cho toa do " + "(" + j + " , " + i + ")")
-                  this.Cells[j][i]._circle = this.Cells[newj][newi]._circle;
-                  this.Cells[newj][newi]._circle = null;
-                  this.moveCircle(this.Cells[j][i]._circle, this.Cells[j][i].node.getPosition());
-                  this.cellExist = true;
-                  return;
+                  if (cellPos != null) {
+                        mapCellsNull.set(cellPos, amountNull)
+                  }
             }
-            this.cellExist = false;
+
+            for (var [key, value] of mapCellsNull) {
+                  let cellHeightMax = this.findCellByCol(key.irow)
+                  let listCirclesAdd: Array<Node> = new Array<Node>()
+                  let maskCircleNode = instantiate(this.maskCirclePrefab)
+                  maskCircleNode.parent = this.node.parent
+                  let posCellHeightMax = cellHeightMax.node.getWorldPosition()
+                  maskCircleNode.setWorldPosition(new Vec3(posCellHeightMax.x, posCellHeightMax.y + this.heightCell / 2, posCellHeightMax.z))
+                  maskCircleNode.getComponent(MaskCircle).onInit(this.widthCell, this.heightCell * value)
+                  this.addListCirclesAdd(listCirclesAdd, key.irow, key.jcolumn)
+                  for (var j = 1; j <= value; j++) {
+                        let circleAdd = this.createCircleAdd()
+                        circleAdd.parent = maskCircleNode
+                        let yAdd = this.heightCell * j
+                        circleAdd.setWorldPosition(new Vec3(posCellHeightMax.x, posCellHeightMax.y + yAdd, posCellHeightMax.z))
+                        listCirclesAdd.push(circleAdd)
+                  }
+                  for (var j = 0; j < listCirclesAdd.length; j++) {
+                        this.Cells[key.jcolumn - j][key.irow]._circle = listCirclesAdd[j]
+                  }
+                  for (var j = 0; j < listCirclesAdd.length; j++) {
+                        if (j === listCirclesAdd.length - 1) {
+
+                              this.moveCircle(listCirclesAdd[j], this.Cells[key.jcolumn - j][key.irow], true, maskCircleNode)
+                        }
+                        else {
+                              this.moveCircle(listCirclesAdd[j], this.Cells[key.jcolumn - j][key.irow], false, maskCircleNode)
+                        }
+                  }
+            }
       }
-      private validateCircleMove(i, j, newi, newj) {
-            if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i].CellIsNotNull(), this.Cells[newj][newi] != null))
-                  if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i].typeCell == 0, this.Cells[newj][newi].typeCell == 0))
-                        if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i]._circle == null, this.Cells[newj][newi]._circle != null)) return true;
-            return false;
+
+      addListCirclesAdd(listCirclesAdd, indexCol, indexRow) {
+            for (var j = indexRow - 1; j >= 0; j--) {
+                  if (this.Cells[j][indexCol].circleIsNotNull()) {
+                        listCirclesAdd.push(this.Cells[j][indexCol]._circle)
+                  }
+            }
       }
-      private moveCircle(circle, toMove) {
+
+      findCellByCol(index: number) {
+            for (var j = 0; j < this.Cells.length; j++) {
+                  if (this.Cells[j][index].typeCell == 0) {
+                        return this.Cells[j][index]
+                  }
+            }
+      }
+
+      private moveCircle(circle, cell, checkEnd, mask, timeScale = 1) {
+            GatePopup.popupBubleItem(circle, 1.2, 1)
             var _circle = circle.getComponent(Circle);
             _circle.inMove = true;
+            let startPos: Vec3 = circle.getWorldPosition()
+            let endPos = cell.node.getWorldPosition()
             tween(circle)
                   .parallel(
-                        tween().to(this.iter, { scale: new Vec3(1, 1, 1) }),
-                        tween().to(this.iter, { position: toMove })
+                        tween().to(this.iter * 5 * timeScale, { scale: new Vec3(1, 1, 1) }),
+                        tween()
+                              // .to(this.iter, {}, {
+                              //       onUpdate: (target, ratio) => {
+                              //             // Tính toán vị trí mới dựa trên tỷ lệ
+                              //             let newPos = startPos.lerp(endPos, easing.cubicOut(ratio));
+                              //                   // Cập nhật vị trí mới
+                              //                   circle.setWorldPosition(newPos);
+                              //       },
+                              //       easing: easing.cubicOut,
+                              // })
+                              .to(this.iter * 5 * timeScale, {worldPosition: endPos}, {easing: easing.backInOut})
                   )
                   .call(() => {
-                        eventTarget.emit("moveCircleEnd")
+                        circle.parent = this.node
+                        circle.setPosition(cell.node.getPosition())
+                        // cell._circle = circle
                         _circle.inMove = false;
+                        if (checkEnd) {
+                              this.needCheckField();
+                              mask.destroy()
+                        }
                   })
                   .start()
       }
+
+      // private swapCircleInCell(i, j, newi, newj) {
+      //       if (this.validateCircleMove(i, j, newi, newj)) {
+      //             console.log("DA DOI TOA DO + " + "(" + newj + " , " + newi + ")" + " cho toa do " + "(" + j + " , " + i + ")")
+      //             this.Cells[j][i]._circle = this.Cells[newj][newi]._circle;
+      //             this.Cells[newj][newi]._circle = null;
+      //             this.moveCircle(this.Cells[j][i]._circle, this.Cells[j][i].node.getPosition());
+      //             this.cellExist = true;
+      //             return;
+      //       }
+      //       this.cellExist = false;
+      // }
+      // private validateCircleMove(i, j, newi, newj) {
+      //       if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i].CellIsNotNull(), this.Cells[newj][newi] != null))
+      //             if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i].typeCell == 0, this.Cells[newj][newi].typeCell == 0))
+      //                   if (CheckerBoolean.checkTwoBoolean(this.Cells[j][i]._circle == null, this.Cells[newj][newi]._circle != null)) return true;
+      //       return false;
+      // }
+      // private moveCircle(circle, toMove) {
+      //       var _circle = circle.getComponent(Circle);
+      //       _circle.inMove = true;
+      //       tween(circle)
+      //             .parallel(
+      //                   tween().to(this.iter, { scale: new Vec3(1, 1, 1) }),
+      //                   tween().to(this.iter, { position: toMove })
+      //             )
+      //             .call(() => {
+      //                   eventTarget.emit("moveCircleEnd")
+      //                   _circle.inMove = false;
+      //             })
+      //             .start()
+      // }
       private tmpCountCircle: number = 0;
       //todo 
       private fieldOnFilledWithCircles() {
@@ -439,13 +556,13 @@ export class GameField extends Component {
                   for (var i = 0; i < this.Cells[j].length; i++) {
                         this.goDestroyThreeInArow = true;
                         if (j >= 2) {
-                              this.vertical = false;
-                              this.horizont = true;
+                              this.vertical = true;
+                              this.horizont = false;
                               this.InArowTmp(i, j, i, j - 1, i, j - 2);
                         }
                         if (i < this.Cells[j].length - 2) {
-                              this.horizont = false;
-                              this.vertical = true;
+                              this.horizont = true;
+                              this.vertical = false;
                               this.InArowTmp(i, j, i + 1, j, i + 2, j);
                         }
                   }
@@ -464,20 +581,20 @@ export class GameField extends Component {
                         this.Cells[jOne][iOne]._circle.getComponent(Circle).CircleTypeColor,
                         this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor);
                   if (!tmpBool3) return;
-                  if (this.vertical) {
+                  if (this.horizont) {
                         if (i < this.Cells[j].length - 4) {
                               this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, jTwo, iTwo + 2, 3);
                         }
                         if (i < this.Cells[j].length - 3 && this.goDestroyThreeInArow) {
-                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, 2);
+                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, 1);
                         }
                   }
-                  if (this.horizont) {
+                  if (this.vertical) {
                         if (j >= 4) {
                               this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, jTwo - 2, iTwo, 3);
                         }
                         if (j >= 3 && this.goDestroyThreeInArow) {
-                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, 1);
+                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, 2);
                         }
                   }
                   if (this.goDestroyThreeInArow) {
@@ -557,11 +674,10 @@ export class GameField extends Component {
       //       }
       // }
 
-      private destroyLightningHorizont(Cell, circle) {
+      private destroyLightningVertical(Cell, circle) {
             var i = Cell.irow;
             var thisCircle = circle.getComponent(Circle);
             for (var j = 0; j < this.Cells.length; j++) {
-                  console.log("KAKAKAKAKAK")
                   if (this.Cells[j][i].circleIsNotNull()) {
                         var currentCircle = this.Cells[j][i]._circle.getComponent(Circle);
                         if (currentCircle == null) continue;
@@ -571,10 +687,9 @@ export class GameField extends Component {
             }
       }
 
-      private destroyLightningVertical(Cell, circle) {
+      private destroyLightningHorizont(Cell, circle) {
             var j = Cell.jcolumn;
             for (var i = 0; i < this.Cells[j].length; i++) {
-                  console.log("KAKAKAKAKAK")
                   if (this.Cells[j][i].circleIsNotNull()) {
                         var currentCircle = this.Cells[j][i]._circle.getComponent(Circle);
                         if (currentCircle == null) continue;
@@ -642,6 +757,7 @@ export class GameField extends Component {
       private eventDestoyArow() {
             this.scheduleOnce(function () {
                   // this.node.dispatchEvent(new Event.EventCustom('setBlockTouch', true));
+                  // GameController.Instance.setIsTouch(false)
                   eventTarget.emit("destroyCircles")
                   this.destroyExisted = true;
             }, this.iter + this.iter);
@@ -659,6 +775,8 @@ export class GameField extends Component {
                         this.countCircle--;
                         this.getTypeDestroyCircle(Cell._circle.getComponent(Circle));
                         eventTarget.emit('setPoint');
+                        GateParticle.getDestroyCircle(this.node, Cell.node.getPosition(), Cell._circle.getComponent(Circle).getSprite())
+                        GateParticle.getBlastCircle(this.node, Cell.node.getPosition())
                         Cell._circle.destroy();
                         Cell._circle = null;
 

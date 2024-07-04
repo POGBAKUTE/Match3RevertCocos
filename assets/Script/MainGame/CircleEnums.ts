@@ -1,10 +1,13 @@
+import { SpriteFrame, _decorator} from 'cc';
+const { ccclass, property } = _decorator;
+
 export enum typeColorCircle {
-    blue,
-    green,
-    orange,
-    reed,
-    violet,
     yellow,
+    blue,
+    orange,
+    green,
+    red,
+    violet,
 }
 
 export enum tipeCircle {
@@ -15,7 +18,8 @@ export enum tipeCircle {
     lightningVerticalAndlightningHorizont
 }
 
-
+@ccclass('CircleTypes')
 export class CircleTypes {
-    
+    @property(SpriteFrame)
+    listTypes : SpriteFrame[] = []
 }

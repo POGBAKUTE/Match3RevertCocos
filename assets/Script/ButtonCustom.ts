@@ -1,4 +1,4 @@
-import { _decorator, Button as CCButton, Component, Node, tween } from "cc";
+import { _decorator, Button as CCButton, CCFloat, Component, Node, tween } from "cc";
 import { GateUtils } from "./Gate/GateUtils";
 import { AudioUtils } from "./Audio/AudioUtils";
 
@@ -10,7 +10,7 @@ class Vec3 {}
 
 @ccclass("ButtonCustom")
 export class ButtonCustom extends Component {
-    @property({ type: Number })
+    @property({ type: CCFloat })
     customScale: Number = 0;
 
     start() {
