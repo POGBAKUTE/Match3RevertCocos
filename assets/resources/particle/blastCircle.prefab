@@ -131,7 +131,7 @@
     "posVar": {
       "__type__": "cc.Vec2",
       "x": 40,
-      "y": 35
+      "y": 50
     },
     "emitterMode": 1,
     "gravity": {
@@ -148,7 +148,7 @@
     "rotationIsDir": false,
     "startRadius": 0,
     "startRadiusVar": 0,
-    "endRadius": 0,
+    "endRadius": 5,
     "endRadiusVar": 0,
     "rotatePerS": 0,
     "rotatePerSVar": 0,
@@ -165,7 +165,7 @@
       "__uuid__": "492d00c1-6715-481b-913f-661f8193926a@113ec",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_totalParticles": 1,
+    "_totalParticles": 2,
     "_startColor": {
       "__type__": "cc.Color",
       "r": 255,

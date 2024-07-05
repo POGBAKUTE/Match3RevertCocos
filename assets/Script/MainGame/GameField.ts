@@ -55,6 +55,7 @@ export class GameField extends Component {
       }
 
       onInit() {
+
             this.destroyCellInit()
             let levelCurrent = GameController.Instance.getLevelCurrent()
             this.level = data_level.levels[`level${levelCurrent}`]
@@ -114,6 +115,7 @@ export class GameField extends Component {
                         this.setSelectPrewCell();
                         if (this.prewCell != null) {
                               this.tmpPrewCell = this.prewCell;
+                              //Tim duoc 2 o khac nhau roi thi check xem lien ke khong
                               this.checkNeighboringCell();
                         }
                         this.prewCell = this.currentCell;
@@ -139,8 +141,10 @@ export class GameField extends Component {
                               this.prewCell.irow == this.currentCell.irow
                               && this.prewCell.jcolumn - 1 == this.currentCell.jcolumn) {
                               // this.node.dispatchEvent(new Event.EventCustom('setBlockTouch', true));
+                              //Neu lien ke thi khong cho cham man hinh nua va thuc hien doi cho
                               GameController.Instance.setIsTouch(false)
                               this.swapCircles(this.prewCell, this.currentCell, true);
+                              //thuc hien doi cho xong thi check ca Map xem nhung o nao can xoa
                               this.needCheckFieldAfterSwapCircle();
                         }
                   }
@@ -148,13 +152,17 @@ export class GameField extends Component {
 
       private needCheckFieldAfterSwapCircle() {
             this.scheduleOnce(function () {
-                  eventTarget.emit("needCheckField")
+                  console.log(this.tmpPrewCell.jcolumn + " " + this.tmpPrewCell.irow + " " + this.currentCell.jcolumn + " " + this.currentCell.irow)
+                  // needCheckField goi den CheckLine de thuc hien duyet toan bo map de thay doi bien destroyExisted
+                  // bien destroyExisted cho biet co xoa duoc o nao khong
+                  eventTarget.emit("needCheckField", this.tmpPrewCell.jcolumn, this.tmpPrewCell.irow, this.currentCell.jcolumn, this.currentCell.irow)
                   this.setCellNoClick(this.prewCell);
                   this.setCellNoClick(this.currentCell);
                   this.oneCheckField = true;
             }, this.iter + this.iter + this.iter);
             this.scheduleOnce(function () {
                   if (!this.destroyExisted) {
+                        //neu khong xoa duoc thi swap lai 2 o
                         console.log("comeBackCircle")
                         // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
                         // GameController.Instance.setIsTouch(false)
@@ -165,6 +173,7 @@ export class GameField extends Component {
                         this.currentCell = null;
                         this.tmpPrewCell = null;
                   } else {
+                        //neu xoa duoc thi cong diem 
                         console.log("countProgressStep")
                         GameController.Instance.setIsTouch(true)
                         // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
@@ -272,9 +281,11 @@ export class GameField extends Component {
                   this.oneCheckField = true;
             }, this.timeForCheckFild);
       }
-      checkLine() {
+      checkLine(j1 = -1, i1 = -1, j2 = -1, i2 = -1) {
+            //Trong luc check thuc hien xoa luon
+            console.log(j1 + " " + i1 + " " + j2 + " " + i2)
             this.destroyExisted = false;
-            this.InArow();
+            this.InArow(j1, i1, j2, i2);
             console.log("fied fullness");
             // GameController.Instance.setIsTouch(true)
             // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
@@ -484,7 +495,7 @@ export class GameField extends Component {
                               //       },
                               //       easing: easing.cubicOut,
                               // })
-                              .to(this.iter * 5 * timeScale, {worldPosition: endPos}, {easing: easing.backInOut})
+                              .to(this.iter * 5 * timeScale, { worldPosition: endPos }, { easing: easing.backInOut })
                   )
                   .call(() => {
                         circle.parent = this.node
@@ -550,26 +561,136 @@ export class GameField extends Component {
       private horizont: boolean = false;
       private vertical: boolean = false;
       private goDestroyThreeInArow: boolean = false;
-      InArow() {
+      // InArow(j1, i1, j2, i2) {
 
+      //       for (var j = 0; j < this.Cells.length; j++) {
+      //             for (var i = 0; i < this.Cells[j].length; i++) {
+      //                   this.goDestroyThreeInArow = true;
+      //                   if (j >= 2) {
+      //                         this.vertical = true;
+      //                         this.horizont = false;
+      //                         this.InArowTmp(i, j, i, j - 1, i, j - 2, j1, i1, j2, i2);
+      //                   }
+      //                   if (i < this.Cells[j].length - 2) {
+      //                         this.horizont = true;
+      //                         this.vertical = false;
+      //                         this.InArowTmp(i, j, i + 1, j, i + 2, j, j1, i1, j2, i2);
+      //                   }
+      //             }
+      //       }
+      // }
+      // private InArowTmp(i, j, iOne, jOne, iTwo, jTwo, j1Swap, i1Swap, j2Swap, i2Swap) {
+
+      //       if (this.Cells[j][i] != null && this.Cells[jOne][iOne] != null && this.Cells[jTwo][iTwo] != null) {
+      //             var tmpBool1 = CheckerBoolean.checkTwoBoolean(this.Cells[j][i].typeCell == 0, this.Cells[jOne][iOne].typeCell == 0);
+      //             var tmpBool2 = CheckerBoolean.checkTwoBoolean(tmpBool1, this.Cells[jTwo][iTwo].typeCell == 0);
+      //             if (!tmpBool2) return;
+      //             tmpBool1 = CheckerBoolean.checkTwoBoolean(this.Cells[j][i].circleIsNotNull(), this.Cells[jOne][iOne].circleIsNotNull());
+      //             tmpBool2 = CheckerBoolean.checkTwoBoolean(tmpBool1, this.Cells[jTwo][iTwo].circleIsNotNull())
+      //             if (!tmpBool2) return;
+      //             var tmpBool3 = CheckerBoolean.EqualsTrheeObj(this.Cells[j][i]._circle.getComponent(Circle).CircleTypeColor,
+      //                   this.Cells[jOne][iOne]._circle.getComponent(Circle).CircleTypeColor,
+      //                   this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor);
+      //             if (!tmpBool3) return;
+      //             if (this.horizont) {
+      //                   if (i < this.Cells[j].length - 4) {
+      //                         this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, jTwo, iTwo + 2, 3);
+      //                   }
+      //                   if (i < this.Cells[j].length - 3 && this.goDestroyThreeInArow) {
+      //                         this.createLightning(i, j, iOne, jOne, iTwo, jTwo, iTwo + 1, jTwo, 1, j1Swap, i1Swap, j2Swap, i2Swap);
+      //                   }
+      //             }
+      //             if (this.vertical) {
+      //                   if (j >= 4) {
+      //                         this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, jTwo - 2, iTwo, 3);
+      //                   }
+      //                   if (j >= 3 && this.goDestroyThreeInArow) {
+      //                         this.createLightning(i, j, iOne, jOne, iTwo, jTwo, iTwo, jTwo - 1, 2, j1Swap, i1Swap, j2Swap, i2Swap);
+      //                   }
+      //             }
+      //             if (this.goDestroyThreeInArow) {
+      //                   this.check3Circle(this.Cells[j][i], this.Cells[jOne][iOne], this.Cells[jTwo][iTwo]);
+      //                   this.eventDestoyArow();
+      //             }
+      //       }
+      // }
+      // private createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, iThree, jThree, iFour, jFour, tipe) {
+      //       if (this.Cells[iThree][jThree] == null || this.Cells[iFour][jFour] == null) return;
+      //       var bool1 = CheckerBoolean.checkTwoBoolean(this.Cells[iThree][jThree].typeCell == 0, this.Cells[iThree][jThree].circleIsNotNull());
+      //       var bool2 = CheckerBoolean.checkTwoBoolean(this.Cells[iFour][jFour].typeCell == 0, this.Cells[iFour][jFour].circleIsNotNull());
+      //       if (CheckerBoolean.checkTwoBoolean(bool1, bool2)) {
+      //             var bool3 = CheckerBoolean.EqualsTrheeObj(this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor,
+      //                   this.Cells[iThree][jThree]._circle.getComponent(Circle).CircleTypeColor,
+      //                   this.Cells[iFour][jFour]._circle.getComponent(Circle).CircleTypeColor);
+      //             if (bool3) {
+      //                   console.log("RainbowCreate");
+      //                   this.Cells[j][i]._circle.getComponent(Circle).setTipe(tipe);
+      //                   console.log(this.Cells[j][i]._circle.getComponent(Circle).CircleType);
+      //                   this.check3Circle(this.Cells[jOne][iOne], this.Cells[jTwo][iTwo], this.Cells[iThree][jThree]);
+      //                   this.startCheckCircleForDestroy(this.Cells[iFour][jFour]);
+      //                   this.goDestroyThreeInArow = false;
+      //                   this.eventDestoyArow();
+      //             }
+      //       }
+      // }
+      // private createLightning(i, j, iOne, jOne, iTwo, jTwo, iThree, jThree, tipe, j1Swap, i1Swap, j2Swap, i2Swap) {
+      //       if (this.Cells[jThree][iThree] == null) return;
+      //       if (CheckerBoolean.checkTwoBoolean(this.Cells[jThree][iThree].typeCell == 0, this.Cells[jThree][iThree].circleIsNotNull()))
+      //             if (CheckerBoolean.EqualsTwoObj(this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor,
+      //                   this.Cells[jThree][iThree]._circle.getComponent(Circle).CircleTypeColor)) {
+      //                   console.log(`Truoc ${j} ${i} ${jOne} ${iOne} ${jTwo} ${iTwo} ${jThree} ${iThree}`)
+      //                   this.goDestroyThreeInArow = false;
+      //                   if (CheckerBoolean.EqualsIJCell(jTwo, iTwo, j1Swap, i1Swap) || CheckerBoolean.EqualsIJCell(jTwo, iTwo, j2Swap, i2Swap)) {
+      //                         let tmp = iOne
+      //                         iOne = iTwo
+      //                         iTwo = tmp
+
+      //                         tmp = jOne
+      //                         jOne = jTwo
+      //                         jTwo = tmp
+
+      //                         console.log("COOOOOOOOOOOOOOOOO")
+      //                   }
+      //                   console.log(`Sau ${j} ${i} ${jOne} ${iOne} ${jTwo} ${iTwo} ${jThree} ${iThree}`)
+      //                   var circle = this.Cells[jOne][iOne]._circle.getComponent(Circle);
+      //                   circle.setTipe(tipe);
+      //                   this.check3Circle(this.Cells[j][i], this.Cells[jTwo][iTwo], this.Cells[jThree][iThree]);
+
+      //                   this.eventDestoyArow();
+      //             }
+      // }
+
+      InArow(j1, i1, j2, i2) {
+            //Duyet qua mang
             for (var j = 0; j < this.Cells.length; j++) {
                   for (var i = 0; i < this.Cells[j].length; i++) {
                         this.goDestroyThreeInArow = true;
                         if (j >= 2) {
+                              //Neu j >= 2 co nghia la thoa man 3 o j, j-1, j-2 nen goi ham InArowTmp de check 3 o do
                               this.vertical = true;
                               this.horizont = false;
-                              this.InArowTmp(i, j, i, j - 1, i, j - 2);
+                              this.InArowTmp(i, j, i, j - 1, i, j - 2, j1, i1, j2, i2);
                         }
                         if (i < this.Cells[j].length - 2) {
+                              //Neu i < length - 2 co nghia la thoa man 3 o i , i+ 1, i+2 nen goi ham InArowTmp de check 3 o do
                               this.horizont = true;
                               this.vertical = false;
-                              this.InArowTmp(i, j, i + 1, j, i + 2, j);
+                              this.InArowTmp(i, j, i + 1, j, i + 2, j, j1, i1, j2, i2);
                         }
                   }
             }
       }
-      private InArowTmp(i, j, iOne, jOne, iTwo, jTwo) {
 
+      checkHorizontalAndVertical() {
+            for (var j = 0; j < this.Cells.length; j++) {
+
+                  for (var i = 0; i < this.Cells[j].length; i++) {
+                        
+                  }
+            }
+      }
+      private InArowTmp(i, j, iOne, jOne, iTwo, jTwo, j1Swap, i1Swap, j2Swap, i2Swap) {
+            //Ham nay check cac dieu kien ve 3 o do co giong nhau khong
             if (this.Cells[j][i] != null && this.Cells[jOne][iOne] != null && this.Cells[jTwo][iTwo] != null) {
                   var tmpBool1 = CheckerBoolean.checkTwoBoolean(this.Cells[j][i].typeCell == 0, this.Cells[jOne][iOne].typeCell == 0);
                   var tmpBool2 = CheckerBoolean.checkTwoBoolean(tmpBool1, this.Cells[jTwo][iTwo].typeCell == 0);
@@ -581,12 +702,19 @@ export class GameField extends Component {
                         this.Cells[jOne][iOne]._circle.getComponent(Circle).CircleTypeColor,
                         this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor);
                   if (!tmpBool3) return;
+                  //Neu vuot qua cac dieu kien thi toi duoc buoc nay
                   if (this.horizont) {
+                        //Check co 5 o cung mau ko
                         if (i < this.Cells[j].length - 4) {
+                              //Tao rainbow la 5 o
                               this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, jTwo, iTwo + 2, 3);
                         }
+                        //Check co 4 o cung mau khong
+                        //Bien goDestroyThreeInArow the hien su uu tien cho cac, truong hop
+                        //Neu vao truong hop nao roi thi cac truong hop sau se bo qua
                         if (i < this.Cells[j].length - 3 && this.goDestroyThreeInArow) {
-                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo, iTwo + 1, 1);
+                              //Tao lightning la 4 o
+                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, iTwo + 1, jTwo, 1, j1Swap, i1Swap, j2Swap, i2Swap);
                         }
                   }
                   if (this.vertical) {
@@ -594,10 +722,11 @@ export class GameField extends Component {
                               this.createRainbowBall(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, jTwo - 2, iTwo, 3);
                         }
                         if (j >= 3 && this.goDestroyThreeInArow) {
-                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, jTwo - 1, iTwo, 2);
+                              this.createLightning(i, j, iOne, jOne, iTwo, jTwo, iTwo, jTwo - 1, 2, j1Swap, i1Swap, j2Swap, i2Swap);
                         }
                   }
                   if (this.goDestroyThreeInArow) {
+                        //Sau do xu ly 3 o
                         this.check3Circle(this.Cells[j][i], this.Cells[jOne][iOne], this.Cells[jTwo][iTwo]);
                         this.eventDestoyArow();
                   }
@@ -612,6 +741,7 @@ export class GameField extends Component {
                         this.Cells[iThree][jThree]._circle.getComponent(Circle).CircleTypeColor,
                         this.Cells[iFour][jFour]._circle.getComponent(Circle).CircleTypeColor);
                   if (bool3) {
+                        //Neu thoa man dieu kien ve mau thi se cho o dau tien la rainbow va xoa 4 o
                         console.log("RainbowCreate");
                         this.Cells[j][i]._circle.getComponent(Circle).setTipe(tipe);
                         console.log(this.Cells[j][i]._circle.getComponent(Circle).CircleType);
@@ -622,18 +752,37 @@ export class GameField extends Component {
                   }
             }
       }
-      private createLightning(i, j, iOne, jOne, iTwo, jTwo, iThree, jThree, tipe) {
-            if (this.Cells[iThree][jThree] == null) return;
-            if (CheckerBoolean.checkTwoBoolean(this.Cells[iThree][jThree].typeCell == 0, this.Cells[iThree][jThree].circleIsNotNull()))
+      private createLightning(i, j, iOne, jOne, iTwo, jTwo, iThree, jThree, tipe, j1Swap, i1Swap, j2Swap, i2Swap) {
+            if (this.Cells[jThree][iThree] == null) return;
+            if (CheckerBoolean.checkTwoBoolean(this.Cells[jThree][iThree].typeCell == 0, this.Cells[jThree][iThree].circleIsNotNull()))
                   if (CheckerBoolean.EqualsTwoObj(this.Cells[jTwo][iTwo]._circle.getComponent(Circle).CircleTypeColor,
-                        this.Cells[iThree][jThree]._circle.getComponent(Circle).CircleTypeColor)) {
+                        this.Cells[jThree][iThree]._circle.getComponent(Circle).CircleTypeColor)) {
+                        console.log(`Truoc ${j} ${i} ${jOne} ${iOne} ${jTwo} ${iTwo} ${jThree} ${iThree}`)
+                        this.goDestroyThreeInArow = false;
+                        //todo : Truong hop nay dang lam 
+                        if (CheckerBoolean.EqualsIJCell(jTwo, iTwo, j1Swap, i1Swap) || CheckerBoolean.EqualsIJCell(jTwo, iTwo, j2Swap, i2Swap)) {
+                              let tmp = iOne
+                              iOne = iTwo
+                              iTwo = tmp
+
+                              tmp = jOne
+                              jOne = jTwo
+                              jTwo = tmp
+
+                              console.log("COOOOOOOOOOOOOOOOO")
+                        }
+                        console.log(`Sau ${j} ${i} ${jOne} ${iOne} ${jTwo} ${iTwo} ${jThree} ${iThree}`)
+                        //
+                        //Neu thoa man dieu kien thi se cho o dau tien la lightning va xoa 3 o tiep theo
                         var circle = this.Cells[j][i]._circle.getComponent(Circle);
                         circle.setTipe(tipe);
-                        this.check3Circle(this.Cells[jOne][iOne], this.Cells[jTwo][iTwo], this.Cells[iThree][jThree]);
-                        this.goDestroyThreeInArow = false;
+                        this.check3Circle(this.Cells[jOne][iOne], this.Cells[jTwo][iTwo], this.Cells[jThree][iThree]);
+
                         this.eventDestoyArow();
                   }
       }
+
+
       private destroyRainbowBall(Cell, circle) {
             for (var j = 0; j < this.Cells.length; j++) {
                   for (var i = 0; i < this.Cells[j].length; i++) {

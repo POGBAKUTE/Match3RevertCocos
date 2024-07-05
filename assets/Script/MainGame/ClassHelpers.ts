@@ -13,6 +13,13 @@ export class CheckerBoolean {
         if (one === two && two === trhee) return true;
         return false;
   }
+
+  public static EqualsIJCell(j1, i1, j2, i2) {
+      if(j1 == j2 && i1 == i2) {
+            return true
+      }
+      return false
+}
 }
 
 
