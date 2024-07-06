@@ -154,7 +154,7 @@ export class GameController extends Component {
 
     }
 
-    private levelCurrent: number = 3
+    private levelCurrent: number = 2
 
     getLevelCurrent() {
         return this.levelCurrent;

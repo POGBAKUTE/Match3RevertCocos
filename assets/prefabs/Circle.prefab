@@ -142,6 +142,32 @@
         "__id__": 11
       }
     ],
+    "listDestroy": [
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@94ab7",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@c92be",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@722d1",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@516a1",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@d4c5e",
+        "__expectedType__": "cc.SpriteFrame"
+      },
+      {
+        "__uuid__": "783dfced-fef7-4062-b1fc-c0f6dad789dc@c5766",
+        "__expectedType__": "cc.SpriteFrame"
+      }
+    ],
     "_id": ""
   },
   {

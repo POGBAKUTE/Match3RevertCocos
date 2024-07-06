@@ -10,6 +10,9 @@ export class Circle extends Component {
       @property(CircleTypes)
       circlesTipe: CircleTypes[] = [];
 
+      @property(SpriteFrame)
+      listDestroy: SpriteFrame[] = [];
+
       CircleTypeColor: typeColorCircle = 0;
       CircleType: tipeCircle = 0;
       randomNumber: number;
@@ -51,8 +54,8 @@ export class Circle extends Component {
             sp.spriteFrame = this.circlesTipe[tipe].listTypes[0]
       }
 
-      getSprite() {
-            return this.circlesTipe[this.CircleTypeColor].listTypes[this.CircleType]
+      getSpriteDestroy() {
+            return this.listDestroy[this.CircleTypeColor]
       }
 }
 

@@ -115,9 +115,9 @@
     "lifeVar": 0.5,
     "angle": 90,
     "angleVar": 360,
-    "startSize": 15,
-    "startSizeVar": 15,
-    "endSize": -1,
+    "startSize": 40,
+    "startSizeVar": 40,
+    "endSize": 10,
     "endSizeVar": 0,
     "startSpin": 0,
     "startSpinVar": 0,
@@ -165,12 +165,12 @@
       "__uuid__": "efdb58f3-9d8a-426f-8eac-86ea7fb40f90@870a7",
       "__expectedType__": "cc.SpriteFrame"
     },
-    "_totalParticles": 300,
+    "_totalParticles": 100,
     "_startColor": {
       "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
+      "r": 194,
+      "g": 189,
+      "b": 189,
       "a": 255
     },
     "_startColorVar": {
@@ -210,7 +210,6 @@
       "__id__": 0
     },
     "fileId": "0fdQIQn8JMY6OvI9JAaGJo",
-    "instance": null,
-    "targetOverrides": null
+    "instance": null
   }
 ]

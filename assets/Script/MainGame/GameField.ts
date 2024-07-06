@@ -152,7 +152,6 @@ export class GameField extends Component {
 
       private needCheckFieldAfterSwapCircle() {
             this.scheduleOnce(function () {
-                  console.log(this.tmpPrewCell.jcolumn + " " + this.tmpPrewCell.irow + " " + this.currentCell.jcolumn + " " + this.currentCell.irow)
                   // needCheckField goi den CheckLine de thuc hien duyet toan bo map de thay doi bien destroyExisted
                   // bien destroyExisted cho biet co xoa duoc o nao khong
                   eventTarget.emit("needCheckField", this.tmpPrewCell.jcolumn, this.tmpPrewCell.irow, this.currentCell.jcolumn, this.currentCell.irow)
@@ -224,8 +223,8 @@ export class GameField extends Component {
             if (this.busterClick)
                   if (this.currentCell != null) {
                         // this.setSelectPrewCell(cell);
-                        this.startTypeDestroer(this.currentCell);
-                        this.animateDestroyCircle(this.currentCell);
+                        this.startTypeDestroer(this.currentCell, null);
+                        this.animateDestroyCircle(this.currentCell, null);
                         this.setCellNoClick(this.currentCell);
                         this.busterClick = false;
 
@@ -283,7 +282,6 @@ export class GameField extends Component {
       }
       checkLine(j1 = -1, i1 = -1, j2 = -1, i2 = -1) {
             //Trong luc check thuc hien xoa luon
-            console.log(j1 + " " + i1 + " " + j2 + " " + i2)
             this.destroyExisted = false;
             this.InArow(j1, i1, j2, i2);
             console.log("fied fullness");
@@ -672,7 +670,7 @@ export class GameField extends Component {
             }
             else if (listCell.length >= 3) {
                   console.log("3333333333333333")
-                  this.check3Circle(listCell[0], listCell[1], listCell[2]);
+                  this.check3Circle(listCell[0], listCell[1], listCell[2], null);
                   this.eventDestoyArow();
             }
       }
@@ -696,8 +694,8 @@ export class GameField extends Component {
                   this.swapElements<Cell>(listCell, 3, 2)
             }
             listCell[2]._circle.getComponent(Circle).setTipe(3);
-            this.check3Circle(listCell[0], listCell[1], listCell[3]);
-            this.startCheckCircleForDestroy(listCell[4]);
+            this.check3Circle(listCell[0], listCell[1], listCell[3], listCell[2].node);
+            this.startCheckCircleForDestroy(listCell[4], listCell[2].node);
             this.goDestroyThreeInArow = false;
             this.eventDestoyArow();
       }
@@ -707,7 +705,8 @@ export class GameField extends Component {
                   this.swapElements<Cell>(listCell, 1, 2)
             }
             listCell[1]._circle.getComponent(Circle).setTipe(tipe);
-            this.check3Circle(listCell[0], listCell[2], listCell[3]);
+            GatePopup.popupBubleItem(listCell[1]._circle, 1.3, this.iter * 3)
+            this.check3Circle(listCell[0], listCell[2], listCell[3], listCell[1].node);
             this.goDestroyThreeInArow = false;
             this.eventDestoyArow();
       }
@@ -836,8 +835,8 @@ export class GameField extends Component {
                         if (Cell != this.Cells[j][i] &&
                               circle.CircleTypeColor === currentCircle.CircleTypeColor) {
                               if (circle.CircleType === currentCircle.CircleType)
-                                    this.animateDestroyCircle(this.Cells[j][i]);
-                              else this.startCheckCircleForDestroy(this.Cells[j][i])
+                                    this.animateDestroyCircle(this.Cells[j][i], null);
+                              else this.startCheckCircleForDestroy(this.Cells[j][i], null)
                         }
                   }
             }
@@ -871,11 +870,12 @@ export class GameField extends Component {
       private destroyLightningVertical(Cell, circle) {
             var i = Cell.irow;
             var thisCircle = circle.getComponent(Circle);
+            GateParticle.getScratch(this.node, Cell.node.getPosition(), 90)
             for (var j = 0; j < this.Cells.length; j++) {
                   if (this.Cells[j][i].circleIsNotNull()) {
                         var currentCircle = this.Cells[j][i]._circle.getComponent(Circle);
                         if (currentCircle == null) continue;
-                        this.animateDestroyCircle(this.Cells[j][i]);
+                        this.animateDestroyCircle(this.Cells[j][i], null);
 
                   }
             }
@@ -883,11 +883,12 @@ export class GameField extends Component {
 
       private destroyLightningHorizont(Cell, circle) {
             var j = Cell.jcolumn;
+            GateParticle.getScratch(this.node, Cell.node.getPosition(), 0)
             for (var i = 0; i < this.Cells[j].length; i++) {
                   if (this.Cells[j][i].circleIsNotNull()) {
                         var currentCircle = this.Cells[j][i]._circle.getComponent(Circle);
                         if (currentCircle == null) continue;
-                        this.animateDestroyCircle(this.Cells[j][i]);
+                        this.animateDestroyCircle(this.Cells[j][i], null);
 
                   }
             }
@@ -896,16 +897,16 @@ export class GameField extends Component {
             this.destroyLightningVertical(Cell, circle);
             this.destroyLightningHorizont(Cell, circle);
       }
-      private check3Circle(Cell1, Cell2, Cell3) {
-            this.startCheckCircleForDestroy(Cell1);
-            this.startCheckCircleForDestroy(Cell2);
-            this.startCheckCircleForDestroy(Cell3);
+      private check3Circle(Cell1, Cell2, Cell3, target) {
+            this.startCheckCircleForDestroy(Cell1, target);
+            this.startCheckCircleForDestroy(Cell2, target);
+            this.startCheckCircleForDestroy(Cell3, target);
       }
-      private startCheckCircleForDestroy(Cell) {
-            this.startTypeDestroer(Cell);
-            this.animateDestroyCircle(Cell);
+      private startCheckCircleForDestroy(Cell, target) {
+            this.startTypeDestroer(Cell, target);
+            this.animateDestroyCircle(Cell, target);
       }
-      private startTypeDestroer(Cell) {
+      private startTypeDestroer(Cell, target) {
             if (Cell.circleIsNotNull()) {
                   var circle = Cell._circle.getComponent(Circle);
                   console.log("CIRCLE : " + tipeCircle[circle.CircleType])
@@ -927,7 +928,7 @@ export class GameField extends Component {
                               break;
                         }
                         case tipeCircle.normal: {
-                              this.animateDestroyCircle(Cell);
+                              this.animateDestroyCircle(Cell, target);
                               break;
                         }
                   }
@@ -936,7 +937,7 @@ export class GameField extends Component {
       private destroyEveryCircles() {
             for (var j = 0; j < this.Cells.length; j++) {
                   for (var i = 0; i < this.Cells[j].length; i++) {
-                        this.animateDestroyCircle(this.Cells[j][i]);
+                        this.animateDestroyCircle(this.Cells[j][i], null);
                   }
             }
             this.scheduleOnce(function () {
@@ -957,7 +958,7 @@ export class GameField extends Component {
             }, this.iter + this.iter);
       }
       animationStart: boolean = true;
-      private animateDestroyCircle(Cell) {
+      private animateDestroyCircle(Cell, target : Node) {
             if (Cell == null) return;
             tween(Cell._circle)
                   .parallel(
@@ -969,7 +970,7 @@ export class GameField extends Component {
                         this.countCircle--;
                         this.getTypeDestroyCircle(Cell._circle.getComponent(Circle));
                         eventTarget.emit('setPoint');
-                        GateParticle.getDestroyCircle(this.node, Cell.node.getPosition(), Cell._circle.getComponent(Circle).getSprite())
+                        GateParticle.getDestroyCircle(this.node, Cell.node.getPosition(), Cell._circle.getComponent(Circle).getSpriteDestroy(), target)
                         GateParticle.getBlastCircle(this.node, Cell.node.getPosition())
                         Cell._circle.destroy();
                         Cell._circle = null;
