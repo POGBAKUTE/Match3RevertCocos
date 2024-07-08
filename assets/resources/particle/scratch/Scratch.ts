@@ -19,7 +19,7 @@ export class Scratch extends Component {
             .to(0.1, { opacity: 255 })
             .to(0.1, { opacity: this.opacityBegin})
             .call(() => {
-                // this.node.destroy()
+                this.node.destroy()
             })
             .start()
     }

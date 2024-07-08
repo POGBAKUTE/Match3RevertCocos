@@ -55,7 +55,8 @@ export class GameField extends Component {
       }
 
       onInit() {
-
+            this.prewCell = null
+            this.currentCell = null
             this.destroyCellInit()
             let levelCurrent = GameController.Instance.getLevelCurrent()
             this.level = data_level.levels[`level${levelCurrent}`]
@@ -143,9 +144,21 @@ export class GameField extends Component {
                               // this.node.dispatchEvent(new Event.EventCustom('setBlockTouch', true));
                               //Neu lien ke thi khong cho cham man hinh nua va thuc hien doi cho
                               GameController.Instance.setIsTouch(false)
-                              this.swapCircles(this.prewCell, this.currentCell, true);
-                              //thuc hien doi cho xong thi check ca Map xem nhung o nao can xoa
-                              this.needCheckFieldAfterSwapCircle();
+                              let prewCircle = this.prewCell._circle.getComponent(Circle)
+                              let currentCircle = this.currentCell._circle.getComponent(Circle)
+                              if(prewCircle.CircleType == tipeCircle.rainbowBall || currentCircle.CircleType == tipeCircle.rainbowBall) {
+                                    let cellTmp = prewCircle.CircleType == tipeCircle.rainbowBall ? this.prewCell : this.currentCell
+                                    let circleTmp = prewCircle.CircleType != tipeCircle.rainbowBall ? prewCircle : currentCircle
+                                    this.destroyRainbowBall(cellTmp, circleTmp)
+                                    this.animateDestroyCircle(cellTmp, null)
+                                    this.eventDestoyArow();
+                              }
+                              else {
+
+                                    this.swapCircles(this.prewCell, this.currentCell, true);
+                                    //thuc hien doi cho xong thi check ca Map xem nhung o nao can xoa
+                                    this.needCheckFieldAfterSwapCircle();
+                              }
                         }
                   }
       }
@@ -154,7 +167,7 @@ export class GameField extends Component {
             this.scheduleOnce(function () {
                   // needCheckField goi den CheckLine de thuc hien duyet toan bo map de thay doi bien destroyExisted
                   // bien destroyExisted cho biet co xoa duoc o nao khong
-                  eventTarget.emit("needCheckField", this.tmpPrewCell.jcolumn, this.tmpPrewCell.irow, this.currentCell.jcolumn, this.currentCell.irow)
+                  eventTarget.emit("needCheckField", this.tmpPrewCell.jcolumn, this.tmpPrewCell.irow, this.currentCell.jcolumn, this.currentCell.irow, true)
                   this.setCellNoClick(this.prewCell);
                   this.setCellNoClick(this.currentCell);
                   this.oneCheckField = true;
@@ -174,7 +187,7 @@ export class GameField extends Component {
                   } else {
                         //neu xoa duoc thi cong diem 
                         console.log("countProgressStep")
-                        GameController.Instance.setIsTouch(true)
+                        // GameController.Instance.setIsTouch(true)
                         // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
                         eventTarget.emit('countProgressStep')
                         this.prewCell = null;
@@ -280,12 +293,11 @@ export class GameField extends Component {
                   this.oneCheckField = true;
             }, this.timeForCheckFild);
       }
-      checkLine(j1 = -1, i1 = -1, j2 = -1, i2 = -1) {
+      checkLine(j1 = -1, i1 = -1, j2 = -1, i2 = -1, checkSwap = false) {
             //Trong luc check thuc hien xoa luon
             this.destroyExisted = false;
-            this.InArow(j1, i1, j2, i2);
-            console.log("fied fullness");
-            // GameController.Instance.setIsTouch(true)
+            this.InArow(j1, i1, j2, i2, checkSwap);
+            console.log("fied fullness");            
             // this.node.dispatchEvent(new Event.EventCustom('setUnBlockTouch', true));
       }
       private createCells() {
@@ -559,10 +571,13 @@ export class GameField extends Component {
       private horizont: boolean = false;
       private vertical: boolean = false;
       private goDestroyThreeInArow: boolean = false;
-      InArow(j1, i1, j2, i2) {
+      InArow(j1, i1, j2, i2, checkSwap) {
 
-            this.checkHorizontal(j1, i1, j2, i2)
-            this.checkVertical(j1, i1, j2, i2)
+            let boolHorizontal = this.checkHorizontal(j1, i1, j2, i2)
+            let boolVertical = this.checkVertical(j1, i1, j2, i2)
+            if(!boolHorizontal && !boolVertical && !checkSwap) {
+                  GameController.Instance.setIsTouch(true)
+            }
       }
 
       showList(list) {
@@ -572,7 +587,7 @@ export class GameField extends Component {
       }
 
       checkHorizontal(j1, i1, j2, i2) {
-            let listHorizontal: Array<Array<Cell>> = new Array<Array<Cell>>()
+            let check = false;
             for (var j = 0; j < this.Cells.length; j++) {
                   let tmpHorizontal: Array<Cell> = new Array<Cell>()
                   if(this.Cells[j][0].typeCell == 0) {
@@ -585,7 +600,7 @@ export class GameField extends Component {
                               var tmpBool2 = CheckerBoolean.checkTwoBoolean(this.Cells[j][i].circleIsNotNull(), this.Cells[j][i + 1].circleIsNotNull());
                               if(!tmpBool2) {
                                     if (tmpHorizontal.length >= 3) {
-                                          listHorizontal.push(tmpHorizontal)
+                                          check = true;
                                           this.InArowTmp(tmpHorizontal, 1, j1, i1, j2, i2)
                                     }
                                     tmpHorizontal = new Array<Cell>()
@@ -598,7 +613,7 @@ export class GameField extends Component {
                               }
                               else {
                                     if (tmpHorizontal.length >= 3) {
-                                          listHorizontal.push(tmpHorizontal)
+                                          check = true;
                                           this.InArowTmp(tmpHorizontal, 1, j1, i1, j2, i2)
                                     }
                                     tmpHorizontal = new Array<Cell>()
@@ -607,16 +622,17 @@ export class GameField extends Component {
                         }
                         else {
                               if (tmpHorizontal.length >= 3) {
-                                    listHorizontal.push(tmpHorizontal)
+                                    check = true;
                                     this.InArowTmp(tmpHorizontal, 1, j1, i1, j2, i2)
                               }
                         }
                   }
             }
+            return check
       }
 
       checkVertical(j1, i1, j2, i2) {
-            let listVertical: Array<Array<Cell>> = new Array<Array<Cell>>()
+            let check = false;
             for (var i = 0; i < this.Cells[0].length; i++) {
                   let tmpVertical: Array<Cell> = new Array<Cell>()
                   if(this.Cells[0][i].typeCell == 0) {
@@ -628,7 +644,7 @@ export class GameField extends Component {
                               var tmpBool2 = CheckerBoolean.checkTwoBoolean(this.Cells[j][i].circleIsNotNull(), this.Cells[j + 1][i].circleIsNotNull());
                               if(!tmpBool2) {
                                     if (tmpVertical.length >= 3) {
-                                          listVertical.push(tmpVertical)
+                                          check = true;
                                           this.InArowTmp(tmpVertical, 2, j1, i1, j2, i2)
                                     }
                                     tmpVertical = new Array<Cell>()
@@ -641,7 +657,7 @@ export class GameField extends Component {
                               }
                               else {
                                     if (tmpVertical.length >= 3) {
-                                          listVertical.push(tmpVertical)
+                                          check = true;
                                           this.InArowTmp(tmpVertical, 2, j1, i1, j2, i2)
                                     }
                                     tmpVertical = new Array<Cell>()
@@ -650,12 +666,13 @@ export class GameField extends Component {
                         }
                         else {
                               if (tmpVertical.length >= 3) {
-                                    listVertical.push(tmpVertical)
+                                    check = true;
                                     this.InArowTmp(tmpVertical, 2, j1, i1, j2, i2)
                               }
                         }
                   }
             }
+            return check
       }
 
       private InArowTmp(listCell: Array<Cell>, tipe, j1Swap, i1Swap, j2Swap, i2Swap) {

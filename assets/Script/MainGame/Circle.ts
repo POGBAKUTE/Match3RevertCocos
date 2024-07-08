@@ -41,12 +41,12 @@ export class Circle extends Component {
             this.setTipeTMP(tipe)
       }
       private setTipeTMP(tipe) {
-            console.log("TIPE: " + tipeCircle[tipe])
-            console.log("TIPE COLOR: " + typeColorCircle[this.CircleTypeColor])
             this.CircleType = tipe
             var sp = this.node.getComponent(Sprite);
             sp.spriteFrame = this.circlesTipe[this.CircleTypeColor].listTypes[tipe]
-            console.log(this.circlesTipe[this.CircleTypeColor][tipe])
+            if(tipe == tipeCircle.rainbowBall) {
+                  this.CircleTypeColor = typeColorCircle.rainbow
+            }
       }
       setColorTipe(tipe) {
             this.CircleTypeColor = tipe

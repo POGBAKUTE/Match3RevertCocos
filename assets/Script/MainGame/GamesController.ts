@@ -154,7 +154,7 @@ export class GameController extends Component {
 
     }
 
-    private levelCurrent: number = 2
+    private levelCurrent: number = 1
 
     getLevelCurrent() {
         return this.levelCurrent;
@@ -175,7 +175,7 @@ export class GameController extends Component {
         this.textPoint.string = this.allpoints.toString();
         let levelString = `level${this.levelCurrent}`;
         this.movepoints = data_level.levels[levelString].moves ?? this.countTypeAndMove
-        this.taskType.string = "12"
+        this.taskType.string = "100"
         this.currentMove.string = this.movepoints.toString()
         var circleTask = this.typeTask.getComponent(Circle);
         circleTask.setRandomColor(data_level.levels[levelString].numColors ?? 6);

@@ -64,7 +64,7 @@ export namespace GateParticle {
             let scratch = instantiate(scratchPrefab)
             scratch.parent = parent
             scratch.setPosition(pos)
-            scratch.setRotationFromEuler(new Vec3(rotation, 0, 0))
+            scratch.setRotationFromEuler(new Vec3(0, 0, rotation))
             scratch.getComponent(Scratch).handleScratch()
         });
     }

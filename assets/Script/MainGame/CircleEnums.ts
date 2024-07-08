@@ -8,6 +8,7 @@ export enum typeColorCircle {
     green,
     red,
     violet,
+    rainbow
 }
 
 export enum tipeCircle {
